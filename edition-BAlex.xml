@@ -54,145 +54,342 @@ This is a subsection within the preface. Editors should use
          <div type="section" xml:id="bibliography">
             <listWit xml:id="manuscripts">
                <head>Manuscripts</head>
-               <listWit xml:id="μ">
-                  <head><abbr type="siglum">μ</abbr>: Common source of <ref target="#M">M</ref> and
-                        <ref target="#U">U</ref></head>
-                  <witness xml:id="M"><abbr type="siglum">M</abbr>: BML Plut. lat 68.8 (s. xii<hi
-                        rend="superscript">4</hi> or xiii<hi rend="superscript">1</hi>)<msDesc>
-                        <msIdentifier>
-                           <settlement>Florence</settlement>
-                           <repository>Biblioteca Medicea Laurenziana</repository>
-                           <idno>Plut. lat. 68.8</idno>
-                        </msIdentifier>
-                        <msContents>
-                           <p>
-                              <list>
-                                 <item>2r–92v <bibl><title>BG</title> 1–8</bibl></item>
-                                 <item>93r-104v <bibl><title>BC</title> 1.33.3–<title><foreign
-                                             xml:lang="la">duum disputationibus</foreign></title> -
-                                       end</bibl></item>
-                                 <item>105r–116r <bibl><title>BC</title> 2</bibl></item>
-                                 <item>116r–133v <bibl><title>BC</title> 3</bibl></item>
-                                 <item>133v–143r <bibl><title>BAlex</title></bibl></item>
-                                 <item>143r–154v <bibl><title>BAfr</title></bibl></item>
-                                 <item>154v–156v <bibl><title>BHisp</title> 1.1–22.5 <foreign
-                                          xml:lang="la">petiit ab</foreign></bibl></item>
-                                 <item>157v–163v <bibl><title>BHisp</title>22.6–end in a later
-                                       hand.</bibl></item>
-                              </list></p>
-                           <p/>
-                        </msContents>
-                        <physDesc>
-                           <objectDesc>
-                              <p>Parchment : 334 × 245mm : one column per page.</p>
-                              <p>Gatherings from two phases. Those from tenth to eleventh centuries
-                                 have 29 lines each. Pages from the twelfth century have around 35
-                                 lines per page, with about 90–100 letters per line.</p>
-                           </objectDesc>
-                           <handDesc hands="2">
-                              <handNote xml:id="Mc"><abbr type="siglum">M<hi rend="superscript"
-                                       >c</hi></abbr>: Corrections by the original scribe, who
-                                 usually recovers the reading of the exemplar. </handNote>
-                              <handNote xml:id="Mmr"><abbr type="siglum">M<hi rend="superscript"
-                                       >mr</hi></abbr>: Corrections by one or more later hands,
-                                 sometimes recovering the exemplar, somethings not</handNote>
-                           </handDesc>
-                        </physDesc>
-                        <history>
-                           <origin>
-                              <p>Folios 2–117, 125–32, 157–63 from the <origDate notBefore="0899"
-                                    notAfter="1100">tenth or eleventh centuries</origDate>. Folios
-                                 117–24 and 133–56 from the <origDate notBefore="1199"
-                                    notAfter="1300">twelfth century</origDate>.</p>
-                           </origin>
-                           <provenance>
-                              <p>Italy</p>
-                           </provenance>
-                        </history>
 
-                        <additional>
-                           <surrogates>
-                              <ptr type="url"
-                                 target="http://teca.bmlonline.it/ImageViewer/servlet/ImageViewer?idr=TECA0000807118#page/1/mode/1up"
-                              />
-                           </surrogates>
-                        </additional>
-                     </msDesc></witness>
-                  <witness xml:id="U"><abbr type="siglum">U</abbr>: BAV Vat. lat. 3324 (s. xi<hi
-                        rend="superscript">4</hi> or xii<hi rend="superscript">1</hi>)<msDesc>
-                        <msIdentifier>
-                           <settlement>Vatican City</settlement>
-                           <repository>Biblioteca Apostolica Vaticana</repository>
-                           <idno>Vaticanus lat. 3324</idno>
-                        </msIdentifier>
-                        <msContents>
-                           <p>Fourteen books of the <bibl><title>corpus Caesarianum</title></bibl>
-                              on ff. 1–111. The remaining three leaves contain miscellaneous texts
-                              and musical notation.</p>
-                           <p>
-                              <list>
-                                 <item>1r–55r <bibl><title>BG</title></bibl> 1–8</item>
-                                 <item>55r–65r <bibl><title>BC</title></bibl> 1</item>
-                                 <item>65r–71v <bibl><title>BC</title></bibl> 2</item>
-                                 <item>71v–85r <bibl><title>BC</title></bibl> 3</item>
-                                 <item>85r–95r <bibl><title>BAlex</title></bibl></item>
-                                 <item>95r–106v <bibl><title>BAfr</title></bibl></item>
-                                 <item>106v–110v <bibl><title>BHisp</title></bibl></item>
-                                 <item>111r–v End of <bibl><title>BHisp.</title></bibl> in a later
-                                    hand</item>
-                              </list>
-                           </p>
-                        </msContents>
-                        <physDesc>
-                           <objectDesc>
-                              <p>Parchment : 284 × 192mm : one column per page : about 40 lines per
-                                 page : about 75–80 letters per line.</p>
-                           </objectDesc>
-                           <handDesc>
-                              <handNote xml:id="Uc"><abbr type="siglum">U<hi rend="superscript"
-                                       >c</hi></abbr>: Corrections by the original scribe or a close
-                                 contemporary.</handNote>
-                           </handDesc>
-                        </physDesc>
-                        <history>
-                           <origin>Late <origDate notBefore="1075" notAfter="1200">eleventh or early
-                                 twelfth century</origDate></origin>
-                           <provenance>
-                              <!-- Contains a prose description (using <p>)
-                        of the manuscript’s provenance, if available.-->
-                           </provenance>
-                        </history>
-                        <additional>
-                           <!-- Add information from Damon's OCT footnote 50 -->
-                           <surrogates>
-                              <ptr type="url" target="http://some-url"/>
-                           </surrogates>
-                        </additional>
-                     </msDesc>
-                  </witness>
-               </listWit>
-               <listWit xml:id="ν">
-                  <head><abbr type="siglum">ν</abbr>: Common source of <ref target="#S">S</ref> and <ref target="#π">π</ref></head>
-                  <witness xml:id="S"></witness>
-                  <witness xml:id="π"></witness>
-                  
-               </listWit>
+               <witness xml:id="ω"><abbr type="siglum">ω</abbr>: Common source of <ref target="#μ"
+                     >μ</ref> and <ref target="ν">ν</ref>.<listWit>
 
+                     <!-- Begin children of ω -->
+                     <witness xml:id="μ"><abbr type="siglum">μ</abbr>: Common source of <ref
+                           target="#M">M</ref> and <ref target="#U">U</ref><abbr type="siglum"
+                           >μ</abbr>: Common source of <ref target="#M">M</ref> and <ref target="#U"
+                           >U</ref>
+                        <listWit>
+
+                           <!-- Begin children of μ -->
+                           <witness xml:id="M"><abbr type="siglum">M</abbr>: Florence, BML Plut. lat
+                              68.8 (s. xii<hi rend="superscript">4</hi> or xiii<hi
+                                 rend="superscript">1</hi>)<msDesc>
+                                 <msIdentifier>
+                                    <settlement>Florence</settlement>
+                                    <repository>Biblioteca Medicea Laurenziana</repository>
+                                    <idno>Plut. lat. 68.8</idno>
+                                 </msIdentifier>
+                                 <msContents>
+                                    <p>
+                                       <list>
+                                          <item>2r–92v <bibl><title>BG</title> 1–8</bibl></item>
+                                          <item>93r-104v <bibl><title>BC</title>
+                                                  1.33.3–<title><foreign xml:lang="la">duum
+                                                  disputationibus</foreign></title> -
+                                             end</bibl></item>
+                                          <item>105r–116r <bibl><title>BC</title> 2</bibl></item>
+                                          <item>116r–133v <bibl><title>BC</title> 3</bibl></item>
+                                          <item>133v–143r <bibl><title>BAlex</title></bibl></item>
+                                          <item>143r–154v <bibl><title>BAfr</title></bibl></item>
+                                          <item>154v–156v <bibl><title>BHisp</title> 1.1–22.5
+                                                  <foreign xml:lang="la">petiit
+                                             ab</foreign></bibl></item>
+                                          <item>157v–163v <bibl><title>BHisp</title>22.6–end in a
+                                                later hand.</bibl></item>
+                                       </list></p>
+                                    <p/>
+                                 </msContents>
+                                 <physDesc>
+                                    <objectDesc>
+                                       <p>Parchment : 334 × 245mm : one column per page.</p>
+                                       <p>Gatherings from two phases. Those from tenth to eleventh
+                                          centuries have 29 lines each. Pages from the twelfth
+                                          century have around 35 lines per page, with about 90–100
+                                          letters per line.</p>
+                                    </objectDesc>
+                                    <handDesc hands="2">
+                                       <handNote xml:id="Mc"><abbr type="siglum">M<hi
+                                                rend="superscript">c</hi></abbr>: Corrections by the
+                                          original scribe, who usually recovers the reading of the
+                                          exemplar. </handNote>
+                                       <handNote xml:id="Mmr"><abbr type="siglum">M<hi
+                                                rend="superscript">mr</hi></abbr>: Corrections by
+                                          one or more later hands, sometimes recovering the
+                                          exemplar, somethings not</handNote>
+                                    </handDesc>
+                                 </physDesc>
+                                 <history>
+                                    <origin>
+                                       <p>Folios 2–117, 125–32, 157–63 from the <origDate
+                                             notBefore="0899" notAfter="1100">tenth or eleventh
+                                             centuries</origDate>. Folios 117–24 and 133–56 from the
+                                             <origDate notBefore="1199" notAfter="1300">twelfth
+                                             century</origDate>.</p>
+                                    </origin>
+                                    <provenance>
+                                       <p>Italy</p>
+                                    </provenance>
+                                 </history>
+                                 <additional>
+                                    <surrogates>
+                                       <ptr type="url"
+                                          target="http://teca.bmlonline.it/ImageViewer/servlet/ImageViewer?idr=TECA0000807118#page/1/mode/1up"
+                                       />
+                                    </surrogates>
+                                 </additional>
+                              </msDesc></witness>
+                           <!-- End witness M -->
+
+                           <!-- Begin witness U -->
+                           <witness xml:id="U"><abbr type="siglum">U</abbr>: Vatican, BAV Vat. lat.
+                              3324 (s. xi<hi rend="superscript">4</hi> or xii<hi rend="superscript"
+                                 >1</hi>)<msDesc>
+                                 <msIdentifier>
+                                    <settlement>Vatican City</settlement>
+                                    <repository>Biblioteca Apostolica Vaticana</repository>
+                                    <idno>Vaticanus lat. 3324</idno>
+                                 </msIdentifier>
+                                 <msContents>
+                                    <p>Fourteen books of the <bibl><title>corpus
+                                          Caesarianum</title></bibl> on ff. 1–111. The remaining
+                                       three leaves contain miscellaneous texts and musical
+                                       notation.</p>
+                                    <p>
+                                       <list>
+                                          <item>1r–55r <bibl><title>BG</title> 1–8</bibl></item>
+                                          <item>55r–65r <bibl><title>BC</title> 1</bibl></item>
+                                          <item>65r–71v <bibl><title>BC</title> 2</bibl></item>
+                                          <item>71v–85r <bibl><title>BC</title> 3</bibl></item>
+                                          <item>85r–95r <bibl><title>BAlex</title></bibl></item>
+                                          <item>95r–106v <bibl><title>BAfr</title></bibl></item>
+                                          <item>106v–110v <bibl><title>BHisp</title></bibl></item>
+                                          <item>111r–v End of <bibl><title>BHisp.</title></bibl> in
+                                             a later hand</item>
+                                       </list>
+                                    </p>
+                                 </msContents>
+                                 <physDesc>
+                                    <objectDesc>
+                                       <p>Parchment : 284 × 192mm : one column per page : about 40
+                                          lines per page : about 75–80 letters per line.</p>
+                                       <p>For more information about this manuscript, see <ref
+                                             target="#Brown">Brown</ref> 83; <ref
+                                             target="#Damon2015">Damon (2015)</ref> xxxiv–xli; <ref
+                                             target="#MunkOlsen">Munk Olsen</ref> 40.</p>
+                                    </objectDesc>
+                                    <handDesc>
+                                       <handNote xml:id="Uc"><abbr type="siglum">U<hi
+                                                rend="superscript">c</hi></abbr>: Corrections by the
+                                          original scribe or a close contemporary.</handNote>
+                                    </handDesc>
+                                 </physDesc>
+                                 <history>
+                                    <origin>Late <origDate notBefore="1075" notAfter="1200">eleventh
+                                          or early twelfth century</origDate></origin>
+                                 </history>
+                              </msDesc>
+                           </witness>
+                           <!-- End witness U -->
+                        </listWit>
+                        <!-- End of children of μ -->
+                     </witness>
+                     <!-- End of Family μ -->
+
+                     <!-- Begin Family ν -->
+                     <witness xml:id="ν"><abbr type="siglum">ν</abbr>: Common source of <ref
+                           target="#S">S</ref> and <ref target="#π">π</ref>
+                        <!-- Begin children of ν -->
+                        <listWit>
+                           <!-- Begin witness S -->
+                           <witness xml:id="S"><abbr type="siglum">S</abbr>: Florence, BML
+                              Ashburnham 33 (s. x<hi rend="superscript">2–3</hi>)<msDesc>
+                                 <msIdentifier>
+                                    <settlement>Florence</settlement>
+                                    <repository>Biblioteca Medicea Laurenziana</repository>
+                                    <idno>Ashburnhamensis 33</idno>
+                                 </msIdentifier>
+                                 <msContents>
+                                    <p>Contains the fourteen book of the <bibl><title>corpus
+                                             Caesarianum</title></bibl> on ff. 1–161.</p>
+                                    <p>
+                                       <list>
+                                          <item>1r–73v <bibl><title>BG</title> 1.30.1 <foreign
+                                                  xml:lang="la">bello
+                                             heueticorum</foreign>–8</bibl></item>
+                                          <item>74r–90r <bibl><title>BC</title> 1,1,1–1.79.4
+                                                  <foreign xml:lang="la">incitati
+                                                cursu</foreign></bibl></item>
+                                          <item>90r–102v <bibl><title>BC</title> 2.19.3
+                                                vigiliasque–3.43.2 pompeium instituit</bibl></item>
+                                          <item>103r–108v <bibl><title>BC</title> 1.79.4 <foreign
+                                                  xml:lang="la">sese in ualles</foreign> – 2.18.6
+                                                  <foreign xml:lang="la">rebus
+                                                faue-</foreign></bibl></item>
+                                          <item>109r–121r<bibl><title>BC</title> 3.48.2 <foreign
+                                                  xml:lang="la">ut spem eorum</foreign> –
+                                             end</bibl></item>
+                                          <item><bibl>BAlex<title/></bibl></item>
+                                          <item><bibl><title>BAfr</title></bibl></item>
+                                          <item><bibl><title>BHisp</title></bibl></item>
+                                       </list>
+                                    </p>
+                                 </msContents>
+                                 <physDesc>
+                                    <objectDesc>
+                                       <p>Parchment : 270 × 220mm : one column per page.</p>
+                                       <p>For more information on this manuscript, see <ref
+                                             target="#Hering">Hering</ref> 12–13 and 80–4; <ref
+                                             target="#Brown">Brown</ref> 84–5; <ref
+                                             target="#MunkOlsen">Munk Olsen</ref> 38–9; <ref
+                                             target="#Rostagno">Rostagno</ref> passim; <ref
+                                             target="#Jax">Jax</ref> passim; <ref
+                                             target="#Damon2015">Damon (2015)</ref> xlvii–liii.</p>
+                                    </objectDesc>
+                                    <handDesc>
+                                       <handNote xml:id="Sc"><abbr type="siglum">S<hi
+                                                rend="superscript">c</hi></abbr>: Corrections made
+                                          by the original scribe or a close contemporary.
+                                       </handNote>
+                                    </handDesc>
+                                 </physDesc>
+                                 <history>
+                                    <origin>
+                                       <p><origDate notBefore="0925" notAfter="0975">Middle of the
+                                             tenth century</origDate>.</p>
+                                    </origin>
+                                 </history>
+                              </msDesc>
+                           </witness>
+
+                           <!-- Begin witness π -->
+                           <witness xml:id="π"><abbr type="siglum">π</abbr>: Common source of <ref
+                                 target="#T">T</ref> and <ref target="V">V</ref>. <!-- Begin children of π -->
+                              <listWit>
+                                 <!-- Begin T -->
+                                 <witness xml:id="T"><abbr type="siglum">T</abbr>: Paris, BNF lat.
+                                    5764 (s. xi<hi rend="superscript">3–4</hi>)<msDesc>
+                                       <msIdentifier>
+                                          <settlement>Paris</settlement>
+                                          <repository>Bibliothèque Nationale</repository>
+                                          <idno>lat. 5764</idno>
+                                       </msIdentifier>
+                                       <msContents>
+                                          <p>Contains the fourteen book of the <bibl><title>corpus
+                                                  Caesarianum</title></bibl> on ff. 1–159.</p>
+                                       </msContents>
+                                       <physDesc>
+                                          <!-- groups information about the manuscript. -->
+                                          <objectDesc>
+                                             <p>Parchment : about 345 × 235mm : two column per page
+                                                : roughly thirty lines per page : each line about
+                                                30–5 letters.</p>
+                                             <p>For more information about this manuscript, see <ref
+                                                  target="#Hering">Hering</ref> 38–40; <ref
+                                                  target="#Brown">Brown</ref> 85–6; <ref
+                                                  target="#MunkOlsen">Munk Olsen</ref> 44.</p>
+                                          </objectDesc>
+                                          <handDesc>
+                                             <handNote xml:id="Tc"><abbr type="siglum">T<hi
+                                                  rend="superscript">c</hi></abbr>: Corrections made
+                                                by the original scribe or a close contemporary.
+                                             </handNote>
+                                          </handDesc>
+                                       </physDesc>
+                                       <history>
+                                          <origin>
+                                             <p><origDate notBefore="1050" notAfter="1100">Second
+                                                  half of the eleventh century.</origDate></p>
+                                          </origin>
+                                       </history>
+                                       <additional>
+                                          <surrogates>
+                                             <ptr type="url"
+                                                target="http://gallica.bnf.fr/ark:/12148/btv1b10542010c"
+                                             />
+                                          </surrogates>
+                                       </additional>
+                                    </msDesc>
+                                 </witness>
+                                 <!-- End witness T -->
+
+                                 <!-- Begin witness V -->
+                                 <witness xml:id="V"><abbr type="siglum">V</abbr>: Vienna, ÖN 95 (s. xii)<msDesc>
+                                       <msIdentifier>
+                                          <settlement>Vienna</settlement>
+                                          <repository>Österreichische
+                                             Nationalbibliothek</repository>
+                                          <idno>95</idno>
+                                       </msIdentifier>
+                                       <msContents>
+                                          <p>Contains the fourteen book of the <bibl><title>corpus
+                                                  Caesarianum</title></bibl> on ff. 2–182.</p>
+                                       </msContents>
+                                       <physDesc>
+                                          <objectDesc>
+                                             <p>Parchment : 281 × 190mm : two columns per page : 34
+                                                lines per column : 29–33 letters per line.</p>
+                                          </objectDesc>
+                                          <handDesc>
+                                             <handNote xml:id="Vc"><abbr type="siglum">V<hi
+                                                  rend="superscript">c</hi></abbr>: Corrections made
+                                                by the original scribe or a close contemporary.
+                                             </handNote>
+                                          </handDesc>
+                                       </physDesc>
+                                       <history>
+                                          <origin>
+                                             <p><origDate notBefore="1100" notAfter="1200">Twelfth
+                                                  century</origDate></p>
+                                          </origin>
+                                       </history>
+                                       <additional>
+                                          <surrogates>
+                                             <ptr type="url" target="http://some-url"/>
+                                          </surrogates>
+                                       </additional>
+                                    </msDesc></witness>
+                                 <!-- End witness V -->
+                              </listWit></witness>
+                        </listWit><!-- End of children of ν -->
+                     </witness>
+                     <!-- End of witness ν -->
+
+                     <!-- Begin occasionally cited MSS -->
+                     <listWit>
+                        <head>Occasionally cited</head>
+                        <witness xml:id="m"><abbr type="siglum">m</abbr>: Florence, BML Plut. lat.
+                           68.6 (s. xii<hi rend="superscript">4</hi> or xiii<hi rend="superscript"
+                              >1</hi>, cited where <ref target="#M">M</ref> is missing.</witness>
+                        <witness xml:id="N"><abbr type="siglum">N</abbr>: Naples, BN IV.C.11 (s.
+                           xi), cited where <ref target="#S">S</ref> is lacunose.</witness>
+                        <witness xml:id="Vall."><abbr type="siglum">Vall.</abbr>: Rome, Bibl.
+                           Vallicelliana B. 45 (c. 1100), cited where <ref target="#m">m</ref> is
+                           illegible</witness>
+                        <witness xml:id="Ϛ"><abbr type="siglum">ϛ</abbr>: A reading found in one or
+                           more later manuscripts.</witness>
+                     </listWit>
+                     <!-- End list of occasionally cited MSS -->
+                  </listWit>
+                  <!-- End of list of children of ω -->
+               </witness>
+               <!-- End of witness ω -->
             </listWit>
-            <listBibl xml:id="early-editions">
+            <!-- End of Manuscripts -->
+
+            <listWit xml:id="early-editions">
                <head>Early Editions</head>
-               <bibl xml:id="edprin"><abbr type="siglum">ed. pr.</abbr>: <editor>G. Bussi</editor>,
-                  ed. <pubPlace>Romae</pubPlace>: <publisher>In domo Petri de Maximis [= Sweynheym
-                     and Pannartz]</publisher>. <date>12 May 1469</date>.</bibl>
+               <witness xml:id="edprin"><abbr type="siglum">ed. pr.</abbr>: <bibl><editor>G.
+                        Bussi</editor>, ed. <pubPlace>Romae</pubPlace>: <publisher>In domo Petri de
+                        Maximis [= Sweynheym and Pannartz]</publisher>. <date>12 May
+                     1469</date>.</bibl></witness>
 
-               <bibl xml:id="Aldus"><abbr type="siglum">Aldus</abbr>: <editor>G. Giocondo</editor>,
-                  ed. <pubPlace>Venice</pubPlace>. <date>1513</date>.</bibl>
+               <witness xml:id="Aldus"><abbr type="siglum">Aldus</abbr>:<bibl><editor>G.
+                        Giocondo</editor>, ed. <pubPlace>Venice</pubPlace>.
+                     <date>1513</date>.</bibl></witness>
 
-               <bibl xml:id="Beroaldus"><abbr type="siglum">Beroaldus</abbr><editor>P.
-                     Beroaldus</editor>, ed. <title>Caii Iulii Caesaris commentarios Belli Gallici,
-                     Ciuilis Pompeiani, Alexandrini, Africi, ac Hispaniensis</title>.
-                     <pubPlace>Bologna</pubPlace>. <date>1504</date>.</bibl>
-            </listBibl>
+               <witness xml:id="Beroaldus"><abbr type="siglum">Beroaldus</abbr>: <bibl><editor>P.
+                        Beroaldus</editor>, ed. <title>Caii Iulii Caesaris commentarios Belli
+                        Gallici, Ciuilis Pompeiani, Alexandrini, Africi, ac Hispaniensis</title>.
+                        <pubPlace>Bologna</pubPlace>. <date>1504</date>.</bibl></witness>
+            </listWit>
+            <!-- End bibliography of early editions -->
+
+            <!-- Begin bibliography of modern editions -->
             <listBibl xml:id="modern-editions">
                <head>Modern Editions</head>
                <bibl xml:id="Andrieu"><abbr type="siglum">Andrieu</abbr>: <editor>J.
@@ -300,53 +497,46 @@ This is a subsection within the preface. Editors should use
                <bibl xml:id="Vascosanus"><abbr type="siglum">Vascosanus</abbr>: <editor>M.
                      Vascosanus</editor>, ed. <pubPlace>Paris</pubPlace>. <date>1543</date>.</bibl>
             </listBibl>
+            <!-- End bibliography for modern editions -->
+
+            <!-- Begin bibliography of secondary sources -->
             <listBibl xml:id="secondary-sources">
                <head>Secondary Sources</head>
-               <bibl/>
+               <bibl xml:id="Brown"><author>Brown, Virginia</author>. <title>The Textual
+                     Transmission of Caesar's Civil War</title>. <pubPlace>Leiden</pubPlace>:
+                     <publisher>Brill</publisher>
+                  <date>1972</date>, p. 83.</bibl>
+
+               <bibl xml:id="Damon2015"><editor>Damon, C.</editor>
+                  <title>C. Iuli Caesaris Commentariorum Libri III De Bello Civili</title>.
+                     <pubPlace>Oxford</pubPlace>: <publisher>Clarendon Press</publisher>,
+                     <date>2015</date>, pp. xxxiv–xli.</bibl>
+
+               <bibl xml:id="Hering"><author>Hering, Wolfgang</author>
+                  <title>Die Recensio der Caesarhandschriften</title>. <pubPlace>Berlin</pubPlace>:
+                     <publisher>Akademie-Verlag</publisher>, <date>1963</date>.</bibl>
+
+               <bibl xml:id="Jax"><author>Jax, Karl</author> “<title level="a">Di Stellung der
+                     Handschriften <hi rend="italic">S</hi> und <hi rend="italic">L</hi> in der
+                     Caesarüberlieferung</title>.” <title level="j">Wiener Studien</title>
+                  <biblScope unit="volume">52</biblScope> (<date>1934</date>): <biblScope
+                     unit="page">95–105</biblScope>.</bibl>
+
+               <bibl xml:id="MunkOlsen"><author>Munk Olsen, B.</author>
+                  <title>L'étude des auteurs classiques latins aux XIe et XIIe siècles. Tome I:
+                     Catalogue des manuscrits classiques latins copiés du IXe au XIIe siècle:
+                     Apicius–Juvénal.</title>
+                  <pubPlace>Paris</pubPlace>: <publisher>CNRS</publisher>, <date>1982</date>, p.
+                  40.</bibl>
+
+               <bibl xml:id="Rostagno"><author>Rostagno, Enrico</author> “<title level="a">Il libro
+                     de Bello Africo nel cod. Laurenziano-Ashb. n. 33</title>.” <title level="j"
+                     >Studi italiani di filologia classica</title>
+                  <biblScope unit="volume">2</biblScope> (<date>1894)</date>: <biblScope unit="page"
+                     >321–9</biblScope>.</bibl>
             </listBibl>
-            <div type="section" xml:id="bibliography-manuscripts">
-               <head>Manuscripts</head>
-               <!--
-Descriptions of manuscripts, using <gi>listWit</gi>.
--->
-            </div>
-            <div type="section" xml:id="bibliography-early-editions">
-               <head>Early Editions</head>
-               <!--
-Bibliographical details for early editions or editiones vetustiores, using
-            <gi>listBibl</gi> with <att>type</att>="editions-witnesses".
--->
-            </div>
-            <div type="section" xml:id="bibliography-modern-editions">
-               <head>Modern Editions</head>
-               <!--
-Bibliographical details for modern editions and commentaries, using
-            <gi>listBibl</gi> with <att>type</att>="editions-sources".
--->
-            </div>
-            <div type="section" xml:id="bibliography-secondary-sources">
-               <head>Secondary Sources</head>
-               <!--
-Bibliographical details for articles, notes, books, and other sources,
-            using <gi>listBibl</gi> with <att>type</att>="secondary-sources".
--->
-            </div>
-            <div type="section" xml:id="bibliography-scholars">
-               <head>List of Scholars Referred to By Name</head>
-               <!--
- A list of the names of individual scholars referred to by name in the 
-            apparatus, if they are not listed elsewhere in the bibliography. 
--->
-            </div>
          </div>
-         <div type="section" xml:id="conspectus">
-            <head>Conspectus</head>
-            <!--
-A key to the special sigla and abbreviations used in the edition (drawn
-          from the <att>xml:id</att>'s assigned to the various items in the
-          bibliography).
--->
-         </div>
+         <!-- End of bibliography -->
       </front>
       <body>
          <div type="edition" xml:id="edition-text" xml:space="preserve">
