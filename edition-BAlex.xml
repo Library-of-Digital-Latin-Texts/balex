@@ -10,9 +10,13 @@ href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="app
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>TITLE</title>
-            <author>ORIGINAL AUTHOR</author>
-            <editor>EDITOR NAME</editor>
+            <title>Bellum Alexandrinum</title>
+            <author>Julius Caesar</author>
+            <editor>Cynthia Damon</editor>
+            <respStmt>
+               <resp>Encoding by</resp>
+               <name>Samuel J. Huskey</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition>First Edition</edition>
@@ -22,9 +26,8 @@ href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="app
             <distributor>Digital Latin Library</distributor>
             <date>2016</date>
             <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/">
-                  Distributed under a Creative Commons Attribution 4.0 International License.
-               </licence>
+               <licence target="https://creativecommons.org/licenses/by/4.0/"> Distributed under a
+                  Creative Commons Attribution 4.0 International License. </licence>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -49,10 +52,134 @@ This is a subsection within the preface. Editors should use
             </div>
          </div>
          <div type="section" xml:id="bibliography">
-            <head>Bibliography</head>
-            <!--
-This is where the bibliography for the edition is listed.
--->
+            <listWit xml:id="manuscripts">
+               
+            </listWit>
+            <listBibl xml:id="early-editions">
+               <head>Early Editions</head>
+               <bibl xml:id="edprin"><abbr type="siglum">ed. pr.</abbr>: <editor>G. Bussi</editor>,
+                  ed. <pubPlace>Romae</pubPlace>: <publisher>In domo Petri de Maximis [= Sweynheym
+                     and Pannartz]</publisher>. <date>12 May 1469</date>.</bibl>
+
+               <bibl xml:id="Aldus"><abbr type="siglum">Aldus</abbr>: <editor>G. Giocondo</editor>,
+                  ed. <pubPlace>Venice</pubPlace>. <date>1513</date>.</bibl>
+
+               <bibl xml:id="Beroaldus"><abbr type="siglum">Beroaldus</abbr><editor>P.
+                     Beroaldus</editor>, ed. <title>Caii Iulii Caesaris commentarios Belli Gallici,
+                     Ciuilis Pompeiani, Alexandrini, Africi, ac Hispaniensis</title>.
+                     <pubPlace>Bologna</pubPlace>. <date>1504</date>.</bibl>
+            </listBibl>
+            <listBibl xml:id="modern-editions">
+               <head>Modern Editions</head>
+               <bibl xml:id="Andrieu"><abbr type="siglum">Andrieu</abbr>: <editor>J.
+                     Andrieu</editor>, ed. <title>Pseudo-César, Guerre d'Alexandrie</title>.
+                     <pubPlace>Paris</pubPlace>. <date>1954</date>.</bibl>
+
+               <bibl xml:id="Bentley"><abbr type="siglum">Bentley</abbr><editor>T. Bentley</editor>,
+                  ed. <title>Caii Julii Caesaris de bello gallico et ciuili nec non A. Hirtii
+                     aliorumque de bellis Alexandrino, Africano, et Hispaniensi commentarii</title>.
+                  Notas et animaduersiones addidit Tho. Bentleius. Accessere conjecturae et
+                  emendationes Jacobi Jurini. <pubPlace>London</pubPlace>. <date>1742</date>.</bibl>
+
+               <bibl xml:id="Dauisius1706"><abbr type="siglum">Dauisius 1706</abbr>: <editor>J.
+                     Davies</editor>, ed. <title>C. Julii Caesaris quae exstant omnia ... cum
+                     eiusdem animadversionibus ac notis Pet. Ciacconii, Fr. Hotomanni, Joan.
+                     Brantii, Dionys. Vossii et aliorum</title>. <pubPlace>Cambridge</pubPlace>.
+                     <date>1706</date>.</bibl>
+
+               <bibl xml:id="Dauisius1727"><abbr type="siglum">Dauisius 1727</abbr>: <editor>J.
+                     Davies</editor>, ed. <title>C. Julii Caesaris et Auli Hirtii quae exstant omnia
+                     recensuit ac selectis ... aliorum notis suas addidit Joannes Davisius; accedunt
+                     ejusdem secundae curae necnon metaphrasis graeca librorum VII de bello
+                     gallico</title>. <pubPlace>Cambridge</pubPlace>. <date>1727</date>.</bibl>
+
+               <bibl xml:id="Dinter"><abbr type="siglum">Dinter</abbr>: <editor>B. Dinter</editor>,
+                  ed. <title>C. Iuli Caesaris commentarii cum A. Hirti aliorumque supplementis .
+                     III: C. Iuli Caesaris commentarii commentarii de bello Alexandrino, Africano,
+                     Hispaniensi. Caesaris Hirtiique fragmenta</title>.
+                  <pubPlace>Leipzig</pubPlace>. <date>1887</date>.</bibl>
+
+               <bibl xml:id="Dübner"><abbr type="siglum">Dübner</abbr>: <editor>F. Dübner</editor>,
+                  ed. <title>C. Julii Caesaris commentarii de bellis Gallico et civili, aliorum, de
+                     bellis Alexandrino, Africano et Hispaniensi. Tomus secundus</title>.
+                     <pubPlace>Paris</pubPlace>. <date>1867</date>.</bibl>
+
+               <bibl xml:id="Hoffmann"><abbr type="siglum">Hoffmann</abbr>: <editor>E.
+                     Hoffmann</editor>, ed. <title>C. Iulii Caesaris commentarii cum supplementis A.
+                     Hirtii et aliorum. Vol. II: Commentarii de bello ciuili. Accedunt commentarii
+                     de bello Alexandrino, Africano, Hispaniensi</title>. New edition.
+                     <pubPlace>Vienna</pubPlace>. <date>1890</date>.</bibl>
+
+               <bibl xml:id="Klotz1927"><abbr type="siglum">Klotz 1927</abbr>: <editor>A.
+                     Klotz</editor>, ed. <title>C. Iulii Caesaris commentarii. Vol. III: Bellum
+                     Alexandrinum, Bellum Africum, Bellum Hispaniense, Fragmenta</title>.
+                     <pubPlace>Leipzig</pubPlace>. <date>1927</date>.</bibl>
+
+               <bibl xml:id="Kraner"><abbr type="siglum">Kraner</abbr>: <editor>F. Kraner</editor>,
+                  ed.  <title>C. Iulii Caesaris commentarii cum supplementis A. Hirtii et
+                     aliorum</title>.  Editio stereotypa. <pubPlace>Leipzig</pubPlace>.
+                     <date>1861</date>. </bibl>
+
+               <bibl xml:id="Kübler"><abbr type="siglum">Kübler</abbr>: <editor>B. Kübler</editor>,
+                  ed. <title>C Iulii Caesaris commentarii. Vol. III: Commentarius de bello
+                     Alexandrino</title>. <pubPlace>Leipzig</pubPlace>:
+                     <publisher>Teubner</publisher>, <date>1894</date>.</bibl>
+
+               <bibl xml:id="Lipsius"><abbr type="siglum">Lipsius</abbr>: <editor>J.
+                     Lipsius</editor>, ed. <title>C. Iulii Caesaris commentarii ... eiusdem ...
+                     fragmenta</title>. <pubPlace>Antwerp</pubPlace>. <date>1586</date>.</bibl>
+
+               <bibl xml:id="Manutius"><abbr type="siglum">Manutius</abbr>: <editor>Aldus
+                     Manutius</editor>, ed. <title>C. Iulii Caesaris commentarii ab Aldo Manutio
+                     Paulli filio Aldi nepote emendati et scholiis illustrati</title>.
+                     <pubPlace>Venice</pubPlace>. <date>1597</date>. (First edition 1571.)</bibl>
+
+               <bibl xml:id="Morus"><abbr type="siglum">Morus</abbr>: <editor>S. F. N.
+                     Morus</editor>, ed. <title>C. Iulii Caesaris commentarii de bello Gallico et
+                     civili; accedunt libri de bello Alexandrino Africano et Hispaniensi e
+                     recensione Francisci Oudendorpii; curavit editionem Sam. Fr. Nathan.
+                     Morus</title>. <pubPlace>Leipzig</pubPlace>. <date>1780</date>.</bibl>
+
+               <bibl xml:id="Oehler"><abbr type="siglum">Oehler</abbr>: <editor>F. Oehler</editor>,
+                  ed. <title>C. Iulii Caesaris commentarii cum supplementis A. Hirtii et
+                     aliorum</title>. <pubPlace>Leipzig</pubPlace>. <date>1852</date>.</bibl>
+
+               <bibl xml:id="Oudendorp"><abbr type="siglum">Oudendorp</abbr>: <editor>F.
+                     Oudendorp</editor>, ed., <title>C. Julii Caesaris De bellis gallico et civili
+                     pompejano; nec non A. Hirtii aliorumque de bellis Alexandrino, Africano et
+                     Hispaniensi commentarii ad MSStorum fidem expressi, cum integris notis Dionysii
+                     Vossii, Joannis Davisii et Samuelis Clarkii cura et studio Francisci
+                     Oudendorpii qui suas animadversiones ac varias lectiones adjecit</title>.
+                     <pubPlace>Leiden</pubPlace>. <date>1737</date>.</bibl>
+
+               <bibl xml:id="Nipperdey"><abbr type="siglum">Nipperdey</abbr>: <editor>K.
+                     Nipperdey</editor>, ed. <title>C. Iulii Caesaris commentarii</title>.
+                     <pubPlace>Leipzig</pubPlace>. <date>1847</date>.</bibl>
+
+               <bibl xml:id="Scaliger"><abbr type="siglum">Scaliger</abbr>: <editor>J.
+                     Scaliger</editor>, ed. <title>C. Iulii Caesaris quae extant</title>.
+                     <pubPlace>Amsterdam</pubPlace>. <date>1661</date>. (First edition 1635.)</bibl>
+
+               <bibl xml:id="Schneider"><abbr type="siglum">Schneider</abbr>: <editor>R.
+                     Schneider</editor>, ed. <title>Bellum Alexandrinum</title>.
+                     <pubPlace>Berlin</pubPlace>. <date>1888</date>.</bibl>
+
+               <bibl xml:id="Stephanus"><abbr type="siglum">Stephanus</abbr>: <editor>R.
+                     Estienne</editor>, ed. <title>C. Iulii Caesaris rerum ab se gestarum
+                     comentarii</title>. <pubPlace>Paris</pubPlace>. <date>1544</date>.</bibl>
+
+               <bibl xml:id="Ursinus"><abbr type="siglum">Ursinus</abbr>: <editor>F.
+                  Orsini</editor>, ed. <title>C. Iulii Caesaris commentarii novis emendationibus
+                     illustrati ... ejusdem fragmenta ... ex bibliotheca Fulvii Ursini</title>.
+                     <pubPlace>Antwerp</pubPlace>. <date>1595</date>.</bibl>
+
+               <bibl xml:id="Vascosanus"><abbr type="siglum">Vascosanus</abbr>: <editor>M.
+                     Vascosanus</editor>, ed. <pubPlace>Paris</pubPlace>. <date>1543</date>.</bibl>
+            </listBibl>
+            <listBibl xml:id="secondary-sources">
+               <head>Secondary Sources</head>
+               <bibl/>
+            </listBibl>
             <div type="section" xml:id="bibliography-manuscripts">
                <head>Manuscripts</head>
                <!--
