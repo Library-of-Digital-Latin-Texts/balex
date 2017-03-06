@@ -434,6 +434,12 @@ This is a subsection within the preface. Editors should use
                      <pubPlace>Paris</pubPlace>. <date>1867</date>. URL: <ptr
                      target="https://archive.org/details/commentariidebel02caesuoft"/></bibl>
 
+               <bibl xml:id="Fleischer"><abbr type="siglum">Fleischer</abbr> = <author>Fleischer,
+                     Curt</author>. "<title level="a">Zu Caesar und seinen Fortsetzern</title>."
+                     <title level="j">Neue Jahrbücher für Philologie und Pädagogik</title>
+                  <biblScope unit="volume">119</biblScope> (<date>1879</date>) <biblScope
+                     unit="page">849–67</biblScope>.</bibl>
+
                <bibl xml:id="Hoffmann"><abbr type="siglum">Hoffmann</abbr>: <editor>E.
                      Hoffmann</editor>, ed. <title>C. Iulii Caesaris commentarii cum supplementis A.
                      Hirtii et aliorum. Vol. II: Commentarii de bello ciuili. Accedunt commentarii
@@ -613,7 +619,7 @@ This is a subsection within the preface. Editors should use
                         <note target="#rdg-1.2-in">coll. Hirt. 8.27.4</note>
                      </app> tantum munitiones proferuntur.</seg>
                   <seg n="3">Nam <app>
-                        <lem source="#Mueller" type="emendation">&lt;ab&gt;</lem>
+                        <lem source="#Mueller" type="emendation"><add>ab</add></lem>
                      </app> incendio fere tuta est Alexandria, quod sine contignatione ac <app>
                         <lem>materia sunt aedificia</lem>
                         <rdg wit="#S" ana="#subtractive #orthographical">materias aedificia</rdg>
@@ -638,11 +644,24 @@ This is a subsection within the preface. Editors should use
                         <lem>reliqua</lem>
                         <rdg wit="#S" ana="#orthographical #additive">reliliqua</rdg>
                      </app> parte urbis excluderet,</seg>
-                  <seg n="5">illud spectans primum ut, cum in duas partes <app>
+                  <seg n="5">illud <app>
+                        <lem source="#Vascosanus" type="emendation" xml:id="lem-1.5-spectans"
+                           >spectans</lem>
+                        <note target="#lem-1.5-spectans">cf. BC 3.85.2</note>
+                        <rdg wit="#ω">expectans</rdg>
+                     </app> primum ut, cum in duas partes <app>
                         <lem>esset</lem>
                         <rdg wit="#S" ana="#orthographical #subtractive #morphological">esse</rdg>
-                     </app> urbs diuisa, acies uno consilio atque imperio administraretur, deinde ut
-                     laborantibus succurri atque ex <app>
+                     </app>
+                     <app>
+                        <lem wit="#U">urbs</lem>
+                        <rdg wit="#M">ubrs</rdg>
+                        <rdg wit="#S #T #V">urbis</rdg>
+                     </app> diuisa, <app>
+                        <lem>acies</lem>
+                        <rdg source="#Fleischer" type="conjecture"><add>sua</add> acies</rdg>
+                     </app> uno consilio atque imperio administraretur, deinde ut laborantibus
+                     succurri atque ex <app>
                         <lem>altera</lem>
                         <rdg wit="#S" ana="#orthographical #lexical">ad terra</rdg>
                      </app> oppidi parte auxilium ferri posset, in primis uero ut aqua pabuloque
