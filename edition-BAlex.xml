@@ -1,11 +1,8 @@
-<?xml-model
-href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" 
-  schematypens="http://relaxng.org/ns/structure/1.0"
-?>
-<?xml-model
-href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"
-?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://digitallatin.github.io/guidelines/critical-editions.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://digitallatin.github.io/guidelines/critical-editions.rng"
+            type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -111,6 +108,7 @@ This is a subsection within the preface. Editors should use
                                                 rend="superscript">mr</hi></abbr>: Corrections by
                                           one or more later hands, sometimes recovering the
                                           exemplar, somethings not</handNote>
+                                       <!-- What to do about M* ? -->
                                     </handDesc>
                                  </physDesc>
                                  <history>
@@ -581,15 +579,23 @@ This is a subsection within the preface. Editors should use
             <div type="textpart" n="1" xml:id="part1">
                <p n="1">
                   <seg n="1">Bello Alexandrino conflato <persName ref="#Caesar">Caesar</persName>
-                     Rhodo atque ex Syria Ciliciaque omnem classem arcessit; Creta sagittarios,
-                     equites ab rege Nabataeorum <persName ref="#Malchus">Malcho</persName> euocat;
-                     tormenta undique conquiri et frumentum mitti, auxilia adduci iubet.</seg>
+                     <app>
+                        <lem>Rhodo</lem>
+                        <rdg wit="#S" ana="#orthographical">Ordo</rdg>
+                     </app> atque ex Syria Ciliciaque omnem classem arcessit; <app>
+                        <lem>Creta</lem>
+                        <rdg wit="#S" ana="#orthographical">certa</rdg>
+                     </app> sagittarios, equites ab rege Nabataeorum <persName ref="#Malchus"
+                        >Malcho</persName> euocat; tormenta undique conquiri et frumentum mitti,
+                     auxilia adduci iubet.</seg>
                   <seg n="2">Interim munitiones <app>
                         <lem>cotidie operibus</lem>
-                        <rdg wit="#M">cotidie</rdg>
+                        <rdg wit="#M" ana="#subtractive">cotidie</rdg>
                         <rdg source="#Castiglioni">nouis cotidie operibus</rdg>
-                     </app> augentur atque omnes oppidi partes, quae minus esse firmae uidentur,
-                     testudinibus ac musculis <app>
+                     </app> augentur atque omnes oppidi partes, quae minus esse firmae <app>
+                        <lem>uidentur</lem>
+                        <rdg wit="#M" ana="#subtractive"/>
+                     </app>, testudinibus ac musculis <app>
                         <lem wit="#ω" xml:id="lem-1.2-aptantur">aptantur</lem>
                         <note target="#lem-1.2-aptantur">u. BC 3.112.7-9</note>
                         <rdg source="#Nipperdey" xml:id="rdg-1.2-temptantur">temptantur</rdg>
@@ -598,31 +604,56 @@ This is a subsection within the preface. Editors should use
                      </app>; ex aedificiis autem <app>
                         <lem>per</lem>
                         <rdg wit="#S #T #V"/>
-                     </app> foramina in proxima aedificia arietes immittuntur, quantumque aut ruinis
-                     deicitur aut per uim recipitur loci, <app>
+                     </app> foramina in proxima aedificia <app>
+                        <lem>arietes</lem>
+                        <rdg wit="#S" ana="#orthographical">aretes</rdg>
+                     </app> immittuntur, quantumque aut ruinis deicitur aut per uim recipitur loci, <app>
                         <lem>in</lem>
                         <rdg source="#Schneider" xml:id="rdg-1.2-in"><surplus>in</surplus></rdg>
                         <note target="#rdg-1.2-in">coll. Hirt. 8.27.4</note>
                      </app> tantum munitiones proferuntur.</seg>
                   <seg n="3">Nam <app>
                         <lem source="#Mueller" type="emendation">&lt;ab&gt;</lem>
-                     </app> incendio fere tuta est Alexandria, quod sine contignatione ac materia
-                     sunt aedificia <app>
+                     </app> incendio fere tuta est Alexandria, quod sine contignatione ac <app>
+                        <lem>materia sunt aedificia</lem>
+                        <rdg wit="#S" ana="#subtractive #orthographical">materias aedificia</rdg>
+                     </app>
+                     <app>
                         <lem>et</lem>
-                        <rdg wit="#M"/>
-                     </app> structuris <app>
+                        <rdg wit="#M" ana="#subtractive"/>
+                     </app>
+                     <app>
+                        <lem>structuris</lem>
+                        <rdg wit="#S" ana="#orthographical">fructuris</rdg>
+                     </app>
+                     <app>
                         <lem wit="#M #T #V">ac</lem>
                         <rdg wit="#U">et</rdg>
-                        <rdg wit="#S">a</rdg>
+                        <rdg wit="#S" ana="#lexical #orthographical #subtractive">a</rdg>
+                        <!-- Check with Cynthia to see if she means V, as in her Appendix Critica -->
                      </app> fornicibus continentur tectaque sunt rudere aut pauimentis.</seg>
                   <seg n="4"><persName ref="#Caesar">Caesar</persName> maxime studebat ut quam
                      angustissimam partem oppidi palus a meridie interiecta efficiebat, hanc
-                     operibus uineisque agendis ab reliqua parte urbis excluderet,</seg>
-                  <seg n="5">illud spectans primum ut, cum in duas partes esset urbs diuisa, acies
-                     uno consilio atque imperio administraretur, deinde ut laborantibus succurri
-                     atque ex altera oppidi parte auxilium ferri posset, in primis uero ut aqua
-                     pabuloque abundaret, quarum alterius rei copiam exiguam, alterius nullam omnino
-                     facultatem habebat; quod utrumque large palus praebere poterat.</seg></p>
+                     operibus uineisque agendis ab <app>
+                        <lem>reliqua</lem>
+                        <rdg wit="#S" ana="#orthographical #additive">reliliqua</rdg>
+                     </app> parte urbis excluderet,</seg>
+                  <seg n="5">illud spectans primum ut, cum in duas partes <app>
+                        <lem>esset</lem>
+                        <rdg wit="#S" ana="#orthographical #subtractive #morphological">esse</rdg>
+                     </app> urbs diuisa, acies uno consilio atque imperio administraretur, deinde ut
+                     laborantibus succurri atque ex <app>
+                        <lem>altera</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">ad terra</rdg>
+                     </app> oppidi parte auxilium ferri posset, in primis uero ut aqua pabuloque
+                     abundaret, quarum alterius <app>
+                        <lem>rei copiam exiguam, alterius</lem>
+                        <rdg wit="#S" ana="#subtractive"/>
+                     </app> nullam omnino facultatem habebat; quod <app>
+                        <lem>utrumque</lem>
+                        <!-- Fix this one. What does M* in the Apparatus Critica mean? -->
+                        <rdg wit="#M" ana="#orthographical #morphological">utrique</rdg>
+                     </app> large palus praebere poterat.</seg></p>
 
                <p n="2">
                   <seg n="1">Neque uero Alexandrinis in gerendis negotiis cunctatio ulla aut mora
