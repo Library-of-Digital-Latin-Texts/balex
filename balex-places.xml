@@ -19,8 +19,23 @@
   <text>
       <body>
          <listPlace>
-            <place>
-               <placeName>la</placeName>
+            <place xml:id="Aegyptus" corresp="https://pleiades.stoa.org/places/981503">
+               <placeName>Aegyptus</placeName>
+            </place>
+            <place xml:id="Alexandria" corresp="https://pleiades.stoa.org/places/727070">
+               <placeName>Alexandria</placeName>
+            </place>
+            <place xml:id="Cilicia" corresp="https://pleiades.stoa.org/places/658440">
+               <placeName>Cilicia</placeName>
+            </place>
+            <place xml:id="Creta" corresp="https://pleiades.stoa.org/places/589748">
+               <placeName>Creta</placeName>
+            </place>
+            <place xml:id="Nabataea" corresp="https://pleiades.stoa.org/places/29677">
+               <placeName>Nabataea</placeName>
+            </place>
+            <place xml:id="Syria" corresp="https://pleiades.stoa.org/places/1306">
+               <placeName>Syria</placeName>
             </place>
          </listPlace>
       </body>

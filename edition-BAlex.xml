@@ -434,6 +434,11 @@ This is a subsection within the preface. Editors should use
                      <pubPlace>Paris</pubPlace>. <date>1867</date>. URL: <ptr
                      target="https://archive.org/details/commentariidebel02caesuoft"/></bibl>
 
+               <bibl xml:id="Fischer"><abbr type="siglum">Fischer</abbr> = <author>Fischer,
+                     Eduard</author>. <title>Das achte Buch vom Gallischem Kriege und das Bellum
+                     Alexandrinum: Eine Studie</title>. <pubPlace>Passau</pubPlace>.
+                     <date>1880</date>.</bibl>
+
                <bibl xml:id="Fleischer"><abbr type="siglum">Fleischer</abbr> = <author>Fleischer,
                      Curt</author>. "<title level="a">Zu Caesar und seinen Fortsetzern</title>."
                      <title level="j">Neue Jahrbücher für Philologie und Pädagogik</title>
@@ -534,6 +539,12 @@ This is a subsection within the preface. Editors should use
                      level="j">Athenaeum</title> n.s. <biblScope unit="volume">11</biblScope>
                      (<date>1924</date>) <biblScope unit="page">229-40</biblScope>.</bibl>
 
+               <bibl xml:id="Cornelissen"><abbr type="siglum">Cornelissen</abbr> =
+                     <author>Cornelissen, J. J.</author> "<title level="a">Adversaria
+                     critica</title>." <title level="j">Mnemosyne</title>
+                  <biblScope unit="volume">17</biblScope> (<date>1889</date>) <biblScope unit="page"
+                     >44–55</biblScope>.</bibl>
+
                <bibl xml:id="Damon2015"><editor>Damon, C.</editor>
                   <title>C. Iuli Caesaris Commentariorum Libri III De Bello Civili</title>.
                      <pubPlace>Oxford</pubPlace>: <publisher>Clarendon Press</publisher>,
@@ -577,6 +588,15 @@ This is a subsection within the preface. Editors should use
                   <biblScope unit="volume">2</biblScope> (<date>1894)</date>: <biblScope unit="page"
                      >321–9</biblScope>.</bibl>
             </listBibl>
+            <listPerson>
+               <person xml:id="Damon">
+                  <persName>Cynthia Damon</persName>
+                  <note>Conjectures proposed by the editor of this edition.</note>
+               </person>
+               <person xml:id="Wölfflin">
+                  <persName>E. Wölfflin (see <ref target="#Klotz1927">Klotz 1927</ref>)</persName>
+               </person>
+            </listPerson>
          </div>
          <!-- End of bibliography -->
       </front>
@@ -588,12 +608,14 @@ This is a subsection within the preface. Editors should use
                      <app>
                         <lem>Rhodo</lem>
                         <rdg wit="#S" ana="#orthographical">Ordo</rdg>
-                     </app> atque ex Syria Ciliciaque omnem classem arcessit; <app>
-                        <lem>Creta</lem>
+                     </app> atque ex <placeName ref="#Syria">Syria</placeName>
+                     <placeName ref="#Cilicia">Cilicia</placeName>que omnem classem arcessit; <app>
+                        <lem><placeName ref="#Creta">Creta</placeName></lem>
                         <rdg wit="#S" ana="#orthographical">certa</rdg>
-                     </app> sagittarios, equites ab rege Nabataeorum <persName ref="#Malchus"
-                        >Malcho</persName> euocat; tormenta undique conquiri et frumentum mitti,
-                     auxilia adduci iubet.</seg>
+                     </app> sagittarios, equites ab rege <orgName ref="#Nabataei"
+                        >Nabataeorum</orgName>
+                     <persName ref="#Malchus">Malcho</persName> euocat; tormenta undique conquiri et
+                     frumentum mitti, auxilia adduci iubet.</seg>
                   <seg n="2">Interim munitiones <app>
                         <lem>cotidie operibus</lem>
                         <rdg wit="#M" ana="#subtractive">cotidie</rdg>
@@ -603,7 +625,7 @@ This is a subsection within the preface. Editors should use
                         <rdg wit="#M" ana="#subtractive"/>
                      </app>, testudinibus ac musculis <app>
                         <lem wit="#ω" xml:id="lem-1.2-aptantur">aptantur</lem>
-                        <note target="#lem-1.2-aptantur">u. BC 3.112.7-9</note>
+                        <note target="#lem-1.2-aptantur">u. <bibl>BC 3.112.7-9</bibl></note>
                         <rdg source="#Nipperdey" xml:id="rdg-1.2-temptantur">temptantur</rdg>
                         <note target="#rdg-1.2-temptantur">alii alia (u. <ref target="#G"
                               >Gaertner-Hausburg</ref> 48 n.87)</note>
@@ -616,11 +638,12 @@ This is a subsection within the preface. Editors should use
                      </app> immittuntur, quantumque aut ruinis deicitur aut per uim recipitur loci, <app>
                         <lem>in</lem>
                         <rdg source="#Schneider" xml:id="rdg-1.2-in"><surplus>in</surplus></rdg>
-                        <note target="#rdg-1.2-in">coll. Hirt. 8.27.4</note>
+                        <note target="#rdg-1.2-in">coll. <bibl>Hirt. 8.27.4</bibl></note>
                      </app> tantum munitiones proferuntur.</seg>
                   <seg n="3">Nam <app>
                         <lem source="#Mueller" type="emendation"><add>ab</add></lem>
-                     </app> incendio fere tuta est Alexandria, quod sine contignatione ac <app>
+                     </app> incendio fere tuta est <placeName ref="#Alexandria"
+                        >Alexandria</placeName>, quod sine contignatione ac <app>
                         <lem>materia sunt aedificia</lem>
                         <rdg wit="#S" ana="#subtractive #orthographical">materias aedificia</rdg>
                      </app>
@@ -647,7 +670,7 @@ This is a subsection within the preface. Editors should use
                   <seg n="5">illud <app>
                         <lem source="#Vascosanus" type="emendation" xml:id="lem-1.5-spectans"
                            >spectans</lem>
-                        <note target="#lem-1.5-spectans">cf. BC 3.85.2</note>
+                        <note target="#lem-1.5-spectans">cf. <bibl>BC 3.85.2</bibl></note>
                         <rdg wit="#ω">expectans</rdg>
                      </app> primum ut, cum in duas partes <app>
                         <lem>esset</lem>
@@ -676,35 +699,117 @@ This is a subsection within the preface. Editors should use
 
                <p n="2">
                   <seg n="1">Neque uero Alexandrinis in gerendis negotiis cunctatio ulla aut mora
-                     inferebatur. Nam in omnes partes, per quas fines Aegypti regnumque pertinet,
-                     legatos conquisitoresque dilectus habendi causa miserant magnumque numerum in
-                     oppidum telorum atque tormentorum conuexerant et innumerabilem multitudinem
-                     adduxerant.</seg>
+                     inferebatur. Nam in omnes partes, per quas fines <placeName ref="#Aegyptus"
+                        >Aegypti</placeName> regnumque pertinet, legatos conquisitoresque dilectus
+                     habendi causa miserant <app>
+                        <lem>magnumque numerum in oppidum telorum atque tormentorum conuexerant et
+                           innumerabilem <app>
+                              <lem>multitudinem</lem>
+                              <rdg source="#Fischer" type="conjecture">multitudinem
+                                    <add>armatorum</add></rdg>
+                           </app> adduxerant</lem>
+                        <rdg wit="#S" ana="subtractive"/>
+                     </app>.</seg>
                   <seg n="2">Nec minus in urbe maximae armorum erant institutae officinae. Seruos
                      praeterea puberes armauerant; quibus domini locupletiores uictum cotidianum
                      stipendiumque praebebant.</seg>
-                  <seg n="3">Hac multitudine disposita munitiones semotarum partium tuebantur;
-                     ueteranas cohortes uacuas in celeberrimis urbis locis habebant, ut quacumque
-                     regione pugnaretur integris uiribus ad auxilium ferendum opponi possent.</seg>
+                  <seg n="3"><app>
+                        <lem wit="#U #T #V">Hac</lem>
+                        <rdg wit="#M">huc</rdg>
+                        <rdg wit="#S">ha</rdg>
+                     </app> multitudine disposita munitiones <app>
+                        <lem wit="#Mmr">semotarum</lem>
+                        <rdg wit="#ω">semotorum</rdg>
+                     </app> partium tuebantur; ueteranas cohortes uacuas <app>
+                        <lem>in celeberrimis urbis locis</lem>
+                        <rdg wit="#M" ana="subtractive"/>
+                     </app> habebant, ut quacumque regione pugnaretur integris uiribus ad auxilium
+                     ferendum opponi possent.</seg>
                   <seg n="4">Omnibus uiis atque angiportis triplicem uallum obduxerant — erat autem
                      quadrato extructus saxo neque minus XL pedes altitudinis habebat — quaeque
                      partes urbis inferiores erant, has altissimis turribus denorum tabulatorum
                      munierant.</seg>
-                  <seg n="5">Praeterea alias ambulatorias totidem tabulatorum confixerant
-                     subiectisque eas rotis funibus iumentisque <sic>obiectis</sic> derectis plateis
-                     in quamcumque erat uisum partem mouebant.</seg></p>
+                  <seg n="5">Praeterea alias ambulatorias totidem tabulatorum <app>
+                        <lem wit="#ω" xml:id="lem-2.5-confixerant">confixerant</lem>
+                        <note target="#lem-2.5-confixerant">cf. BG 3.13.4</note>
+                        <!-- Which Davies (Davisius)? -->
+                        <rdg source="#Davies" xml:id="rdg-2.5-confinxerant">confinxerant</rdg>
+                        <note target="#rdg-2.5-confinxerant">coll. Plin. NH 10.93</note>
+                        <rdg wit="#Ϛ" xml:id="rdg-2.5-confecerant">confecerant</rdg>
+                        <note target="#rdg-2.5-confecerant">teste <ref target="#Oudendorp"
+                              >Oudendorp</ref> (cf. <ref target="#seg-13.4">13.4</ref>)</note>
+                     </app> subiectisque eas rotis funibus iumentisque <app>
+                        <lem source="#Scaliger" xml:id="lem-2.5-obiectis"
+                           corresp="comm-2.5-obiectis"><sic>obiectis</sic></lem>
+                        <rdg source="#Cornelissen" xml:id="rdg-2.5-subiunctis" type="conjecture"
+                           >subiunctis</rdg>
+                        <note target="#rdg-2.5-subiunctis">coll. <bibl>Col. 6.2.8</bibl></note>
+                        <rdg source="#Castiglioni" xml:id="rdg-2.5-adiectis" type="conjecture"
+                           >adiectis</rdg>
+                        <note target="#rdg-2.5-adiectis">cf. <ref target="#seg-28.3"
+                           >28.3</ref></note>
+                        <rdg source="#Klotz1927" xml:id="rdg-2.5-obtectis" type="conjecture"
+                           >obtectis</rdg>
+                        <note target="#rdg-2.5-obtectis">dubitanter (cf. <bibl><title>BC</title>
+                              3.19.7</bibl>)</note>
+                        <rdg source="#Damon" xml:id="rdg-2.5-iunctis" type="conjecture"
+                           >iunctis</rdg>
+                        <note target="#rdg-2.5-iunctis">cf. <bibl>Vitr. 10.2.14</bibl></note>
+                        <rdg source="#Damon" xml:id="rdg-2.5-adiunctis" type="conjecture"
+                           >adiunctis</rdg>
+                        <note target="#rdg-2.5-adiunctis">cf. <ref target="#seg-27.7">27.7</ref> et
+                              <bibl>Gel. 20.1.28</bibl></note>
+                     </app> derectis plateis in quamcumque erat uisum partem mouebant.</seg></p>
 
                <p n="3">
                   <seg n="1">Urbs fertilissima et copiosissima omnium rerum apparatus suggerebat.
-                     Ipsi homines ingeniosi atque acutissimi quae a nobis fieri uiderant ea
-                     sollertia efficiebant ut nostri illorum opera imitati uiderentur, et sua sponte
-                     multa reperiebant unoque tempore et nostras munitiones infestabant et suas
+                     Ipsi homines <app>
+                        <lem>ingeniosi</lem>
+                        <rdg source="#Wölfflin" xml:id="rdg-3.1-ingeniosissimi">ingeniosissimi</rdg>
+                        <note target="#rdg-3.1-ingeniosissimi">teste <ref target="#Klotz1927"
+                              >Klotz</ref></note>
+                     </app> atque acutissimi quae a nobis fieri uiderant ea sollertia <app>
+                        <lem wit="#ω" xml:id="lem-3.1-efficiebant">efficiebant</lem>
+                        <note target="#rdg-3.1-efficiebant">cf. <ref target="#seg-19.5"
+                           >19.5</ref></note>
+                        <rdg source="#Kübler" xml:id="rdg-3.1-effingebant">effingebant</rdg>
+                        <note target="#rdg-3.1-effingebant">cf. <bibl><author>Cic</author>.
+                                 <title>ND</title> 3.23</bibl></note>
+                     </app> ut nostri illorum opera imitati uiderentur, et sua sponte multa
+                     reperiebant unoque tempore et nostras munitiones infestabant et suas
                      defendebant.</seg>
                   <seg n="2">Atque haec principes in consiliis contionibusque agitabant: populum
                      Romanum paulatim in consuetudinem eius regni occupandi uenire.</seg>
-                  <seg n="3">Paucis annis ante A. Gabinium cum exercitu fuisse in Aegypto; Pompeium
-                     se ex fuga eodem recepisse; Caesarem uenisse cum copiis, neque morte Pompei
-                     quicquam profectum quo minus apud se Caesar commoraretur.</seg>
+                  <seg n="3">Paucis annis <app>
+                        <lem source="#Schneider">ante <persName ref="#Gabinius">A.
+                              Gabinium</persName></lem>
+                        <!-- Dealing with two possible readings. -->
+                        <rdgGrp>
+                           <rdg wit="#M #U #S #Tc #V" xml:id="rdg-3.3-antea-gabinium">antea
+                              gabinium</rdg>
+                           <witDetail wit="#V" target="#rdg-3.3-antea-gabinium"
+                              corresp="#rdg-3.3-ante-gabinium" type="correction-original"/>
+                           <witDetail wit="#Tc" target="#rdg-3.3-anteagabinium"
+                              corresp="#rdg-3.3-ante-gabinium" type="correction-altered"/>
+                           <note>vel</note>
+                           <rdg wit="#M #U #S #Tc #V" xml:id="rdg-3.3-ante-agabinium">ante
+                              agabinium</rdg>
+                           <witDetail wit="#V" target="#rdg-3.3-ante-agabinium"
+                              corresp="#rdg-3.3-ante-gabinium" type="correction-original"/>
+                           <witDetail wit="#Tc" target="#rdg-3.3-anteagabinium"
+                              corresp="#rdg-3.3-ante-gabinium" type="correction-altered"/>
+                        </rdgGrp>
+                        <rdg wit="#T #Vc" xml:id="rdg-3.3-ante-gabinium">ante gabinium</rdg>
+                        <witDetail wit="#Vc" target="#rdg-3.3-ante-gabinium"
+                           corresp="#rdg3.3-antea-gabinium #rdg-3.3-ante-agabinium"
+                           type="correction-altered"/>
+                        <witDetail wit="#T" target="#rdg-3.3-ante-gabinium"
+                           corresp="#rdg3.3-antea-gabinium #rdg-3.3-ante-agabinium"
+                           type="correction-original"/>
+                     </app> cum exercitu fuisse in <placeName ref="#Aegyptus">Aegypto</placeName>;
+                        <persName ref="#Pompeius">Pompeium</persName> se ex fuga eodem recepisse;
+                        <persName ref="#Caesar">Caesarem</persName> uenisse cum copiis, neque morte
+                     Pompei quicquam profectum quo minus apud se Caesar commoraretur.</seg>
                   <seg n="4">Quem si non expulissent, futuram ex regno prouinciam; idque agendum
                      mature: namque eum interclusum tempestatibus propter anni tempus recipere
                      transmarina auxilia non posse.</seg></p>
@@ -865,10 +970,11 @@ This is a subsection within the preface. Editors should use
                      sumministrabat.</seg>
                   <seg n="3">Postremo non longam nauigationem parabant, sed praesentis temporis
                      necessitati seruiebant et in ipso portu confligendum uidebant.</seg>
-                  <seg n="4">Itaque paucis diebus contra omnium opinionem quadriremes XXII,
-                     quinqueremes V confecerunt; ad has minores apertasque complures adiecerunt et
-                     in portu periclitati remigio quid quaeque earum efficere posset idoneos milites
-                     imposuerunt seque ad confligendum omnibus rebus parauerunt.</seg>
+                  <seg n="4" xml:id="seg-13.4">Itaque paucis diebus contra omnium opinionem
+                     quadriremes XXII, quinqueremes V confecerunt; ad has minores apertasque
+                     complures adiecerunt et in portu periclitati remigio quid quaeque earum
+                     efficere posset idoneos milites imposuerunt seque ad confligendum omnibus rebus
+                     parauerunt.</seg>
                   <seg n="5">Caesar Rhodias naues VIIII habebat—nam decem missis una in cursu litore
                      Aegyptio defecerat—Ponticas VIII, Lycias V, ex Asia XII. Ex his erant
                      quinqueremes et quadriremes X, reliquae infra hanc magnitudinem et pleraeque
@@ -993,11 +1099,11 @@ This is a subsection within the preface. Editors should use
                   <seg n="4">Quo facto imperat pontem aduersus hostem praeuallari et, qua exitus
                      nauibus erat fornice extructo, quo pons sustinebatur, lapidibus oppleri atque
                      obstrui.</seg>
-                  <seg n="5">Quorum altero opere effecto, ut nulla omnino scapha egredi posset,
-                     altero instituto omnes Alexandrinorum copiae ex oppido se eiecerunt et contra
-                     munitiones pontis latiore loco constiterunt, eodemque tempore quae consueuerant
-                     nauigia per pontes ad incendia onerariarum emittere ad molem
-                     constituerunt.</seg>
+                  <seg n="5" xml:id="seg-19.5">Quorum altero opere effecto, ut nulla omnino scapha
+                     egredi posset, altero instituto omnes Alexandrinorum copiae ex oppido se
+                     eiecerunt et contra munitiones pontis latiore loco constiterunt, eodemque
+                     tempore quae consueuerant nauigia per pontes ad incendia onerariarum emittere
+                     ad molem constituerunt.</seg>
                   <seg n="6">Pugnabatur a nobis ex ponte &lt;et&gt; ex mole; ab illis ex area quae
                      erat aduersus pontem et ex nauibus contra molem.</seg></p>
 
@@ -1154,8 +1260,8 @@ This is a subsection within the preface. Editors should use
                      undique facta magnum numerum eorum interfecit.</seg>
                   <seg n="6">Quod nisi locorum notitia reliqui se texissent partimque in naues
                      quibus flumen transierant recepissent, funditus deleti essent.</seg>
-                  <seg n="7"> Qui ut paulum ab illo timore se recrearunt, adiuncti iis qui
-                     subsequebantur rursus oppugnare Mithridaten coeperunt.</seg></p>
+                  <seg n="7" xml:id="seg-27.7"> Qui ut paulum ab illo timore se recrearunt, adiuncti
+                     iis qui subsequebantur rursus oppugnare Mithridaten coeperunt.</seg></p>
 
                <p n="28">
                   <seg n="1">Mittitur a Mithridate nuntius Caesari qui rem gestam perferret.
@@ -1166,11 +1272,11 @@ This is a subsection within the preface. Editors should use
                      dimicaret, sed circumuectus eo mari, quod Africae partis esse dicitur, sicuti
                      supra demonstrauimus; prius tamen regis copiis occurrit, quam is Mithridaten
                      aggredi posset, eumque ad se uictorem incolumi exercitu recepit.</seg>
-                  <seg n="3"> Considerat cum copiis rex loco natura munito, quod erat ipse excelsior
-                     planitie ex omnibus partibus subiecta; tribus autem ex lateribus uariis generum
-                     munitionibus tegebatur: unum latus erat adiectum flumini Nilo, alterum
-                     editissimo loco ductum, ut partem castrorum obtineret, tertium palude
-                     cingebatur.</seg></p>
+                  <seg n="3" xml:id="seg-28.3"> Considerat cum copiis rex loco natura munito, quod
+                     erat ipse excelsior planitie ex omnibus partibus subiecta; tribus autem ex
+                     lateribus uariis generum munitionibus tegebatur: unum latus erat adiectum
+                     flumini Nilo, alterum editissimo loco ductum, ut partem castrorum obtineret,
+                     tertium palude cingebatur.</seg></p>
 
                <p n="29">
                   <seg n="1">Inter castra et Caesaris iter flumen intercedebat angustum altissimis
@@ -1274,6 +1380,136 @@ This is a subsection within the preface. Editors should use
                      confectis et collocatis ipse itinere terrestri profectus est in Syriam.</seg>
                </p>
             </div>
+         </div>
+         <div type="commentary">
+            <note type="commentary" target="lem-2.5-obiectis" xml:id="comm-2.5-obiectis">
+               <p> The word <foreign xml:lang="lat">obiectis</foreign> is the central issue of this
+                  passage and its authenticity has long been questioned. It appears in the
+                  archetype, but <ref target="#Scaliger">Scaliger</ref> thought it must be deleted.
+                  Others have offered emendations, but none of the suggestions is particularly
+                  compelling or well paralleled.</p>
+               <p>The word occurs in a description of the impressive military towers that the
+                  Alexandrians have assembled (or thought up), which can be moved throughout the
+                  city. The compound sentence has two main verbs: first the Alexandrians <foreign
+                     xml:lang="lat">confixerant</foreign> the <foreign xml:lang="lat"
+                     >ambulatorias</foreign>, and then they <foreign xml:lang="lat">mouebant eas
+                     (ambulatorias)</foreign> by placing wheels under them and using a system
+                  involving ropes and pack animals. The sentence contains a concatenation of
+                  ablative phrases: first there is an ablative absolute (<foreign xml:id="lat"
+                     >subiectis … rotis</foreign>), then either another ablative absolute or an
+                  ablative of instrument, and finally an ablative of place (<foreign xml:lang="lat"
+                     >derectis plateis</foreign>).</p>
+               <p>First, one must consider whether to delete <foreign xml:lang="lat"
+                     >obiectis</foreign> (making <foreign xml:lang="lat">funibus
+                     iumentisque</foreign> an instrumental ablative, “by means of ropes and pack
+                  animals”) or whether there must be a word in that position (making <foreign
+                     xml:lang="lat">funibus iumentisque -is</foreign> an absolute absolute, “with
+                  ropes and pack animals attached”). The verb <foreign xml:lang="lat"
+                     >moveo</foreign> in Caesar is most often used in the idiom <foreign
+                     xml:lang="lat">movere castra</foreign> (cf. BG 1.39.7, 2.2.6, etc.) or in
+                  similar phrases involving the movement of troops or the changing of location (cf.
+                  BG 3.15.3, etc.). Many times <foreign xml:lang="lat">moveo</foreign> is used in
+                  the passive voice, when someone is figuratively moved by something (cf. BG 7.76.2,
+                  BC 1.4.2, etc.). Caesar otherwise does not use an ablative of instrument with
+                     <foreign xml:lang="lat">moveo</foreign>–nobody ever “moves” any other object
+                  “by means of” something else. This is a usage with few parallels in Latin (more
+                  generally, see <bibl><title>TLL</title></bibl> 8.1540.47-60). In the passive
+                     <foreign xml:lang="lat">moveo</foreign> can be used with an ablative of
+                  instrument (cf. <bibl><author>Cic</author>. <title>Phil</title>. 9.14</bibl>,
+                  something moved <foreign xml:lang="lat">nulla vi</foreign>); towers in particular
+                  are moved forward in sieges (cf. BG 2.31.1, Curt. 4.6.9). The best parallel for an
+                  active <foreign xml:lang="lat">moveo</foreign> with an object and an ablative of
+                  instrument—also with a rope, as it turns out–is from Propertius (cf. Prop. 4.11.51
+                     <foreign xml:lang="lat">tu, quae tardam movisti fune Cybeben</foreign>).
+                  Because of the lack of good parallels for this usage, it seems prudent to proceed
+                  with the assumption that a word is needed where the text reads <foreign
+                     xml:lang="lat">obiectis</foreign> in order to form a second ablative
+                  absolute.</p>
+               <p>If <foreign xml:lang="lat">obiectis</foreign> is not an interpolation, it is easy
+                  to see how it crept into the text: the original word was lost in the confusion of
+                  the many ablative plurals surrounding it, and the scribe, perhaps inspired by
+                     <foreign xml:lang="lat">subiectis</foreign> a few words earlier, wrote down the
+                  linguistically and paleographically similar <foreign xml:lang="lat"
+                     >obiectis</foreign>. In the first place, <foreign xml:lang="lat"
+                     >obiectis</foreign> is objectionable because it makes little sense given the
+                  context. If pack animals are pulling towers by ropes, it wouldn't make sense for
+                  the pack animals to have been “placed opposite” the towers, “in front of” the
+                  towers, or “in the way of” the towers. It seems likely that the word has an
+                  ablative plural ending, and since a verb form is required to make an ablative
+                  absolute work here, all of the emendations are ablative plural perfect passive
+                  participles.</p>
+               <p><ref target="#Castiglioni">Castiglioni</ref> emends to <foreign xml:lang="lat"
+                     >adiectis</foreign>, and paleographically the switch from <foreign
+                     xml:lang="lat">obiectis</foreign> to <foreign xml:lang="lat">adiectis</foreign>
+                  is plausible. This would give the sense of “to fasten upon” or “to add to.” Forms
+                  of <foreign xml:lang="lat">adicere</foreign> occur nine times in Caesar, but it
+                  usually means to add on or adjoin something abstract or to describe geographical
+                  space. <foreign xml:lang="lat">adiectis</foreign> here would imply that the
+                  animals are added on to a larger contraption, which doesn't yield perfect sense.
+                     <ref target="#Klotz1927">Klotz</ref> proposes <foreign xml:lang="lat"
+                     >obtectis</foreign> to describe the animals, which would be “covered” or
+                  “protected.” Caesar uses <foreign xml:lang="lat">obtectus</foreign> to refer to
+                  military protection, and this usage would mean that the pack animals are shielded
+                  from opposing attack. The context of this line does not necessitate this idea.</p>
+               <p>The most frequent parallels in situations where pack animals are towing something
+                  contain the uncompounded verb <foreign xml:lang="lat">iungere</foreign>. There are
+                  two potential problems with an emendation based on <foreign xml:lang="lat"
+                     >iungere</foreign>. First, <foreign xml:lang="lat">iungere</foreign> is not a
+                  compound form, and it seems less likely that an uncompounded word would be
+                  replaced by a compound. <foreign xml:lang="lat">iunctis</foreign> has an 'n' and
+                  lacks an 'e' and thus is paleographically further removed from <foreign
+                     xml:lang="lat">obiectis</foreign>. Second, <foreign xml:lang="lat"
+                     >iungere</foreign> more often refers to joining animals to one another rather
+                  than to other objects. However, the verb is well paralleled with <foreign
+                     xml:lang="lat">iumentum</foreign> (cf. <bibl><author>Nepos</author>
+                     <title>Timol</title>. 4.2</bibl>, cf. <bibl><author>Varro</author>
+                     <title>RR</title> 1.52.1</bibl>, cf. <bibl><author>Servius</author>
+                     <title>Aen</title>. 3.537</bibl>) and in one case from Vitruvius oxen are
+                  joined to one another and led by a rope (cf. <bibl><author>Vitr</author>.
+                     10.2.14</bibl>
+                  <foreign xml:lang="lat">bubus iunctis funem ducebant</foreign>).</p>
+               <p>It may be paleographically more plausible for the original to have been a compound
+                  of <foreign xml:lang="lat">unctis</foreign>. <ref target="#Cornelissen"
+                     >Cornelissen</ref> proposed <foreign xml:lang="lat">subiunctis</foreign>,
+                  making the ropes and pack animals affixed or subjoined. He cites as parallels a
+                  line from Columella in which bullocks are attached to a plow
+                        (<bibl><author>Col</author>. 6.2.8</bibl>
+                  <foreign xml:lang="lat">uacuo plostro subiungendi</foreign>) and by a line from
+                        <bibl><author>Virgil</author>'s <title>Eclogues</title></bibl> in which
+                  tigers are joined to a chariot (<bibl><author>Virg</author>. <title>Ecl</title>.
+                     5.29</bibl>
+                  <foreign xml:lang="lat">curru subiungere tigres</foreign>). <foreign
+                     xml:lang="lat">subiungere</foreign> clearly means “to yoke,” which isn't an
+                  ideal parallel considering the towers that they are moving and the use of ropes.
+                  The form <foreign xml:lang="lat">adiunctis</foreign> would also give the sense of
+                  joining to or yoking, and it is used to refer to yoking cattle, although generally
+                  in poetry. Aulus Gellius uses <foreign xml:lang="lat">adiunctis</foreign>
+                  absolutely with <foreign xml:lang="lat">iumenta</foreign>
+                        (<bibl><author>Gel</author>. 20.1.28</bibl>
+                  <foreign xml:lang="lat">vectaculum … quod adiunctis pecoribus
+                  trahebatur</foreign>) and Horace uses it, jokingly, to describe yoking mice to a
+                  cart (<bibl><author>Hor</author>. <title>Sat</title>. 2.3.247</bibl>
+                  <foreign xml:lang="lat">plostello adiungere mures</foreign>). Forms of <foreign
+                     xml:lang="lat">adiungere</foreign> appear eight times in the
+                        <bibl><title>Bellum Alexandrinum</title></bibl> and thirteen times in Caesar
+                  (as opposed to none in either for <foreign xml:lang="lat">subiungere</foreign> and
+                  zero and six, respectively, for <foreign xml:lang="lat">iungere</foreign>); in
+                  none of the other passages does it describe affixing something to an object. The
+                  prevalence of <foreign xml:lang="lat">adiungere</foreign> and its compound form
+                  make it the most plausible of the emendations based on <foreign xml:lang="lat"
+                     >iungere</foreign>.</p>
+               <p>The reader is confronted by a sea of ablatives and a bevy of similar compound
+                  participles, none of which seems much more elucidating than any other. It seems
+                  best to leave <foreign xml:lang="lat">obiectis</foreign> in its imperfection with
+                  the understanding that the sense at least is clear, even if the verb is not.</p>
+               <p><quote rend="blockquote">They had blocked off all the roads and alleyways with a
+                     triple wall – it was built with square stones and was at least forty feet high
+                     – and they fortified the lowest parts of the city with very tall towers, each
+                     with ten stories. In addition, they had erected moveable towers with the same
+                     number of stories. These were mounted on wheels and they moved them with ropes
+                     and pack animals †attached† on level streets into whichever area of the city
+                     they wanted.</quote></p>
+            </note>
          </div>
       </body>
       <back>
