@@ -19,11 +19,20 @@
    <text>
       <body>
          <listPerson xml:id="prosopography">
+            <person xml:id="Achillas">
+               <persName>Achillas, prefect of Ptolemy</persName>
+            </person>
+            <person xml:id="Arsinoë">
+               <persName>Arsinoë</persName>
+            </person>
             <person xml:id="Caesar">
                <persName>Caius Iulius Caesar</persName>
             </person>
             <person xml:id="Gabinius">
                <persName>Aulus Gabinius</persName>
+            </person>
+            <person xml:id="Ganymedes">
+               <persName>Ganymedes</persName>
             </person>
             <person xml:id="Malchus">
                <persName>Malchus I</persName>
@@ -33,6 +42,9 @@
             </org>
             <person xml:id="Pompeius">
                <persName>Gnaeus Pompeius</persName>
+            </person>
+            <person xml:id="Ptolemaeus">
+               <persName>Ptolemaeus</persName>
             </person>
          </listPerson>
       </body>
