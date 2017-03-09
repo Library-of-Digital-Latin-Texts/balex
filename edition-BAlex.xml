@@ -771,7 +771,14 @@ This is a subsection within the preface. Editors should use
                         <rdg wit="#Ϛ" xml:id="rdg-2.5-confecerant">confecerant</rdg>
                         <note target="#rdg-2.5-confecerant">teste <ref target="#Oudendorp"
                               >Oudendorp</ref> (cf. <ref target="#seg-13.4">13.4</ref>)</note>
-                     </app> <app><lem>subiectisque</lem><rdg wit="#S">subiectusque</rdg></app> eas rotis <app><lem>funibus</lem><rdg wit="#S">finibus</rdg></app> iumentisque <app>
+                     </app>
+                     <app>
+                        <lem>subiectisque</lem>
+                        <rdg wit="#S">subiectusque</rdg>
+                     </app> eas rotis <app>
+                        <lem>funibus</lem>
+                        <rdg wit="#S">finibus</rdg>
+                     </app> iumentisque <app>
                         <lem source="#Scaliger" xml:id="lem-2.5-obiectis"
                            corresp="comm-2.5-obiectis"><sic>obiectis</sic></lem>
                         <rdg source="#Cornelissen" xml:id="rdg-2.5-subiunctis" type="conjecture"
@@ -792,11 +799,27 @@ This is a subsection within the preface. Editors should use
                            >adiunctis</rdg>
                         <note target="#rdg-2.5-adiunctis">cf. <ref target="#seg-27.7">27.7</ref> et
                               <bibl>Gel. 20.1.28</bibl></note>
-                     </app> derectis plateis in <app><lem>quamcumque</lem><rdg wit="#S" ana="#orthographical #morphological">quacumque</rdg></app> <app><lem>erat</lem><rdg wit="#T" ana="#orthographical #morphological">erant</rdg></app> uisum partem <app><lem>mouebant</lem><rdg wit="#S" ana="#orthographical #morphological">mouebatur</rdg></app>.</seg></p>
+                     </app> derectis plateis in <app>
+                        <lem>quamcumque</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">quacumque</rdg>
+                     </app>
+                     <app>
+                        <lem>erat</lem>
+                        <rdg wit="#T" ana="#orthographical #morphological">erant</rdg>
+                     </app> uisum partem <app>
+                        <lem>mouebant</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">mouebatur</rdg>
+                     </app>.</seg></p>
 
                <p n="3">
-                  <seg n="1">Urbs fertilissima et copiosissima omnium rerum apparatus suggerebat.
-                     Ipsi homines <app>
+                  <seg n="1"><app>
+                        <lem>Urbs fertilissima</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">his feralisima</rdg>
+                     </app> et copiosissima omnium rerum apparatus suggerebat. Ipsi <app>
+                        <lem>homines</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">omines</rdg>
+                     </app>
+                     <app>
                         <lem>ingeniosi</lem>
                         <rdg source="#Wölfflin" xml:id="rdg-3.1-ingeniosissimi">ingeniosissimi</rdg>
                         <note target="#rdg-3.1-ingeniosissimi">teste <ref target="#Klotz1927"
@@ -808,12 +831,21 @@ This is a subsection within the preface. Editors should use
                         <rdg source="#Kübler" xml:id="rdg-3.1-effingebant">effingebant</rdg>
                         <note target="#rdg-3.1-effingebant">cf. <bibl><author>Cic</author>.
                                  <title>ND</title> 3.23</bibl></note>
-                     </app> ut nostri illorum opera imitati uiderentur, et sua sponte multa
-                     reperiebant unoque tempore et nostras munitiones infestabant et suas
-                     defendebant.</seg>
+                     </app> ut nostri illorum opera <app>
+                        <lem>imitati</lem>
+                        <rdg wit="#M" ana="#orthographical #morphological">imitari</rdg>
+                     </app> uiderentur, et sua sponte multa reperiebant unoque tempore et nostras
+                     munitiones infestabant <app>
+                        <lem>et</lem>
+                        <rdg wit="#S" ana="#subtractive"/>
+                     </app> suas defendebant.</seg>
                   <seg n="2">Atque haec principes in consiliis contionibusque agitabant: populum
                      Romanum paulatim in consuetudinem eius regni occupandi uenire.</seg>
-                  <seg n="3">Paucis annis <app>
+                  <seg n="3">Paucis <app>
+                        <lem>annis</lem>
+                        <rdg wit="#S">animis</rdg>
+                     </app>
+                     <app>
                         <lem source="#Schneider">ante <persName ref="#Gabinius">A.
                               Gabinium</persName></lem>
                         <!-- Dealing with two possible readings. -->
@@ -840,12 +872,19 @@ This is a subsection within the preface. Editors should use
                            corresp="#rdg3.3-antea-gabinium #rdg-3.3-ante-agabinium"
                            type="correction-original"/>
                      </app> cum exercitu fuisse in <placeName ref="#Aegyptus">Aegypto</placeName>;
-                        <persName ref="#Pompeius">Pompeium</persName> se ex fuga eodem recepisse;
-                        <persName ref="#Caesar">Caesarem</persName> uenisse cum copiis, neque morte
-                     Pompei quicquam profectum quo minus apud se Caesar commoraretur.</seg>
-                  <seg n="4">Quem si non expulissent, futuram ex regno prouinciam; idque agendum
-                     mature: namque eum interclusum tempestatibus propter anni tempus recipere
-                     transmarina auxilia non posse.</seg></p>
+                        <persName ref="#Pompeius">Pompeium</persName> se ex fuga eodem recepisse; <app>
+                        <lem><persName ref="#Caesar">Caesarem</persName></lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">ac cessarem</rdg>
+                     </app> uenisse cum copiis, neque morte Pompei quicquam profectum quo minus apud
+                     se Caesar commoraretur.</seg>
+                  <seg n="4">Quem si non expulissent, futuram <app>
+                        <lem>ex</lem>
+                        <rdg wit="#V" ana="#subtractive"/>
+                     </app> regno prouinciam; idque agendum mature: namque eum interclusum
+                     tempestatibus <app>
+                        <lem>propter</lem>
+                        <rdg wit="#S" ana="#subtractive"/>
+                     </app> anni tempus recipere transmarina auxilia non posse.</seg></p>
 
                <p n="4">
                   <seg n="1">Interim dissensione orta inter <persName ref="#Achillas"
