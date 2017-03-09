@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://digitallatin.github.io/guidelines/critical-editions.rng"
-            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://digitallatin.github.io/guidelines/critical-editions.rng"
-            type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model
+href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" 
+  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model
+href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -698,10 +699,21 @@ This is a subsection within the preface. Editors should use
                      </app> large palus praebere poterat.</seg></p>
 
                <p n="2">
-                  <seg n="1">Neque uero Alexandrinis in gerendis negotiis cunctatio ulla aut mora
-                     inferebatur. Nam in omnes partes, per quas fines <placeName ref="#Aegyptus"
-                        >Aegypti</placeName> regnumque pertinet, legatos conquisitoresque dilectus
-                     habendi causa miserant <app>
+                  <seg n="1">Neque uero Alexandrinis in gerendis negotiis <app>
+                        <lem>cunctatio</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">contatio</rdg>
+                     </app> ulla aut mora inferebatur. Nam in omnes partes, per quas <app>
+                        <lem>fines</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">fine</rdg>
+                     </app>
+                     <placeName ref="#Aegyptus">Aegypti</placeName>
+                     <app>
+                        <lem>regnumque</lem>
+                        <rdg wit="#S" ana="#orthographical">rennumque</rdg>
+                     </app> pertinet, legatos <app>
+                        <lem>conquisitoresque</lem>
+                        <rdg wit="#M" ana="#orthographical #lexical">inquisitoresque</rdg>
+                     </app> dilectus habendi causa miserant <app>
                         <lem>magnumque numerum in oppidum telorum atque tormentorum conuexerant et
                            innumerabilem <app>
                               <lem>multitudinem</lem>
@@ -710,9 +722,16 @@ This is a subsection within the preface. Editors should use
                            </app> adduxerant</lem>
                         <rdg wit="#S" ana="subtractive"/>
                      </app>.</seg>
-                  <seg n="2">Nec minus in urbe maximae armorum erant institutae officinae. Seruos
-                     praeterea puberes armauerant; quibus domini locupletiores uictum cotidianum
-                     stipendiumque praebebant.</seg>
+                  <seg n="2">Nec minus in <app>
+                        <lem>urbe</lem>
+                        <rdg wit="#S" ana="#orthographical">hube</rdg>
+                     </app> maximae armorum erant institutae officinae. Seruos praeterea puberes <app>
+                        <lem>armauerant</lem>
+                        <rdg wit="#M" ana="#orthographical #morphological">armauerunt</rdg>
+                     </app>; quibus domini <app>
+                        <lem>locupletiores</lem>
+                        <rdg wit="#M*" ana="#orthographical">lucupletiores</rdg>
+                     </app> uictum cotidianum stipendiumque praebebant.</seg>
                   <seg n="3"><app>
                         <lem wit="#U #T #V">Hac</lem>
                         <rdg wit="#M">huc</rdg>
@@ -720,15 +739,29 @@ This is a subsection within the preface. Editors should use
                      </app> multitudine disposita munitiones <app>
                         <lem wit="#Mmr">semotarum</lem>
                         <rdg wit="#ω">semotorum</rdg>
-                     </app> partium tuebantur; ueteranas cohortes uacuas <app>
-                        <lem>in celeberrimis urbis locis</lem>
+                     </app> partium tuebantur; <app>
+                        <lem>ueteranas</lem>
+                        <rdg wit="#S" ana="#orthographical">ueeteranas</rdg>
+                     </app> cohortes uacuas <app>
+                        <lem>in celeberrimis <app>
+                              <lem>urbis</lem>
+                              <rdg wit="#S">hubis</rdg>
+                           </app> locis</lem>
                         <rdg wit="#M" ana="subtractive"/>
                      </app> habebant, ut quacumque regione pugnaretur integris uiribus ad auxilium
                      ferendum opponi possent.</seg>
-                  <seg n="4">Omnibus uiis atque angiportis triplicem uallum obduxerant — erat autem
-                     quadrato extructus saxo neque minus XL pedes altitudinis habebat — quaeque
-                     partes urbis inferiores erant, has altissimis turribus denorum tabulatorum
-                     munierant.</seg>
+                  <seg n="4">Omnibus <app>
+                        <lem>uiis</lem>
+                        <rdg wit="#S" ana="#subtractive"/>
+                     </app> atque angiportis <app>
+                        <lem>triplicem</lem>
+                        <rdg wit="#T">triplice</rdg>
+                     </app> uallum obduxerant — <app>
+                        <lem>erat</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">erant</rdg>
+                     </app> autem quadrato extructus saxo neque minus XL pedes altitudinis habebat —
+                     quaeque partes urbis inferiores erant, has altissimis turribus denorum
+                     tabulatorum munierant.</seg>
                   <seg n="5">Praeterea alias ambulatorias totidem tabulatorum <app>
                         <lem wit="#ω" xml:id="lem-2.5-confixerant">confixerant</lem>
                         <note target="#lem-2.5-confixerant">cf. BG 3.13.4</note>
@@ -738,7 +771,7 @@ This is a subsection within the preface. Editors should use
                         <rdg wit="#Ϛ" xml:id="rdg-2.5-confecerant">confecerant</rdg>
                         <note target="#rdg-2.5-confecerant">teste <ref target="#Oudendorp"
                               >Oudendorp</ref> (cf. <ref target="#seg-13.4">13.4</ref>)</note>
-                     </app> subiectisque eas rotis funibus iumentisque <app>
+                     </app> <app><lem>subiectisque</lem><rdg wit="#S">subiectusque</rdg></app> eas rotis <app><lem>funibus</lem><rdg wit="#S">finibus</rdg></app> iumentisque <app>
                         <lem source="#Scaliger" xml:id="lem-2.5-obiectis"
                            corresp="comm-2.5-obiectis"><sic>obiectis</sic></lem>
                         <rdg source="#Cornelissen" xml:id="rdg-2.5-subiunctis" type="conjecture"
@@ -759,7 +792,7 @@ This is a subsection within the preface. Editors should use
                            >adiunctis</rdg>
                         <note target="#rdg-2.5-adiunctis">cf. <ref target="#seg-27.7">27.7</ref> et
                               <bibl>Gel. 20.1.28</bibl></note>
-                     </app> derectis plateis in quamcumque erat uisum partem mouebant.</seg></p>
+                     </app> derectis plateis in <app><lem>quamcumque</lem><rdg wit="#S" ana="#orthographical #morphological">quacumque</rdg></app> <app><lem>erat</lem><rdg wit="#T" ana="#orthographical #morphological">erant</rdg></app> uisum partem <app><lem>mouebant</lem><rdg wit="#S" ana="#orthographical #morphological">mouebatur</rdg></app>.</seg></p>
 
                <p n="3">
                   <seg n="1">Urbs fertilissima et copiosissima omnium rerum apparatus suggerebat.
@@ -815,14 +848,34 @@ This is a subsection within the preface. Editors should use
                      transmarina auxilia non posse.</seg></p>
 
                <p n="4">
-                  <seg n="1">Interim dissensione orta inter Achillan, qui ueterano exercitui
-                     praeerat, et Arsinoen, regis Ptolomaei minorem filiam, ut supra demonstratum
-                     est, cum uterque utrique insidiaretur et summam imperi ipse obtinere uellet,
-                     praeoccupat Arsinoe per Ganymeden eunuchum, nutricium suum, atque Achillan
-                     interficit.</seg>
+                  <seg n="1">Interim dissensione orta inter <persName ref="#Achillas"
+                        >Achillan</persName>, qui ueterano exercitui praeerat, et <persName
+                        ref="#Arsinoë">Arsinoen</persName>, regis <persName ref="#Ptolemaeus"
+                        >Ptolomaei</persName> minorem filiam, ut supra demonstratum est, cum uterque
+                     utrique insidiaretur et summam imperi ipse obtinere uellet, praeoccupat Arsinoe
+                     per <persName ref="#Ganymedes">Ganymeden</persName> eunuchum, nutricium suum,
+                     atque Achillan <app>
+                        <lem wit="#U #S #V" xml:id="lem-4.1-interficit">interficit</lem>
+                        <note target="#lem-4.1-interficit">cf. <bibl><title>BG</title>
+                           7.38.9</bibl></note>
+                        <rdg wit="#M #T">interfecit</rdg>
+                     </app>.</seg>
                   <seg n="2">Hoc occiso sine ullo socio et custode ipsa omne imperium obtinebat;
-                     exercitus Ganymedi traditur. Is suscepto officio largitionem in militem auget;
-                     reliqua pari diligentia administrat.</seg></p>
+                     exercitus <persName ref="#Ganymedes">Ganymedi</persName> traditur. <app>
+                        <lem wit="#M #U #V">Is</lem>
+                        <rdg wit="#T">his</rdg>
+                        <rdg wit="#S">hic</rdg>
+                     </app> suscepto officio largitionem in <app>
+                        <lem wit="#S #T #V" xml:id="lem-4.2-militem">militem</lem>
+                        <note target="#lem-4.2-militem">cf. <bibl><title>BC</title>
+                           2.15.3</bibl></note>
+                        <rdg wit="#M #U">milites</rdg>
+                     </app> auget; <app>
+                        <lem wit="#M #S" xml:id="lem-4.2-reliqua">reliqua</lem>
+                        <note target="#lem-4.2-reliqua">cf. <bibl><title>BC</title>
+                           3.9.5</bibl></note>
+                        <rdg wit="#U #T #V">et reliqua</rdg>
+                     </app> pari diligentia administrat.</seg></p>
 
                <p n="5">
                   <seg n="1">Alexandria est fere tota suffossa specusque habet ad Nilum pertinentes,
