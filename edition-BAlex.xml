@@ -888,12 +888,24 @@ This is a subsection within the preface. Editors should use
 
                <p n="4">
                   <seg n="1">Interim dissensione orta inter <persName ref="#Achillas"
-                        >Achillan</persName>, qui ueterano exercitui praeerat, et <persName
-                        ref="#Arsinoë">Arsinoen</persName>, regis <persName ref="#Ptolemaeus"
-                        >Ptolomaei</persName> minorem filiam, ut supra demonstratum est, cum uterque
-                     utrique insidiaretur et summam imperi ipse obtinere uellet, praeoccupat Arsinoe
-                     per <persName ref="#Ganymedes">Ganymeden</persName> eunuchum, nutricium suum,
-                     atque Achillan <app>
+                        >Achillan</persName>, qui ueterano <app>
+                        <lem>exercitui</lem>
+                        <rdg wit="#V" ana="#orthographical #morphological">exercitu</rdg>
+                     </app> praeerat, et <app>
+                        <lem><persName ref="#Arsinoë">Arsinoen</persName></lem>
+                        <rdg wit="#U" ana="#orthographical">asrnoen</rdg>
+                     </app>, regis <persName ref="#Ptolemaeus">Ptolomaei</persName> minorem filiam,
+                     ut supra demonstratum est, cum uterque utrique insidiaretur et <app>
+                        <lem>summam</lem>
+                        <rdg wit="#S" ana="#orthographical">sumam</rdg>
+                     </app> imperi ipse obtinere uellet, praeoccupat Arsinoe per <app>
+                        <lem><persName ref="#Ganymedes">Ganymeden</persName><rdg wit="#S"
+                              ana="#orthographical #lexical">Granimeden</rdg></lem>
+                     </app> eunuchum, nutricium suum, atque <app>
+                        <lem>Achillan</lem>
+                        <rdg wit="#S" ana="#orthographical">Achillani</rdg>
+                     </app>
+                     <app>
                         <lem wit="#U #S #V" xml:id="lem-4.1-interficit">interficit</lem>
                         <note target="#lem-4.1-interficit">cf. <bibl><title>BG</title>
                            7.38.9</bibl></note>
@@ -904,7 +916,10 @@ This is a subsection within the preface. Editors should use
                         <lem wit="#M #U #V">Is</lem>
                         <rdg wit="#T">his</rdg>
                         <rdg wit="#S">hic</rdg>
-                     </app> suscepto officio largitionem in <app>
+                     </app> suscepto <app>
+                        <lem>officio</lem>
+                        <rdg wit="#M" ana="#orthographical">offio</rdg>
+                     </app> largitionem in <app>
                         <lem wit="#S #T #V" xml:id="lem-4.2-militem">militem</lem>
                         <note target="#lem-4.2-militem">cf. <bibl><title>BC</title>
                            2.15.3</bibl></note>
@@ -914,7 +929,11 @@ This is a subsection within the preface. Editors should use
                         <note target="#lem-4.2-reliqua">cf. <bibl><title>BC</title>
                            3.9.5</bibl></note>
                         <rdg wit="#U #T #V">et reliqua</rdg>
-                     </app> pari diligentia administrat.</seg></p>
+                     </app>
+                     <app>
+                        <lem>pari</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">patri</rdg>
+                     </app> diligentia administrat.</seg></p>
 
                <p n="5">
                   <seg n="1">Alexandria est fere tota suffossa specusque habet ad Nilum pertinentes,
