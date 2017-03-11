@@ -572,6 +572,11 @@ This is a subsection within the preface. Editors should use
                   <biblScope unit="volume">52</biblScope> (<date>1934</date>): <biblScope
                      unit="page">95–105</biblScope>.</bibl>
 
+               <bibl xml:id="Kraffert"><abbr type="siglum">Kraffert</abbr> = <author>Kraffert,
+                     Hermann</author>. <title level="m">Beiträge zur Kritik und Erklärung
+                     lateinischer Autoren</title>. <pubPlace>Aurich</pubPlace>.
+                  <date>1882</date>.</bibl>
+
                <bibl xml:id="Landgraf"><abbr type="siglum">Landgraf</abbr> = <author>Landgraf,
                      G</author>. <title>Untersuchungen zu Caesar und seinen Fortsetzern insbesondere
                      über Autorschaft und Komposition des Bellum Alexandrinum und Africanum</title>.
@@ -608,6 +613,10 @@ This is a subsection within the preface. Editors should use
                <person xml:id="Damon">
                   <persName>Cynthia Damon</persName>
                   <note>Conjectures proposed by the editor of this edition.</note>
+               </person>
+               <person xml:id="Khan">
+                  <persName>Scheherazade Khan</persName>
+                  <note>Member of the Latin 540 class (spring 2015).</note>
                </person>
                <person xml:id="Wölfflin">
                   <persName>E. Wölfflin (see <ref target="#Klotz1927">Klotz 1927</ref>)</persName>
@@ -1418,24 +1427,128 @@ This is a subsection within the preface. Editors should use
                      </app>.</seg></p>
 
                <p n="11">
-                  <seg n="1">Erat una nauis Rhodia in dextro Caesaris cornu longe ab reliquis
-                     collocata. Hanc conspicati hostes non tenuerunt sese, magnoque impetu IIII ad
-                     eam constratae naues et complures apertae contenderunt.</seg>
-                  <seg n="2" xml:id="seg-11.2">Cui coactus est Caesar ferre subsidium ne turpem in
-                     conspectu &lt;suorum&gt; contumeliam acciperet, quamquam, si quid grauius illis
-                     accidisset, merito casurum iudicabat.</seg>
-                  <seg n="3">Proelium commissum est magna contentione Rhodiorum; qui cum in omnibus
+                  <seg n="1" xml:id="seg-11.1">Erat una <app>
+                        <lem>nauis</lem>
+                        <rdg wit="#S" ana="#orthographical">nanauis</rdg>
+                     </app> Rhodia in dextro <app>
+                        <lem><persName ref="#Caesar">Caesaris</persName> cornu</lem>
+                        <rdg wit="#V" ana="#ordinal">cornu Caesaris</rdg>
+                     </app>
+                     <app>
+                        <lem>longe ab</lem>
+                        <rdg wit="#S" ana="#additive">longe que ab</rdg>
+                     </app> reliquis <app>
+                        <lem>collocata</lem>
+                        <rdg wit="#M" ana="#orthographical #lexical">collata</rdg>
+                     </app>. Hanc conspicati hostes non <app>
+                        <lem wit="#M #U" xml:id="lem-11.1-tenuerunt">tenuerunt</lem>
+                        <witDetail wit="U" target="#lem-11.1-tenuerunt">tenurunt</witDetail>
+                        <rdg wit="#S #T">terunt</rdg>
+                        <rdg wit="#V">terter</rdg>
+                     </app>
+                     <app>
+                        <lem>sese</lem>
+                        <rdg wit="#S" ana="#orthographical">ses</rdg>
+                     </app>, magnoque impetu IIII ad eam constratae naues et complures apertae
+                     contenderunt.</seg>
+                  <seg n="2" xml:id="seg-11.2">Cui <app>
+                        <lem>coactus</lem>
+                        <rdg wit="#S" ana="#orthographical">coatus</rdg>
+                     </app> est <persName ref="#Caesar">Caesar</persName> ferre subsidium ne <app>
+                        <lem>turpem</lem>
+                        <rdg wit="#V" ana="#orthographical">turpiter</rdg>
+                     </app> in <app>
+                        <lem source="#Khan" xml:id="lem-11.2-conspectu-suorum">conspectu <supplied
+                              reason="undefined">suorum</supplied></lem>
+                        <note target="#lem-11.2-conspectu-suorum">cf. de re <bibl><title>BC</title>
+                              1.71.1</bibl>, de locutione <bibl><author>Sen.</author>
+                              <title>Dial.</title> 2.11.2</bibl></note>
+                        <rdg wit="#M" xml:id="rdg-11.2-conspectu-hostium">conspectu hostium</rdg>
+                        <note target="#rdg-11.2-conspectu-hostium">cf. <bibl><author>Hirt.</author>
+                              8.8.4</bibl> etc.</note>
+                        <rdg wit="#U #S #T #V" xml:id="rdg-11.2-conspectu">conspectu</rdg>
+                        <note target="#rdg-11.2-conspectu">cf. <bibl><title>BC</title>
+                           2.26.3</bibl></note>
+                        <!-- Check with Hugh about how to render this. -->
+                        <note>an</note>
+                        <rdg source="#Damon" xml:id="rdg-11.2-conspectu-omnium">conspectu <supplied
+                              reason="undefined">omnium</supplied></rdg>
+                        <note target="#rdg-11.2-conspectu-omnium">cf. <bibl><title>BG</title>
+                              7.80.5</bibl>?</note>
+                     </app> contumeliam acciperet, quamquam, si quid grauius illis accidisset,
+                     merito <app>
+                        <lem>casurum</lem>
+                        <rdg wit="#M" ana="#orthographical #lexical">caesarum</rdg>
+                     </app> iudicabat.</seg>
+                  <seg n="3">Proelium commissum est magna <app>
+                        <lem wit="#S">contentione</lem>
+                        <rdg wit="#M #U #T #V">contentio</rdg>
+                     </app>
+                     <orgName ref="Rhodi"><!-- Check this -->Rhodiorum</orgName>; qui cum in omnibus
                      dimicationibus et scientia et uirtute praestitissent, tum maxime illo tempore
-                     totum onus sustinere non recusabant, ne quod suorum culpa detrimentum acceptum
-                     uideretur.</seg>
-                  <seg n="4">Ita proelium secundissimum est factum. Capta est una hostium
-                     quadriremis, depressa est altera, duae omnibus epibatis nudatae; magna
-                     praeterea multitudo in reliquis nauibus propugnatorum est interfecta.</seg>
-                  <seg n="5">Quod nisi nox proelium diremisset, tota classe hostium Caesar potitus
-                     esset.</seg>
-                  <seg n="6">Hac calamitate perterritis hostibus aduerso uento leniter flante naues
-                     onerarias Caesar remulco uictricibus suis nauibus Alexandriam
-                  deducit.</seg></p>
+                     totum <app>
+                        <lem>onus</lem>
+                        <rdg wit="#U" ana="#orthographical">honus</rdg>
+                     </app> sustinere non recusabant, ne quod suorum <app>
+                        <lem>culpa</lem>
+                        <rdg wit="#U" ana="#orthographical #morphological">culpam</rdg>
+                     </app> detrimentum acceptum uideretur.</seg>
+                  <seg n="4">Ita proelium <app>
+                        <lem>secundissimum</lem>
+                        <rdg wit="#S" ana="#orthographical">secumdissimum</rdg>
+                     </app> est factum. Capta est una hostium quadriremis, <app>
+                        <lem>depressa</lem>
+                        <!-- Should the following be deperra or deperressa? -->
+                        <rdg wit="#S" ana="#orthographical">deperra</rdg>
+                     </app> est <app>
+                        <!-- Need bibl entry for Turnebus. -->
+                        <lem source="#Turnebus" type="emendation" xml:id="lem-11.4-altera-duae"
+                           >altera, duae</lem>
+                        <rdg wit="#M #U #T #V">altera deinde</rdg>
+                        <rdg wit="#S" xml:id="rdg-11.4-alteraque-peritur-deinde">alteraque peritur
+                           deinde</rdg>
+                        <witDetail wit="#S" target="#rdg-11.4-alteraque-peritur-deinde"
+                           corresp="#lem-11.4-altera-duae" type="correction-altered"/>
+                        <rdg wit="#S" xml:id="rdg-11.4-alteraque-pertitur-deinde">alteraque pertitur
+                           deinde</rdg>
+                        <witDetail wit="#S" target="#rdg-11.4-alteraque-pertitur-deinde"
+                           corresp="#rdg-11.4-alteraque-peritur-deinde" type="correction-original"/>
+                        <rdg source="#Kübler" xml:id="rdg-11.4-altera-apertae-undecim">altera
+                           apertae undecim</rdg>
+                        <note target="#rdg-11.4-altera-apertae-undecim">dubitanter (u. <ref
+                              target="#seg-11.1">11.1</ref>)</note>
+                     </app> omnibus epibatis nudatae; <app>
+                        <lem wit="#M #U #S">magna</lem>
+                        <rdg wit="#T #V">magnae</rdg>
+                     </app> praeterea multitudo in reliquis nauibus propugnatorum est
+                     interfecta.</seg>
+                  <seg n="5">Quod nisi nox proelium diremisset, tota <app>
+                        <lem>classe</lem>
+                        <rdg wit="#S" ana="#orthographical">cbasse</rdg>
+                     </app> hostium <persName ref="#Caesar">Caesar</persName>
+                     <app>
+                        <lem>potitus</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">portitus</rdg>
+                     </app>
+                     <app>
+                        <lem>esset</lem>
+                        <rdg wit="#V" ana="#orthographical #morphological">est</rdg>
+                     </app>.</seg>
+                  <seg n="6"><app>
+                        <lem>Hac</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">hanc</rdg>
+                     </app>
+                     <app>
+                        <lem>calamitate</lem>
+                        <rdg wit="#S" ana="#orthographical">cadamitate</rdg>
+                     </app> perterritis hostibus aduerso uento leniter <app><lem>flante</lem><rdg wit="#S" ana="#orthographical">flanti</rdg></app> naues <app>
+                        <lem xml:id="lem-11.6-onerarias">onerarias</lem>
+                        <note target="#lem-11.6-onerarias">secl. <ref target="#Kraffert"
+                              >Kraffert</ref> ut glossema</note>
+                        <rdg wit="#U" ana="#orthographical">honerarias</rdg>
+                     </app>
+                     <persName ref="#Caesar">Caesar</persName> remulco uictricibus suis <app><lem>nauibus</lem><rdg wit="#S" ana="#subtractive"/></app>
+                        <placeName ref="#Alexandria">Alexandriam</placeName> deducit.</seg></p>
 
                <p n="12">
                   <seg n="1">Eo detrimento adeo sunt fracti Alexandrini, cum iam non uirtute
