@@ -109,6 +109,8 @@ This is a subsection within the preface. Editors should use
                                                 rend="superscript">mr</hi></abbr>: Corrections by
                                           one or more later hands, sometimes recovering the
                                           exemplar, somethings not</handNote>
+                                       <handNote xml:id="M8"><abbr type="siglum">M*</abbr>:
+                                          ???</handNote>
                                        <!-- What to do about M* ? -->
                                     </handDesc>
                                  </physDesc>
@@ -720,7 +722,7 @@ This is a subsection within the preface. Editors should use
                               <rdg source="#Fischer" type="conjecture">multitudinem
                                     <add>armatorum</add></rdg>
                            </app> adduxerant</lem>
-                        <rdg wit="#S" ana="subtractive"/>
+                        <rdg wit="#S" ana="#subtractive"/>
                      </app>.</seg>
                   <seg n="2">Nec minus in <app>
                         <lem>urbe</lem>
@@ -730,7 +732,7 @@ This is a subsection within the preface. Editors should use
                         <rdg wit="#M" ana="#orthographical #morphological">armauerunt</rdg>
                      </app>; quibus domini <app>
                         <lem>locupletiores</lem>
-                        <rdg wit="#M*" ana="#orthographical">lucupletiores</rdg>
+                        <rdg wit="#M8" ana="#orthographical">lucupletiores</rdg>
                      </app> uictum cotidianum stipendiumque praebebant.</seg>
                   <seg n="3"><app>
                         <lem wit="#U #T #V">Hac</lem>
@@ -985,27 +987,73 @@ This is a subsection within the preface. Editors should use
                         <lem>parte</lem>
                         <rdg wit="#S" ana="#orthographical #lexical">pater</rdg>
                      </app> erat urbis quae ab Alexandrinis tenebatur.</seg>
-                  <seg n="3">Quo <app><lem>facto</lem><rdg wit="#S" ana="#orthographical #morphological">facta</rdg></app> est admonitus <persName ref="#Ganymedes">Ganymedes</persName>
-                     posse nostros aqua intercludi; qui distributi <app>
+                  <seg n="3">Quo <app>
+                        <lem>facto</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">facta</rdg>
+                     </app> est admonitus <persName ref="#Ganymedes">Ganymedes</persName> posse
+                     nostros aqua intercludi; qui distributi <app>
                         <lem wit="#M #U #S">munitionum</lem>
                         <rdg wit="#T">munitionem</rdg>
                         <rdg wit="#V">muni</rdg>
-                     </app> tuendarum causa <app><lem>uicatim</lem><rdg wit="#T" ana="#orthographical">uacatim</rdg></app> <app><lem>ex priuatis aedificiis</lem><rdg wit="#V" ana="#orthographical #ordinal">ex aedificiis priuatis</rdg></app> specibus <app><lem>ac</lem><rdg wit="#S" ana="#orthographical">a</rdg></app> puteis
-                     extracta aqua <app><lem>utebantur</lem><rdg wit="#M" ana="#orthographical #morphological">utebatur</rdg></app>.</seg></p>
+                     </app> tuendarum causa <app>
+                        <lem>uicatim</lem>
+                        <rdg wit="#T" ana="#orthographical">uacatim</rdg>
+                     </app>
+                     <app>
+                        <lem>ex priuatis aedificiis</lem>
+                        <rdg wit="#V" ana="#orthographical #ordinal">ex aedificiis priuatis</rdg>
+                     </app> specibus <app>
+                        <lem>ac</lem>
+                        <rdg wit="#S" ana="#orthographical">a</rdg>
+                     </app> puteis extracta aqua <app>
+                        <lem>utebantur</lem>
+                        <rdg wit="#M" ana="#orthographical #morphological">utebatur</rdg>
+                     </app>.</seg></p>
 
                <p n="6">
                   <seg n="1">Hoc probato consilio magnum ac difficile opus aggreditur. Intersaeptis
                      enim specibus atque omnibus urbis partibus exclusis quae ab ipso tenebantur,
-                     aquae magnam uim ex mari rotis ac machinationibus exprimere contendit: hanc
-                     &lt;ex&gt; locis superioribus fundere in partem Caesaris non
-                     intermittebat.</seg>
-                  <seg n="2">Quam ob causam salsior paulo praeter consuetudinem aqua trahebatur ex
-                     proximis aedificiis magnamque hominibus admirationem praebebat, quam ob rem id
-                     accidisset; nec satis sibi ipsi credebant, cum se inferiores eiusdem generis ac
-                     saporis aqua dicerent uti atque ante consuessent, uulgoque inter se conferebant
-                     et degustando quantum inter se differrent aquae cognoscebant.</seg>
-                  <seg n="3">Paruo uero temporis spatio haec propior bibi omnino non poterat, illa
-                     inferior corruptior iam salsiorque reperiebatur.</seg></p>
+                     aquae magnam uim ex <app>
+                        <lem>mari</lem>
+                        <rdg wit="#V" ana="#orthographical">mare</rdg>
+                     </app> rotis <app>
+                        <lem>ac</lem>
+                        <rdg wit="#V" ana="#orthographical #subtractive"/>
+                     </app> machinationibus exprimere contendit: hanc <!-- Need to revisit this after we have settled on values for @reason. --><app>
+                        <lem source="#Larsen" xml:id="lem-6.1-ex"><supplied reason="omitted"
+                              >ex</supplied></lem>
+                        <note target="#lem-6.1-ex">cf. <bibl><title>BG</title> 4.23.3</bibl> et
+                                 <bibl><title>BC</title> 3.98.1</bibl></note>
+                     </app> locis superioribus fundere in partem <persName ref="#Caesar"
+                        >Caesaris</persName> non <app>
+                        <lem>intermittebat</lem>
+                        <rdg wit="#M" ana="#orthographical #morphological">intermittebant</rdg>
+                     </app>.</seg>
+                  <seg n="2">Quam ob <app>
+                        <lem>causam salsior</lem>
+                        <rdg wit="#S" ana="#orthographical">acussam falsior</rdg>
+                     </app>
+                     <app>
+                        <lem>paulo praeter consuetudinem aqua</lem>
+                        <rdg wit="#M8" ana="#ordinal #orthographical">aqua paulo praeter
+                           consuetudinem</rdg>
+                     </app> trahebatur ex proximis aedificiis magnamque <app>
+                        <lem>hominibus admirationem praebebat</lem>
+                        <rdg wit="#V" ana="#ordinal #lexical">hominibus exhibebat admirationem</rdg>
+                     </app>, quam ob rem id accidisset; <app>
+                        <lem>nec</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">ne</rdg>
+                     </app> satis sibi ipsi credebant, cum se inferiores eiusdem generis ac saporis
+                     aqua dicerent uti atque ante consuessent, uulgoque inter se conferebant et
+                     degustando quantum inter se differrent aquae cognoscebant.</seg>
+                  <seg n="3">Paruo <app>
+                        <lem>uero</lem>
+                        <rdg wit="#U" ana="#subtractive"/>
+                     </app> temporis spatio haec <app>
+                        <lem>propior</lem>
+                        <rdg wit="#S" ana="#orthographical">proprior</rdg>
+                     </app> bibi omnino non poterat, illa inferior corruptior iam salsiorque
+                     reperiebatur.</seg></p>
 
                <p n="7">
                   <seg n="1">Quo facto dubitatione sublata tantus incessit timor ut ad extremum
