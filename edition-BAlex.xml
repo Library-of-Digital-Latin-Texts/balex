@@ -1172,30 +1172,86 @@ This is a subsection within the preface. Editors should use
                      </app> dubitare nemo potest.</seg></p>
 
                <p n="8">
-                  <seg n="1">Caesar suorum timorem consolatione et ratione minuebat. Nam puteis
-                     fossis aquam dulcem reperiri posse adfirmabat: omnia enim litora naturaliter
-                     aquae dulcis uenas habere.</seg>
-                  <seg n="2">Quod si alia esset litoris Aegypti natura atque omnium reliquorum,
-                     tamen, quoniam mare libere tenerent, neque hostes classem haberent, prohiberi
-                     sese non posse quo minus cotidie nauibus aquam peterent uel a sinistra parte a
-                     Paraetonio uel dextra ab insula, quae diuersae nauigationes numquam uno tempore
-                     aduersis uentis praecluderentur.</seg>
-                  <seg n="3">Fugae uero nullum esse consilium non solum iis qui primam dignitatem
-                     haberent, sed ne iis quidem qui nihil praeterquam de uita cogitarent.</seg>
-                  <seg n="4">Magno negotio impetus hostium aduersos ex munitionibus sustineri;
-                     quibus relictis nec loco nec numero pares esse posse.</seg>
-                  <seg n="5">Magnam autem moram et difficultatem ascensum in naues habere,
+                  <seg n="1"><persName ref="#Caesar">Caesar</persName>
+                     <app>
+                        <lem>suorum</lem>
+                        <rdg wit="#M" ana="#orthographical">suor</rdg>
+                     </app> timorem consolatione et <app>
+                        <lem>ratione</lem>
+                        <rdg source="#Schneider" xml:id="rdg-8.1-hortatione" type="conjecture"
+                           >hortatione</rdg>
+                        <note target="#rdg-8.1-hortatione">coll. <bibl><title>BG</title>
+                              5.4.2</bibl> (u. et <ref target="#seg-9.1">9.1</ref>)</note>
+                     </app> minuebat. Nam <app>
+                        <lem>puteis</lem>
+                        <rdg wit="#T" ana="#orthographical">puteus</rdg>
+                     </app> fossis aquam dulcem reperiri posse adfirmabat: omnia <app>
+                        <lem>enim</lem>
+                        <rdg wit="#T" ana="#subtractive"/>
+                     </app> litora naturaliter aquae dulcis uenas habere.</seg>
+                  <seg n="2">Quod si alia esset litoris <placeName ref="#Aegyptus"
+                        >Aegypti</placeName> natura <app>
+                        <lem>atque</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">aquae</rdg>
+                     </app> omnium reliquorum, tamen, quoniam mare libere tenerent, neque hostes
+                     classem <app>
+                        <lem>haberent</lem>
+                        <rdg wit="#T" ana="#orthographical #lexical">tenerent</rdg>
+                     </app>, <app>
+                        <lem wit="#Ϛ" xml:id="lem-8.2-prohiberi">prohiberi</lem>
+                        <note target="#lem-8.2-prohiberi">teste <ref target="#Oudendorp"
+                              >Oudendorp</ref></note>
+                        <rdg wit="#ω">prohibere</rdg>
+                     </app> sese non <app>
+                        <lem wit="#edprin">posse</lem>
+                        <rdg wit="#ω">possent</rdg>
+                     </app> quo minus <app>
+                        <lem>cotidie nauibus</lem>
+                        <rdg wit="#V" ana="#orthographical #ordinal">nauibus cotidie</rdg>
+                     </app> aquam <app>
+                        <lem wit="#M #U">peterent</lem>
+                        <rdg wit="#S #T #V">petere</rdg>
+                     </app> <app><lem>uel a</lem><rdg wit="#S" ana="#orthographical #lexical">uella</rdg></app> sinistra parte a <app>
+                        <lem source="#Gaertner-Hausburg" type="emendation"
+                           xml:id="lem-8.2-Paraetonio"><placeName ref="#Paraetonium"
+                              >Paraetonio</placeName></lem>
+                        <note target="#lem-8.2-Paraetonio">78-79 n.16</note>
+                        <rdg wit="#ω">paratonio</rdg>
+                     </app>
+                     <app>
+                        <lem>uel</lem>
+                        <rdg wit="#Ϛ" xml:id="rdg-8.2-uel-a">uel <supplied reason="undefined"
+                              >a</supplied></rdg>
+                        <note target="#rdg-8.2-uel-a">cf. 74.1</note>
+                     </app> dextra ab insula, quae diuersae nauigationes numquam uno tempore
+                     aduersis uentis <app><lem>praecluderentur</lem><rdg wit="#M" ana="#orthographical #morphological">praecludentur</rdg></app>.</seg>
+                  <seg n="3">Fugae uero nullum <app><lem>esse</lem><rdg wit="#S" ana="#orthographical #morphological">esset</rdg></app> consilium non solum iis qui primam dignitatem
+                     haberent, sed ne iis quidem <app>
+                        <lem>qui</lem>
+                        <rdg wit="#T #V"/>
+                     </app> <app><lem>nihil</lem><rdg wit="#M" ana="#orthographical">nichil</rdg></app> <app><lem>praeterquam</lem><rdg wit="#S" ana="#orthographical">praeter quan</rdg></app> de uita cogitarent.</seg>
+                  <seg n="4">Magno negotio impetus hostium <app><lem>aduersos</lem><rdg wit="#T" ana="#orthographical #morphological">aduersus</rdg></app> <app><lem>ex</lem><rdg wit="#T" ana="#subtractive"/></app> munitionibus <app>
+                        <lem wit="#M #U #T #V">sustineri</lem>
+                        <rdg wit="#S">sustinere</rdg>
+                     </app>; quibus relictis nec loco nec numero <app><lem>pares</lem><rdg wit="#S" ana="#orthographical">paress</rdg></app> esse posse.</seg>
+                  <seg n="5">Magnam autem <app><lem>moram</lem><rdg wit="#S" ana="#orthographical">morem</rdg></app> et difficultatem ascensum in naues habere,
                      praesertim ex scaphis; summam esse contra in Alexandrinis uelocitatem
                      locorumque et aedificiorum notitiam.</seg>
-                  <seg n="6">Hos praecipue in uictoria insolentes praecursuros et loca excelsiora
-                     atque aedificia occupaturos: ita fuga nauibusque nostros prohibituros. Proinde
-                     eius consilii obliuiscerentur atque omni ratione esse uincendum
-                     cogitarent.</seg></p>
+                  <seg n="6">Hos praecipue in uictoria insolentes praecursuros <app>
+                        <lem>et loca excelsiora atque aedificia occupaturos</lem>
+                        <rdg wit="#M"/>
+                     </app>: ita <app>
+                        <lem wit="#M #S">fuga</lem>
+                        <rdg wit="#U #V">fugam</rdg>
+                        <rdg wit="#T">tamen fugam</rdg>
+                     </app> nauibusque nostros prohibituros. <app><lem>Proinde</lem><rdg wit="#U" ana="#orthographical #lexical">deinde</rdg></app> eius consilii obliuiscerentur
+                     atque omni ratione esse <app><lem>uincendum</lem><rdg wit="#S" ana="#orthographical #lexical">uicendum</rdg></app> cogitarent.</seg></p>
 
                <p n="9">
-                  <seg n="1">Hac oratione apud suos habita atque omnium mentibus excitatis dat
-                     centurionibus negotium ut reliquis operibus intermissis ad fodiendos puteos
-                     animum conferant neue quam partem nocturni temporis intermittant.</seg>
+                  <seg n="1" xml:id="seg-9.1">Hac oratione apud suos habita atque omnium mentibus
+                     excitatis dat centurionibus negotium ut reliquis operibus intermissis ad
+                     fodiendos puteos animum conferant neue quam partem nocturni temporis
+                     intermittant.</seg>
                   <seg n="2">Quo suscepto negotio atque omnium animis ad laborem incitatis magna una
                      nocte uis aquae dulcis inuenta est. Ita operosis Alexandrinorum machinationibus
                      maximisque conatibus non longi temporis labore occursum est.</seg>
