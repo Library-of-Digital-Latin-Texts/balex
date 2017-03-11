@@ -608,6 +608,10 @@ This is a subsection within the preface. Editors should use
                      >Studi italiani di filologia classica</title>
                   <biblScope unit="volume">2</biblScope> (<date>1894)</date>: <biblScope unit="page"
                      >321–9</biblScope>.</bibl>
+
+               <bibl xml:id="West"><abbr type="siglum">West</abbr> = <author>West, M.L.</author>
+                  <title>Textual Criticism and Editorial Technique</title>.
+                     <pubPlace>Stuttgart</pubPlace>: <date>1973</date>.</bibl>
             </listBibl>
             <listPerson>
                <person xml:id="Damon">
@@ -1558,21 +1562,112 @@ This is a subsection within the preface. Editors should use
 
                <p n="12">
                   <seg n="1">Eo detrimento adeo sunt fracti Alexandrini, cum iam non uirtute
-                     propugnatorum sed scientia classiariorum se uictos uiderent, <gap reason="lost"
-                     />quibus et superioribus locis subleuabantur, ut ex aedificiis defendi possent
-                     et materiam cunctam obicerent, quod nostrae classis oppugnationem etiam ad
-                     terram uerebantur.</seg>
-                  <seg n="2">Idem, postea quam Ganymedes in concilio confirmauit sese et eas quae
-                     essent amissae restituturum et numerum adaucturum, magna spe et fiducia ueteres
-                     reficere naues accuratiusque huic rei studere atque inseruire
-                     instituerunt.</seg>
-                  <seg n="3">Ac tametsi amplius CX nauibus longis in portu naualibusque miserant,
-                     non tamen reparandae classis cogitationem deposuerunt.</seg>
-                  <seg n="4"> Videbant enim non auxilia Caesaris, non commeatus supportari posse, si
-                     classe ipsi ualerent; praeterea nautici homines urbis et regionis maritimae
-                     cotidianoque usu a pueris exercitati ad naturale ac domesticum bonum refugere
-                     cupiebant et quantum paruulis nauigiis profecissent sentiebant; itaque omni
-                     studio ad parandam classem incubuerunt.</seg></p>
+                     propugnatorum sed scientia <app>
+                        <lem wit="#U #S #T #V #M" xml:id="lem-12.1-classiariorum"
+                           >classiariorum</lem>
+                        <witDetail wit="#M" target="#lem-12.1-classiariorum">supra
+                           lineam</witDetail>
+                        <rdg wit="#M">nauigatorum</rdg>
+                     </app>
+                     <app>
+                        <lem>se</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">sed</rdg>
+                     </app> uictos uiderent, <app>
+                        <lem><app>
+                              <lem source="#Davies" type="conjecture" xml:id="lem-12.1-lacuna"
+                                 corresp="#comm-12.1-lacuna"><supplied reason="undefined"><gap
+                                       reason="lost"/></supplied> quibus</lem>
+                              <rdg source="#Nipperdey" type="conjecture">quibus <supplied
+                                    reason="undefined"><gap reason="lost"/></supplied></rdg>
+                           </app> et superioribus <app>
+                              <lem>locis</lem>
+                              <rdg source="#Kübler" xml:id="rdg-12.1-temporibus">temporibus</rdg>
+                              <note target="#rdg-12.1-temporibus">dubitanter</note>
+                           </app> subleuabantur, ut <app>
+                              <lem>ex</lem>
+                              <rdg source="#Manutius" type="conjecture">uix</rdg>
+                              <rdg source="#Dinter" type="conjecture" xml:id="rdg-12.1-uix-ex">uix
+                                 ex</rdg>
+                              <note target="#rdg-12.1-uix-ex">u. et infra</note>
+                           </app> aedificiis defendi possent</lem>
+                        <rdg source="#Dinter" type="conjecture">ut uix ex aedificiis defendi posse
+                           se confiderent, quibus et superioribus locis subleuabantur</rdg>
+                     </app> et materiam cunctam obicerent, quod nostrae classis oppugnationem etiam
+                     ad terram uerebantur.</seg>
+                  <seg n="2">Idem, postea quam <persName ref="#Ganymedes">Ganymedes</persName> in
+                     concilio <app>
+                        <lem wit="#M #U #S">confirmauit</lem>
+                        <rdg wit="#T #V">firmauit</rdg>
+                     </app> sese <app>
+                        <lem wit="#M #U">et</lem>
+                        <rdg wit="#S #T #V">ut</rdg>
+                     </app>
+                     <app>
+                        <lem>eas</lem>
+                        <rdg wit="#U" ana="#orthographical #morphological">eos</rdg>
+                     </app> quae essent <app>
+                        <lem>amissae</lem>
+                        <rdg source="#Mueller" xml:id="rdg-12.2-amissae-naues">amissae <supplied
+                              reason="undefined">naues</supplied></rdg>
+                        <note target="#rdg-12.2-amissae-naues">teste <ref target="#Klotz1927"
+                              >Klotz</ref><!-- Is it Klotz 1927? --></note>
+                     </app>
+                     <app>
+                        <lem wit="#M #S #V">restituturum</lem>
+                        <rdg wit="#U #T">restiturum</rdg>
+                     </app> et numerum <app>
+                        <lem wit="#M #U #S">adaucturum</lem>
+                        <rdg wit="#T #V">adacturum</rdg>
+                     </app>, magna spe <app>
+                        <lem>et</lem>
+                        <rdg wit="#S" ana="#subtractive"/>
+                     </app> fiducia ueteres reficere naues accuratiusque huic rei studere atque
+                     inseruire instituerunt.</seg>
+                  <seg n="3">Ac tametsi amplius <app>
+                        <lem source="#Manutius" type="emendation">CX</lem>
+                        <rdg wit="#ω">ex</rdg>
+                     </app> nauibus longis in portu naualibusque <app>
+                        <lem wit="#ω" xml:id="lem-12.3-miserant">miserant</lem>
+                        <note target="#lem-12.3-miserant">simplex post compositum</note>
+                        <rdg source="#Manutius" type="conjecture">amiserant</rdg>
+                     </app>, <app>
+                        <lem>non</lem>
+                        <rdg wit="#S #T #V"/>
+                     </app> tamen reparandae classis cogitationem <app>
+                        <lem>deposuerunt</lem>
+                        <rdg wit="#T" ana="#additive #morphological">no deposuerant</rdg>
+                     </app>.</seg>
+                  <seg n="4"> Videbant enim non auxilia <app>
+                        <lem wit="#ω" xml:id="lem-12.4-Caesaris"><persName ref="#Caesar"
+                              >Caesaris</persName></lem>
+                        <note target="#lem-12.4-Caesaris">cf. <bibl><title>BC</title>
+                           3.23.2</bibl></note>
+                        <rdg source="#Stephanus" type="conjecture">Caesari</rdg>
+                     </app>, non commeatus supportari posse, si classe ipsi ualerent; praeterea <app>
+                        <lem wit="#ω" xml:id="lem-12.4-nautici">nautici</lem>
+                        <note target="#lem-12.4-nautici">(cf. <ref target="#seg-16.5">16.5</ref>)
+                           secl. ut glossema <ref target="#Morus">Morus</ref></note>
+                     </app> homines urbis et <app>
+                        <lem wit="#M #T #V">regionis</lem>
+                        <rdg wit="#U #S">religion(e/i)s</rdg>
+                     </app>
+                     <app>
+                        <lem>maritimae</lem>
+                        <rdg source="#Klotz1927" xml:id="rdg-12.4-maritimae-periti">maritimae
+                              <supplied reason="undefined">periti</supplied></rdg>
+                        <note target="#rdg-12.4-maritimae-periti">dubitanter (cf.
+                                 <bibl><title>BC</title> 1.48.7</bibl>)</note>
+                     </app> cotidianoque usu a pueris exercitati ad <app>
+                        <lem wit="#M #T">naturale</lem>
+                        <rdg wit="#U #S #V">naturalem</rdg>
+                     </app> ac domesticum bonum refugere cupiebant et quantum paruulis nauigiis
+                     profecissent sentiebant; itaque omni studio ad parandam <app>
+                        <lem xml:id="lem-12.4-classem">classem</lem>
+                        <rdg wit="#M" ana="#orthographical" xml:id="rdg-12.4-calassem"
+                           >calassem</rdg>
+                        <witDetail wit="#M" target="#rdg-12.4-calassem" corresp="#lem-12.4-classem"
+                           type="correction-original"/>
+                     </app> incubuerunt.</seg></p>
 
                <p n="13">
                   <seg n="1">Erant omnibus ostiis Nili custodiae exigendi portorii causa dispositae;
@@ -1588,10 +1683,13 @@ This is a subsection within the preface. Editors should use
                      complures adiecerunt et in portu periclitati remigio quid quaeque earum
                      efficere posset idoneos milites imposuerunt seque ad confligendum omnibus rebus
                      parauerunt.</seg>
-                  <seg n="5">Caesar Rhodias naues VIIII habebat—nam decem missis una in cursu litore
-                     Aegyptio defecerat—Ponticas VIII, Lycias V, ex Asia XII. Ex his erant
-                     quinqueremes et quadriremes X, reliquae infra hanc magnitudinem et pleraeque
-                     apertae.</seg>
+                  <seg n="5"><persName ref="#Caesar">Caesar</persName>
+                     <placeName ref="https://pleiades.stoa.org/places/590031">Rhodias</placeName>
+                     naues VIIII habebat—nam decem missis una in cursu litore Aegyptio
+                        defecerat—<placeName ref="#Pontica">Ponticas</placeName> VIII, <placeName
+                        ref="#Lycia">Lycias</placeName> V, ex <placeName ref="#Asia"
+                        >Asia</placeName> XII. Ex his erant quinqueremes et quadriremes X, reliquae
+                     infra hanc magnitudinem et pleraeque apertae.</seg>
                   <seg n="6">Tamen uirtute militum confisus cognitis hostium copiis se ad dimicandum
                      parabat.</seg></p>
 
@@ -1651,10 +1749,10 @@ This is a subsection within the preface. Editors should use
                   <seg n="4">Eadem suum quisque contubernalem, amicum, notum prosequens erat
                      obtestatus, ne suam atque omnium falleret opinionem, quorum iudicio delectus ad
                      pugnam proficisceretur.</seg>
-                  <seg n="5">Itaque hoc animo est decertatum, ut neque maritimis nauticisque
-                     sollertia atque ars praesidium ferret, neque numero nauium praestantibus
-                     multitudo prodesset, neque electi ad uirtutem e tanta multitudine uiri uirtuti
-                     nostrorum possent adaequare.</seg>
+                  <seg n="5" xml:id="seg-16.5">Itaque hoc animo est decertatum, ut neque maritimis
+                     nauticisque sollertia atque ars praesidium ferret, neque numero nauium
+                     praestantibus multitudo prodesset, neque electi ad uirtutem e tanta multitudine
+                     uiri uirtuti nostrorum possent adaequare.</seg>
                   <seg n="6">Capitur hoc proelio quinqueremis una et biremis cum defensoribus
                      remigibusque, et deprimuntur tres, nostris incolumibus omnibus.</seg>
                   <seg n="7">Reliquae propinquam fugam ad oppidum capiunt; quas protexerunt ex
@@ -2123,6 +2221,57 @@ This is a subsection within the preface. Editors should use
                      and pack animals †attached† on level streets into whichever area of the city
                      they wanted.</quote></p>
             </note>
+            <note type="commentary" target="#lem-12.1-lacuna" xml:id="comm-12.1-lacuna">
+               <p>For <foreign xml:lang="lat">quibus</foreign>, where the sense falls apart,
+                  Rhellicanus, for example, apparently understood [<foreign xml:lang="lat"
+                     >a</foreign>?] <foreign xml:lang="lat">classiariis Caesarianis</foreign>, which
+                  would mean we are to understand that the Alexandrians “were supported by [from?]
+                  the Caesarean marines and by their higher positions.” Similarly (<!-- FIX -->), if
+                  we take <foreign xml:lang="lat">ut … possent</foreign> as the expected result
+                  clause following <foreign xml:lang="lat">adeo sunt fracti</foreign>, the meaning
+                  would be, effectively, that the Alexandrians were made so dispirited by their loss
+                  that they were able to defend themselves. Manutius’ reading of <foreign
+                     xml:lang="lat">vix</foreign> for <foreign xml:lang="lat">ex</foreign> blunts
+                  the absurdity of the latter – the result is then rather that they were “scarcely”
+                  able to defend themselves – but the problem with <foreign xml:lang="lat"
+                     >quibus</foreign> remains.</p>
+               <p><ref target="#Davies">Davies</ref> was the first to postulate a lacuna in the
+                  text; he located it before <foreign xml:lang="lat">quibus</foreign>. <ref
+                     target="#Nipperdey">Nipperdey</ref> put the lacuna after <foreign
+                     xml:lang="lat">quibus</foreign>, which subsequent editors have preferred. These
+                  editors assume that the missing text elaborated on something in the <foreign
+                     xml:lang="lat">cum</foreign> clause; it seems to me just as likely that
+                     <foreign xml:lang="lat">quibus</foreign> is parallel to <foreign xml:lang="lat"
+                     >superioribus locis</foreign>.</p>
+               <p>It is difficult to guess, much less know, the content of the lacuna. <ref
+                     target="#Andrieu">Andrieu</ref> (12 n. 2) asserts that the missing text “avait
+                  sans doute quelque étendue,” describing the organization of the Eunostos harbor
+                  and perhaps their fortifications. That is plausible; I would rather appeal however
+                  to the <foreign xml:lang="lat">lex parsimoniae</foreign>, preferring something
+                  like <ref target="#Dinter">Dinter</ref>'s conjecture, which is worth spelling out
+                  and translating for clarity: </p>
+               <p><foreign xml:lang="lat">[adeo sunt fracti Alexandrini] … ut vix ex aedificiis
+                     defendi posse se confiderent, quibus et superioribus locis sublevabantur
+                     …</foreign>
+               </p>
+               <p>[The Alexandrians were so shattered...] that they scarcely trusted that they were
+                  able to be defended from the buildings, from which, as well as from their higher
+                  positions, they derived support...</p>
+               <p>As <ref target="#Larsen">Larsen</ref> says, “<foreign xml:lang="lat">verum hac
+                     tanta licentia locum sanari non posse, omnes statim intellegent</foreign>.”
+                  <!-- REFERENCE NEEDED -->Yet what <ref target="#Dinter">Dinter</ref> provides for
+                  us here is what Paul Mass called a diagnostic conjecture, "a conjecture which,
+                  while no one can feel confident that it is right, serves the purpose of indicating
+                  the kind of sense that is really required.” (<ref target="#West">West</ref> 58)
+                  Thus while I refrain from adopting <ref target="#Dinter">Dinter</ref>'s conjecture
+                  in the text, I feel it is essential to report this in the apparatus so as to do
+                  exactly that – to indicate to the reader the kind of sense that is really required
+                  – and in the text itself, motivated by <ref target="#Dinter">Dinter</ref>, I have
+                  daggered <!-- Not true. --> the whole section from quibus to possent, which I
+                  think best indicates the possible extent of the corruption.</p>
+               <!-- DISCUSS THE CONTRIBUTION OF KÜBLER'S temporibus.-->
+               <!-- IT WOULD BE BETTER TO ADOPT A FAUTE DE MIEUX REPAIR. MOST OF THE WORDS HERE ARE
+                  FINE, IT'S JUST THAT THAT DON'T COHERE PERFECTLY. --></note>
          </div>
       </body>
       <back>
