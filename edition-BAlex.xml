@@ -565,11 +565,17 @@ This is a subsection within the preface. Editors should use
                   <title>Die Recensio der Caesarhandschriften</title>. <pubPlace>Berlin</pubPlace>:
                      <publisher>Akademie-Verlag</publisher>, <date>1963</date>.</bibl>
 
-               <bibl xml:id="Jax"><author>Jax, Karl</author> “<title level="a">Di Stellung der
-                     Handschriften <hi rend="italic">S</hi> und <hi rend="italic">L</hi> in der
-                     Caesarüberlieferung</title>.” <title level="j">Wiener Studien</title>
+               <bibl xml:id="Jax"><abbr type="siglum">Jax</abbr> = <author>Jax, Karl</author>
+                     “<title level="a">Di Stellung der Handschriften <hi rend="italic">S</hi> und
+                        <hi rend="italic">L</hi> in der Caesarüberlieferung</title>.” <title
+                     level="j">Wiener Studien</title>
                   <biblScope unit="volume">52</biblScope> (<date>1934</date>): <biblScope
                      unit="page">95–105</biblScope>.</bibl>
+
+               <bibl xml:id="Landgraf"><abbr type="siglum">Landgraf</abbr> = <author>Landgraf,
+                     G</author>. <title>Untersuchungen zu Caesar und seinen Fortsetzern insbesondere
+                     über Autorschaft und Komposition des Bellum Alexandrinum und Africanum</title>.
+                     <pubPlace>Erlangen</pubPlace>. <date>1888</date>.</bibl>
 
                <bibl xml:id="Madvig"><abbr type="siglum">Madvig</abbr> = <author>Madvig, J.
                      N.</author> "<title level="a">Capitulum III: Caesar, Sallustius.</title>" In
@@ -1211,7 +1217,11 @@ This is a subsection within the preface. Editors should use
                      </app> aquam <app>
                         <lem wit="#M #U">peterent</lem>
                         <rdg wit="#S #T #V">petere</rdg>
-                     </app> <app><lem>uel a</lem><rdg wit="#S" ana="#orthographical #lexical">uella</rdg></app> sinistra parte a <app>
+                     </app>
+                     <app>
+                        <lem>uel a</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">uella</rdg>
+                     </app> sinistra parte a <app>
                         <lem source="#Gaertner-Hausburg" type="emendation"
                            xml:id="lem-8.2-Paraetonio"><placeName ref="#Paraetonium"
                               >Paraetonio</placeName></lem>
@@ -1224,19 +1234,46 @@ This is a subsection within the preface. Editors should use
                               >a</supplied></rdg>
                         <note target="#rdg-8.2-uel-a">cf. 74.1</note>
                      </app> dextra ab insula, quae diuersae nauigationes numquam uno tempore
-                     aduersis uentis <app><lem>praecluderentur</lem><rdg wit="#M" ana="#orthographical #morphological">praecludentur</rdg></app>.</seg>
-                  <seg n="3">Fugae uero nullum <app><lem>esse</lem><rdg wit="#S" ana="#orthographical #morphological">esset</rdg></app> consilium non solum iis qui primam dignitatem
-                     haberent, sed ne iis quidem <app>
+                     aduersis uentis <app>
+                        <lem>praecluderentur</lem>
+                        <rdg wit="#M" ana="#orthographical #morphological">praecludentur</rdg>
+                     </app>.</seg>
+                  <seg n="3">Fugae uero nullum <app>
+                        <lem>esse</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">esset</rdg>
+                     </app> consilium non solum iis qui primam dignitatem haberent, sed ne iis
+                     quidem <app>
                         <lem>qui</lem>
                         <rdg wit="#T #V"/>
-                     </app> <app><lem>nihil</lem><rdg wit="#M" ana="#orthographical">nichil</rdg></app> <app><lem>praeterquam</lem><rdg wit="#S" ana="#orthographical">praeter quan</rdg></app> de uita cogitarent.</seg>
-                  <seg n="4">Magno negotio impetus hostium <app><lem>aduersos</lem><rdg wit="#T" ana="#orthographical #morphological">aduersus</rdg></app> <app><lem>ex</lem><rdg wit="#T" ana="#subtractive"/></app> munitionibus <app>
+                     </app>
+                     <app>
+                        <lem>nihil</lem>
+                        <rdg wit="#M" ana="#orthographical">nichil</rdg>
+                     </app>
+                     <app>
+                        <lem>praeterquam</lem>
+                        <rdg wit="#S" ana="#orthographical">praeter quan</rdg>
+                     </app> de uita cogitarent.</seg>
+                  <seg n="4">Magno negotio impetus hostium <app>
+                        <lem>aduersos</lem>
+                        <rdg wit="#T" ana="#orthographical #morphological">aduersus</rdg>
+                     </app>
+                     <app>
+                        <lem>ex</lem>
+                        <rdg wit="#T" ana="#subtractive"/>
+                     </app> munitionibus <app>
                         <lem wit="#M #U #T #V">sustineri</lem>
                         <rdg wit="#S">sustinere</rdg>
-                     </app>; quibus relictis nec loco nec numero <app><lem>pares</lem><rdg wit="#S" ana="#orthographical">paress</rdg></app> esse posse.</seg>
-                  <seg n="5">Magnam autem <app><lem>moram</lem><rdg wit="#S" ana="#orthographical">morem</rdg></app> et difficultatem ascensum in naues habere,
-                     praesertim ex scaphis; summam esse contra in Alexandrinis uelocitatem
-                     locorumque et aedificiorum notitiam.</seg>
+                     </app>; quibus relictis nec loco nec numero <app>
+                        <lem>pares</lem>
+                        <rdg wit="#S" ana="#orthographical">paress</rdg>
+                     </app> esse posse.</seg>
+                  <seg n="5">Magnam autem <app>
+                        <lem>moram</lem>
+                        <rdg wit="#S" ana="#orthographical">morem</rdg>
+                     </app> et difficultatem ascensum in naues habere, praesertim ex scaphis; summam
+                     esse contra in Alexandrinis uelocitatem locorumque et aedificiorum
+                     notitiam.</seg>
                   <seg n="6">Hos praecipue in uictoria insolentes praecursuros <app>
                         <lem>et loca excelsiora atque aedificia occupaturos</lem>
                         <rdg wit="#M"/>
@@ -1244,24 +1281,59 @@ This is a subsection within the preface. Editors should use
                         <lem wit="#M #S">fuga</lem>
                         <rdg wit="#U #V">fugam</rdg>
                         <rdg wit="#T">tamen fugam</rdg>
-                     </app> nauibusque nostros prohibituros. <app><lem>Proinde</lem><rdg wit="#U" ana="#orthographical #lexical">deinde</rdg></app> eius consilii obliuiscerentur
-                     atque omni ratione esse <app><lem>uincendum</lem><rdg wit="#S" ana="#orthographical #lexical">uicendum</rdg></app> cogitarent.</seg></p>
+                     </app> nauibusque nostros prohibituros. <app>
+                        <lem>Proinde</lem>
+                        <rdg wit="#U" ana="#orthographical #lexical">deinde</rdg>
+                     </app> eius consilii obliuiscerentur atque omni ratione esse <app>
+                        <lem>uincendum</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">uicendum</rdg>
+                     </app> cogitarent.</seg></p>
 
                <p n="9">
                   <seg n="1" xml:id="seg-9.1">Hac oratione apud suos habita atque omnium mentibus
-                     excitatis dat centurionibus negotium ut reliquis operibus intermissis ad
-                     fodiendos puteos animum conferant neue quam partem nocturni temporis
+                     excitatis dat centurionibus <app>
+                        <lem>negotium</lem>
+                        <rdg wit="#M" ana="#subtractive"/>
+                     </app> ut reliquis operibus intermissis ad <app>
+                        <lem>fodiendos</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">fodiendo</rdg>
+                     </app> puteos animum conferant neue quam partem nocturni temporis
                      intermittant.</seg>
                   <seg n="2">Quo suscepto negotio atque omnium animis ad laborem incitatis magna una
                      nocte uis aquae dulcis inuenta est. Ita operosis Alexandrinorum machinationibus
                      maximisque conatibus non longi temporis labore occursum est.</seg>
-                  <seg n="3">Eo biduo legio XXXVII ex dediticiis Pompeianis militibus cum frumento,
-                     armis, telis, tormentis imposita in naues a Domitio Caluino ad litora Africae
-                     paulo supra Alexandriam delata est.</seg>
-                  <seg n="4">Hae naues Euro, qui multos dies continenter flabat, portum capere
-                     prohibebantur; sed loca sunt egregia omni illa regione ad tenendas ancoras. Hi
-                     cum diu retinerentur atque aquae inopia premerentur, nauigio actuario Caesarem
-                     faciunt certiorem.</seg></p>
+                  <seg n="3">Eo biduo legio XXXVII ex <app>
+                        <lem wit="#Mmr #U #T #S #V" xml:id="lem-9.3-dediticiis">dediticiis</lem>
+                        <witDetail wit="#U" target="#lem-9.3-dediticiis" corresp="#rdg-9.3-dediciis"
+                           type="correction-altered"/>
+                        <rdg wit="#M #U #T" xml:id="rdg-9.3-dediciis">dedi(c/t)iis</rdg>
+                        <witDetail wit="#U" target="#rdg-9.3-dediciis" corresp="#lem-9.3-dediticiis"
+                           type="correction-original"/>
+                     </app> Pompeianis militibus cum frumento, armis, telis, tormentis imposita in
+                     naues a <persName ref="#Caluinus">Domitio Caluino</persName> ad litora Africae
+                     paulo <app>
+                        <lem>supra</lem>
+                        <rdg wit="#T" ana="#subtractive"/>
+                     </app>
+                     <app>
+                        <lem>Alexandriam</lem>
+                        <rdg wit="#S" ana="#orthographical">Alexandream</rdg>
+                     </app> delata est.</seg>
+                  <seg n="4"><app>
+                        <lem wit="#M #U #T #V" xml:id="lem-9.4-hae">Hae</lem>
+                        <witDetail wit="#M" target="#lem-9.4-hae">heae</witDetail>
+                        <rdg wit="#S" xml:id="rdg-9.4-haec">haec</rdg>
+                        <witDetail wit="#S">quod defendit <ref target="#Landgraf">Landgraf
+                              1891</ref></witDetail>
+                     </app> naues Euro, qui multos dies <app>
+                        <lem>continenter</lem>
+                        <rdg wit="#T" ana="#orthographical #lexical">continentur</rdg>
+                     </app> flabat, portum capere prohibebantur; sed loca sunt egregia <app>
+                        <lem>omni</lem>
+                        <rdg wit="#T" ana="#orthographical #morphological">omnium</rdg>
+                     </app> illa regione ad tenendas ancoras. Hi cum diu retinerentur atque aquae
+                     inopia premerentur, nauigio actuario <persName ref="#Caesar"
+                        >Caesarem</persName> faciunt certiorem.</seg></p>
 
                <p n="10">
                   <seg n="1">Caesar, ut per se consilium caperet quid faciendum uideretur, nauem
