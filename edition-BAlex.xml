@@ -1541,14 +1541,20 @@ This is a subsection within the preface. Editors should use
                      <app>
                         <lem>calamitate</lem>
                         <rdg wit="#S" ana="#orthographical">cadamitate</rdg>
-                     </app> perterritis hostibus aduerso uento leniter <app><lem>flante</lem><rdg wit="#S" ana="#orthographical">flanti</rdg></app> naues <app>
+                     </app> perterritis hostibus aduerso uento leniter <app>
+                        <lem>flante</lem>
+                        <rdg wit="#S" ana="#orthographical">flanti</rdg>
+                     </app> naues <app>
                         <lem xml:id="lem-11.6-onerarias">onerarias</lem>
                         <note target="#lem-11.6-onerarias">secl. <ref target="#Kraffert"
                               >Kraffert</ref> ut glossema</note>
                         <rdg wit="#U" ana="#orthographical">honerarias</rdg>
                      </app>
-                     <persName ref="#Caesar">Caesar</persName> remulco uictricibus suis <app><lem>nauibus</lem><rdg wit="#S" ana="#subtractive"/></app>
-                        <placeName ref="#Alexandria">Alexandriam</placeName> deducit.</seg></p>
+                     <persName ref="#Caesar">Caesar</persName> remulco uictricibus suis <app>
+                        <lem>nauibus</lem>
+                        <rdg wit="#S" ana="#subtractive"/>
+                     </app>
+                     <placeName ref="#Alexandria">Alexandriam</placeName> deducit.</seg></p>
 
                <p n="12">
                   <seg n="1">Eo detrimento adeo sunt fracti Alexandrini, cum iam non uirtute
