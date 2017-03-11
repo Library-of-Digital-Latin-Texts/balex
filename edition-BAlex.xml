@@ -936,25 +936,62 @@ This is a subsection within the preface. Editors should use
                      </app> diligentia administrat.</seg></p>
 
                <p n="5">
-                  <seg n="1"><placeName ref="#Alexandria">Alexandria</placeName> est fere tota
-                     suffossa specusque habet <app>
+                  <seg n="1"><placeName ref="#Alexandria">Alexandria</placeName>
+                     <app>
+                        <lem>est</lem>
+                        <rdg wit="#V" ana="#orthographical #lexical">enim</rdg>
+                     </app> fere tota suffossa specusque habet <app>
                         <lem wit="#M #U" xml:id="lem-5.1-ad-Nilum">ad <placeName ref="#Nilus"
                               >Nilum</placeName></lem>
                         <note target="#lem-5.1-ad-Nilum">cf. 14.5 et
                               <bibl><title>BG</title>1.1.6</bibl> etc., u. <bibl><title>TLL</title>
                               10.1.1809.73-1810.38</bibl></note>
                         <rdg wit="#S #T #V">a Nilo</rdg>
-                     </app> pertinentes, quibus aqua in priuatas domos inducitur, quae paulatim
-                     spatio temporis liquescit ac subsidit.</seg>
-                  <seg n="2">Hac uti domini aedificiorum atque eorum familiae consuerunt: nam quae
-                     flumine <placeName ref="#Nilus">Nilo</placeName> fertur adeo est limosa ac
-                     turbida ut multos uariosque morbos efficiat; sed ea plebes ac multitudo
-                     contenta est necessario, quod fons urbe tota nullus est. Hoc tamen flumen in ea
-                     parte erat urbis quae ab Alexandrinis tenebatur.</seg>
-                  <seg n="3">Quo facto est admonitus <persName ref="#Ganymedes">Ganymedes</persName>
-                     posse nostros aqua intercludi; qui distributi <app><lem wit="#M #U #S">munitionum</lem><rdg wit="#T">munitionem</rdg><rdg wit="#V">muni</rdg></app> tuendarum causa
-                     uicatim ex priuatis aedificiis specibus ac puteis extracta aqua
-                     utebantur.</seg></p>
+                     </app>
+                     <app>
+                        <lem>pertinentes</lem>
+                        <rdg wit="#M" ana="#orthographical">pertingentes</rdg>
+                     </app>, quibus aqua in <app>
+                        <lem>priuatas</lem>
+                        <rdg wit="#M" ana="#orthographical #morphological">priuatos</rdg>
+                     </app> domos inducitur, quae paulatim spatio temporis liquescit <app>
+                        <lem>ac</lem>
+                        <rdg wit="#U" ana="#orthographical #lexical">hac</rdg>
+                     </app>
+                     <app>
+                        <lem>subsidit</lem>
+                        <rdg wit="#V" ana="#orthographical #lexical">subsidet</rdg>
+                     </app>.</seg>
+                  <seg n="2"><app>
+                        <lem>Hac</lem>
+                        <rdg wit="#V" ana="#orthographical #lexical">ac</rdg>
+                     </app> uti <app>
+                        <lem>domini</lem>
+                        <rdg wit="#S" ana="#orthographical">dominia</rdg>
+                     </app> aedificiorum atque eorum familiae consuerunt: nam quae flumine <app>
+                        <lem><placeName ref="#Nilus">Nilo</placeName></lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">nichilo</rdg>
+                     </app> fertur <app>
+                        <lem>adeo</lem>
+                        <rdg wit="#S" ana="#orthographical">aeo</rdg>
+                     </app> est <app>
+                        <lem>limosa</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">lunosa</rdg>
+                     </app> ac turbida ut multos uariosque morbos efficiat; sed ea plebes ac
+                     multitudo <app>
+                        <lem>contenta</lem>
+                        <rdg wit="#S" ana="#orthographical">contemta</rdg>
+                     </app> est necessario, quod fons urbe tota nullus est. Hoc tamen flumen in ea <app>
+                        <lem>parte</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">pater</rdg>
+                     </app> erat urbis quae ab Alexandrinis tenebatur.</seg>
+                  <seg n="3">Quo <app><lem>facto</lem><rdg wit="#S" ana="#orthographical #morphological">facta</rdg></app> est admonitus <persName ref="#Ganymedes">Ganymedes</persName>
+                     posse nostros aqua intercludi; qui distributi <app>
+                        <lem wit="#M #U #S">munitionum</lem>
+                        <rdg wit="#T">munitionem</rdg>
+                        <rdg wit="#V">muni</rdg>
+                     </app> tuendarum causa <app><lem>uicatim</lem><rdg wit="#T" ana="#orthographical">uacatim</rdg></app> <app><lem>ex priuatis aedificiis</lem><rdg wit="#V" ana="#orthographical #ordinal">ex aedificiis priuatis</rdg></app> specibus <app><lem>ac</lem><rdg wit="#S" ana="#orthographical">a</rdg></app> puteis
+                     extracta aqua <app><lem>utebantur</lem><rdg wit="#M" ana="#orthographical #morphological">utebatur</rdg></app>.</seg></p>
 
                <p n="6">
                   <seg n="1">Hoc probato consilio magnum ac difficile opus aggreditur. Intersaeptis
