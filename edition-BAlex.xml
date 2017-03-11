@@ -747,7 +747,7 @@ This is a subsection within the preface. Editors should use
                               <lem>urbis</lem>
                               <rdg wit="#S">hubis</rdg>
                            </app> locis</lem>
-                        <rdg wit="#M" ana="subtractive"/>
+                        <rdg wit="#M" ana="#subtractive"/>
                      </app> habebant, ut quacumque regione pugnaretur integris uiribus ad auxilium
                      ferendum opponi possent.</seg>
                   <seg n="4">Omnibus <app>
@@ -899,8 +899,8 @@ This is a subsection within the preface. Editors should use
                         <lem>summam</lem>
                         <rdg wit="#S" ana="#orthographical">sumam</rdg>
                      </app> imperi ipse obtinere uellet, praeoccupat Arsinoe per <app>
-                        <lem><persName ref="#Ganymedes">Ganymeden</persName><rdg wit="#S"
-                              ana="#orthographical #lexical">Granimeden</rdg></lem>
+                        <lem><persName ref="#Ganymedes">Ganymeden</persName></lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">Granimeden</rdg>
                      </app> eunuchum, nutricium suum, atque <app>
                         <lem>Achillan</lem>
                         <rdg wit="#S" ana="#orthographical">Achillani</rdg>
@@ -936,17 +936,25 @@ This is a subsection within the preface. Editors should use
                      </app> diligentia administrat.</seg></p>
 
                <p n="5">
-                  <seg n="1">Alexandria est fere tota suffossa specusque habet ad Nilum pertinentes,
-                     quibus aqua in priuatas domos inducitur, quae paulatim spatio temporis
-                     liquescit ac subsidit.</seg>
+                  <seg n="1"><placeName ref="#Alexandria">Alexandria</placeName> est fere tota
+                     suffossa specusque habet <app>
+                        <lem wit="#M #U" xml:id="lem-5.1-ad-Nilum">ad <placeName ref="#Nilus"
+                              >Nilum</placeName></lem>
+                        <note target="#lem-5.1-ad-Nilum">cf. 14.5 et
+                              <bibl><title>BG</title>1.1.6</bibl> etc., u. <bibl><title>TLL</title>
+                              10.1.1809.73-1810.38</bibl></note>
+                        <rdg wit="#S #T #V">a Nilo</rdg>
+                     </app> pertinentes, quibus aqua in priuatas domos inducitur, quae paulatim
+                     spatio temporis liquescit ac subsidit.</seg>
                   <seg n="2">Hac uti domini aedificiorum atque eorum familiae consuerunt: nam quae
-                     flumine Nilo fertur adeo est limosa ac turbida ut multos uariosque morbos
-                     efficiat; sed ea plebes ac multitudo contenta est necessario, quod fons urbe
-                     tota nullus est. Hoc tamen flumen in ea parte erat urbis quae ab Alexandrinis
-                     tenebatur.</seg>
-                  <seg n="3">Quo facto est admonitus Ganymedes posse nostros aqua intercludi; qui
-                     distributi munitionum tuendarum causa uicatim ex priuatis aedificiis specibus
-                     ac puteis extracta aqua utebantur.</seg></p>
+                     flumine <placeName ref="#Nilus">Nilo</placeName> fertur adeo est limosa ac
+                     turbida ut multos uariosque morbos efficiat; sed ea plebes ac multitudo
+                     contenta est necessario, quod fons urbe tota nullus est. Hoc tamen flumen in ea
+                     parte erat urbis quae ab Alexandrinis tenebatur.</seg>
+                  <seg n="3">Quo facto est admonitus <persName ref="#Ganymedes">Ganymedes</persName>
+                     posse nostros aqua intercludi; qui distributi <app><lem wit="#M #U #S">munitionum</lem><rdg wit="#T">munitionem</rdg><rdg wit="#V">muni</rdg></app> tuendarum causa
+                     uicatim ex priuatis aedificiis specibus ac puteis extracta aqua
+                     utebantur.</seg></p>
 
                <p n="6">
                   <seg n="1">Hoc probato consilio magnum ac difficile opus aggreditur. Intersaeptis
