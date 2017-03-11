@@ -571,6 +571,13 @@ This is a subsection within the preface. Editors should use
                   <biblScope unit="volume">52</biblScope> (<date>1934</date>): <biblScope
                      unit="page">95–105</biblScope>.</bibl>
 
+               <bibl xml:id="Madvig"><abbr type="siglum">Madvig</abbr> = <author>Madvig, J.
+                     N.</author> "<title level="a">Capitulum III: Caesar, Sallustius.</title>" In
+                     <title level="s">Adversaria critica ad scriptores graecos et latinos</title>.
+                  Vol. <biblScope unit="volume">2</biblScope>: <title level="m">Emendationes
+                     latinae</title>. <pubPlace>Copenhagen</pubPlace>. <date>1873</date>. <biblScope
+                     unit="page">281-85</biblScope>.</bibl>
+
                <bibl xml:id="Mueller"><abbr type="siglum">Mueller</abbr> = <author>Müller, H.
                      J.</author> Footnote to a Nachtrag on <ref target="#Schneider">Schneider</ref>
                   (1888). <title level="j">Jahresberichte des philologischen Vereins zu
@@ -1056,19 +1063,113 @@ This is a subsection within the preface. Editors should use
                      reperiebatur.</seg></p>
 
                <p n="7">
-                  <seg n="1">Quo facto dubitatione sublata tantus incessit timor ut ad extremum
-                     casum periculi omnes deducti uiderentur atque alii morari Caesarem dicerent
-                     quin naues conscendere iuberet, alii multo grauius extimescerent casum quod
-                     neque celari Alexandrini possent in apparanda fuga, cum tam paruo spatio
-                     distarent ab ipsis, neque illis imminentibus atque insequentibus ullus in naues
-                     receptus daretur.</seg>
-                  <seg n="2">Erat autem magna multitudo oppidanorum in parte Caesaris, quam
-                     domiciliis ipsorum non mouerat, quod ea se fidelem palam nostris esse simulabat
-                     et desciuisse a suis uidebatur: <sic>ut mihi defendendi essent Alexandrini
-                        neque fallaces essent neque temerarii, multaque oratio frustra
-                        absumeretur</sic></seg>
-                  <seg n="3">cum uero uno tempore et natio eorum et natura cognoscatur, aptissimum
-                     esse hoc genus ad proditionem dubitare nemo potest.</seg></p>
+                  <seg n="1"><app>
+                        <lem xml:id="lem-7.1-quo">Quo</lem>
+                        <rdg wit="#M" xml:id="rdg-7.1-qua" ana="#orthographical #morphological"
+                           >qua</rdg>
+                        <witDetail wit="#M" target="#rdg-7.1-qua" corresp="#lem-7.1-quo"
+                           type="correction-original"/>
+                     </app> facto dubitatione sublata tantus <app>
+                        <lem>incessit</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">iniessit</rdg>
+                     </app> timor ut ad extremum casum <app>
+                        <lem>periculi</lem>
+                        <rdg wit="#Ϛ" xml:id="rdg-7.1-om"/>
+                        <note target="#rdg-7.1-om">cf. <bibl><title>BG</title> 3.5.1</bibl></note>
+                     </app> omnes deducti uiderentur atque <app>
+                        <lem>alii morari</lem>
+                        <rdg wit="#Ϛ" xml:id="rdg-7.1-nihil-morari">nihil morari</rdg>
+                        <!-- Consult Cynthia about usage of <nihil> in her original. -->
+                        <note target="#rdg-7.1-nihil-morari">teste <ref target="#Oudendorp"
+                              >Oudendorp</ref></note>
+                     </app>
+                     <persName ref="#Caesar">Caesarem</persName>
+                     <app>
+                        <rdg source="#Siesbye" type="conjecture" xml:id="rdg-7.1-rem"><supplied
+                              reason="undefined">rem</supplied></rdg>
+                        <note target="#rdg-7.1-rem">teste Larsen coll. Liu. 40.40.4 (cf. et
+                           55.2)</note>
+                     </app> dicerent quin naues conscendere <app>
+                        <lem wit="#M #U">iuberet</lem>
+                        <rdg wit="#S #T #V">iuberent</rdg>
+                     </app>, alii multo <app>
+                        <lem>grauius</lem>
+                        <rdg source="#Aldus" xml:id="rdg-7.1-graviorem">graviorem</rdg>
+                        <note target="#rdg-7.1-graviorem">cf. <bibl><author>Cic.</author>
+                              <title>Ph.</title> 1.13</bibl></note>
+                     </app> extimescerent <app>
+                        <lem wit="#ω" xml:id="lem-7.1-casum">casum</lem>
+                        <note target="#lem-7.1-casum">cf. <bibl><author>Cic.</author>
+                              <title>Att.</title> 4.3.5</bibl></note>
+                        <rdg wit="#S" ana="#orthographical">cassum</rdg>
+                        <rdg source="#Haupt" type="conjecture" xml:id="rdg-7.1-casum"
+                              ><surplus>casum</surplus></rdg>
+                        <note target="#rdg-7.1-casum">teste <ref target="#Nipperdey">Nipperdey</ref>
+                           (cf. <bibl><title>BG</title> 1.16.6</bibl>)</note>
+                        <rdg source="#Kraffer" xml:id="rdg-7.1-casurum">casurum</rdg>
+                        <note target="#rdg-7.1-casurum">coll. <ref target="#seg-11.2"
+                           >11.2</ref></note>
+                     </app> quod neque celari <app>
+                        <lem wit="#S #T #V">Alexandrini</lem>
+                        <rdg wit="#M #U">Alexandrinis</rdg>
+                     </app>
+                     <app>
+                        <lem wit="#M #U #V">possent</lem>
+                        <rdg wit="#S #T">possint</rdg>
+                     </app> in <app>
+                        <lem wit="#M #U #S">apparanda</lem>
+                        <rdg wit="#T #V">apparenda</rdg>
+                     </app> fuga, <app>
+                        <lem>cum tam paruo</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical"
+                           xml:id="rdg-7.1-commitam-paruos">commitam paruos</rdg>
+                        <witDetail wit="#S" target="#rdg-7.1-commitam-paruos"
+                           corresp="#rdg-7.1-comimtam-paruos" type="correction-altered"/>
+                        <rdg wit="#S" ana="#orthographical #lexical"
+                           xml:id="rdg-7.1-comimtam-paruos">comimtam paruos</rdg>
+                        <witDetail wit="#S" target="#rdg-7.1-comimtam-paruos"
+                           corresp="#rdg-7.1-commitam-paruos" type="correction-original"/>
+                     </app> spatio distarent ab ipsis, neque <app>
+                        <lem wit="#M #U">illis</lem>
+                        <rdg wit="#S #T #V">illi</rdg>
+                     </app> imminentibus atque insequentibus ullus in naues receptus daretur.</seg>
+                  <seg n="2">Erat autem magna multitudo oppidanorum in parte <persName ref="#Caesar"
+                        >Caesaris</persName>, <app>
+                        <lem>quam</lem>
+                        <rdg wit="#S" ana="#orthographical">quan</rdg>
+                     </app>
+                     <app>
+                        <lem wit="#S">domiciliis</lem>
+                        <rdg wit="M #U #T" xml:id="rdg-7.2-domicilius">domicilius</rdg>
+                        <!-- Ask Cynthia if U has domicicius or domicius -->
+                        <witDetail wit="#U" target="#rdg-7.2-domicilius">domicicius</witDetail>
+                        <note target="#rdg-7.2-domicilius"><ref target="#M">M</ref><ref target="#U"
+                              >U</ref><ref target="#T">T</ref> per compendia</note>
+                     </app> ipsorum non mouerat, quod ea se fidelem palam nostris esse simulabat et
+                     desciuisse a suis uidebatur: <!-- MORE THOUGHT NEEDED indicated in Cynthia's notes here. Also, the note indicates trouble through potest, but she has put the final † at the end of 7.2. --><sic><app>
+                           <lem>ut mihi</lem>
+                           <rdg source="#Madvig">at mihi si</rdg>
+                           <rdg source="#Klotz">ut mihi si</rdg>
+                        </app> defendendi <app>
+                           <lem>essent</lem>
+                           <rdg source="#Nipperdey">esse</rdg>
+                        </app> Alexandrini neque fallaces essent neque temerarii, <app>
+                           <lem>multaque</lem>
+                           <rdg wit="#Manutius">multa</rdg>
+                        </app> oratio frustra absumeretur</sic></seg>
+                  <seg n="3">cum uero uno tempore et natio eorum <app>
+                        <lem>et natura cognoscatur</lem>
+                        <rdg wit="#M8" ana="#ordinal">cognoscatur et natura</rdg>
+                     </app>, aptissimum esse <app>
+                        <lem xml:id="lem-7.3-hoc-genus">hoc genus <app>
+                              <lem>ad</lem>
+                              <rdg wit="#S" ana="#orthographical #lexical">a</rdg>
+                           </app> proditionem</lem>
+                        <rdg wit="#M" ana="#ordinal" xml:id="rdg-7.3-ad-proditionem">ad proditionem
+                           hoc genus</rdg>
+                        <witDetail wit="#M" target="#rdg-7.3-ad-proditionem" corresp="#lem-7.1-quo"
+                           type="correction-original"/>
+                     </app> dubitare nemo potest.</seg></p>
 
                <p n="8">
                   <seg n="1">Caesar suorum timorem consolatione et ratione minuebat. Nam puteis
@@ -1131,8 +1232,8 @@ This is a subsection within the preface. Editors should use
                   <seg n="1">Erat una nauis Rhodia in dextro Caesaris cornu longe ab reliquis
                      collocata. Hanc conspicati hostes non tenuerunt sese, magnoque impetu IIII ad
                      eam constratae naues et complures apertae contenderunt.</seg>
-                  <seg n="2">Cui coactus est Caesar ferre subsidium ne turpem in conspectu
-                     &lt;suorum&gt; contumeliam acciperet, quamquam, si quid grauius illis
+                  <seg n="2" xml:id="seg-11.2">Cui coactus est Caesar ferre subsidium ne turpem in
+                     conspectu &lt;suorum&gt; contumeliam acciperet, quamquam, si quid grauius illis
                      accidisset, merito casurum iudicabat.</seg>
                   <seg n="3">Proelium commissum est magna contentione Rhodiorum; qui cum in omnibus
                      dimicationibus et scientia et uirtute praestitissent, tum maxime illo tempore
