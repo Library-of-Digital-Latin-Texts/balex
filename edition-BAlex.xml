@@ -1336,25 +1336,86 @@ This is a subsection within the preface. Editors should use
                         >Caesarem</persName> faciunt certiorem.</seg></p>
 
                <p n="10">
-                  <seg n="1">Caesar, ut per se consilium caperet quid faciendum uideretur, nauem
-                     conscendit atque omnem classem se sequi iussit nullis nostris militibus
-                     impositis, quod, cum longius paulo discederet, munitiones nudare nolebat.</seg>
-                  <seg n="2">Cumque ad eum locum accessissent, qui appellatur Chersonensus,
-                     aquandique causa remiges in terram exposuissent, non nulli ex eo numero, cum
-                     longius a nauibus praedatum processissent, ab equitibus hostium sunt
-                     excepti.</seg>
-                  <seg n="3">Ex his cognouerunt Caesarem ipsum in classe uenisse nec ullos milites
-                     in nauibus habere. Qua re comperta magnam sibi facultatem fortunam obtulisse
-                     bene gerendae rei crediderunt.</seg>
+                  <seg n="1"><persName ref="#Caesar">Caesar</persName>, ut per se consilium caperet
+                     quid faciendum uideretur, nauem conscendit atque omnem classem se sequi iussit
+                     nullis nostris militibus impositis, quod, cum longius paulo discederet,
+                     munitiones <app>
+                        <lem>nudare</lem>
+                        <rdg wit="#U" ana="#orthographical #morphological">nudari</rdg>
+                     </app> nolebat.</seg>
+                  <seg n="2">Cumque ad eum locum <app>
+                        <lem>accessissent</lem>
+                        <rdg wit="#Ϛ" xml:id="rdg-10.2-accessisset">accessisset</rdg>
+                        <note target="#rdg-10.2-accessisset">teste <ref target="#Manutius"
+                              >Manutio</ref></note>
+                     </app>, qui <app>
+                        <lem>appellatur</lem>
+                        <rdg wit="#M" ana="#orthographical #morphological">appellabatur</rdg>
+                     </app>
+                     <placeName ref="#Chersonensus">Chersonensus</placeName>, aquandique causa
+                     remiges in terram <app>
+                        <lem>exposuissent</lem>
+                        <rdg wit="#Manutius">exposuisset</rdg>
+                     </app>, non nulli ex eo numero, cum longius a nauibus <app>
+                        <lem>praedatum</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">praecedatum</rdg>
+                     </app> processissent, ab equitibus hostium sunt excepti.</seg>
+                  <seg n="3">Ex his cognouerunt <persName ref="#Caesar">Caesarem</persName> ipsum in
+                     classe uenisse nec ullos milites in nauibus habere. Qua re comperta magnam sibi
+                     facultatem fortunam obtulisse bene gerendae rei crediderunt.</seg>
                   <seg n="4">Itaque naues omnes quas paratas habuerant ad nauigandum propugnatoribus
-                     instruxerunt Caesarique redeunti cum classe occurrerunt.</seg>
-                  <seg n="5">Qui duabus de causis eo die dimicare nolebat, quod et nullos milites in
-                     nauibus habebat et post horam X diei res agebatur. Nox autem allatura uidebatur
-                     maiorem fiduciam illis, qui locorum notitia confidebant; sibi etiam hortandi
-                     suos auxilium defuturum,</seg> quod nulla satis idonea esset hortatio quae
-                  neque uirtutem posset notare neque inertiam. <seg n="6">Quibus de causis naues
-                     quas potuit Caesar ad terram detrahit, quem in locum illos successuros non
-                     existimabat.</seg></p>
+                     instruxerunt <persName ref="#Caesar">Caesarique</persName> redeunti cum classe <app>
+                        <lem wit="#M #U">occurrerunt</lem>
+                        <rdg wit="#S #T #V">occurrerant</rdg>
+                     </app>.</seg>
+                  <seg n="5">Qui duabus de causis eo die dimicare <app>
+                        <lem>nolebat</lem>
+                        <rdg wit="#S" ana="#lexical">ualebant</rdg>
+                     </app>, quod et <app>
+                        <lem>nullos</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">nullo</rdg>
+                     </app> milites in nauibus habebat <app>
+                        <lem>et</lem>
+                        <rdg wit="#S #T #V"/>
+                     </app> post horam <app>
+                        <lem>X</lem>
+                        <rdg wit="#V" ana="#orthographical">decimam</rdg>
+                     </app> diei res agebatur. Nox autem allatura uidebatur maiorem fiduciam illis,
+                     qui locorum <app>
+                        <lem>notitia</lem>
+                        <rdg wit="#U" ana="#orthographical #morphological">notitiam</rdg>
+                     </app> confidebant; sibi etiam hortandi suos auxilium defuturum, <app>
+                        <lem wit="#M #U #S">quod</lem>
+                        <rdg wit="#T #V">quo</rdg>
+                     </app> nulla satis <app>
+                        <lem>idonea esset</lem>
+                        <rdg wit="#M" ana="#ordinal">esset idonea</rdg>
+                     </app> hortatio quae neque uirtutem posset notare neque <app>
+                        <lem>inertiam</lem>
+                        <rdg wit="#M" ana="#orthographical">inhertiam</rdg>
+                     </app>.</seg>
+                  <seg n="6">Quibus <app>
+                        <lem>de causis</lem>
+                        <rdg wit="#S">deauis</rdg>
+                     </app> naues quas potuit <persName ref="#Caesar">Caesar</persName> ad terram <app>
+                        <lem>detrahit</lem>
+                        <rdg wit="#S" ana="#orthographical">detrachit</rdg>
+                     </app>, quem in locum illos <app>
+                        <lem wit="#M #U #S" xml:id="lem-10.6-successuros">successuros</lem>
+                        <witDetail wit="#M" target="#lem-10.6-successuros"
+                           corresp="#rdg-10.6-successoros" type="correction-altered"/>
+                        <rdg wit="#M" xml:id="rdg-10.6-successoros">successoros</rdg>
+                        <witDetail wit="#M" target="#rdg-10.6-successoros"
+                           corresp="#lem-10.6-successuros" type="correction-original"/>
+                        <rdg wit="#T #V" xml:id="rdg-10.6-succensures">succens(u/o)res</rdg>
+                        <witDetail wit="#T" target="#rdg-10.6-succensures"
+                           corresp="#rdg-10.6-succensuros" type="correction-altered">-ros <hi
+                              rend="italic">ante corr.</hi></witDetail>
+                     </app> non <app>
+                        <lem wit="#U #T">existimabat</lem>
+                        <rdg wit="#M #V">estimabat</rdg>
+                        <rdg wit="#S">exstimabat</rdg>
+                     </app>.</seg></p>
 
                <p n="11">
                   <seg n="1">Erat una nauis Rhodia in dextro Caesaris cornu longe ab reliquis
