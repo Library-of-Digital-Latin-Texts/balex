@@ -22,6 +22,9 @@
             <place xml:id="Aegyptus" corresp="https://pleiades.stoa.org/places/981503">
                <placeName>Aegyptus</placeName>
             </place>
+            <place xml:id="Asia" corresp="https://pleiades.stoa.org/places/981509">
+               <placeName>Asia</placeName>
+            </place>
             <place xml:id="Alexandria" corresp="https://pleiades.stoa.org/places/727070">
                <placeName>Alexandria</placeName>
             </place>
@@ -35,6 +38,9 @@
             <place xml:id="Creta" corresp="https://pleiades.stoa.org/places/589748">
                <placeName>Creta</placeName>
             </place>
+            <place xml:id="Lycia" corresp="https://pleiades.stoa.org/places/638965">
+               <placeName>Lycia</placeName>
+            </place>
             <place xml:id="Nabataea" corresp="https://pleiades.stoa.org/places/29677">
                <placeName>Nabataea</placeName>
             </place>
@@ -43,6 +49,9 @@
             </place>
             <place xml:id="Paraetonium" corresp="https://pleiades.stoa.org/places/716615">
                <placeName>Paraetonium</placeName>
+            </place>
+            <place xml:id="Pontica" corresp="https://pleiades.stoa.org/places/992081">
+               <placeName>Pontica</placeName>
             </place>
             <place xml:id="Syria" corresp="https://pleiades.stoa.org/places/1306">
                <placeName>Syria</placeName>
