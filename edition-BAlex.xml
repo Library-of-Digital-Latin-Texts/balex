@@ -531,6 +531,15 @@ This is a subsection within the preface. Editors should use
             <!-- Begin bibliography of secondary sources -->
             <listBibl xml:id="secondary-sources">
                <head>Secondary Sources</head>
+               <bibl xml:id="Austin"><abbr type="siglum">Austin</abbr> = <author>Austin,
+                     R.G.</author>
+                  <title>P. Vergili Maronis Aeneidos Liber Sextus</title>.
+                     <pubPlace>Oxford</pubPlace>. <date>1986</date>.</bibl>
+
+               <bibl xml:id="Barwick"><abbr type="siglum">Barwick</abbr> = Barwick, K.
+                     <title>Caesars Commentarii und das Corpus Caesarianum</title>.
+                     <pubPlace>Leipzig</pubPlace>. <date>1938</date>.</bibl>
+
                <bibl xml:id="Brown"><abbr type="siglum">Brown</abbr> = <author>Brown,
                      Virginia</author>. <title>The Textual Transmission of Caesar's Civil
                      War</title>. <pubPlace>Leiden</pubPlace>: <publisher>Brill</publisher>
@@ -582,6 +591,11 @@ This is a subsection within the preface. Editors should use
                      über Autorschaft und Komposition des Bellum Alexandrinum und Africanum</title>.
                      <pubPlace>Erlangen</pubPlace>. <date>1888</date>.</bibl>
 
+               <bibl xml:id="Larsen"><abbr type="siglum">Larsen</abbr> = <author>Larsen, Sophus
+                     C.</author>
+                  <title level="m">Studia in libellum incerti auctoris de bello Alexandrino</title>.
+                     <pubPlace>Copenhagen</pubPlace>. <date>1886</date>.</bibl>
+
                <bibl xml:id="Madvig"><abbr type="siglum">Madvig</abbr> = <author>Madvig, J.
                      N.</author> "<title level="a">Capitulum III: Caesar, Sallustius.</title>" In
                      <title level="s">Adversaria critica ad scriptores graecos et latinos</title>.
@@ -603,11 +617,22 @@ This is a subsection within the preface. Editors should use
                   <pubPlace>Paris</pubPlace>: <publisher>CNRS</publisher>, <date>1982</date>, p.
                   40.</bibl>
 
+               <bibl xml:id="Rice-Holmes"><abbr type="siglum">Rice Holmes</abbr> = <author>Rice
+                     Holmes, T.</author>
+                  <title>The Roman Republic and the Founder of the Empire</title> Vol. <biblScope
+                     unit="volume">3</biblScope>, <pubPlace>Oxford</pubPlace>.
+                  <date>1923</date>.</bibl>
+
                <bibl xml:id="Rostagno"><author>Rostagno, Enrico</author> “<title level="a">Il libro
                      de Bello Africo nel cod. Laurenziano-Ashb. n. 33</title>.” <title level="j"
                      >Studi italiani di filologia classica</title>
                   <biblScope unit="volume">2</biblScope> (<date>1894)</date>: <biblScope unit="page"
                      >321–9</biblScope>.</bibl>
+
+               <bibl xml:id="Townend"><abbr type="siglum">Townend</abbr> = <author>Townend,
+                     G.</author>
+                  <title>Caesar's War in Alexandria</title>, <pubPlace>Bristol</pubPlace>.
+                     <date>1988</date>.</bibl>
 
                <bibl xml:id="West"><abbr type="siglum">West</abbr> = <author>West, M.L.</author>
                   <title>Textual Criticism and Editorial Technique</title>.
@@ -1683,7 +1708,7 @@ This is a subsection within the preface. Editors should use
                      complures adiecerunt et in portu periclitati remigio quid quaeque earum
                      efficere posset idoneos milites imposuerunt seque ad confligendum omnibus rebus
                      parauerunt.</seg>
-                  <seg n="5"><persName ref="#Caesar">Caesar</persName>
+                  <seg n="5" xml:id="seg-13.5"><persName ref="#Caesar">Caesar</persName>
                      <placeName ref="https://pleiades.stoa.org/places/590031">Rhodias</placeName>
                      naues VIIII habebat—nam decem missis una in cursu litore Aegyptio
                         defecerat—<placeName ref="#Pontica">Ponticas</placeName> VIII, <placeName
@@ -1705,11 +1730,12 @@ This is a subsection within the preface. Editors should use
                   <seg n="4">Magnum praeterea numerum minorum nauigiorum et scapharum producunt cum
                      malleolis ignibusque, si quid ipsa multitudo et clamor et flamma nostris
                      terroris adferre possent.</seg>
-                  <seg n="5">Erant inter duas classis uada transitu angusto, quae pertinent ad
-                     regionem Africae — sic enim praedicant, partem esse Alexandriae dimidiam
-                     Africae — satisque diu inter ipsos est exspectatum ab utris transeundi fieret
-                     initium, propterea quod ei qui intrassent et ad explicandam classem et ad
-                     receptum, si durior accidisset casus, impeditiores fore uidebantur.</seg></p>
+                  <seg n="5" xml:id="seg-14.5">Erant inter duas classis uada transitu angusto, quae
+                     pertinent ad regionem Africae — sic enim praedicant, partem esse Alexandriae
+                     dimidiam Africae — satisque diu inter ipsos est exspectatum ab utris transeundi
+                     fieret initium, propterea quod ei qui intrassent et ad explicandam classem et
+                     ad receptum, si durior accidisset casus, impeditiores fore
+                  uidebantur.</seg></p>
 
                <p n="15">
                   <seg n="1">Rhodiis nauibus praeerat Euphranor, animi magnitudine ac uirtute magis
@@ -2272,6 +2298,113 @@ This is a subsection within the preface. Editors should use
                <!-- DISCUSS THE CONTRIBUTION OF KÜBLER'S temporibus.-->
                <!-- IT WOULD BE BETTER TO ADOPT A FAUTE DE MIEUX REPAIR. MOST OF THE WORDS HERE ARE
                   FINE, IT'S JUST THAT THAT DON'T COHERE PERFECTLY. --></note>
+            <note type="commentary" xml:id="comm-13.5"><!-- Needs corresp to point to text. -->
+               <p>The text enumerates the naval forces that Caesar had under his command at the
+                  beginning of the battle in the Eunostos harbor of Alexandria in 47 BCE.</p>
+               <p>The <foreign xml:lang="lat">nam</foreign> clause has drawn the most critical
+                  attention, though it is perfectly comprehensible, if somewhat awkward. I see no
+                  reason to doubt the transmitted reading decem missis; <ref target="#Larsen"
+                     >Larsen</ref> adds <foreign xml:lang="lat">de</foreign> because the ablative
+                  absolute seems <foreign xml:lang="lat">durior</foreign> to him.</p>
+               <p>The reading of <foreign>in cursu litore Aegyptio</foreign> is more disputable.
+                  Dinter prefers to read <foreign>in cursu Aegyptio</foreign>; the adjectival
+                  demonym with <foreign>in cursu</foreign> is unparalleled, though not uncommon with
+                     <foreign>litus</foreign> (cf., e.g., <bibl><author>Cic.</author>
+                     <title>Sest.</title> 140</bibl>
+                  <foreign>in litore Dyrrachino</foreign>). <ref target="#Nipperdey">Nipperdey</ref>
+                  and <ref target="#Larsen">Larsen</ref> propose adding <foreign>in</foreign> and
+                     <foreign>sub</foreign> respectively before <foreign>litore</foreign>, but in
+                  defense of the paradosis I would point to <bibl><author>Caes.</author>
+                     <title>BG</title> 4.23.6</bibl>
+                  <foreign>aperto ac plano litore naues constituit</foreign>, where the bare
+                  ablative has a locative function and, as it appears from the context (Caesar's
+                  ships cannot land on the beaches), does not signify the shore itself but the
+                  inshore waters (see <bibl><title>TLL</title> 7.2.1537.52ff.)</bibl>. (Perhaps we
+                  are to understand that the lost Rhodian ship ran aground upon the treacherous
+                     <foreign>uada Aegyptia</foreign> mentioned at <ref target="#seg-14.5"
+                     >14.5</ref> and <bibl><author>Luc.</author> 8.540</bibl>?) The peculiarity of
+                     <foreign>deficere</foreign> for a ship “foundering” is highlighted by the fact
+                  that its nearest parallel is <bibl><author>Verg.</author>
+                     <title>Aen.</title> 6.354</bibl>, where Palinurus tells Aeneas he fears less
+                  for himself than that <foreign>tua ... / deficeret tantis nauis surgentibus
+                     undis</foreign> – but it requires no emendation and seems to me an unlikely
+                  error. <ref target="#Austin">Austin</ref>, ad loc. cites <ref target="seg-13.5"
+                     >13.5</ref> as a parallel for the Vergil passage.
+                  <!-- ADD A COMMENT HERE ABOUT THE POSSIBILITY THAT DEFICERE
+                  WOULD BE TAKEN TO MEAN "DEFECT"? TLL 5.1.327.79-328.7 --></p>
+               <p>In addition to these points there is also a textual problem of some historical
+                  consequence. Scholars were content with the transmitted reading
+                     <foreign>l(i/y)(c/t)ias</foreign> = <foreign>Lycias</foreign> until <ref
+                     target="#Schneider">Schneider</ref> proposed the emendation
+                     <foreign>Cilicias</foreign>, with the addition of some unknown number after
+                     <foreign>Syrias</foreign>, citing 1.1 as evidence: <foreign>Caesar Rhodo atque
+                     ex Syria Ciliciaque omnem classem arcessit</foreign>. Many editors have found
+                  this convincing: <ref target="#Schneider">Schneider</ref>'s conjecture has since
+                  been adopted by <ref target="#Kübler">Kübler</ref>, <ref target="#Klotz1927"
+                     >Klotz</ref>, and <ref target="#Andrieu">Andrieu</ref>, among others.</p>
+               <p>What is immediately clear, and should make us wary of accepting <ref
+                     target="#Schneider">Schneider</ref>'s conjecture too readily, is that, with or
+                  without the conjecture, the list at 1.1 does not correspond to that at 13.5: in
+                  the former, the sources for Caesar's fleet are given as Rhodes, Syria, and
+                  Cilicia; in the latter, the ships are from Rhodes, Pontus, and Asia, along with
+                  whatever the lemma in question represents.</p>
+               <p>We should take notice of the report at <bibl><title>BC</title> 3.106.1</bibl> that
+                  Caesar <foreign>cum ... nauibus longis Rhodiis X et Asiaticis paucis Alexandriam
+                     peruenit</foreign>. If Caesar arrived in Alexandria with these ten Rhodian
+                  ships, then summoned more from Rhodes (1.1), at the time of the harbor battle he
+                  would have had more than the nine Rhodian ships reported in 13.5. <ref
+                     target="#Barwick">Barwick</ref> (180 n. 1) adduced this discrepancy as evidence
+                  against the analytical interpretation of the <bibl><title>Bellum
+                        Alexandrinum</title></bibl>; <ref target="#Rice-Holmes">Rice Holmes</ref>
+                  (484 n. 7) suspected that Hirtius' (sic) text at 1.1 was simply “a mistake.”</p>
+               <p>A much more plausible reading, however, is to understand 1.1 as referring to
+                  reinforcements which had been ordered but had not yet arrived at the time of the
+                  battle; the <foreign>decem missis</foreign> of 13.5 thus refers to the ten Rhodian
+                  ships said to have come with Caesar at <bibl><title>BC</title> 3.106.1</bibl> (see
+                     <ref target="#Gaertner-Hausburg">Gaertner-Hausburg</ref> 51-52, citing also
+                        <bibl><author>P. Graindor</author>, <title>La guerre d'Alexandrie</title>,
+                     Cairo (<date>1931</date>): 29-30: 101</bibl>. This would explain why the forces
+                  of 13.5 differ from those of 1.1, and provide grounds for rejecting <ref
+                     target="#Schneider">Schneider</ref>'s attempt to smooth over these
+                  differences.</p>
+               <p>Some have also defended the paradosis with reference to 14.1-2, where Caesar is
+                  said to have positioned the Rhodian ships on his right flank and the Pontic ships
+                  on his left, while the rest were set behind them as reserves. The logic is that,
+                  reading the paradosis, each of the ships on Caesar's flanks would have exactly one
+                  assigned to it as a reserve, with nine Rhodian and eight Pontic ships (=17)
+                  supported by five Lycian and twelve Asian ships (=17). “Trop séduisante,” notes
+                     <ref target="#Andrieu">Andrieu</ref> (lviii-lix), but only a minimum of 34
+                  ships is necessary: the text does not require a one-to-one correspondence.</p>
+               <p>That argument aside, the case thus far for maintaining the paradosis is a strong
+                  one. There remains one important question to answer: is there anything inherently
+                  implausible in Caesar having a handful of ships from Lycia? Lycia, granted, is
+                  nowhere else mentioned in the Caesarean corpus, and <ref target="#Townend"
+                     >Townend</ref> (44), for one, finds the paradosis objectionable "since Lycia
+                  was not a Roman province at this time." That however does not preclude the
+                  possibility of raising ships from Lycia; according to
+                        <bibl><author>Cicero</author>
+                     <title>Att.</title> 9.9.2</bibl> Lycia was one of the sources for Pompey's
+                  fleet just a few years earlier. Moreover, a recently published Greek inscription
+                  on bronze shows that Caesar presided over the negotiation of a generous treaty
+                  with the Lycians in 46 BCE, which several historians have interpreted as a reward
+                  for the contingent of ships that Lycia sent to Egypt (apparently giving no thought
+                  to <ref target="#Schneider">Schneider</ref>'s conjecture).</p>
+               <p>In sum, it appears that the basis of <ref target="#Schneider">Schneider</ref>'s
+                  conjecture is unreliable at best, and that the paradosis, far from being
+                  historically objectionable, may actually serve to explicate the condition of
+                  Roman-Lycian relations in the time of Caesar.</p>
+               <p>For more discussion on Lycia, see the <ref target="#edprin">editio princeps</ref>
+                  and discussion in <bibl>S. Mitchell, 2005, "The Treaty between Rome and Lycia of
+                     46 BC (MS2070)," Papyri Graecae Schøyen (P. Schøyen I), ed. R. Pintaudi,
+                     Florence: 161-259</bibl>, with reference to the position of Lycia and the ships
+                  sent to Egypt at 234-37; both <bibl>P. Sánchez, 2007 "La convention judiciaire
+                     dans le traité conclu entre Rome et les Lyciens (P.Schøyen I 25)," Chiron 37
+                     363-381 at 364</bibl> and <bibl>Isaías Arrayás Morales, 2010, "Diplomacy in the
+                     Greek Poleis of Asia Minor: Mytilene's Embassy to Tarraco," C&amp;M 61:
+                     127-149, at 133 n. 19</bibl> also point to the Lycian ships in connection with
+                  the treaty.</p>
+            </note>
+
          </div>
       </body>
       <back>
