@@ -25,6 +25,10 @@
             <place xml:id="Alexandria" corresp="https://pleiades.stoa.org/places/727070">
                <placeName>Alexandria</placeName>
             </place>
+            <place xml:id="Chersonensus" corresp="https://pleiades.stoa.org/places/373773">
+               <!-- Uncertain about the pleiades ref. -->
+               <placeName>Chersonensus</placeName>
+            </place>
             <place xml:id="Cilicia" corresp="https://pleiades.stoa.org/places/658440">
                <placeName>Cilicia</placeName>
             </place>

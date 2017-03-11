@@ -49,6 +49,9 @@
             <person xml:id="Ptolemaeus">
                <persName>Ptolemaeus</persName>
             </person>
+            <org xml:id="Rhodi" corresp="https://pleiades.stoa.org/places/590031">
+               <orgName>Rhodi</orgName><!-- maybe Rhodii? -->
+            </org>
          </listPerson>
       </body>
    </text>
