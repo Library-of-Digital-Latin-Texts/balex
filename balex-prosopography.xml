@@ -31,6 +31,9 @@
             <person xml:id="Caluinus">
                <persName>Domitius Caluinus</persName>
             </person>
+            <person xml:id="Euphranor">
+               <persName>Euphranor</persName>
+            </person>
             <person xml:id="Gabinius">
                <persName>Aulus Gabinius</persName>
             </person>
