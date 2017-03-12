@@ -1817,23 +1817,50 @@ This is a subsection within the preface. Editors should use
                      </app> ad dimicandum parabat.</seg></p>
 
                <p n="14">
-                  <seg n="1">Postquam eo uentum est ut sibi uterque eorum confideret, Caesar Pharon
-                     classe circumuehitur aduersasque naues hostibus constituit: in dextro cornu
-                     Rhodios collocat, in sinistro Ponticos. Inter hos spatium CCCC passuum
-                     relinquit, quod satis esse ad explicandas naues uidebatur.</seg>
-                  <seg n="2">Post hunc ordinem reliquas naues subsidio distribuit; quae quamque
+                  <seg n="1"><app>
+                        <lem>Postquam</lem>
+                        <rdg wit="#S" ana="#orthographical">postaquam</rdg>
+                     </app> eo uentum est ut sibi uterque <app>
+                        <lem>eorum</lem>
+                        <rdg wit="#T #V"/>
+                     </app> confideret, <persName ref="#Caesar">Caesar</persName>
+                     <persName ref="#Pharos">Pharon</persName> classe circumuehitur aduersasque
+                     naues hostibus constituit: in dextro cornu <app>
+                        <lem source="#ω" xml:id="lem-14.1-Rhodios-etc">Rhodios collocat, in sinistro
+                           Ponticos. Inter hos</lem>
+                        <note target="#lem-14.1-Rhodios-etc">sc. e.g. <hi rend="italic"
+                              >classiarios</hi>; u. et ad <ref target="#seg-15.6">15.6</ref>
+                           infra</note>
+                        <rdg wit="#edprin">Rhodias collocat, in sinistro Ponticas. Inter has</rdg>
+                     </app>
+                     <app>
+                        <lem>spatium</lem>
+                        <rdg wit="#T" ana="#orthographical">ispatium</rdg>
+                     </app> CCCC passuum <app>
+                        <lem wit="#M #U #V">relinquit</lem>
+                        <rdg wit="#S #T">reliquit</rdg>
+                     </app>, quod satis esse ad explicandas naues uidebatur.</seg>
+                  <seg n="2">Post hunc ordinem reliquas naues subsidio <app><lem>distribuit</lem><rdg wit="#M8" ana="#orthographical">sdistribuit</rdg></app>; quae <app><lem>quamque</lem><rdg wit="#V" ana="#orthographical #lexical">quamcumque</rdg></app>
                      earum sequatur et cui subueniat constituit atque imperat.</seg>
-                  <seg n="3">Non dubitanter Alexandrini classem producunt atque instruunt: in fronte
+                  <seg n="3">Non dubitanter Alexandrini classem producunt atque <app><lem>instruunt</lem><rdg wit="#V" ana="#orthographical #lexical">instituunt</rdg></app>: in fronte
                      collocant XXII, reliquas subsidiarias in secundo ordine constituunt.</seg>
                   <seg n="4">Magnum praeterea numerum minorum nauigiorum et scapharum producunt cum
-                     malleolis ignibusque, si quid ipsa multitudo et clamor et flamma nostris
+                     malleolis ignibusque, si quid <app><lem>ipsa</lem><rdg wit="#S" ana="#orthographical #morphological">ipsam</rdg></app> multitudo et clamor et flamma nostris
                      terroris adferre possent.</seg>
-                  <seg n="5" xml:id="seg-14.5">Erant inter duas classis uada transitu angusto, quae
-                     pertinent ad regionem Africae — sic enim praedicant, partem esse Alexandriae
-                     dimidiam Africae — satisque diu inter ipsos est exspectatum ab utris transeundi
-                     fieret initium, propterea quod ei qui intrassent et ad explicandam classem et
-                     ad receptum, si durior accidisset casus, impeditiores fore
-                  uidebantur.</seg></p>
+                  <seg n="5" xml:id="seg-14.5">Erant inter duas classis uada <app><lem>transitu</lem><rdg wit="#S" ana="#orthographical #lexical">transitum</rdg></app> angusto, quae
+                     pertinent ad regionem Africae — <app>
+                        <lem>sic enim praedicant, partem esse Alexandriae dimidiam Africae</lem>
+                        <rdg wit="#M"/>
+                     </app> — satisque diu inter <app><lem>ipsos est</lem><rdg wit="#T" ana="#orthographical #lexical #morphological">ipso se</rdg></app> exspectatum ab utris <app><lem>transeundi</lem><rdg wit="#S" ana="#orthographical">transecundi</rdg></app> <app><lem>fieret</lem><rdg wit="#T" ana="#subtractive" /></app>
+                     initium, <app><lem>propterea</lem><rdg wit="#U" ana="#orthographical">propam</rdg></app> quod <app>
+                        <lem wit="#U #S #T">ei</lem>
+                        <rdg wit="#M">eis</rdg>
+                        <rdg wit="#V">et</rdg>
+                     </app> qui intrassent et ad explicandam classem et ad receptum, si durior
+                     accidisset casus, <app>
+                        <lem wit="#M">impeditiores</lem>
+                        <rdg wit="#U #S #T #V">expeditiores</rdg>
+                     </app> fore uidebantur.</seg></p>
 
                <p n="15">
                   <seg n="1">Rhodiis nauibus praeerat Euphranor, animi magnitudine ac uirtute magis
@@ -1849,9 +1876,10 @@ This is a subsection within the preface. Editors should use
                   <seg n="5">Caesar illum adhortatus atque omnibus laudibus prosecutus dat signum
                      pugnae. Progressis ultra uadum, IIII Rhodias naues circumsistunt Alexandrini
                      atque in eas impetum faciunt.</seg>
-                  <seg n="6">Sustinent illi atque arte sollertiaque se explicant; ac tantum doctrina
-                     potuit ut in dispari numero nulla transuersa hosti obiceretur, nullius remi
-                     detergerentur, sed semper uenientibus aduersae occurrerent.</seg>
+                  <seg n="6" xml:id="seg-15.6">Sustinent illi atque arte sollertiaque se explicant;
+                     ac tantum doctrina potuit ut in dispari numero nulla transuersa hosti
+                     obiceretur, nullius remi detergerentur, sed semper uenientibus aduersae
+                     occurrerent.</seg>
                   <seg n="7">Interim sunt reliquae subsecutae. Tum necessario discessum ab arte est
                      propter angustias loci, atque omne certamen in uirtute constitit.</seg>
                   <seg n="8">Neque uero Alexandriae fuit quisquam aut nostrorum aut oppidanorum
