@@ -586,7 +586,7 @@ This is a subsection within the preface. Editors should use
                      lateinischer Autoren</title>. <pubPlace>Aurich</pubPlace>.
                   <date>1882</date>.</bibl>
 
-               <bibl xml:id="Landgraf"><abbr type="siglum">Landgraf</abbr> = <author>Landgraf,
+               <bibl xml:id="Landgraf"><abbr type="siglum">Landgraf 1888</abbr> = <author>Landgraf,
                      G</author>. <title>Untersuchungen zu Caesar und seinen Fortsetzern insbesondere
                      über Autorschaft und Komposition des Bellum Alexandrinum und Africanum</title>.
                      <pubPlace>Erlangen</pubPlace>. <date>1888</date>.</bibl>
@@ -656,6 +656,9 @@ This is a subsection within the preface. Editors should use
                <person xml:id="Khan">
                   <persName>Scheherazade Khan</persName>
                   <note>Member of the Latin 540 class (spring 2015).</note>
+               </person>
+               <person xml:id="Lewis">
+                  <persName>Amy Lewis. Member of the Latin 540 class (spring 2015).</persName>
                </person>
                <person xml:id="Siesbye" corresp="http://viaf.org/viaf/289411596">
                   <persName>Oskar Siesbye (see <ref target="#Larsen">Larsen</ref></persName>
@@ -768,7 +771,7 @@ This is a subsection within the preface. Editors should use
                      </app> large palus praebere poterat.</seg></p>
 
                <p n="2">
-                  <seg n="1">Neque uero Alexandrinis in gerendis negotiis <app>
+                  <seg n="1" xml:id="seg-2.1">Neque uero Alexandrinis in gerendis negotiis <app>
                         <lem>cunctatio</lem>
                         <rdg wit="#S" ana="#orthographical #lexical">contatio</rdg>
                      </app> ulla aut mora inferebatur. Nam in omnes partes, per quas <app>
@@ -1123,7 +1126,7 @@ This is a subsection within the preface. Editors should use
                      reperiebatur.</seg></p>
 
                <p n="7">
-                  <seg n="1"><app>
+                  <seg n="1" xml:id="seg-7.1"><app>
                         <lem xml:id="lem-7.1-quo">Quo</lem>
                         <rdg wit="#M" xml:id="rdg-7.1-qua" ana="#orthographical #morphological"
                            >qua</rdg>
@@ -1817,7 +1820,7 @@ This is a subsection within the preface. Editors should use
                      </app> ad dimicandum parabat.</seg></p>
 
                <p n="14">
-                  <seg n="1"><app>
+                  <seg n="1" xml:id="seg-14.1"><app>
                         <lem>Postquam</lem>
                         <rdg wit="#S" ana="#orthographical">postaquam</rdg>
                      </app> eo uentum est ut sibi uterque <app>
@@ -1840,19 +1843,43 @@ This is a subsection within the preface. Editors should use
                         <lem wit="#M #U #V">relinquit</lem>
                         <rdg wit="#S #T">reliquit</rdg>
                      </app>, quod satis esse ad explicandas naues uidebatur.</seg>
-                  <seg n="2">Post hunc ordinem reliquas naues subsidio <app><lem>distribuit</lem><rdg wit="#M8" ana="#orthographical">sdistribuit</rdg></app>; quae <app><lem>quamque</lem><rdg wit="#V" ana="#orthographical #lexical">quamcumque</rdg></app>
-                     earum sequatur et cui subueniat constituit atque imperat.</seg>
-                  <seg n="3">Non dubitanter Alexandrini classem producunt atque <app><lem>instruunt</lem><rdg wit="#V" ana="#orthographical #lexical">instituunt</rdg></app>: in fronte
-                     collocant XXII, reliquas subsidiarias in secundo ordine constituunt.</seg>
+                  <seg n="2">Post hunc ordinem reliquas naues subsidio <app>
+                        <lem>distribuit</lem>
+                        <rdg wit="#M8" ana="#orthographical">sdistribuit</rdg>
+                     </app>; quae <app>
+                        <lem>quamque</lem>
+                        <rdg wit="#V" ana="#orthographical #lexical">quamcumque</rdg>
+                     </app> earum sequatur et cui subueniat constituit atque imperat.</seg>
+                  <seg n="3">Non dubitanter Alexandrini classem producunt atque <app>
+                        <lem>instruunt</lem>
+                        <rdg wit="#V" ana="#orthographical #lexical">instituunt</rdg>
+                     </app>: in fronte collocant XXII, reliquas subsidiarias in secundo ordine
+                     constituunt.</seg>
                   <seg n="4">Magnum praeterea numerum minorum nauigiorum et scapharum producunt cum
-                     malleolis ignibusque, si quid <app><lem>ipsa</lem><rdg wit="#S" ana="#orthographical #morphological">ipsam</rdg></app> multitudo et clamor et flamma nostris
-                     terroris adferre possent.</seg>
-                  <seg n="5" xml:id="seg-14.5">Erant inter duas classis uada <app><lem>transitu</lem><rdg wit="#S" ana="#orthographical #lexical">transitum</rdg></app> angusto, quae
-                     pertinent ad regionem Africae — <app>
+                     malleolis ignibusque, si quid <app>
+                        <lem>ipsa</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">ipsam</rdg>
+                     </app> multitudo et clamor et flamma nostris terroris adferre possent.</seg>
+                  <seg n="5" xml:id="seg-14.5">Erant inter duas classis uada <app>
+                        <lem>transitu</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">transitum</rdg>
+                     </app> angusto, quae pertinent ad regionem Africae — <app>
                         <lem>sic enim praedicant, partem esse Alexandriae dimidiam Africae</lem>
                         <rdg wit="#M"/>
-                     </app> — satisque diu inter <app><lem>ipsos est</lem><rdg wit="#T" ana="#orthographical #lexical #morphological">ipso se</rdg></app> exspectatum ab utris <app><lem>transeundi</lem><rdg wit="#S" ana="#orthographical">transecundi</rdg></app> <app><lem>fieret</lem><rdg wit="#T" ana="#subtractive" /></app>
-                     initium, <app><lem>propterea</lem><rdg wit="#U" ana="#orthographical">propam</rdg></app> quod <app>
+                     </app> — satisque diu inter <app>
+                        <lem>ipsos est</lem>
+                        <rdg wit="#T" ana="#orthographical #lexical #morphological">ipso se</rdg>
+                     </app> exspectatum ab utris <app>
+                        <lem>transeundi</lem>
+                        <rdg wit="#S" ana="#orthographical">transecundi</rdg>
+                     </app>
+                     <app>
+                        <lem>fieret</lem>
+                        <rdg wit="#T" ana="#subtractive"/>
+                     </app> initium, <app>
+                        <lem>propterea</lem>
+                        <rdg wit="#U" ana="#orthographical">propam</rdg>
+                     </app> quod <app>
                         <lem wit="#U #S #T">ei</lem>
                         <rdg wit="#M">eis</rdg>
                         <rdg wit="#V">et</rdg>
@@ -1863,23 +1890,91 @@ This is a subsection within the preface. Editors should use
                      </app> fore uidebantur.</seg></p>
 
                <p n="15">
-                  <seg n="1">Rhodiis nauibus praeerat Euphranor, animi magnitudine ac uirtute magis
-                     cum nostris hominibus quam cum Graecis comparandus.</seg>
+                  <seg n="1">Rhodiis nauibus praeerat <persName ref="#Euphranor"
+                        >Euphranor</persName>, animi magnitudine ac uirtute magis cum nostris
+                     hominibus quam cum Graecis comparandus.</seg>
                   <seg n="2">Hic ob notissimam scientiam atque animi magnitudinem delectus est ab
                      Rhodiis qui imperium classis obtineret.</seg>
-                  <seg n="3">Qui ubi Caesaris &lt;moram&gt; animaduertit, 'Videris, mihi,' inquit,
-                     'Caesar, uereri, si haec uada primis nauibus intraris, ne prius dimicare
-                     cogaris quam reliquam classem potueris explicare. Nobis rem committe:</seg>
-                  <seg n="4">nos proelium sustinebimus — neque tuum iudicium fallemus — dum reliqui
-                     subsequantur. Hos quidem diutius in nostro conspectu gloriari magno nobis et
-                     dedecori et dolori est.'</seg>
-                  <seg n="5">Caesar illum adhortatus atque omnibus laudibus prosecutus dat signum
-                     pugnae. Progressis ultra uadum, IIII Rhodias naues circumsistunt Alexandrini
-                     atque in eas impetum faciunt.</seg>
-                  <seg n="6" xml:id="seg-15.6">Sustinent illi atque arte sollertiaque se explicant;
-                     ac tantum doctrina potuit ut in dispari numero nulla transuersa hosti
-                     obiceretur, nullius remi detergerentur, sed semper uenientibus aduersae
-                     occurrerent.</seg>
+                  <seg n="3">Qui ubi <app>
+                        <lem source="#Lewis" xml:id="lem-15.3-Caesaris-moram"><persName
+                              ref="#Caesar">Caesaris</persName>
+                           <supplied reason="undefined">moram</supplied></lem>
+                        <note target="#lem-15.3-Caesaris-moram">cf. <ref target="#seg-2.1">cf.
+                              2.1</ref></note>
+                        <rdgGrp>
+                           <rdg source="#Forchhammer">Caesaris <supplied reason="undefined"
+                                 >dubitationem</supplied></rdg>
+                           <note>aut</note>
+                           <rdg source="#Forchhammer">Caesarem <supplied reason="undefined"
+                                 >dubitare</supplied></rdg>
+                           <note>cf. <ref target="#seg-7.1">7.1</ref> et <ref target="#seg-21.1"
+                                 >21.1</ref></note>
+                        </rdgGrp>
+                        <rdg source="#Landgraf">Caesaris <supplied reason="undefined"
+                              >cunctationem</supplied></rdg>
+                        <rdg source="#Andrieu" xml:id="rdg-15.3-Caesari-consilium">Caesaris
+                              <supplied reason="undefined">consilium</supplied></rdg>
+                        <note target="#rdg-15.3-Caesari-consilium">dubitanter</note>
+                     </app> animaduertit, '<said who="#Euphranor" xml:id="said-15.3-Euphranor-a"
+                        next="#said-15.3-Euphranor-b">Videris, mihi</said>,' inquit, '<said
+                        who="#Euphranor" xml:id="said-15.3-Euphranor-b"
+                        prev="#said-15.3-Euphranor-a" next="#said-15.4-Euphranor">Caesar, uereri, si
+                        haec uada primis nauibus intraris, ne prius dimicare cogaris quam reliquam
+                        classem <app>
+                           <lem wit="#M #U #S #T" xml:id="lem-15.3-potueris">potueris</lem>
+                           <note target="#lem-15.3-potueris">cf. <bibl><title>BG</title>
+                                 4.12.2</bibl></note>
+                           <rdg wit="#V">putaueris</rdg>
+                           <rdg wit="#N" xml:id="rdg-15.3-possis">possis</rdg>
+                           <note target="#rdg-15.3-possis">cf. <bibl><title>BG</title> 7.78.1</bibl>
+                              etc.</note>
+                        </app> explicare. Nobis rem committe:</said></seg>
+                  <seg n="4"><said who="Euphranor" xml:id="said-15.4-Euphranor"
+                        prev="#said-15.3-Euphranor-b">nos proelium sustinebimus — neque tuum
+                        iudicium fallemus — dum reliqui subsequantur. Hos quidem diutius in nostro
+                        conspectu gloriari magno nobis et dedecori et dolori est.</said>'</seg>
+                  <seg n="5"><persName ref="#Caesar">Caesar</persName> illum adhortatus atque
+                     omnibus laudibus prosecutus dat signum <app>
+                        <lem wit="#M #T" xml:id="lem-15.5-pugnae">pugnae</lem>
+                        <witDetail wit="#T" target="#lem-15.5-pugnae" corresp="#rdg-15.5-pugna"
+                           type="correction-altered"/>
+                        <rdg wit="#U #S #T #V" xml:id="rdg-15.5-pugna">pugna</rdg>
+                        <!-- Hugh: will a witDetail with two witnesses append "ac" to both of the witnesses? -->
+                        <witDetail wit="#T #V" target="#rdg-15.5-pugna" corresp="#lem-15.5-pugnae"
+                           type="correction-original"/>
+                        <rdg wit="#V" xml:id="rdg-15.5-pugnandi">pugnandi</rdg>
+                        <witDetail wit="#V" target="#rdg-15.5-pugnandi" corresp="#rdg-15.5-pugna"
+                           type="correction-altered"/>
+                        <note target="#rdg-15.5-pugnandi">cf.
+                              <!-- Need to insert an xml:id at 45.3 --><ref target="#seg-45.3"
+                              >45.3</ref></note>
+                     </app>. <app>
+                        <lem wit="#U #S #T #V" xml:id="lem-15.5-progressis">Progressis</lem>
+                        <witDetail wit="#T" target="#lem-15.5-progressis"
+                           corresp="#rdg-15.5-progressas" type="correction-original"/>
+                        <rdg wit="#M #T #Ϛ" xml:id="rdg-15.5-progressas">progressas</rdg>
+                        <witDetail wit="#T" target="#rdg-15.5-progressas"
+                           corresp="#lem-15.5-progressis" type="correction-altered"/>
+                     </app> ultra uadum, IIII Rhodias naues circumsistunt Alexandrini atque in eas
+                     impetum faciunt.</seg>
+                  <seg n="6" xml:id="seg-15.6">Sustinent <app>
+                        <lem wit="#ω" xml:id="lem-15.6-illi">illi</lem>
+                        <note target="#lem-15.6-illi">u. et ad <ref target="#seg-14.1">14.1</ref>
+                           supra</note>
+                        <rdg wit="#Klotz1927" xml:id="rdg-15.6-illae">illae</rdg>
+                        <note target="#rdg-15.6-illae">dubitanter</note>
+                     </app> atque <app>
+                        <lem wit="#M #U #T" xml:id="lem-15.6-arte">arte sollertiaque se</lem>
+                        <rdg wit="#S">artes sollertia qua esse</rdg>
+                        <rdg wit="#T #V" xml:id="rdg-15.6-rate-1">rate solertia quae se</rdg>
+                        <witDetail wit="T" target="#rdg-15.6-rate-1" corresp="#rdg-15.6-rate-2"
+                           type="correction-original"/>
+                        <rdg wit="#T" xml:id="rdg-15.6-rate-2">rate solertiaque se</rdg>
+                        <witDetail wit="#T" target="#rdg-15.6-rate-2" corresp="#rdg-15.6-rate-1"
+                           type="correction-altered"/>
+                     </app> explicant; ac tantum doctrina potuit ut in dispari numero nulla
+                     transuersa hosti obiceretur, nullius remi detergerentur, sed semper uenientibus
+                     aduersae occurrerent.</seg>
                   <seg n="7">Interim sunt reliquae subsecutae. Tum necessario discessum ab arte est
                      propter angustias loci, atque omne certamen in uirtute constitit.</seg>
                   <seg n="8">Neque uero Alexandriae fuit quisquam aut nostrorum aut oppidanorum
@@ -1996,9 +2091,9 @@ This is a subsection within the preface. Editors should use
                      conandum nisi ad proxima nauigia adnatarunt.</seg></p>
 
                <p n="21">
-                  <seg n="1">Caesar quoad potuit cohortando suos ad pontem ac munitiones continere,
-                     eodem in periculo uersatus est; postquam uniuersos cedere animaduertit, in suum
-                     nauigium se recepit.</seg>
+                  <seg n="1" xml:id="seg-21.1">Caesar quoad potuit cohortando suos ad pontem ac
+                     munitiones continere, eodem in periculo uersatus est; postquam uniuersos cedere
+                     animaduertit, in suum nauigium se recepit.</seg>
                   <seg n="2">Quo multitudo hominum insecuta cum irrumperet neque administrandi neque
                      repellendi a terra facultas daretur, fore quod accidit suspicatus sese ex
                      nauigio eiecit atque ad eas quae longius constiterant naues adnatauit.</seg>
