@@ -43,6 +43,9 @@
             <org xml:id="Nabataei" corresp="https://pleiades.stoa.org/places/29677">
                <orgName>Nabataei</orgName>
             </org>
+            <person xml:id="Pharos">
+               <persName>Pharos</persName>
+            </person>
             <person xml:id="Pompeius">
                <persName>Gnaeus Pompeius</persName>
             </person>
