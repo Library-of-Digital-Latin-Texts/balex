@@ -603,6 +603,12 @@ This is a subsection within the preface. Editors should use
                      latinae</title>. <pubPlace>Copenhagen</pubPlace>. <date>1873</date>. <biblScope
                      unit="page">281-85</biblScope>.</bibl>
 
+               <bibl xml:id="Mitchell"><abbr type="siglum">Mitchell</abbr> = <author>Mitchell,
+                     S.</author> "<title level="a">The treaty between Rome and Lycia of 46 BC
+                     (MS2070).</title>" In R. Pintaudi, ed., <title level="s">Papyri graecae Schøyen
+                     (P. Schøyen I)</title>. <pubPlace>Florence</pubPlace>. <date>2005</date>.
+                     <biblScope unit="page">161–259</biblScope>.</bibl>
+
                <bibl xml:id="Mueller"><abbr type="siglum">Mueller</abbr> = <author>Müller, H.
                      J.</author> Footnote to a Nachtrag on <ref target="#Schneider">Schneider</ref>
                   (1888). <title level="j">Jahresberichte des philologischen Vereins zu
@@ -639,7 +645,11 @@ This is a subsection within the preface. Editors should use
                      <pubPlace>Stuttgart</pubPlace>: <date>1973</date>.</bibl>
             </listBibl>
             <listPerson>
-               <person xml:id="Damon">
+               <person xml:id="Ciacconius" corresp="http://viaf.org/viaf/73950642">
+                  <persName>Petrus Ciacconius (see <ref target="#Dauisius1706">Dauisius
+                     1706</ref>)</persName>
+               </person>
+               <person xml:id="Damon" corresp="http://viaf.org/viaf/116523553">
                   <persName>Cynthia Damon</persName>
                   <note>Conjectures proposed by the editor of this edition.</note>
                </person>
@@ -647,18 +657,24 @@ This is a subsection within the preface. Editors should use
                   <persName>Scheherazade Khan</persName>
                   <note>Member of the Latin 540 class (spring 2015).</note>
                </person>
-               <person xml:id="Wölfflin">
-                  <persName>E. Wölfflin (see <ref target="#Klotz1927">Klotz 1927</ref>)</persName>
+               <person xml:id="Siesbye" corresp="http://viaf.org/viaf/289411596">
+                  <persName>Oskar Siesbye (see <ref target="#Larsen">Larsen</ref></persName>
+               </person>
+               <person xml:id="Wölfflin" corresp="http://viaf.org/viaf/45080602">
+                  <persName>Eduard Wölfflin (see <ref target="#Klotz1927">Klotz
+                     1927</ref>)</persName>
                </person>
             </listPerson>
          </div>
          <!-- End of bibliography -->
       </front>
+
       <body>
          <div type="edition" xml:id="edition-text">
             <div type="textpart" n="1" xml:id="part1">
                <p n="1">
-                  <seg n="1">Bello Alexandrino conflato <persName ref="#Caesar">Caesar</persName>
+                  <seg n="1" xml:id="seg-1.1">Bello Alexandrino conflato <persName ref="#Caesar"
+                        >Caesar</persName>
                      <app>
                         <lem>Rhodo</lem>
                         <rdg wit="#S" ana="#orthographical">Ordo</rdg>
@@ -1695,28 +1711,110 @@ This is a subsection within the preface. Editors should use
                      </app> incubuerunt.</seg></p>
 
                <p n="13">
-                  <seg n="1">Erant omnibus ostiis Nili custodiae exigendi portorii causa dispositae;
-                     naues ueteres erant in occultis regiae naualibus, quibus multis annis ad
-                     nauigandum non erant usi: has reficiebant, illas Alexandriam reuocabant.</seg>
+                  <seg n="1">Erant omnibus <app>
+                        <lem>ostiis</lem>
+                        <rdg wit="#V" ana="#orthographical #lexical">hostiis</rdg>
+                     </app>
+                     <app>
+                        <lem><placeName ref="#Nilus">Nili</placeName></lem>
+                        <rdg wit="#S" ana="#orthographical #lexical #additive">portorium nuli</rdg>
+                     </app> custodiae exigendi portorii causa dispositae; naues ueteres erant in <app>
+                        <lem>occultis</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">occulti</rdg>
+                     </app> regiae naualibus, quibus multis annis ad nauigandum non erant <app>
+                        <lem>usi</lem>
+                        <rdg wit="#V" ana="#subtractive"/>
+                     </app>: has reficiebant, illas Alexandriam reuocabant.</seg>
                   <seg n="2">Deerant remi: porticus, gymnasia, publica aedificia detegebant, asseres
-                     remorum usum obtinebant; aliud naturalis sollertia, aliud urbis copia
-                     sumministrabat.</seg>
+                     remorum usum obtinebant; aliud <app>
+                        <lem>naturalis</lem>
+                        <rdg wit="#U" ana="#orthographical #morphological">naturali</rdg>
+                     </app> sollertia, aliud urbis copia sumministrabat.</seg>
                   <seg n="3">Postremo non longam nauigationem parabant, sed praesentis temporis
                      necessitati seruiebant et in ipso portu confligendum uidebant.</seg>
-                  <seg n="4" xml:id="seg-13.4">Itaque paucis diebus contra omnium opinionem
-                     quadriremes XXII, quinqueremes V confecerunt; ad has minores apertasque
-                     complures adiecerunt et in portu periclitati remigio quid quaeque earum
-                     efficere posset idoneos milites imposuerunt seque ad confligendum omnibus rebus
-                     parauerunt.</seg>
-                  <seg n="5" xml:id="seg-13.5"><persName ref="#Caesar">Caesar</persName>
+                  <seg n="4" xml:id="seg-13.4">Itaque paucis <app>
+                        <lem>diebus</lem>
+                        <rdg wit="#S" ana="#subtractive"/>
+                     </app> contra omnium opinionem quadriremes XXII, quinqueremes V confecerunt; ad
+                     has minores <app>
+                        <lem>apertasque</lem>
+                        <rdg wit="#S" ana="#orthographical #subtractive">apertas</rdg>
+                        <rdg wit="#M8" ana="#orthographical #additive">apertasque apertasque</rdg>
+                     </app> complures adiecerunt et in portu periclitati remigio quid quaeque earum
+                     efficere posset idoneos milites imposuerunt <app>
+                        <lem>seque</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">sedque</rdg>
+                     </app> ad confligendum omnibus rebus parauerunt.</seg>
+                  <seg n="5" xml:id="seg-13.5" corresp="#comm-13.5"><persName ref="#Caesar"
+                        >Caesar</persName>
                      <placeName ref="https://pleiades.stoa.org/places/590031">Rhodias</placeName>
-                     naues VIIII habebat—nam decem missis una in cursu litore Aegyptio
-                        defecerat—<placeName ref="#Pontica">Ponticas</placeName> VIII, <placeName
-                        ref="#Lycia">Lycias</placeName> V, ex <placeName ref="#Asia"
-                        >Asia</placeName> XII. Ex his erant quinqueremes et quadriremes X, reliquae
-                     infra hanc magnitudinem et pleraeque apertae.</seg>
-                  <seg n="6">Tamen uirtute militum confisus cognitis hostium copiis se ad dimicandum
-                     parabat.</seg></p>
+                     naues <app>
+                        <lem>VIIII</lem>
+                        <rdg wit="#U" ana="#orthographical">IX</rdg>
+                        <rdg wit="#T" ana="#orthographical">VIII</rdg>
+                     </app> habebat — nam <app>
+                        <lem>decem</lem>
+                        <rdg source="#Larsen" type="conjecture" xml:id="rdg-13.5-de-decem"><supplied
+                              reason="undefined">de</supplied> decem</rdg>
+                        <note target="#rdg-13.5-de-decem">dubitanter (u. <bibl><title>TLL</title>
+                              5.1.58.74-59.28</bibl>)</note>
+                     </app> missis una in cursu <app>
+                        <lem wit="#ω" xml:id="lem-13.5-litore">litore</lem>
+                        <note target="#lem-13.5-litore">(cf. <bibl><title>BG</title>
+                           4.23.6</bibl>)</note>
+                        <rdg source="#Nipperdey" type="conjecture" xml:id="rdg-13.5-in-litore"
+                              ><supplied reason="undefined">in</supplied> litore</rdg>
+                        <note target="#rdg-13.5-in-litore">(cf. <ref target="#seg-17.5"
+                           >17.5</ref>)</note>
+                        <rdg source="#Larsen" type="conjecture" xml:id="rdg-13.5-sub-litore"
+                              ><supplied reason="undefined">sub</supplied> litore</rdg>
+                        <note target="#rdg-13.5-sub-litore">coll. <bibl><title>BG</title>
+                              5.57.3</bibl></note>
+                        <rdg source="#Dinter" type="conjecture"><surplus>litore</surplus></rdg>
+                     </app> Aegyptio <app>
+                        <lem wit="#ω" xml:id="lem-13.5-defecerat">defecerat</lem>
+                        <note target="#lem-13.5-defecerat">cf. <bibl><author>Verg.</author>
+                              <title>Aen.</title> 6.354</bibl></note>
+                        <rdg source="#Ciacconius" xml:id="rdg-13.5-decesserat">decesserat</rdg>
+                        <note target="#rdg-13.5-decesserat">teste <ref target="#Oudendorp"
+                              >Oudendorp</ref> coll. <bibl><title>BC</title> 3.112.3</bibl> (sed u.
+                              <ref target="Davies">Davies</ref>)</note>
+                        <rdg source="#Siesbye" type="conjecture" xml:id="rdg-13.5-desederat"
+                           >desederat</rdg>
+                        <note target="#rdg-13.5-desederat">teste <ref target="#Larsen"
+                           >Larsen</ref></note>
+                     </app> — <app>
+                        <lem><placeName ref="#Pontica">Ponticas</placeName></lem>
+                        <rdg wit="#S" ana="#orthographical">Ponticias</rdg>
+                     </app> VIII, <app>
+                        <lem><placeName ref="#Lycia">Lycias</placeName></lem>
+                        <rdg source="#Schneider" type="conjecture" xml:id="rdg-13.5-Syrias"
+                              ><supplied reason="undefined">Syrias <gap reason="lost"/>
+                              Ci</supplied>licias</rdg>
+                        <note target="#rdg-13.5-Syrias">coll. <ref target="#seg-1.1">1.1</ref>, sed
+                           u. <ref target="#Mitchell">Mitchell</ref> 234–37</note>
+                     </app> V, ex <placeName ref="#Asia">Asia</placeName> XII. Ex his erant
+                     quinqueremes <app>
+                        <lem>et</lem>
+                        <rdg source="#Schneider" xml:id="rdg-13.5-VI">VI</rdg>
+                        <note target="#rdg-13.5-VI">alii numeros alios</note>
+                     </app>
+                     <app>
+                        <!-- appendix critica has "quadririmes decem" here -->
+                        <lem>quadriremes X</lem>
+                        <rdg wit="#V" ana="#orthographical #lexical">quadririmes et</rdg>
+                     </app>, <app>
+                        <lem>reliquae</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">reliqua</rdg>
+                     </app> infra hanc magnitudinem et pleraeque apertae.</seg>
+                  <seg n="6">Tamen uirtute militum <app>
+                        <lem>confisus cognitis</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical #morphological">consus
+                           cognitas</rdg>
+                     </app> hostium copiis <app>
+                        <lem>se</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">sed</rdg>
+                     </app> ad dimicandum parabat.</seg></p>
 
                <p n="14">
                   <seg n="1">Postquam eo uentum est ut sibi uterque eorum confideret, Caesar Pharon
@@ -1799,9 +1897,9 @@ This is a subsection within the preface. Editors should use
                      tectis aedificiorum propugnabant et litora armati defendebant, quo propter
                      asperitatem loci non facilis nostris aditus dabatur, et scaphis nauibusque
                      longis V mobiliter et scienter angustias loci tuebantur.</seg>
-                  <seg n="5">Sed ubi primum locis cognitis uadisque pertemptatis pauci nostri in
-                     litore constiterunt atque hos sunt alii subsecuti constanterque in eos qui in
-                     litore aequo institerant impetum fecerunt, omnes Pharitae terga
+                  <seg n="5" xml:id="seg-17.5">Sed ubi primum locis cognitis uadisque pertemptatis
+                     pauci nostri in litore constiterunt atque hos sunt alii subsecuti constanterque
+                     in eos qui in litore aequo institerant impetum fecerunt, omnes Pharitae terga
                      uerterunt.</seg>
                   <seg n="6">His pulsis<gap reason="lost"/> custodia portus relicta naues ad litora
                      et uicum applicarunt seque ex nauibus ad tuenda aedificia eiecerunt.</seg></p>
@@ -2298,7 +2396,7 @@ This is a subsection within the preface. Editors should use
                <!-- DISCUSS THE CONTRIBUTION OF KÜBLER'S temporibus.-->
                <!-- IT WOULD BE BETTER TO ADOPT A FAUTE DE MIEUX REPAIR. MOST OF THE WORDS HERE ARE
                   FINE, IT'S JUST THAT THAT DON'T COHERE PERFECTLY. --></note>
-            <note type="commentary" xml:id="comm-13.5"><!-- Needs corresp to point to text. -->
+            <note type="commentary" xml:id="comm-13.5" corresp="#seg-13.5"><!-- Needs corresp to point to text. -->
                <p>The text enumerates the naval forces that Caesar had under his command at the
                   beginning of the battle in the Eunostos harbor of Alexandria in 47 BCE.</p>
                <p>The <foreign xml:lang="lat">nam</foreign> clause has drawn the most critical
