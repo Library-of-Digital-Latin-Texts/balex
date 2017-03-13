@@ -2123,12 +2123,51 @@ This is a subsection within the preface. Editors should use
                      </app>.</seg></p>
 
                <p n="16">
-                  <seg n="1">Minime autem par erat proeli certamen. Nostris enim pulsis neque terra
-                     neque mari effugium dabatur uictis, omniaque uictoribus erant futura in incerto
-                     &lt;cum&gt; illi si superassent nauibus, omnia tenerent, si inferiores
-                     fuissent, reliquam tamen fortunam periclitarentur.</seg>
-                  <seg n="2">Simul illud graue ac miserum uidebatur, perpaucos de summa
-                     &lt;rerum&gt; ac de salute omnium decertare; quorum si qui aut animo aut
+                  <seg n="1">Minime autem <app>
+                        <lem wit="#M #U #T" xml:id="lem-16.1-par-erat">par erat</lem>
+                        <witDetail wit="#T" target="#lem-16.1-par-erat" corresp="#rdg-16.1-parebat"
+                           type="correction-altered"/>
+                        <rdg wit="#S">pareat</rdg>
+                        <rdg wit="#T" xml:id="rdg-16.1-parebat">parebat</rdg>
+                        <witDetail wit="#T" target="#rdg-16.1-parebat" corresp="#lem-16.1-par-erat"
+                           type="correction-original"/>
+                        <rdg wit="#V">appareat</rdg>
+                     </app> proeli certamen. Nostris enim <app>
+                        <lem wit="#ω" xml:id="lem-16.1-pulsis">pulsis</lem>
+                        <note target="#lem-16.1-pulsis">cf. <bibl><title>BC</title>
+                           3.9.3</bibl></note>
+                        <rdg source="#Nipperdey" type="conjecture" xml:id="rdg-16.1-pulsis-secl"
+                              ><surplus>pulsis</surplus></rdg>
+                        <note target="#rdg-16.1-pulsis-secl">uoce <hi rend="normal">uictis</hi>
+                           infra seruata</note>
+                        <rdg source="#Landgraf" type="conjecture" xml:id="rdg-16.1-paucis"
+                           >paucis</rdg>
+                        <note target="#rdg-16.1-paucis">u. <ref target="#seg-16.2">16.2</ref></note>
+                        <rdg source="#Stephanus" type="conjecture">prorsus</rdg>
+                     </app> neque terra neque mari effugium dabatur <app>
+                        <lem wit="#ω" xml:id="lem-16.1-uictis">uictis</lem>
+                        <note target="#lem-16.1-uictis">cf.
+                           60.2<!-- Insert xml:id for 60.2 when it's available --></note>
+                        <rdg source="#Gruter" type="conjecture" xml:id="rdg-16.1-uictis-secl"
+                              ><surplus>uictis</surplus></rdg>
+                        <note target="#rdg-16.1-uictis-secl">teste <ref target="#Oudendorp"
+                              >Oudendorp</ref> uoce <hi rend="normal">pulsis</hi> supra
+                           seruata</note>
+                     </app>, omniaque uictoribus erant futura in incerto <app>
+                        <lem source="#Clarke" type="conjecture" xml:id="lem-16.1-cum-illi"><supplied
+                              reason="undefined">cum</supplied> illi</lem>
+                        <note target="lem-16.2-cum-illi">teste <ref target="#Oudendorp"
+                              >Oudendorp</ref> (u. et ad <ref target="#seg-16.2"
+                           >16.2</ref>)<!-- THINK FURTHER ABOUT THIS ONE --></note>
+                     </app> si superassent nauibus, omnia tenerent, si inferiores fuissent, <app>
+                        <lem wit="#ω" xml:id="lem-16.1-reliquam-tamen-fortunam">reliquam tamen
+                           fortunam</lem>
+                        <note target="#lem-16.1-reliquam-tamen-fortunam">cf. <bibl><title>BC</title>
+                              1.72.2</bibl></note>
+                        <rdg wit="#N">reliquum futurum quod</rdg>
+                     </app> periclitarentur.</seg>
+                  <seg n="2" xml:id="seg-16.2">Simul illud graue ac miserum uidebatur, perpaucos de
+                     summa &lt;rerum&gt; ac de salute omnium decertare; quorum si qui aut animo aut
                      uirtute cessisset, reliquis etiam esse cauendum, quibus pro se pugnandi
                      facultas non fuisset.</seg>
                   <seg n="3">Haec superioribus diebus saepenumero Caesar suis exposuerat, ut hoc
