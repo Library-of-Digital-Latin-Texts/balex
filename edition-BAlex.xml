@@ -652,6 +652,9 @@ This is a subsection within the preface. Editors should use
                      <pubPlace>Stuttgart</pubPlace>: <date>1973</date>.</bibl>
             </listBibl>
             <listPerson>
+               <person xml:id="Atkins">
+                  <persName>Adrienne Atkins. Member of the Latin 540 class (spring 2015).</persName>
+               </person>
                <person xml:id="Ciacconius" corresp="http://viaf.org/viaf/73950642">
                   <persName>Petrus Ciacconius (see <ref target="#Dauisius1706">Dauisius
                      1706</ref>)</persName>
@@ -659,6 +662,9 @@ This is a subsection within the preface. Editors should use
                <person xml:id="Damon" corresp="http://viaf.org/viaf/116523553">
                   <persName>Cynthia Damon</persName>
                   <note>Conjectures proposed by the editor of this edition.</note>
+               </person>
+               <person xml:id="Jurinius">
+                  <persName>Jurinius (see <ref target="#Bentley">T. Bentley</ref>)</persName>
                </person>
                <person xml:id="Khan">
                   <persName>Scheherazade Khan</persName>
@@ -2123,7 +2129,11 @@ This is a subsection within the preface. Editors should use
                      </app>.</seg></p>
 
                <p n="16">
-                  <seg n="1" xml:id="seg-16.1">Minime autem <app>
+                  <seg n="1" xml:id="seg-16.1">Minime <app>
+                        <lem>autem</lem>
+                        <rdg wit="#M" ana="#lexical">enim</rdg>
+                     </app>
+                     <app>
                         <lem wit="#M #U #T" xml:id="lem-16.1-par-erat">par erat</lem>
                         <witDetail wit="#T" target="#lem-16.1-par-erat" corresp="#rdg-16.1-parebat"
                            type="correction-altered"/>
@@ -2165,17 +2175,38 @@ This is a subsection within the preface. Editors should use
                         <note target="#lem-16.1-reliquam-tamen-fortunam">cf. <bibl><title>BC</title>
                               1.72.2</bibl></note>
                         <rdg wit="#N">reliquum futurum quod</rdg>
-                     </app> periclitarentur.</seg>
-                  <seg n="2" xml:id="seg-16.2">Simul illud graue ac miserum uidebatur, perpaucos de
-                     summa <app>
-                        <lem wit="#Ϛ" xml:id="lem-16.2-rerum"><supplied reason="undefined"
-                              >rerum</supplied></lem>
-                        <note target="#lem-16.2-rerum">teste <ref target="#Klotz">Klotz</ref> (cf.
-                              <ref target="#seg-4.1">4.1</ref>)</note>
-                     </app> ac de salute omnium decertare; quorum si <app>
+                     </app>
+                     <app>
+                        <lem xml:id="lem-16.1-periclitarentur">periclitarentur</lem>
+                        <rdg wit="#V" xml:id="rdg-16.1-peritarentur" ana="#orthographical"
+                           >peritarentur</rdg>
+                        <witDetail wit="#V" target="#rdg-16.1-peritarentur"
+                           corresp="#lem-16.1-periclitarentur" type="correction-original"/>
+                     </app>.</seg>
+                  <seg n="2" xml:id="seg-16.2"><app>
+                        <lem>Simul</lem>
+                        <rdg wit="#S" ana="#orthographical">simulli</rdg>
+                     </app> illud graue <app>
+                        <lem>ac</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">a</rdg>
+                     </app> miserum uidebatur, <app>
+                        <lem>perpaucos de summa <app>
+                              <lem wit="#Ϛ" xml:id="lem-16.2-rerum"><supplied reason="undefined"
+                                    >rerum</supplied></lem>
+                              <note target="#lem-16.2-rerum">teste <ref target="#Klotz">Klotz</ref>
+                                 (cf. <ref target="#seg-4.1">4.1</ref>)</note>
+                           </app> ac de salute</lem>
+                        <rdg wit="#T" ana="#ordinal #subtractive">perpaucos ac de summa salute</rdg>
+                     </app> omnium decertare; quorum si <app>
                         <lem wit="#S #T #V">qui</lem>
                         <rdg wit="#M #U">quis</rdg>
-                     </app> aut animo aut uirtute <app>
+                     </app>
+                     <app>
+                        <lem xml:id="lem-16.2-aut">aut</lem>
+                        <rdg wit="U" xml:id="rdg-16.2-aut-om" ana="#subtractive"/>
+                        <witDetail wit="#U" target="#rdg-16.2-aut-om" corresp="#lem-16.2-aut"
+                           type="correction-original"/>
+                     </app> animo aut uirtute <app>
                         <lem>cessisset</lem>
                         <rdg wit="#Oudendorp" xml:id="rdg-16.2-cecidisset" type="conjecture"
                            >cecidisset</rdg>
@@ -2210,11 +2241,27 @@ This is a subsection within the preface. Editors should use
                      ut hoc maiore animo contenderent, quod omnium salutem sibi commendatam
                      uiderent.</seg>
                   <seg n="4">Eadem suum quisque contubernalem, amicum, notum prosequens erat
-                     obtestatus, ne suam atque omnium falleret opinionem, quorum iudicio delectus ad
-                     pugnam proficisceretur.</seg>
-                  <seg n="5" xml:id="seg-16.5">Itaque hoc animo est decertatum, ut neque maritimis
-                     nauticisque sollertia atque ars praesidium ferret, neque numero nauium
-                     praestantibus multitudo prodesset, neque <app>
+                     obtestatus, ne suam atque omnium <app>
+                        <lem>falleret</lem>
+                        <rdg wit="M" ana="#subtractive"/>
+                     </app> opinionem, quorum iudicio delectus ad pugnam <app>
+                        <lem>proficisceretur</lem>
+                        <rdg wit="#S" ana="#orthographical #subtractive">profisceretur</rdg>
+                     </app>.</seg>
+                  <seg n="5" xml:id="seg-16.5">Itaque hoc animo est decertatum, ut neque <app>
+                        <lem>maritimis</lem>
+                        <rdg wit="#S" ana="#orthographical">matrimis</rdg>
+                     </app> nauticisque sollertia atque ars praesidium ferret, neque <app>
+                        <lem>numero</lem>
+                        <rdg wit="#U" ana="#orthographical #morphological">numerum</rdg>
+                     </app> nauium praestantibus <app>
+                        <lem>multitudo</lem>
+                        <rdg wit="#V" ana="#additive">ita multitudo</rdg>
+                     </app>
+                     <app>
+                        <lem>prodesset</lem>
+                        <rdg wit="#M" ana="#additive">nauium prodesset</rdg>
+                     </app>, neque <app>
                         <lem source="#Ciacconius" xml:id="lem-16.5-electi" type="emendation"
                            >electi</lem>
                         <note target="#lem-16.5-electi">eeste <ref target="#Oudendorp"
@@ -2222,7 +2269,10 @@ This is a subsection within the preface. Editors should use
                            15.2</bibl>)</note>
                         <rdg wit="#ω">flecti</rdg>
                         <rdg wit="#N">flexi</rdg>
-                     </app> ad uirtutem e tanta multitudine uiri <app>
+                     </app> ad uirtutem <app>
+                        <lem>e</lem>
+                        <rdg wit="#S" ana="#lexical">et</rdg>
+                     </app> tanta multitudine uiri <app>
                         <lem wit="#U #S #T #V" xml:id="lem-16.5-uirtuti">uirtuti</lem>
                         <witDetail wit="#T" target="#lem-16.5-uirtuti" corresp="rdg-16.5-uirtute"
                            type="correction-altered"/>
@@ -2234,32 +2284,171 @@ This is a subsection within the preface. Editors should use
                         <lem wit="#M #U #S">adaequare</lem>
                         <rdg wit="#T #V">adaequarent</rdg>
                      </app>.</seg>
-                  <seg n="6">Capitur hoc proelio quinqueremis una et biremis cum defensoribus
-                     remigibusque, et deprimuntur tres, nostris incolumibus omnibus.</seg>
-                  <seg n="7">Reliquae propinquam fugam ad oppidum capiunt; quas protexerunt ex
-                     molibus atque aedificiis imminentibus et nostros adire propius
-                     prohibuerunt.</seg></p>
+                  <seg n="6">Capitur hoc proelio quinqueremis una et biremis <app>
+                        <lem xml:id="lem-16.6-cum-defensoribus">cum defensoribus</lem>
+                        <rdg wit="#V" xml:id="rdg-16.6-condefensoribus">condefensoribus</rdg>
+                        <witDetail wit="#V" target="#rdg-16.6-condefensoribus"
+                           corresp="#lem-16.6-cum-defensoribus" type="correction-original"/>
+                     </app>
+                     <app>
+                        <lem>remigibusque</lem>
+                        <rdg wit="#M" ana="#additive">suis remigibusque</rdg>
+                     </app>, et deprimuntur tres, <app>
+                        <lem>nostris</lem>
+                        <rdg wit="#V" ana="#additive">ex nostris</rdg>
+                     </app> incolumibus omnibus.</seg>
+                  <seg n="7">Reliquae propinquam fugam ad oppidum capiunt; quas protexerunt <app>
+                        <lem>ex</lem>
+                        <rdg wit="#M" ana="#lexical #syntactic">et</rdg>
+                     </app> molibus <app>
+                        <lem>atque</lem>
+                        <rdg wit="#V" ana="#lexical #syntactic">et</rdg>
+                     </app> aedificiis imminentibus et nostros adire <app>
+                        <lem>proprius</lem>
+                        <rdg wit="#M" ana="#orthographical">proprus</rdg>
+                     </app> prohibuerunt.</seg></p>
 
                <p n="17">
-                  <seg n="1">Hoc ne sibi saepius accidere posset, omni ratione Caesar contendendum
-                     existimauit ut insulam molemque ad insulam pertinentem in suam redigeret
-                     potestatem.</seg>
-                  <seg n="2">Perfectis enim magna ex parte munitionibus in oppido, et illam et urbem
-                     uno tempore temptari posse confidebat.</seg>
-                  <seg n="3">Quo capto consilio cohortes X et leuis armaturae electos, quosque
-                     idoneos ex equitibus Gallis arbitrabatur, in nauigia minora scaphasque imponit,
-                     inde alteram insulae partem distinendae manus causa constratis nauibus
-                     aggreditur, praemiis magnis propositis qui primus insulam cepisset.</seg>
-                  <seg n="4">Ac primo impetum nostrorum pariter sustinuerunt: uno enim tempore et ex
-                     tectis aedificiorum propugnabant et litora armati defendebant, quo propter
-                     asperitatem loci non facilis nostris aditus dabatur, et scaphis nauibusque
-                     longis V mobiliter et scienter angustias loci tuebantur.</seg>
+                  <seg n="1">Hoc ne sibi saepius accidere posset, omni ratione <persName
+                        ref="#Caesar">Caesar</persName> contendendum existimauit ut insulam <app>
+                        <lem>molemque</lem>
+                        <rdg wit="#M" ana="#orthographical #morphological">molesque</rdg>
+                     </app>
+                     <app>
+                        <lem>ad insulam</lem>
+                        <rdg wit="#M"/>
+                     </app> pertinentem in suam redigeret potestatem.</seg>
+                  <seg n="2">Perfectis enim <app>
+                        <lem>magna ex</lem>
+                        <rdg wit="#V">ex magna</rdg>
+                     </app> parte munitionibus in oppido, et <app>
+                        <lem source="#Aldus" type="emendation">illam et urbem</lem>
+                        <rdg wit="#M #U">illa in urbe</rdg>
+                        <rdg wit="#S #T #V">illa in urbem</rdg>
+                        <rdg source="#Jurinius">insulam et urbem</rdg>
+                     </app> uno <app>
+                        <lem>tempore</lem>
+                        <rdg wit="T" ana="#subtractive"/>
+                     </app> temptari posse confidebat.</seg>
+                  <seg n="3">Quo capto consilio cohortes X et <app>
+                        <lem>leuis armaturae</lem>
+                        <rdg wit="#S" ana="#orthographical">leuisarum maturae</rdg>
+                     </app> electos, <app>
+                        <lem source="#Lipsius" type="emendation" xml:id="lem-17.3-quosque"
+                           >quosque</lem>
+                        <note target="#lem-17.3-quosque">cf. <bibl><title>BC</title>
+                           3.103.1</bibl></note>
+                        <rdg wit="#ω">quos</rdg>
+                     </app> idoneos ex equitibus Gallis arbitrabatur, in nauigia minora scaphasque
+                     imponit, <app>
+                        <lem source="#Oudendorp" xml:id="lem-17.3-inde-alteram">inde alteram</lem>
+                        <note target="#lem-17.3-inde-alteram">cf. <!-- Add xml:id for 64.3--><ref
+                              target="#seg-64.3">64.3</ref></note>
+                        <rdg wit="#ω">in alteram</rdg>
+                        <rdg source="#Aldus" type="conjecture">alteram</rdg>
+                        <rdg source="#Vascosanus" xml:id="rdg-17.3-alteramque" type="conjecture"
+                           >alteramque</rdg>
+                        <note target="#rdg-17.3-alteramque">u. et infra</note>
+                        <rdg source="#Castiglioni" type="conjecture">et alteram</rdg>
+                     </app> insulae partem <app>
+                        <lem wit="#S #T #V" xml:id="lem-17.3-distinendae">distinendae</lem>
+                        <witDetail wit="#S" target="#lem-17.3-distinendae">-diae</witDetail>
+                        <!-- Check this following note. It probably won't capture what Damon wants to do here. -->
+                        <note target="#lem-17.3-distinendae">d(e/i)</note>
+                     </app> manus causa <app>
+                        <lem>constratis</lem>
+                        <rdg wit="#V" ana="#orthographical #lexical">contractis</rdg>
+                     </app> nauibus aggreditur, <app>
+                        <lem wit="#edprin" xml:id="lem-17.3-praemiis">praemiis</lem>
+                        <note target="#lem-17.3-praemiis">u. et supra</note>
+                        <rdg wit="#ω">praemiisque</rdg>
+                     </app>
+                     <app>
+                        <lem>magnis</lem>
+                        <rdg wit="#S" ana="#additive">magnisque</rdg>
+                     </app> propositis qui primus insulam <app>
+                        <lem xml:id="lem-17.3-cepisset">cepisset</lem>
+                        <rdg wit="#M" xml:id="rdg-17.3-cepissent">cepissent</rdg>
+                        <witDetail wit="#M" target="#rdg-17.3-cepissent"
+                           corresp="#lem-17.3-cepisset" type="correction-original"/>
+                     </app>.</seg>
+                  <seg n="4" xml:id="seg-17.4">Ac <app>
+                        <lem>primo</lem>
+                        <rdg wit="#T" ana="#morphological">primum</rdg>
+                     </app> impetum <app>
+                        <lem>nostrorum pariter sustinuerunt</lem>
+                        <rdg wit="#M" ana="#ordinal">nostrorum sustinuerunt pariter</rdg>
+                     </app>: uno <app>
+                        <lem>enim</lem>
+                        <rdg wit="#S" ana="#lexical">ex</rdg>
+                     </app>
+                     <app>
+                        <lem>tempore</lem>
+                        <rdg wit="#T" ana="#orthographical">tempre</rdg>
+                     </app> et ex tectis aedificiorum propugnabant et litora armati defendebant, <app>
+                        <lem>quo</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">qua</rdg>
+                     </app> propter asperitatem loci non facilis nostris aditus dabatur, et scaphis <app>
+                        <lem>nauibusque longis</lem>
+                        <rdg wit="#S" ana="#orthographical">nauibus longius</rdg>
+                     </app> V <app>
+                        <lem wit="#ω" xml:id="lem-17.4-mobiliter-et">mobiliter et</lem>
+                        <note target="#lem-17.4-mobiliter-et">cf. <bibl><title>BG</title>
+                              3.10.3</bibl></note>
+                        <rdgGrp>
+                           <rdg source="#Atkins">utiliter et</rdg>
+                           <note>uel</note>
+                           <rdg source="#Atkins">constanter et</rdg>
+                           <note>cf. <bibl><title>BG</title>2.20.3</bibl> et
+                                 <bibl><title>BG</title>3.8.1</bibl> et u. ad <ref
+                                 target="#seg-17.5">17.5</ref> infra</note>
+                        </rdgGrp>
+                        <note target="#lem-17.4-mobiliter-et">an secludendum ut glossema?</note>
+                     </app> scienter angustias loci tuebantur.</seg>
                   <seg n="5" xml:id="seg-17.5">Sed ubi primum locis cognitis uadisque pertemptatis
-                     pauci nostri in litore constiterunt atque hos sunt alii subsecuti constanterque
-                     in eos qui in litore aequo institerant impetum fecerunt, omnes Pharitae terga
-                     uerterunt.</seg>
-                  <seg n="6">His pulsis<gap reason="lost"/> custodia portus relicta naues ad litora
-                     et uicum applicarunt seque ex nauibus ad tuenda aedificia eiecerunt.</seg></p>
+                     pauci nostri in litore <app>
+                        <lem>constiterunt atque hos sunt alii subsecuti <app>
+                              <lem wit="#U" xml:id="lem-17.5-constanterque">constanterque</lem>
+                              <note target="#lem-17.5-constanterque">cf.
+                                    <!-- Add xml:id for seg-36.2 --><ref target="#seg-36.2"
+                                    >36.2</ref>; u. et ad <ref target="#seg-17.4">17.4</ref>
+                                 supra</note>
+                              <rdg wit="#M #T #V" xml:id="rdg-17.5-constantemque"
+                                 >constantemque</rdg>
+                              <note target="#rdg-17.5-constantemque">deest <ref target="#S"
+                                 >S</ref></note>
+                           </app> in eos qui</lem>
+                        <rdg wit="#S" ana="#subtractive"/>
+                     </app> in litore aequo institerant impetum fecerunt, <app>
+                        <lem>omnes</lem>
+                        <rdg wit="#T" ana="#orthographical #morphological">omni</rdg>
+                     </app>
+                     <app>
+                        <lem xml:id="lem-17.5-Pharitae">Pharitae</lem>
+                        <note target="#lem-17.5-Pharitae">inter <hi rend="#normal">p</hi> et <hi
+                              rend="normal">rite</hi>
+                           <ref target="#T">T</ref> non legitur</note>
+                     </app> terga uerterunt.</seg>
+                  <seg n="6"><app>
+                        <lem wit="#U #S #T #V">His pulsis</lem>
+                        <rdg wit="#M">hii pulsi</rdg>
+                     </app>
+                     <app>
+                        <lem source="#Schneider" type="emendation" xml:id="lem-17.6-gap"><gap
+                              reason="lost"/></lem>
+                        <rdgGrp>
+                           <rdg source="#Larsen" type="conjecture"><supplied reason="undefined"
+                                 >nautae</supplied></rdg>
+                           <note>uel</note>
+                           <rdg source="#Larsen"><supplied reason="undefined"
+                              >milites</supplied></rdg>
+                        </rdgGrp>
+                        <note target="#lem-17.6-gap">an <supplied reason="undefined"
+                           >illi</supplied>?</note>
+                     </app> custodia
+                     <!-- portus] an angustiarum (u. 17.4)? MORE THOUGHT NEEDED HERE; CAN WE FIND ONE REPAIR FOR BOTH PROBLEMS? -->portus
+                     relicta naues ad litora et uicum applicarunt seque ex nauibus ad tuenda
+                     aedificia eiecerunt.</seg></p>
 
                <p n="18">
                   <seg n="1">Neque uero diutius ex munitione se continere potuerunt, etsi erat non
