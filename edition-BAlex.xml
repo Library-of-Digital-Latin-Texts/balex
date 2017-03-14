@@ -966,8 +966,8 @@ This is a subsection within the preface. Editors should use
                      </app> anni tempus recipere transmarina auxilia non posse.</seg></p>
 
                <p n="4">
-                  <seg n="1">Interim dissensione orta inter <persName ref="#Achillas"
-                        >Achillan</persName>, qui ueterano <app>
+                  <seg n="1" xml:id="seg-4.1">Interim dissensione orta inter <persName
+                        ref="#Achillas">Achillan</persName>, qui ueterano <app>
                         <lem>exercitui</lem>
                         <rdg wit="#V" ana="#orthographical #morphological">exercitu</rdg>
                      </app> praeerat, et <app>
@@ -2123,7 +2123,7 @@ This is a subsection within the preface. Editors should use
                      </app>.</seg></p>
 
                <p n="16">
-                  <seg n="1">Minime autem <app>
+                  <seg n="1" xml:id="seg-16.1">Minime autem <app>
                         <lem wit="#M #U #T" xml:id="lem-16.1-par-erat">par erat</lem>
                         <witDetail wit="#T" target="#lem-16.1-par-erat" corresp="#rdg-16.1-parebat"
                            type="correction-altered"/>
@@ -2167,18 +2167,72 @@ This is a subsection within the preface. Editors should use
                         <rdg wit="#N">reliquum futurum quod</rdg>
                      </app> periclitarentur.</seg>
                   <seg n="2" xml:id="seg-16.2">Simul illud graue ac miserum uidebatur, perpaucos de
-                     summa &lt;rerum&gt; ac de salute omnium decertare; quorum si qui aut animo aut
-                     uirtute cessisset, reliquis etiam esse cauendum, quibus pro se pugnandi
-                     facultas non fuisset.</seg>
-                  <seg n="3">Haec superioribus diebus saepenumero Caesar suis exposuerat, ut hoc
-                     maiore animo contenderent, quod omnium salutem sibi commendatam uiderent.</seg>
+                     summa <app>
+                        <lem wit="#Ϛ" xml:id="lem-16.2-rerum"><supplied reason="undefined"
+                              >rerum</supplied></lem>
+                        <note target="#lem-16.2-rerum">teste <ref target="#Klotz">Klotz</ref> (cf.
+                              <ref target="#seg-4.1">4.1</ref>)</note>
+                     </app> ac de salute omnium decertare; quorum si <app>
+                        <lem wit="#S #T #V">qui</lem>
+                        <rdg wit="#M #U">quis</rdg>
+                     </app> aut animo aut uirtute <app>
+                        <lem>cessisset</lem>
+                        <rdg wit="#Oudendorp" xml:id="rdg-16.2-cecidisset" type="conjecture"
+                           >cecidisset</rdg>
+                        <note target="#rdg-16.2-cecidisset"><ref target="#Manutius">Manutium</ref>
+                           sequens infra coll. <bibl><author>Cic.</author>
+                              <title>Fam.</title> 6.1.4</bibl>
+                        </note>
+                     </app>, reliquis etiam <app>
+                        <!-- THINK FURTHER ABOUT THIS ONE, ESP. UTRUM IN ALTERO -->
+                        <lem source="#Lewis" type="emendation">esse</lem>
+                        <rdg wit="#ω" xml:id="rdg-16.2-esset">esset</rdg>
+                        <note target="#rdg-16.2-esset">cf. <bibl><author>Hirt.</author> 8.33.1,
+                              39.4</bibl>, <bibl><title>BC</title>3.111.4</bibl> (u. et ad <ref
+                              target="#seg-16.1">16.1</ref>)</note>
+                     </app>
+                     <app>
+                        <lem>cauendum</lem>
+                        <rdg source="#Bossetus" xml:id="rdg-16.2-cedendum" type="conjecture"
+                           >cedendum</rdg>
+                        <note target="#rdg-16.2-cedendum">teste <ref target="#Klotz"
+                           >Klotz</ref></note>
+                        <rdg source="#Manutius" type="conjecture">cadendum</rdg>
+                     </app>, quibus pro se pugnandi facultas non fuisset.</seg>
+                  <seg n="3">Haec superioribus <app>
+                        <lem wit="#M #U #T #V" xml:id="lem-16.3-diebus">diebus</lem>
+                        <witDetail wit="#U" target="#lem-16.3-diebus" corresp="#rdg-16.3-diebus-om"
+                           type="correction-altered"/>
+                        <rdg wit="#U #S" xml:id="rdg-16.3-diebus-om"/>
+                        <witDetail wit="#U" target="#rdg-16.3-diebus-om" corresp="#lem-16.3-diebus"
+                           type="correction-original"/>
+                     </app> saepenumero Caesar suis exposuerat, ut hoc maiore animo contenderent,
+                     quod omnium salutem sibi commendatam uiderent.</seg>
                   <seg n="4">Eadem suum quisque contubernalem, amicum, notum prosequens erat
                      obtestatus, ne suam atque omnium falleret opinionem, quorum iudicio delectus ad
                      pugnam proficisceretur.</seg>
                   <seg n="5" xml:id="seg-16.5">Itaque hoc animo est decertatum, ut neque maritimis
                      nauticisque sollertia atque ars praesidium ferret, neque numero nauium
-                     praestantibus multitudo prodesset, neque electi ad uirtutem e tanta multitudine
-                     uiri uirtuti nostrorum possent adaequare.</seg>
+                     praestantibus multitudo prodesset, neque <app>
+                        <lem source="#Ciacconius" xml:id="lem-16.5-electi" type="emendation"
+                           >electi</lem>
+                        <note target="#lem-16.5-electi">eeste <ref target="#Oudendorp"
+                              >Oudendorp</ref> (cf. <bibl><title>B. Hisp.</title>
+                           15.2</bibl>)</note>
+                        <rdg wit="#ω">flecti</rdg>
+                        <rdg wit="#N">flexi</rdg>
+                     </app> ad uirtutem e tanta multitudine uiri <app>
+                        <lem wit="#U #S #T #V" xml:id="lem-16.5-uirtuti">uirtuti</lem>
+                        <witDetail wit="#T" target="#lem-16.5-uirtuti" corresp="rdg-16.5-uirtute"
+                           type="correction-altered"/>
+                        <rdg wit="#T" xml:id="rdg-16.5-uirtute">uirtute</rdg>
+                        <witDetail wit="#T" target="#rdg-16.5-uirtute" corresp="#lem-16.5-uirtuti"
+                           type="correction-original"/>
+                        <rdg wit="#M">uirtutis</rdg>
+                     </app> nostrorum possent <app>
+                        <lem wit="#M #U #S">adaequare</lem>
+                        <rdg wit="#T #V">adaequarent</rdg>
+                     </app>.</seg>
                   <seg n="6">Capitur hoc proelio quinqueremis una et biremis cum defensoribus
                      remigibusque, et deprimuntur tres, nostris incolumibus omnibus.</seg>
                   <seg n="7">Reliquae propinquam fugam ad oppidum capiunt; quas protexerunt ex
