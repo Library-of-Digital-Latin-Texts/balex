@@ -2206,8 +2206,9 @@ This is a subsection within the preface. Editors should use
                         <rdg wit="#U #S" xml:id="rdg-16.3-diebus-om"/>
                         <witDetail wit="#U" target="#rdg-16.3-diebus-om" corresp="#lem-16.3-diebus"
                            type="correction-original"/>
-                     </app> saepenumero Caesar suis exposuerat, ut hoc maiore animo contenderent,
-                     quod omnium salutem sibi commendatam uiderent.</seg>
+                     </app> saepenumero <persName ref="#Caesar">Caesar</persName> suis exposuerat,
+                     ut hoc maiore animo contenderent, quod omnium salutem sibi commendatam
+                     uiderent.</seg>
                   <seg n="4">Eadem suum quisque contubernalem, amicum, notum prosequens erat
                      obtestatus, ne suam atque omnium falleret opinionem, quorum iudicio delectus ad
                      pugnam proficisceretur.</seg>
