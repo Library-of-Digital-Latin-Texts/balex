@@ -2708,13 +2708,31 @@ This is a subsection within the preface. Editors should use
                      </app>.</seg></p>
 
                <p n="22">
-                  <seg n="1">Hoc detrimento milites nostri tantum afuerunt ut perturbarentur, ut
-                     incensi atque incitati magnas accessiones fecerint in operibus hostium
-                     expugnandis.</seg>
+                  <seg n="1">Hoc detrimento milites nostri tantum
+                     <!-- Asked Cynthia about the difference between this and her apparatus criticus (2017-03-19) -->afuerunt
+                     ut perturbarentur, ut incensi atque incitati magnas <app>
+                        <lem wit="#T #V">accessiones</lem>
+                        <rdg wit="#M #U">accensiones</rdg>
+                     </app> fecerint in operibus hostium expugnandis.</seg>
                   <seg n="2">In proeliis cotidianis, quandocumque fors obtulerat, procurrentibus et
-                     erumpentibus Alexandrinis, manum comprehendi <gap reason="lost"/> multum
-                     operibus et ardentibus studiis militum; nec diuulgata Caesaris hortatio
-                     subsequi legionum aut laborem aut pugnandi poterat cupiditatem, ut magis
+                     erumpentibus Alexandrinis, manum comprehendi <app>
+                        <lem source="#Callaghan" type="emendation" xml:id="lem-22.2-gap"><supplied
+                              reason="undefined"><gap reason="lost"/></supplied> multum
+                           operibus</lem>
+                        <note target="#lem-22.2-gap">cf. <!-- Add xml:id for seg-55.1. --><ref
+                              target="#seg-55.1">55.1</ref> et Liu. 26.14.7</note>
+                        <!-- What is "Liu."? -->
+                        <rdg source="#Stephanus" type="conjecture">multum <supplied
+                              reason="undefined"><gap reason="lost"/></supplied> operibus</rdg>
+                        <rdg source="#Nipperdey" type="conjecture">multum operibus <supplied
+                              reason="undefined"><gap reason="lost"/></supplied></rdg>
+                        <!-- THIS NEEDS A NOTE IN STBA -->
+                     </app> et ardentibus studiis militum; nec diuulgata <persName ref="#Caesar"
+                        >Caesaris</persName>
+                     <app>
+                        <lem>hortatio</lem>
+                        <rdg wit="#V" ana="#orthographical #lexical">exhortacio</rdg>
+                     </app> subsequi legionum aut laborem aut pugnandi poterat cupiditatem, ut magis
                      deterrendi et continendi a periculosissimis essent dimicationibus quam
                      incitandi ad pugnandum.</seg></p>
 
