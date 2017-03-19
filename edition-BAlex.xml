@@ -2463,7 +2463,7 @@ This is a subsection within the preface. Editors should use
                      aedificia eiecerunt.</seg></p>
 
                <p n="18">
-                  <seg n="1">Neque uero <app>
+                  <seg n="1" xml:id="seg-18.1">Neque uero <app>
                         <lem wit="#M #U #S #T #V" xml:id="lem-18.1-diutius-ex-munitione">diutius ex
                            munitione</lem>
                         <witDetail wit="#U" target="#lem-18.1-diutius-ex-munitione"
@@ -2610,11 +2610,11 @@ This is a subsection within the preface. Editors should use
                         <rdg source="#Schneider" type="conjecture">et mole</rdg>
                      </app>; ab illis ex area quae erat aduersus pontem et ex nauibus contra
                      molem.</seg></p>
-
+               <!-- How do we get "deest S" to show up in the apparatus for the next four sections? -->
                <p n="20">
-                  <seg n="1">In his rebus occupato <persName ref="#Caesar">Caesare</persName>
-                     militesque hortante remigum magnus numerus et classiariorum ex longis nauibus
-                     nostris in molem se eiecit.</seg>
+                  <seg n="1" xml:id="seg-20.1">In his rebus occupato <persName ref="#Caesar"
+                        >Caesare</persName> militesque hortante remigum magnus numerus et
+                     classiariorum ex longis nauibus nostris in molem se eiecit.</seg>
                   <seg n="2">Pars eorum studio spectandi ferebatur, pars etiam cupiditate pugnandi.
                      Hi primum nauigia hostium lapidibus ac fundis a mole repellebant ac multum
                      proficere multitudine telorum uidebantur.</seg>
@@ -2669,20 +2669,43 @@ This is a subsection within the preface. Editors should use
                   adnatarunt.</seg></p>
 
                <p n="21">
-                  <seg n="1" xml:id="seg-21.1">Caesar quoad potuit cohortando suos ad pontem ac
-                     munitiones continere, eodem in periculo uersatus est; postquam uniuersos cedere
-                     animaduertit, in suum nauigium se recepit.</seg>
+                  <seg n="1" xml:id="seg-21.1"><persName ref="#Caesar">Caesar</persName> quoad
+                     potuit cohortando suos ad pontem ac munitiones <app>
+                        <lem source="#Lipsius" type="emendation" xml:id="lem-21.1-continere"
+                           >continere</lem>
+                        <note target="#lem-21.1-continere">cf. <ref target="#seg-18.1"
+                           >18.1</ref></note>
+                        <rdg wit="#ω">contendere</rdg>
+                     </app>, eodem in periculo uersatus est; postquam <app>
+                        <lem>uniuersos</lem>
+                        <rdg wit="#V" ana="#additive">uniuersos Cesar</rdg>
+                     </app> cedere animaduertit, in suum nauigium se recepit.</seg>
                   <seg n="2">Quo multitudo hominum insecuta cum irrumperet neque administrandi neque
-                     repellendi a terra facultas daretur, fore quod accidit suspicatus sese ex
-                     nauigio eiecit atque ad eas quae longius constiterant naues adnatauit.</seg>
+                     repellendi <app>
+                        <lem>a terra</lem>
+                        <rdg wit="#V" ana="#orthographical #lexical">aeterna</rdg>
+                     </app> facultas daretur, fore quod accidit suspicatus sese ex nauigio eiecit
+                     atque ad eas quae longius constiterant naues adnatauit.</seg>
                   <seg n="3">Hinc suis laborantibus subsidio scaphas mittens nonnullos conseruauit.
                      Nauigium quidem eius multitudine depressum militum una cum hominibus
                      interiit.</seg>
                   <seg n="4">Hoc proelio desiderati sunt ex numero legionariorum militum circiter
-                     CCCC et paulo &lt;ultra&gt; eum numerum classiarii et remiges.</seg>
-                  <seg n="5">Alexandrini eo loco castellum magnis munitionibus multisque tormentis
-                     confirmarunt atque egestis ex mari lapidibus libere sunt usi postea ad mittenda
-                     nauigia.</seg></p>
+                     CCCC et paulo <app>
+                        <lem source="#Beroaldus" type="emendation"><supplied reason="undefined"
+                              >ultra</supplied></lem>
+                     </app> eum numerum <app>
+                        <lem wit="#M #T #V">classiarii</lem>
+                        <rdg wit="#U" xml:id="rdg-21-4-classiariorum">classiariorum</rdg>
+                        <note target="#rdg-21-4-classiariorum">cf. <ref target="#seg-20.1"
+                              >20.1</ref></note>
+                     </app> et remiges.</seg>
+                  <seg n="5">Alexandrini eo loco castellum magnis munitionibus multisque tormentis <app>
+                        <lem>confirmarunt</lem>
+                        <rdg wit="#U" ana="#morphological">confirmauerunt</rdg>
+                     </app> atque egestis ex mari lapidibus libere sunt usi postea ad <app>
+                        <lem>mittenda nauigia</lem>
+                        <rdg wit="#V" ana="#ordinal">nauigia mittenda</rdg>
+                     </app>.</seg></p>
 
                <p n="22">
                   <seg n="1">Hoc detrimento milites nostri tantum afuerunt ut perturbarentur, ut
