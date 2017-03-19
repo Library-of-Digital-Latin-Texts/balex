@@ -558,10 +558,17 @@ This is a subsection within the preface. Editors should use
                   <biblScope unit="volume">17</biblScope> (<date>1889</date>) <biblScope unit="page"
                      >44–55</biblScope>.</bibl>
 
-               <bibl xml:id="Damon2015"><editor>Damon, C.</editor>
+               <bibl xml:id="Damon2015"><abbr type="siglum">Damon 2015</abbr> = <editor>Damon,
+                     C.</editor>
                   <title>C. Iuli Caesaris Commentariorum Libri III De Bello Civili</title>.
                      <pubPlace>Oxford</pubPlace>: <publisher>Clarendon Press</publisher>,
                      <date>2015</date>, pp. xxxiv–xli.</bibl>
+
+               <bibl xml:id="Forchhammer"><abbr type="siglum">Forchhammer</abbr> =
+                     <author>Forchhammer, J. N. G.</author>
+                  <title level="m">Quaestiones criticae de vera commentarios de bellis civili,
+                     Alexandrino, Africano, Hispaniensi emendandi ratione</title>.
+                     <pubPlace>Copenhagen</pubPlace>. <date>1852</date>.</bibl>
 
                <bibl xml:id="Gaertner-Hausburg"><abbr type="siglum">Gaertner-Hausburg</abbr> =
                      <author>Gaertner, J. F.</author>, and <author>B. Hausburg</author>. <title
@@ -655,6 +662,10 @@ This is a subsection within the preface. Editors should use
                <person xml:id="Atkins">
                   <persName>Adrienne Atkins. Member of the Latin 540 class (spring 2015).</persName>
                </person>
+               <person xml:id="Callaghan">
+                  <persName>Greg Callaghan</persName>
+                  <note>Member of the Latin 540 class (spring 2015)</note>
+               </person>
                <person xml:id="Ciacconius" corresp="http://viaf.org/viaf/73950642">
                   <persName>Petrus Ciacconius (see <ref target="#Dauisius1706">Dauisius
                      1706</ref>)</persName>
@@ -671,7 +682,8 @@ This is a subsection within the preface. Editors should use
                   <note>Member of the Latin 540 class (spring 2015).</note>
                </person>
                <person xml:id="Lewis">
-                  <persName>Amy Lewis. Member of the Latin 540 class (spring 2015).</persName>
+                  <persName>Amy Lewis</persName>
+                  <note>Member of the Latin 540 class (spring 2015)</note>
                </person>
                <person xml:id="Siesbye" corresp="http://viaf.org/viaf/289411596">
                   <persName>Oskar Siesbye (see <ref target="#Larsen">Larsen</ref></persName>
@@ -2600,29 +2612,61 @@ This is a subsection within the preface. Editors should use
                      molem.</seg></p>
 
                <p n="20">
-                  <seg n="1">In his rebus occupato Caesare militesque hortante remigum magnus
-                     numerus et classiariorum ex longis nauibus nostris in molem se eiecit.</seg>
+                  <seg n="1">In his rebus occupato <persName ref="#Caesar">Caesare</persName>
+                     militesque hortante remigum magnus numerus et classiariorum ex longis nauibus
+                     nostris in molem se eiecit.</seg>
                   <seg n="2">Pars eorum studio spectandi ferebatur, pars etiam cupiditate pugnandi.
                      Hi primum nauigia hostium lapidibus ac fundis a mole repellebant ac multum
                      proficere multitudine telorum uidebantur.</seg>
                   <seg n="3">Sed postquam ultra eum locum ab latere eorum aperto ausi sunt egredi ex
-                     nauibus Alexandrini pauci, ut sine signis certisque ordinibus, &lt;et&gt; sine
-                     ratione prodierant, sic temere in naues refugere coeperunt.</seg>
+                     nauibus Alexandrini pauci, ut sine signis certisque ordinibus, <app>
+                        <lem source="#Callaghan" type="emendation" xml:id="lem-20.3-et-sine-ratione"
+                              ><supplied reason="undefined">et</supplied> sine ratione</lem>
+                        <note target="#lem-20.3-et-sine-ratione">cf. <bibl><title>BG</title>
+                              3.21.1</bibl></note>
+                        <rdg source="#Forchhammer"><surplus>sine ratione</surplus></rdg>
+                     </app> prodierant, sic temere in naues <app>
+                        <lem type="#U">refugere</lem>
+                        <rdg wit="#M"/>
+                        <rdg wit="#T">fugere</rdg>
+                        <rdg wit="#V">profugere</rdg>
+                     </app>
+                     <app>
+                        <lem>coeperunt</lem>
+                        <rdg wit="#M" ana="#lexical">recoeperunt</rdg>
+                     </app>.</seg>
                   <seg n="4">Quorum fuga incitati Alexandrini plures ex nauibus egrediebantur
-                     nostrosque acrius perturbatos insequebantur. Simul qui in nauibus longis
-                     remanserant scalas rapere nauesque a terra repellere properabant, ne hostes
-                     nauibus potirentur.</seg>
+                     nostrosque acrius <app>
+                        <lem wit="#M #U" xml:id="lem-20.4-perturbatos">perturbatos</lem>
+                        <note target="#lem-20.4-perturbatos">cf. <bibl><title>BG</title>
+                              7.61.4</bibl></note>
+                        <rdg wit="#T #V" xml:id="rdg-20.4-perturbantes">perturbantes</rdg>
+                        <note target="#rdg-20.4-perturbantes">cf. <bibl><author>Ampel.</author>
+                              26.3.3</bibl></note>
+                     </app> insequebantur. Simul qui in nauibus longis remanserant scalas rapere
+                     nauesque a terra repellere properabant, ne hostes nauibus potirentur.</seg>
                   <seg n="5">Quibus omnibus rebus perturbati milites nostri cohortium trium quae in
                      ponte ac prima mole constiterant, cum post se clamorem exaudirent, fugam suorum
                      uiderent, magnam uim telorum aduersi sustinerent, ueriti ne ab tergo
                      circumuenirentur et discessu nauium omnino reditu intercluderentur munitionem
-                     in ponte institutam reliquerunt et magno cursu incitati ad naues
+                     in <app>
+                        <lem wit="#Ϛ" xml:id="lem-20.5-ponte">ponte</lem>
+                        <note target="#lem-20.5-ponte">teste <ref target="#Oudendorp"
+                              >Oudendorp</ref></note>
+                        <rdg wit="#ω">pontem</rdg>
+                     </app> institutam reliquerunt et magno cursu incitati ad naues
                      contenderunt.</seg>
                   <seg n="6">Quorum pars proximas nacta naues multitudine hominum atque onere
-                     depressa est, pars resistens et dubitans quid esset capiendum consili ab
-                     Alexandrinis interfecta est; nonnulli feliciore exitu expeditas ad ancoram
-                     naues consecuti incolumes discesserunt, pauci alleuatis scutis et animo ad
-                     conandum nisi ad proxima nauigia adnatarunt.</seg></p>
+                     depressa est, pars resistens et dubitans <app>
+                        <lem>quid</lem>
+                        <rdg wit="#T" ana="#lexical #orthographical">quod</rdg>
+                     </app> esset capiendum consili ab Alexandrinis interfecta est; nonnulli
+                     feliciore exitu expeditas ad ancoram naues consecuti incolumes discesserunt,
+                     pauci <app>
+                        <lem>alleuatis</lem>
+                        <rdg wit="#M" ana="#morphological #orthographical">alleuati</rdg>
+                     </app> scutis et animo ad conandum nisi ad proxima nauigia
+                  adnatarunt.</seg></p>
 
                <p n="21">
                   <seg n="1" xml:id="seg-21.1">Caesar quoad potuit cohortando suos ad pontem ac
