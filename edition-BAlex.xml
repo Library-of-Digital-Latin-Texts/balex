@@ -1324,7 +1324,7 @@ This is a subsection within the preface. Editors should use
                         <lem>praeterquam</lem>
                         <rdg wit="#S" ana="#orthographical">praeter quan</rdg>
                      </app> de uita cogitarent.</seg>
-                  <seg n="4">Magno negotio impetus hostium <app>
+                  <seg n="4" xml:id="seg-8.4">Magno negotio impetus hostium <app>
                         <lem>aduersos</lem>
                         <rdg wit="#T" ana="#orthographical #morphological">aduersus</rdg>
                      </app>
@@ -2451,42 +2451,153 @@ This is a subsection within the preface. Editors should use
                      aedificia eiecerunt.</seg></p>
 
                <p n="18">
-                  <seg n="1">Neque uero diutius ex munitione se continere potuerunt, etsi erat non
-                     dissimile atque Alexandriae genus aedificiorum, ut minora maioribus
-                     conferantur, turresque editae et coniunctae muri locum obtinebant, neque nostri
-                     aut scalis aut cratibus aut reliquis rebus parati uenerant ad
-                     oppugnandum.</seg>
+                  <seg n="1">Neque uero <app>
+                        <lem wit="#M #U #S #T #V" xml:id="lem-18.1-diutius-ex-munitione">diutius ex
+                           munitione</lem>
+                        <witDetail wit="#U" target="#lem-18.1-diutius-ex-munitione"
+                           corresp="#rdg-18.1-ex-munitionibus-diutius" type="correction-altered"/>
+                        <note target="#lem-18.1-diutius-ex-munitione">cf. <ref target="#seg-8.4"
+                              >8.4</ref></note>
+                        <rdg wit="U" xml:id="rdg-18.1-ex-munitionibus-diutius">ex munitionibus
+                           diutius</rdg>
+                        <witDetail wit="#U" target="#rdg-18.1-ex-munitionibus-diutius"
+                           corresp="#lem-18.1-diutius-ex-munitione" type="correction-original"/>
+                        <rdg source="#Davies" type="conjecture">diutius ea munitione</rdg>
+                     </app>
+                     <app>
+                        <lem>se</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">sed</rdg>
+                     </app> continere potuerunt, etsi <app>
+                        <lem>erat non dissimile</lem>
+                        <rdg wit="#V" ana="#ordinal">dissimile non erat</rdg>
+                     </app> atque <placeName ref="#Alexandria">Alexandriae</placeName> genus
+                     aedificiorum, ut minora <app>
+                        <lem wit="#M #U">maioribus</lem>
+                        <rdg wit="#S #T #V">minoribus</rdg>
+                     </app> conferantur, turresque editae et coniunctae muri locum obtinebant, neque
+                     nostri aut scalis aut <app>
+                        <lem>cratibus aut</lem>
+                        <rdg wit="#V" ana="#subtractive"/>
+                     </app> reliquis rebus parati uenerant ad oppugnandum.</seg>
                   <seg n="2">Sed terror hominibus mentem consiliumque eripit et membra debilitat; ut
                      tum accidit.</seg>
-                  <seg n="3">Qui se in aequo loco ac plano pares esse confidebant, idem perterriti
-                     fuga suorum et caede paucorum XXX pedum altitudine in aedificiis consistere
-                     ausi non sunt seque per molem in mare praecipitauerunt et DCCC passuum
-                     interuallum ad oppidum enatauerunt.</seg>
-                  <seg n="4">Multi tamen ex his capti interfectique sunt; sed numerus captiuorum
-                     omnino fuit VI milium.</seg></p>
+                  <seg n="3">Qui se in <app>
+                        <lem>aequo loco</lem>
+                        <rdg wit="#V" ana="#ordinal">loco aequo</rdg>
+                     </app> ac plano pares esse confidebant, idem perterriti fuga suorum et caede
+                     paucorum XXX pedum altitudine in aedificiis consistere ausi non sunt seque per
+                     molem in mare praecipitauerunt et <app>
+                        <lem wit="#M #U #S #T #V" xml:id="lem-18.3-DCCC">DCCC</lem>
+                        <witDetail wit="#M" target="#lem-18.3-DCCC" corresp="#rdg-18.3-DCCCC"
+                           type="correction-altered"/>
+                        <rdg wit="#M" xml:id="rdg-18.3-DCCCC">DCCCC</rdg>
+                        <witDetail wit="#M" target="#rdg-18.3-DCCCC" corresp="#lem-18.3-DCCC"
+                           type="correction-original"/>
+                        <note target="#rdg-18.3-DCCCC">quem numerum defendit Schiller coll.
+                                 <bibl><title>BC</title>3.112.2</bibl>.</note>
+                     </app>
+                     <app>
+                        <lem>passuum</lem>
+                        <rdg wit="#U" ana="#orthographical #morphological">passum</rdg>
+                     </app> interuallum ad oppidum
+                        <!-- Begin example using @next and @prev. Maybe should use <lacunaStart> instead? --><app
+                        xml:id="app-18.3-enatauerunt" next="#app-18.4-multi">
+                        <lem>enatauerunt.</lem>
+                        <rdg wit="#V" ana="#subtractive"/>
+                     </app></seg>
+                  <seg n="4"><app xml:id="app-18.4-multi" prev="#app-18.3-enatauerunt">
+                        <lem>Multi tamen <app>
+                              <lem>ex his</lem>
+                              <rdg wit="#U" ana="#subtractive"/>
+                           </app> capti <app>
+                              <lem xml:id="lem-18.4-interfectique">interfectique</lem>
+                              <rdg wit="#S" xml:id="rdg-18.4-interfectaque">interfectaque</rdg>
+                              <witDetail wit="#S" target="#rdg-18.4-interfectaque"
+                                 corresp="#lem-18.4-interfectique" type="correction-original"/>
+                           </app> sunt; sed numerus captiuorum omnino fuit VI milium.</lem>
+                        <rdg wit="#V" ana="#subtractive"/>
+                     </app></seg></p>
 
                <p n="19">
-                  <seg n="1">Caesar praeda militibus concessa aedificia diripi iussit castellumque
-                     ad pontem, qui propior erat Pharo, communiuit atque ibi praesidium
-                     posuit.</seg>
-                  <seg n="2">Hunc fuga Pharitae reliquerant; artiorem illum propioremque oppido
-                     Alexandrini tuebantur. Sed eum postero die simili ratione aggreditur, quod his
-                     obtentis duobus omnem nauigiorum excursum et repentina latrocinia sublatum iri
-                     uidebat.</seg>
+                  <seg n="1"><persName ref="#Caesar">Caesar</persName>
+                     <app>
+                        <lem>praeda militibus</lem>
+                        <rdg wit="#U" ana="#ordinal">militibus praeda</rdg>
+                     </app> concessa aedificia diripi iussit castellumque ad pontem, qui <app>
+                        <lem>propior</lem>
+                        <rdg wit="#S" ana="#orthographical #subtractive">prior</rdg>
+                     </app> erat <persName ref="#Pharos">Pharo</persName>, communiuit atque <app>
+                        <lem>ibi praesidium</lem>
+                        <rdg wit="#V" ana="#ordinal">praesidium ibi</rdg>
+                     </app> posuit.</seg>
+                  <seg n="2">Hunc fuga <!-- persName? -->Pharitae reliquerant; <app>
+                        <lem source="#Bentley" type="emendation">artiorem</lem>
+                        <!-- WE NEED AN ARGUMENT HERE; DOES VIELHABER SUPPLY ONE? OR STARK?; NB BENTLEY 1742 reads fortiorem -->
+                        <rdg wit="#M #U">fortiorem</rdg>
+                        <rdg wit="#S #T #V">certiorem</rdg>
+                     </app> illum propioremque oppido Alexandrini tuebantur. <app>
+                        <lem>Sed</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">si</rdg>
+                     </app> eum postero die simili ratione aggreditur, <app>
+                        <lem>quod</lem>
+                        <rdg wit="#S #T #V"/>
+                     </app> his <app>
+                        <!-- Obtentis or optentis? Obtentis was in the base text, optentis is in the appendix critica -->
+                        <lem>optentis</lem>
+                        <rdg wit="#S" ana="#orthographical">optenas</rdg>
+                     </app> duobus omnem nauigiorum excursum et repentina latrocinia <app>
+                        <lem wit="#M #S #T #V">sublatum</lem>
+                        <rdg wit="#U" xml:id="rdg-19.2-sublata">sublata</rdg>
+                        <witDetail wit="#U" target="#rdg-19.2-sublata" corresp="#rdg-19.2-sublatam"
+                           type="correction-altered"/>
+                        <rdg wit="#U" xml:id="rdg-19.2-sublatam">sublatam</rdg>
+                        <witDetail wit="#U" target="#rdg-19.2-sublatam" corresp="#rdg-19.2-sublata"
+                           type="correction-original"/>
+                     </app> iri <app>
+                        <lem source="#Bentley" type="emendation">uidebat</lem>
+                        <rdg wit="#M #U">uidebatur</rdg>
+                        <rdg wit="#S #T #V">uidebantur</rdg>
+                     </app>.</seg>
                   <seg n="3">Iamque eos qui praesidio eum locum tenebant tormentis ex nauibus
-                     sagittisque depulerat atque in oppidum redegerat et cohortium trium instar in
-                     terram exposuerat — non enim plures consistere angustiae loci patiebantur — ;
-                     reliquae copiae in nauibus stationem obtinebant.</seg>
-                  <seg n="4">Quo facto imperat pontem aduersus hostem praeuallari et, qua exitus
-                     nauibus erat fornice extructo, quo pons sustinebatur, lapidibus oppleri atque
-                     obstrui.</seg>
-                  <seg n="5" xml:id="seg-19.5">Quorum altero opere effecto, ut nulla omnino scapha
-                     egredi posset, altero instituto omnes Alexandrinorum copiae ex oppido se
-                     eiecerunt et contra munitiones pontis latiore loco constiterunt, eodemque
-                     tempore quae consueuerant nauigia per pontes ad incendia onerariarum emittere
-                     ad molem constituerunt.</seg>
-                  <seg n="6">Pugnabatur a nobis ex ponte &lt;et&gt; ex mole; ab illis ex area quae
-                     erat aduersus pontem et ex nauibus contra molem.</seg></p>
+                     sagittisque <app>
+                        <lem>depulerat</lem>
+                        <rdg wit="#V" ana="#orthographical #morphological">depulerant</rdg>
+                     </app> atque in oppidum redegerat et cohortium trium instar in terram
+                     exposuerat — non enim plures consistere angustiae loci patiebantur — ; reliquae
+                     copiae in nauibus stationem obtinebant.</seg>
+                  <seg n="4">Quo facto imperat pontem <app>
+                        <lem>aduersus hostem</lem>
+                        <rdg wit="#V" ana="#ordinal">hostem aduersus</rdg>
+                     </app> praeuallari et, qua exitus nauibus erat fornice extructo, quo pons
+                     sustinebatur, lapidibus oppleri atque obstrui.</seg>
+                  <seg n="5" xml:id="seg-19.5">Quorum <app>
+                        <lem>altero</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">altera</rdg>
+                     </app> opere effecto, <app>
+                        <lem xml:id="lem-19.5-ut">ut</lem>
+                        <rdg wit="M" xml:id="rdg-19.5-ut-om" ana="#subtractive"/>
+                        <witDetail wit="#M" target="#rdg-19.5-ut-om" corresp="#lem-19.5-ut"
+                           type="correction-original"/>
+                     </app> nulla omnino scapha egredi posset, altero instituto omnes Alexandrinorum
+                     copiae ex oppido se <app>
+                        <lem>eiecerunt</lem>
+                        <rdg wit="#S" ana="#orthographical #lexical">iecerunt</rdg>
+                     </app> et contra munitiones pontis latiore loco constiterunt, <app>
+                        <lem>eodemque</lem>
+                        <rdg wit="#V" ana="#subtractive">eodem</rdg>
+                     </app> tempore quae consueuerant nauigia per pontes ad incendia onerariarum
+                     emittere ad molem constituerunt.</seg>
+                  <seg n="6" xml:id="seg-19.6"><app>
+                        <lem>Pugnabatur</lem>
+                        <rdg wit="#S" xml:id="rdg-19.6-lacuna"><lacunaStart/></rdg>
+                        <witDetail wit="#S" target="#rdg-19.6-lacuna">pugnabatur … (24.2) ut ad
+                           om.</witDetail>
+                     </app> a nobis ex ponte <app>
+                        <lem source="#Mueller" type="emendation"><supplied reason="undefined"
+                              >et</supplied> ex mole</lem>
+                        <rdg source="#Schneider" type="conjecture">et mole</rdg>
+                     </app>; ab illis ex area quae erat aduersus pontem et ex nauibus contra
+                     molem.</seg></p>
 
                <p n="20">
                   <seg n="1">In his rebus occupato Caesare militesque hortante remigum magnus
@@ -2563,8 +2674,13 @@ This is a subsection within the preface. Editors should use
                   <seg n="2">Itaque regem cohortatus ut consuleret regno paterno, parceret
                      praeclarissimae patriae, quae turpibus incendiis et ruinis esset deformata,
                      ciues suos primum ad sanitatem reuocaret, deinde conseruaret, fidem populo
-                     Romano sibique praestaret, cum ipse tantum ei crederet ut ad hostes armatos eum
-                     mitteret, dextra dextram tenens dimittere coepit adulta iam aetate
+                     Romano sibique praestaret, cum ipse tantum ei crederet ut ad <app>
+                        <lem>hostes armatos</lem>
+                        <rdg wit="#S" xml:id="rdg-24.2-ut-ad"><lacunaEnd/></rdg>
+                        <witDetail wit="#S" target="#rdg-24.2-ut-ad">in uocibus <hi rend="normal"
+                              >hostes armatos</hi> redit <ref target="#S">S</ref> (u. <ref
+                              target="#seg-19.6">19.6</ref>)</witDetail>
+                     </app> eum mitteret, dextra dextram tenens dimittere coepit adulta iam aetate
                      puerum.</seg>
                   <seg n="3">At regius animus disciplinis fallacissimis eruditus, ne a gentis suae
                      moribus degeneraret, flens orare contra Caesarem coepit ne se dimitteret: non
