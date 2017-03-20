@@ -2739,7 +2739,7 @@ This is a subsection within the preface. Editors should use
                      incitandi ad pugnandum.</seg></p>
 
                <p n="23">
-                  <seg n="1"><app>
+                  <seg n="1" xml:id="seg-23.1"><app>
                         <lem>Alexandrini</lem>
                         <rdg wit="#T" ana="#orthographical">Alexandri</rdg>
                      </app> cum Romanos et secundis rebus confirmari et aduersis incitari uiderent
@@ -2761,23 +2761,48 @@ This is a subsection within the preface. Editors should use
                   <seg n="2">paratam enim <app>
                         <lem>omnem</lem>
                         <rdg wit="T" ana="#subtractive"/>
-                  </app> multitudinem esse, confectam taedio puellae, fiduciario <app><lem>regno</lem><rdg wit="T" ana="#subtractive"/></app>,
-                     dominatione crudelissima <persName ref="#Ganymedes">Ganymedis</persName>,
-                     <app><lem>facere id</lem><rdg wit="#V" ana="#ordinal">id facere</rdg></app> quod rex imperasset; quo si auctore in <persName ref="#Caesar"
+                     </app> multitudinem esse, confectam taedio puellae, fiduciario <app>
+                        <lem>regno</lem>
+                        <rdg wit="T" ana="#subtractive"/>
+                     </app>, dominatione crudelissima <persName ref="#Ganymedes"
+                        >Ganymedis</persName>, <app>
+                        <lem>facere id</lem>
+                        <rdg wit="#V" ana="#ordinal">id facere</rdg>
+                     </app> quod rex imperasset; quo si auctore in <persName ref="#Caesar"
                         >Caesaris</persName> fidem amicitiamque uenturi essent, nullius periculi
                      timorem multitudini fore impedimento quo minus se dederent.</seg></p>
 
                <p n="24">
-                  <seg n="1">Caesar etsi fallacem gentem semperque alia cogitantem, alia simulantem
-                     bene cognitam habebat, tamen petentibus dare ueniam utile esse statuit, quod,
-                     si quo pacto sentirent ea quae postularent, mansurum in fide dimissum regem
-                     credebat, sin, id quod magis illorum naturae conueniebat, ducem ad bellum
-                     gerendum regem habere uellent, splendidius atque honestius se contra regem quam
+                  <seg n="1"><persName ref="#Caesar">Caesar</persName> etsi fallacem gentem
+                     semperque alia cogitantem, alia simulantem bene cognitam habebat, tamen
+                     petentibus dare ueniam utile esse <app>
+                        <lem>esse statuit</lem>
+                        <rdg wit="#M" ana="#ordinal #lexical">constituit esse</rdg>
+                     </app>, quod, si quo <app>
+                        <lem source="#Manutius" type="emendation" xml:id="lem-24.1-pacto-sentirent"
+                           >pacto sentirent</lem>
+                        <note target="#lem-24.1-pacto-sentirent">de numero cf. et infra</note>
+                        <rdg wit="#ω">facto sentiret</rdg>
+                     </app> ea quae <app>
+                        <lem wit="#T #V" xml:id="lem-24.1-postularent">postularent</lem>
+                        <note target="#lem-24.1-postularent">u. <ref target="#seg-23.1">23.1</ref>
+                           <hi rend="normal">miserunt</hi></note>
+                        <rdg wit="#M #U" xml:id="rdg-24.1-postularet">postularet</rdg>
+                        <note target="#rdg-24.1-postularet">(sc. <hi rend="normal">rex</hi>) uix
+                           recte</note>
+                     </app>, mansurum in fide dimissum regem credebat, sin, id quod magis illorum
+                     naturae conueniebat, ducem ad bellum <app>
+                        <lem>gerundum</lem>
+                        <rdg wit="#V" ana="#morphological">gesturum</rdg>
+                     </app> regem habere uellent, splendidius atque honestius se contra regem quam
                      contra conuenarum ac fugitiuorum manum bellum esse gesturum.</seg>
-                  <seg n="2">Itaque regem cohortatus ut consuleret regno paterno, parceret
-                     praeclarissimae patriae, quae turpibus incendiis et ruinis esset deformata,
-                     ciues suos primum ad sanitatem reuocaret, deinde conseruaret, fidem populo
-                     Romano sibique praestaret, cum ipse tantum ei crederet ut ad <app>
+                  <seg n="2">Itaque <persName ref="#Ptolemaeus">regem</persName> cohortatus ut
+                     consuleret regno paterno, parceret praeclarissimae patriae, quae turpibus
+                     incendiis et ruinis esset deformata, ciues suos primum ad sanitatem <app>
+                        <lem>reuocaret</lem>
+                        <rdg wit="#M" ana="#morphological #syntactic">reuocante</rdg>
+                     </app>, deinde conseruaret, fidem populo Romano sibique praestaret, cum ipse
+                     tantum ei crederet ut ad <app>
                         <lem>hostes armatos</lem>
                         <rdg wit="#S" xml:id="rdg-24.2-ut-ad"><lacunaEnd/></rdg>
                         <witDetail wit="#S" target="#rdg-24.2-ut-ad">in uocibus <hi rend="normal"
@@ -2786,17 +2811,43 @@ This is a subsection within the preface. Editors should use
                      </app> eum mitteret, dextra dextram tenens dimittere coepit adulta iam aetate
                      puerum.</seg>
                   <seg n="3">At regius animus disciplinis fallacissimis eruditus, ne a gentis suae
-                     moribus degeneraret, flens orare contra Caesarem coepit ne se dimitteret: non
-                     enim sibi regnum ipsum conspectu Caesaris esse iucundius.</seg>
-                  <seg n="4">Compressis pueri lacrimis Caesar ipse commotus celeriter, si illa
-                     sentiret, fore eum secum adfirmans ad suos dimisit.</seg>
-                  <seg n="5">Ille, ut ex carceribus in liberum cursum emissus, adeo contra Caesarem
-                     acriter bellum gerere coepit ut lacrimas quas in colloquio proiecerat gaudio
-                     uideretur profudisse.</seg>
-                  <seg n="6">Accidisse hoc complures Caesaris legati, amici, centuriones militesque
-                     laetabantur, quod nimia bonitas eius fallaciis pueri elusa esset. Quasi uero id
-                     Caesar bonitate tantum adductus ac non prudentissimo consilio
-                  fecisset.</seg></p>
+                     moribus degeneraret, flens orare <app>
+                        <lem wit="#ω" xml:id="lem-24.3-contra-Caesarem">contra <persName
+                              ref="#Caesar">Caesarem</persName></lem>
+                        <note target="#lem-24.3-contra-Caesarem">cf.
+                              <!-- Add xml:id for 37.2 when it is available --><ref
+                              target="#seg-37.2">37.2</ref> etc.</note>
+                        <rdg source="#Dinter" type="conjecture" xml:id="rdg-24.3-contra-Caesarem"
+                              ><surplus>contra</surplus> Caesarem</rdg>
+                        <note target="#rdg-24.3-contra-Caesarem">cf. <bibl><title>BG</title>
+                              5.27.7</bibl></note>
+                        <note>an <hi rend="normal">Caesarem contra</hi> (cf. <ref target="#seg-60.3"
+                              >60.3</ref>)?</note>
+                     </app> coepit ne se dimitteret: non enim <app>
+                        <lem>sibi</lem>
+                        <rdg wit="V" ana="#subtractive"/>
+                     </app> regnum ipsum conspectu Caesaris esse iucundius.</seg>
+                  <seg n="4"><app>
+                        <lem>Compressis</lem>
+                        <rdg wit="#M" ana="#additive">compressisque</rdg>
+                     </app> pueri lacrimis <persName ref="#Caesar">Caesar</persName> ipse commotus
+                     celeriter, si illa sentiret, fore eum secum adfirmans ad suos dimisit.</seg>
+                  <seg n="5"><persName ref="#Ptolemaeus">Ille</persName>, <app>
+                        <lem wit="#ω" xml:id="lem-24.3-ut-emissus">ut <app>
+                              <lem>ex</lem>
+                              <rdg wit="#M" ana="#orthographical">e</rdg>
+                           </app> carceribus in liberum cursum emissus</lem>
+                        <note target="#lem-24.3-ut-emissus">cf. <bibl><author>Cic.</author>
+                              <title>Amic.</title> 101</bibl></note>
+                        <rdg source="#Fleischer" type="conjecture">ut <supplied reason="undefined"
+                              >equus</supplied> ex carceribus in liberum cursum emissus</rdg>
+                     </app>, adeo contra <persName ref="#Caesar">Caesarem</persName> acriter bellum
+                     gerere coepit ut lacrimas quas in colloquio proiecerat gaudio uideretur
+                     profudisse.</seg>
+                  <seg n="6">Accidisse hoc complures <persName ref="#Caesar">Caesaris</persName>
+                     legati, amici, centuriones militesque laetabantur, quod nimia bonitas eius
+                     fallaciis pueri elusa esset. Quasi uero id Caesar bonitate tantum adductus ac
+                     non prudentissimo consilio fecisset.</seg></p>
 
                <p n="25">
                   <seg n="1">Cum duce assumpto Alexandrini nihilo se firmiores factos aut
