@@ -2708,9 +2708,11 @@ This is a subsection within the preface. Editors should use
                      </app>.</seg></p>
 
                <p n="22">
-                  <seg n="1">Hoc detrimento milites nostri tantum
-                     <!-- Asked Cynthia about the difference between this and her apparatus criticus (2017-03-19) -->afuerunt
-                     ut perturbarentur, ut incensi atque incitati magnas <app>
+                  <seg n="1">Hoc detrimento milites nostri tantum <!-- Asked Cynthia about the difference between this and her apparatus criticus (2017-03-19) --><app>
+                        <lem wit="#M #U" xml:id="lem-22.1-afuerunt">afuerunt</lem>
+                        <witDetail wit="#M" target="#lem-22.1-afuerunt">affuerunt</witDetail>
+                        <rdg wit="#T #V">fuerunt</rdg>
+                     </app> ut perturbarentur, ut incensi atque incitati magnas <app>
                         <lem wit="#T #V">accessiones</lem>
                         <rdg wit="#M #U">accensiones</rdg>
                      </app> fecerint in operibus hostium expugnandis.</seg>
@@ -2737,17 +2739,33 @@ This is a subsection within the preface. Editors should use
                      incitandi ad pugnandum.</seg></p>
 
                <p n="23">
-                  <seg n="1">Alexandrini cum Romanos et secundis rebus confirmari et aduersis
-                     incitari uiderent neque ullum belli tertium casum nossent quo possent esse
-                     firmiores, ut coniectura consequi possumus, aut admoniti a regis amicis qui in
-                     Caesaris erant praesidiis, aut suo priore consilio per occultos nuntios regi
-                     probato legatos ad Caesarem miserunt, ut dimitteret regem transireque ad suos
-                     pateretur:</seg>
-                  <seg n="2">paratam enim omnem multitudinem esse, confectam taedio puellae,
-                     fiduciario regno, dominatione crudelissima Ganymedis, facere id quod rex
-                     imperasset; quo si auctore in Caesaris fidem amicitiamque uenturi essent,
-                     nullius periculi timorem multitudini fore impedimento quo minus se
-                     dederent.</seg></p>
+                  <seg n="1"><app>
+                        <lem>Alexandrini</lem>
+                        <rdg wit="#T" ana="#orthographical">Alexandri</rdg>
+                     </app> cum Romanos et secundis rebus confirmari et aduersis incitari uiderent
+                     neque ullum belli <app>
+                        <lem wit="#ω" xml:id="lem-23.1-tertium">tertium</lem>
+                        <note target="#lem-23.1-tertium">cf. <bibl><author>Lucr.</author>
+                              1.445–46</bibl></note>
+                        <rdg source="#Kraffert" type="conjecture"><surplus>tertium</surplus></rdg>
+                     </app> casum nossent <app>
+                        <lem wit="#M">quo</lem>
+                        <rdg wit="#U #T #V">qui</rdg>
+                     </app> possent esse firmiores, ut coniectura consequi possumus, aut admoniti a
+                     regis amicis qui in <persName ref="#Caesar">Caesaris</persName> erant
+                     praesidiis, aut suo priore consilio per occultos nuntios <app>
+                        <lem source="#Ursinus">regi</lem>
+                        <rdg wit="#ω">regis</rdg>
+                     </app> probato legatos ad Caesarem miserunt, ut dimitteret regem transireque ad
+                     suos pateretur:</seg>
+                  <seg n="2">paratam enim <app>
+                        <lem>omnem</lem>
+                        <rdg wit="T" ana="#subtractive"/>
+                  </app> multitudinem esse, confectam taedio puellae, fiduciario <app><lem>regno</lem><rdg wit="T" ana="#subtractive"/></app>,
+                     dominatione crudelissima <persName ref="#Ganymedes">Ganymedis</persName>,
+                     <app><lem>facere id</lem><rdg wit="#V" ana="#ordinal">id facere</rdg></app> quod rex imperasset; quo si auctore in <persName ref="#Caesar"
+                        >Caesaris</persName> fidem amicitiamque uenturi essent, nullius periculi
+                     timorem multitudini fore impedimento quo minus se dederent.</seg></p>
 
                <p n="24">
                   <seg n="1">Caesar etsi fallacem gentem semperque alia cogitantem, alia simulantem
