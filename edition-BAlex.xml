@@ -2722,8 +2722,8 @@ This is a subsection within the preface. Editors should use
                               reason="undefined"><gap reason="lost"/></supplied> multum
                            operibus</lem>
                         <note target="#lem-22.2-gap">cf. <!-- Add xml:id for seg-55.1. --><ref
-                              target="#seg-55.1">55.1</ref> et Liu. 26.14.7</note>
-                        <!-- What is "Liu."? -->
+                              target="#seg-55.1">55.1</ref> et <bibl><author>Liu.</author>
+                              26.14.7</bibl></note>
                         <rdg source="#Stephanus" type="conjecture">multum <supplied
                               reason="undefined"><gap reason="lost"/></supplied> operibus</rdg>
                         <rdg source="#Nipperdey" type="conjecture">multum operibus <supplied
@@ -2821,8 +2821,12 @@ This is a subsection within the preface. Editors should use
                               ><surplus>contra</surplus> Caesarem</rdg>
                         <note target="#rdg-24.3-contra-Caesarem">cf. <bibl><title>BG</title>
                               5.27.7</bibl></note>
-                        <note>an <hi rend="normal">Caesarem contra</hi> (cf. <ref target="#seg-60.3"
-                              >60.3</ref>)?</note>
+                        <note xml:id="note-24.3-Caesarem-contra-2-Caesarem-contra-1"
+                           next="#note-24.3-Caesarem-contra-2">an</note>
+                        <rdg source="#Damon" type="conjecture">Caesarem contra</rdg>
+                        <note xml:id="note-24.3-Caesarem-contra-2"
+                           prev="#note-24.3-Caesarem-contra-2-Caesarem-contra-1">(cf. <ref
+                              target="#seg-60.3">60.3</ref>)?</note>
                      </app> coepit ne se dimitteret: non enim <app>
                         <lem>sibi</lem>
                         <rdg wit="V" ana="#subtractive"/>
@@ -2844,35 +2848,183 @@ This is a subsection within the preface. Editors should use
                      </app>, adeo contra <persName ref="#Caesar">Caesarem</persName> acriter bellum
                      gerere coepit ut lacrimas quas in colloquio proiecerat gaudio uideretur
                      profudisse.</seg>
-                  <seg n="6">Accidisse hoc complures <persName ref="#Caesar">Caesaris</persName>
-                     legati, amici, centuriones militesque laetabantur, quod nimia bonitas eius
-                     fallaciis pueri elusa esset. Quasi uero id Caesar bonitate tantum adductus ac
-                     non prudentissimo consilio fecisset.</seg></p>
+                  <seg n="6" xml:id="seg-24.6">Accidisse hoc complures <persName ref="#Caesar"
+                        >Caesaris</persName> legati, amici, centuriones militesque laetabantur, quod
+                     nimia bonitas eius fallaciis pueri elusa esset. Quasi uero id Caesar bonitate
+                     tantum adductus ac non prudentissimo consilio fecisset.</seg></p>
 
                <p n="25">
-                  <seg n="1">Cum duce assumpto Alexandrini nihilo se firmiores factos aut
-                     languidiores Romanos animaduerterent eludentibusque militibus regis aetatem
-                     atque infirmitatem magnum dolorem acciperent neque se quicquam proficere
-                     uiderent, rumoresque existerent magna Caesari praesidia terrestri itinere
-                     &lt;ex&gt; Syria Ciliciaque adduci, quod nondum auditum Caesari erat,
-                     commeatum, qui mari nostris supportabatur, intercipere statuerunt.</seg>
-                  <seg n="2"> Itaque expeditis nauigiis locis idoneis ad Canopum in statione
-                     dispositis nauibus insidiabantur nostris <sic>commeatu</sic>.</seg>
-                  <seg n="3">Quod ubi Caesari nuntiatum est, uniuersam classem iubet expediri atque
-                     instrui. Praeficit huic Tiberium Neronem. Proficiscuntur in ea classe Rhodiae
-                     naues atque in iis Euphranor, sine quo nulla umquam dimicatio maritima, nulla
-                     etiam parum feliciter confecta erat.</seg>
+                  <seg n="1" xml:id="seg-25.1">Cum duce assumpto Alexandrini nihilo se <app>
+                        <lem>firmiores</lem>
+                        <rdg wit="#S" ana="#lexical">infirmiores</rdg>
+                     </app> factos aut languidiores Romanos <app>
+                        <lem>animaduerterent</lem>
+                        <rdg wit="#T" ana="#subtractive">aduerterent</rdg>
+                     </app> eludentibusque militibus regis <app>
+                        <lem>aetatem</lem>
+                        <rdg wit="#S" ana="#orthographical #morphological">aetate</rdg>
+                     </app> atque infirmitatem magnum dolorem acciperent neque se quicquam proficere
+                     uiderent, rumoresque existerent magna <app>
+                        <lem wit="#M" xml:id="lem-25.1-Caesari"><persName ref="#Caesar"
+                              >Caesari</persName></lem>
+                        <witDetail wit="#M" target="#lem-25.1-Caesari" corresp="#rdg-25.1-Caesar"
+                           type="correction-altered"/>
+                        <rdg wit="#ω" xml:id="rdg-25.1-Caesar">Caesar</rdg>
+                        <rdg wit="#edprin" xml:id="rdg-25.1-Caesaris">Caesaris</rdg>
+                        <note target="#rdg-25.1-Caesaris">fortasse recte (cf. <ref
+                              target="#seg-24.6">24.6</ref>)</note>
+                     </app> praesidia terrestri itinere <app>
+                        <lem source="#Stephanus" xml:id="lem-25.1-ex"><supplied reason="undefined"
+                              >ex</supplied><note target="#lem-25.1-ex">cf. <ref target="#seg-1.1"
+                                 >1.1</ref> et
+                                 <!-- Add xml:id for 61.2 when it is available. --><ref
+                                 target="#seg-61.2">61.2</ref></note></lem>
+                     </app>
+                     <placeName ref="#Syria">Syria</placeName>
+                     <app>
+                        <lem wit="#M #U #V"><placeName ref="#Cilicia">Cilicia</placeName></lem>
+                        <rdg wit="#S #T"><!-- Ask Cynthia about C(i/y)liaque --></rdg>
+                     </app>que adduci, quod nondum auditum Caesari erat, <app>
+                        <lem wit="#M #U">commeatum</lem>
+                        <rdg wit="#S #T #V">commeatumque</rdg>
+                     </app>, qui mari nostris supportabatur, intercipere statuerunt.</seg>
+                  <seg n="2"> Itaque expeditis nauigiis locis idoneis ad <placeName ref="#Canopus"
+                        >Canopum</placeName> in statione <app>
+                        <lem>dispositis</lem>
+                        <rdg wit="#V" ana="#orthographical">dispotis</rdg>
+                     </app> nauibus insidiabantur nostris <app>
+                        <lem wit="#U #S #T #V" xml:id="lem-25.2-commeatu"><sic>commeatu</sic></lem>
+                        <note target="#lem-25.2-commeatu">cf. <bibl><title>BC</title>
+                           2.32.12</bibl></note>
+                        <rdg wit="#M">commeatum</rdg>
+                        <rdg source="#Oudendorp" type="conjecture" xml:id="rdg-25.2-commeatibus"
+                           >commeatibus</rdg>
+                        <note target="#rdg-25.2-commeatibus">cf. <bibl><title>BG</title>
+                              3.23.6</bibl></note>
+                        <rdg source="#Nipperdey" type="conjecture" xml:id="rdg-25.2-commeatuque"
+                           >commeatuque</rdg>
+                        <note target="#rdg-25.2-commeatuque">cf.
+                              <bibl><title>BG</title>4.30.2</bibl> et <bibl><author>Gel.</author>
+                              4.16.8</bibl></note>
+                        <rdg source="#Mueller" type="conjecture"><surplus>commeatu</surplus></rdg>
+                        <rdg source="#Kübler" type="conjecture" xml:id="rdg-25.2-commeatu-onustis"
+                           >commeatu <supplied reason="undefined">onustis</supplied></rdg>
+                        <note target="#rdg-25.2-commeatu-onustis">cf. <bibl><title>BC</title>
+                              3.23.2</bibl></note>
+                        <rdg source="#Klotz1927" type="conjecture" xml:id="rdg-25.2-commeatumque"
+                              >commeatu<supplied reason="undefined">mque importari
+                              prohibebant</supplied></rdg>
+                        <note target="#rdg-25.2-commeatumque">cf. <bibl><title>BC</title>
+                              3.111.4</bibl></note>
+                        <!-- THIS NEEDS A NOTE IN STBA -->
+                     </app>.</seg>
+                  <seg n="3">Quod ubi <persName ref="Caesar">Caesari</persName> nuntiatum est, <app>
+                        <lem source="#Fleischer" xml:id="lem-25.3-uniuersam" type="emendation"
+                           >uniuersam</lem>
+                        <note target="#rdg-25.3-uniuersam">ex compendio (cf.
+                                 <bibl><title>BAfr.</title> 62.5</bibl>)</note>
+                        <rdg wit="#M #U #T #V" xml:id="rdg-25.3-unam">unam</rdg>
+                        <note target="#rdg-25.3-unam">cf. <bibl><author>Liu.</author>
+                              21.50.11</bibl> et <bibl><author>Seru.</author>
+                              <title>A.</title> 10.170</bibl></note>
+                        <rdg wit="#S">nam</rdg>
+                        <rdg source="#Nipperdey" xml:id="rdg-25.3-suam">suam</rdg>
+                        <note target="#rdg-25.3-suam">cf.
+                              <!-- Insert an xml:id for 45.1 when it's available. --><ref
+                              target="#seg-45.1">45.1</ref></note>
+                     </app> classem iubet expediri atque instrui. <app>
+                        <lem wit="#S #T #V">Praeficit</lem>
+                        <rdg wit="#M #U">praefecit</rdg>
+                     </app> huic <persName ref="TNero">Tiberium <app>
+                           <lem>Neronem</lem>
+                           <rdg wit="#S" ana="#orthographical">Nerorem</rdg>
+                        </app></persName>. Proficiscuntur in ea classe Rhodiae naues atque in iis
+                        <persName ref="#Euphranor">Euphranor</persName>, sine quo nulla umquam
+                     dimicatio <app>
+                        <lem wit="#ω" xml:id="lem-25.3-maritima">maritima</lem>
+                        <note target="#lem-25.3-maritima">cf. <bibl><author>Cic.</author>
+                              <title>Diu. Caec.</title> 71.8</bibl> et <bibl><title>Amic.</title>
+                              22.15</bibl></note>
+                        <rdg source="#Cornelissen" type="conjecture" xml:id="rdg-25.3-mari-inita"
+                           >mari inita</rdg>
+                        <note target="#rdg-25.3-mari-inita">cf. <ref target="#seg-25.1">25.1</ref>
+                           et <bibl><author>Liu.</author> 10.24.14</bibl> et Gel. 5.18.9</note>
+                        <rdg source="#Kübler" type="conjecture" xml:id="rdg-25.3-maritima-Kübler"
+                           >maritima <supplied reason="undefined">suscipi posse
+                           uidebatur</supplied></rdg>
+                        <note target="#rdg-25.3-maritima-Kübler">post <hi rend="normal"
+                              >maritima</hi> lacunam statuit Kübler, qui <hi rend="normal"
+                              >&lt;suscipi posse uidebatur&gt;</hi> suppleuerit (cf.
+                                 <bibl><author>Hirt.</author> 8.10.2</bibl>, et u. infra)</note>
+
+                     </app>, nulla etiam <app>
+                        <lem>parum</lem>
+                        <rdg source="#Larsen" type="conjecture" xml:id="lem-25.3-impar-parum"
+                              ><supplied reason="undefined">impar</supplied> parum</rdg>
+                        <note target="#lem-25.3-impar-parum">u. et supra de lacuna</note>
+                     </app> feliciter confecta erat.</seg>
                   <seg n="4">At fortuna, quae plerumque eos quos plurimis beneficiis ornauit ad
-                     duriorem casum reseruat, superiorum temporum dissimilis Euphranorem
-                     prosequebatur.</seg>
-                  <seg n="5">Nam cum ad Canopum uentum esset instructaque utrimque classis
-                     conflixisset et sua consuetudine Euphranor primus proelium commisisset et
-                     quadriremem hostium perforasset ac demersisset, proximam longius insecutus
-                     parum celeriter insequentibus reliquis circumuentus ab Alexandrinis.</seg>
-                  <seg n="6">Cui subsidium nemo tulit, siue quod in ipso satis praesidi pro uirtute
-                     ac felicitate eius putarent esse, siue quod ipsi sibi timebant. Ita, qui unus
-                     ex omnibus eo proelio bene rem gessit, solus cum sua quadriremi uictrice
-                     periit.</seg></p>
+                     duriorem casum reseruat, superiorum temporum dissimilis <persName
+                        ref="#Euphranor">Euphranorem</persName>
+                     <app>
+                        <lem>prosequebatur</lem>
+                        <rdg wit="#V" ana="#lexical">persequebatur</rdg>
+                     </app>.</seg>
+                  <seg n="5">Nam <app>
+                        <lem>cum</lem>
+                        <rdg wit="U" ana="#subtractive"/>
+                     </app> ad <placeName ref="#Canopus">Canopum</placeName> uentum esset
+                     instructaque utrimque classis <app>
+                        <lem>conflixisset</lem>
+                        <rdg wit="#S" ana="#additive">esset conflixisset</rdg>
+                     </app> et sua consuetudine <persName ref="#Euphranor">Euphranor</persName>
+                     primus proelium commisisset et <app>
+                        <lem source="#Dübner" type="emendation" xml:id="lem-25.5-quadriremem"
+                           >quadriremem</lem>
+                        <note target="#lem-25.5-quadriremem">de compendio, u.
+                                 <bibl><title>BC</title> 3.111.3 et 31.1</bibl></note>
+                        <rdg wit="#ω" xml:id="rdg-25.5-illi-triremem">illi triremem</rdg>
+                        <note target="#lem-25.5-quadriremem">cf. <ref target="#seg-15.6">15.6</ref>,
+                           et u. infra</note>
+                        <rdg source="#Oudendorp" xml:id="rdg-25.5-illic-triremem">illic
+                           triremem</rdg>
+                        <note target="#rdg-25.5-illic-triremem">cf. <bibl><title>BC</title>
+                              3.102.6</bibl></note>
+                     </app> hostium <app>
+                        <lem wit="#Ϛ" xml:id="lem-25.5-perforasset-ac-demersisset">perforasset ac
+                           demersisset</lem>
+                        <note target="#rdg-25.5-perforasset-ac-demersisset">teste <ref
+                              target="#Oudendorp">Oudendorp</ref></note>
+                        <rdg wit="#ω" xml:id="rdg-25.5-perforassent-ac-demersissent">perforassent ac
+                           demersissent</rdg>
+                        <note target="#rdg-25.5-perforassent-ac-demersissent">u. supra</note>
+                     </app>, proximam longius insecutus parum celeriter insequentibus reliquis <app>
+                        <lem wit="#ω" xml:id="lem-25.5-circumuentus">circumuentus</lem>
+                        <note target="#lem-25.5-circumuentus">cf. <ref target="#seg-55.3"
+                           >55.3</ref></note>
+                        <rdg wit="#Mmr" xml:id="rdg-25.5-circumuentus-est">circumuentus est</rdg>
+                        <note target="#rdg-25.5-circumuentus-est">cf. <ref target="#seg-28.2"
+                              >28.2</ref></note>
+                     </app> ab Alexandrinis.</seg>
+                  <seg n="6"><persName ref="#Euphranor">Cui</persName> subsidium nemo tulit, siue
+                     quod in ipso satis praesidi pro uirtute ac felicitate eius putarent esse, siue
+                     quod ipsi <app>
+                        <lem>sibi</lem>
+                        <rdg wit="#M" ana="#lexical #syntactic">sic</rdg>
+                     </app> timebant. <app>
+                        <lem source="#Haupt" type="emendation" xml:id="lem-25.6-ita-qui">Ita,
+                           qui</lem>
+                        <note target="#lem-25.6-ita-qui">teste <ref target="#Nipperdey"
+                              >Nipperdey</ref> (cf. <bibl><author>Cic.</author>
+                              <title>Sest.</title> 130</bibl>)</note>
+                        <rdg wit="#ω">itaque</rdg>
+                        <rdg source="#Gruter" type="conjecture" xml:id="rdg-25.6-itaque-qui">itaque
+                           qui</rdg>
+                        <note target="#rdg-25.6-itaque-qui">teste <ref target="#Oudendorp"
+                              >Oudendorp</ref> (cf. <bibl><author>Cic.</author>
+                              <title>Ver.</title> 2.3.85</bibl>)</note>
+                     </app> unus ex omnibus eo proelio bene rem gessit, solus cum sua quadriremi
+                     uictrice periit.</seg></p>
 
                <p n="26">
                   <seg n="1">Sub idem tempus Mithridates Pergamenus, magnae nobilitatis domi
@@ -2918,11 +3070,12 @@ This is a subsection within the preface. Editors should use
                   <seg n="1">Mittitur a Mithridate nuntius Caesari qui rem gestam perferret.
                      Cognoscit ex suis eadem haec accidisse rex. Ita paene sub idem tempus et rex ad
                      opprimendum Mithridaten proficiscitur et Caesar ad recipiendum.</seg>
-                  <seg n="2">Celeriore fluminis Nili nauigatione rex est usus, in quo magnam et
-                     paratam classem habebat. Caesar eodem itinere uti noluit, ne nauibus in flumine
-                     dimicaret, sed circumuectus eo mari, quod Africae partis esse dicitur, sicuti
-                     supra demonstrauimus; prius tamen regis copiis occurrit, quam is Mithridaten
-                     aggredi posset, eumque ad se uictorem incolumi exercitu recepit.</seg>
+                  <seg n="2" xml:id="seg-28.2">Celeriore fluminis Nili nauigatione rex est usus, in
+                     quo magnam et paratam classem habebat. Caesar eodem itinere uti noluit, ne
+                     nauibus in flumine dimicaret, sed circumuectus eo mari, quod Africae partis
+                     esse dicitur, sicuti supra demonstrauimus; prius tamen regis copiis occurrit,
+                     quam is Mithridaten aggredi posset, eumque ad se uictorem incolumi exercitu
+                     recepit.</seg>
                   <seg n="3" xml:id="seg-28.3"> Considerat cum copiis rex loco natura munito, quod
                      erat ipse excelsior planitie ex omnibus partibus subiecta; tribus autem ex
                      lateribus uariis generum munitionibus tegebatur: unum latus erat adiectum
