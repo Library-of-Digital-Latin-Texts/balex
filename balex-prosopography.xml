@@ -46,6 +46,9 @@
             <org xml:id="Nabataei" corresp="https://pleiades.stoa.org/places/29677">
                <orgName>Nabataei</orgName>
             </org>
+            <person xml:id="TNero">
+               <persName>Tiberius Nero</persName>
+            </person>
             <person xml:id="Pharos">
                <persName>Pharos</persName>
             </person>
