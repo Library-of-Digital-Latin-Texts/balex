@@ -43,6 +43,9 @@
             <person xml:id="Malchus">
                <persName>Malchus I</persName>
             </person>
+            <person xml:id="Mithridates">
+               <persName>Mithridates Pergamenus</persName>
+            </person>
             <org xml:id="Nabataei" corresp="https://pleiades.stoa.org/places/29677">
                <orgName>Nabataei</orgName>
             </org>
