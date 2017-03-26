@@ -609,7 +609,8 @@ This is a subsection within the preface. Editors should use
                <bibl xml:id="Landgraf"><abbr type="siglum">Landgraf 1888</abbr> = <author>Landgraf,
                      G</author>. <title>Untersuchungen zu Caesar und seinen Fortsetzern insbesondere
                      über Autorschaft und Komposition des Bellum Alexandrinum und Africanum</title>.
-                     <pubPlace>Erlangen</pubPlace>. <date>1888</date>.</bibl>
+                     <pubPlace>Erlangen</pubPlace>. <date>1888</date>. URL: <ptr
+                     target="https://archive.org/details/untersuchungenzu00landuoft"/></bibl>
 
                <bibl xml:id="Larsen"><abbr type="siglum">Larsen</abbr> = <author>Larsen, Sophus
                      C.</author>
@@ -655,6 +656,13 @@ This is a subsection within the preface. Editors should use
                   <biblScope unit="volume">2</biblScope> (<date>1894)</date>: <biblScope unit="page"
                      >321–9</biblScope>.</bibl>
 
+               <bibl xml:id="Schambach"><abbr type="siglum">Schambach</abbr> = <author>Schambach,
+                     Otfried</author>. "<title level="a">Zu Caesar und seinen Fortsetzern</title>."
+                     <title level="j">Jahrbücher für klassische Philologie</title>
+                  <biblScope unit="volume">119</biblScope> (<date>1879</date>) <biblScope
+                     unit="page">867–70</biblScope> and <biblScope unit="volume">125</biblScope>
+                     (<date>1882</date>) <biblScope unit="page">215–24</biblScope>.</bibl>
+
                <bibl xml:id="Townend"><abbr type="siglum">Townend</abbr> = <author>Townend,
                      G.</author>
                   <title>Caesar's War in Alexandria</title>, <pubPlace>Bristol</pubPlace>.
@@ -697,6 +705,10 @@ This is a subsection within the preface. Editors should use
                </person>
                <person xml:id="Siesbye" corresp="http://viaf.org/viaf/289411596">
                   <persName>Oskar Siesbye (see <ref target="#Larsen">Larsen</ref></persName>
+               </person>
+               <person xml:id="Simmons">
+                  <persName>Dallas Simons</persName>
+                  <note>Member of the Latin 540 class (spring 2015).</note>
                </person>
                <person xml:id="Wölfflin" corresp="http://viaf.org/viaf/45080602">
                   <persName>Eduard Wölfflin (see <ref target="#Klotz1927">Klotz
@@ -3146,26 +3158,139 @@ This is a subsection within the preface. Editors should use
 
                <p n="27">
                   <seg n="1">Locus est fere regionum illarum nobilissimus non ita longe ab
-                     Alexandria, qui nominatur Delta; quod nomen a similitudine litterae cepit: nam
-                     pars quaedam fluminis Nili deriuata [inter se] duobus itineribus paulatim
-                     medium inter se spatium relinquens diuersissimo ad litus interuallo [a] mari
-                     coniungitur.</seg>
-                  <seg n="2">Cui loco cum appropinquare Mithridaten rex cognouisset et transeundum
-                     ei flumen sciret, magnas aduersus eum copias misit, quibus uel superari
-                     delerique Mithridaten uel sine dubio retineri posse credebat.</seg>
-                  <seg n="3">Quem ad modum autem optabat eum uinci, sic satis habebat interclusum a
-                     Caesare a se retineri.</seg>
-                  <seg n="4">Quae primae copiae flumen a Delta transire et Mithridati occurrere
-                     potuerunt proelium commiserunt festinantes praeripere subsequentibus uictoriae
-                     societatem.</seg>
-                  <seg n="5">Quorum impetum Mithridates [magna cum prudentia constantiaque uirtutum
-                     et Alexandrinorum imprudentia] consuetudine nostra castris uallatis sustinuit;
-                     cum uero incaute atque insolenter succedere eos munitionibus uideret, eruptione
-                     undique facta magnum numerum eorum interfecit.</seg>
-                  <seg n="6">Quod nisi locorum notitia reliqui se texissent partimque in naues
-                     quibus flumen transierant recepissent, funditus deleti essent.</seg>
-                  <seg n="7" xml:id="seg-27.7"> Qui ut paulum ab illo timore se recrearunt, adiuncti
-                     iis qui subsequebantur rursus oppugnare Mithridaten coeperunt.</seg></p>
+                     Alexandria, qui nominatur <placeName ref="#Delta">Delta</placeName>; quod nomen
+                     a similitudine litterae <app>
+                        <lem wit="#M #U #S #V" xml:id="lem-27.1-cepit">cepit</lem>
+                        <note target="#lem-27.1-cepit">cf. <bibl><title>BC</title>
+                           3.112.1</bibl></note>
+                        <rdg wit="#T" xml:id="rdg-27.1-accepit">accepit</rdg>
+                        <note target="#rdg-27.1-accepit">cf. <bibl><author>Var.</author>
+                              <title>RR</title> 3.3.2</bibl></note>
+                     </app>: nam pars quaedam fluminis <placeName ref="#Nilus">Nili</placeName>
+                     deriuata <app>
+                        <lem source="#Dübner" type="emendation"><surplus>inter se</surplus></lem>
+                     </app> duobus itineribus paulatim <app>
+                        <lem>medium</lem>
+                        <rdg source="#Mueller" xml:id="rdg-27.1-maius">maius</rdg>
+                        <note target="#rdg-27.1-maius">cf. <bibl><author>Sen.</author>
+                              <title>NQ</title> 5.12.2</bibl></note>
+                        <rdg source="#Larsen" xml:id="rdg-27.1-latius-medium"><supplied
+                              reason="undefined">latius</supplied> medium</rdg>
+                        <note target="#rdg-27.1-latius-medium">cf. <bibl><author>Vitr.</author>
+                              4.3.8</bibl></note>
+                     </app> inter se <app>
+                        <lem>spatium</lem>
+                        <rdg wit="V" ana="#subtractive"/>
+                     </app>
+                     <app>
+                        <lem>relinquens</lem>
+                        <rdg wit="#S" ana="#morphological #syntactic">relinquere</rdg>
+                     </app> diuersissimo ad litus interuallo <app>
+                        <lem source="#Ciacconius" xml:id="lem-27.1-a"><surplus>a</surplus></lem>
+                        <note target="#lem-27.1-a">cf.
+                              <!-- Add xml:id to 61.3 when available --><ref target="#seg-61.3"
+                              >61.3</ref> et <bibl><author>Mela</author> 1.6</bibl></note>
+                     </app> mari coniungitur.</seg>
+                  <seg n="2">Cui loco cum appropinquare <persName ref="#Mithridates"
+                        >Mithridaten</persName> rex cognouisset et transeundum ei flumen sciret,
+                     magnas aduersus eum copias misit, quibus <app>
+                        <lem>uel superari delerique</lem>
+                        <rdg wit="#V" ana="#additive">uel superari uel delerique</rdg>
+                     </app> Mithridaten uel sine dubio retineri posse credebat.</seg>
+                  <seg n="3">Quem ad modum <app>
+                        <lem>autem</lem>
+                        <rdg wit="V" ana="#subtractive"/>
+                     </app> optabat eum uinci, sic satis habebat interclusum a <persName
+                        ref="#Caesar">Caesare</persName>
+                     <app>
+                        <lem wit="#ω" xml:id="lem-27.3-a-se">a se</lem>
+                        <note target="#lem-27.3-a-se">cf.
+                              <!-- add xml:id to 74.3 when available --><ref target="#seg-74.3"
+                              >74.3</ref></note>
+                        <rdg wit="#V"/>
+                        <rdg source="#Schambach" type="conjecture" xml:id="rdg-27.3-a-se"><surplus>a
+                              se</surplus></rdg>
+                        <note target="#rdg-27.3-a-se">ut dittographia</note>
+                        <rdg wit="#V" ana="#subtractive" xml:id="rdg-27.3-se">se</rdg>
+                     </app> retineri.</seg>
+                  <seg n="4">Quae primae copiae flumen <app>
+                        <lem>a <placeName ref="#Delta">Delta</placeName></lem>
+                        <rdg wit="#V" ana="#additive #syntactic">ad Δ delta</rdg>
+                     </app> transire et <persName ref="#Mithridates">Mithridati</persName> occurrere
+                     potuerunt proelium <app>
+                        <lem>commiserunt</lem>
+                        <rdg wit="#T" ana="#orthographical">commiser</rdg>
+                     </app> festinantes praeripere subsequentibus uictoriae societatem.</seg>
+                  <seg n="5">Quorum impetum <app>
+                        <lem><persName ref="#Mithridates">Mithridates</persName></lem>
+                        <rdg wit="#V" ana="#subtractive"/>
+                     </app>
+                     <app>
+                        <lem source="#Damon" type="emendation" xml:id="lem-27.5-magna-imprudentia"
+                           exclude="#rdg-27.5-trans"><surplus><app>
+                                 <lem>magna</lem>
+                                 <rdg wit="#V" ana="#morphological">magno</rdg>
+                              </app> cum prudentia constantiaque uirtutum et Alexandrinorum
+                              imprudentia</surplus></lem>
+                        <rdg source="#Simons" xml:id="rdg-27.5-magna-cum-prudentia"
+                           type="conjecture" exclude="#rdg-27.5-trans"><surplus>magna cum
+                              prudentia</surplus> constantiaque uirtutum et Alexandrinorum
+                           imprudentia</rdg>
+                        <note target="#rdg-27.5-magna-cum-prudentia">secl. ut glossema</note>
+                        <rdg source="#Schneider" type="conjecture"
+                           xml:id="rdg-27.5-magna-cum-imprudentia" exclude="#rdg-27.5-trans">magna
+                           cum prudentia <surplus>constantiaque uirtutum et Alexandrinorum
+                              imprudentia</surplus></rdg>
+                        <rdg wit="#S" xml:id="rdg-27.5-magna-S" ana="#subtractive"
+                           exclude="#rdg-27.5-trans">magna cum prudentia</rdg>
+                        <!-- Check to see if combination of @copyOf and @exclude/@require causes problems -->
+                        <rdg source="#Klotz1927" xml:id="rdg-27.5-magna-Klotz"
+                           copyOf="#rdg-27.5-magna-S" require="#rdg-27.5-trans" type="conjecture"/>
+                        <!-- Find out if Landgraf has magna cum, also. -->
+                        <rdg source="#Landgraf" xml:id="rdg-27.5-Landgraf">magna cum prudentia
+                           constantiaque <surplus>uirtutum et Alexandrinorum
+                           imprudentia</surplus></rdg>
+                        <note target="#rdg-27.5-Landgraf">uoce <hi rend="normal">prudentia</hi>
+                           supra seruata</note>
+                        <!-- THIS NEEDS A NOTE IN STBA -->
+                     </app> consuetudine nostra castris uallatis sustinuit; cum uero <app>
+                        <lem wit="#M #U">incaute</lem>
+                        <rdg wit="#S #T #V">caute</rdg>
+                     </app>
+                     <app>
+                        <lem>atque</lem>
+                        <rdg wit="#V" ana="#lexical">et</rdg>
+                     </app> insolenter succedere eos munitionibus uideret, eruptione <app>
+                        <lem>undique</lem>
+                        <rdg wit="M" ana="#subtractive"/>
+                     </app>
+                     <app>
+                        <lem>facta</lem>
+                        <rdg wit="#S" ana="#lexical">stata</rdg>
+                     </app>
+                     <app>
+                        <rdg source="#Klotz1927" xml:id="rdg-27.5-trans"
+                           require="#rdg-27.5-magna-Klotz"
+                           exclude="#lem-27.5-magna-imprudentia #rdg-27.5-magna-cumprudentia #rdg-27.5-magna-cum-imprudentia #rdg-27.5-magna-S #rdg-27.5-Landgraf"
+                           type="conjecture">constantiaque uirtutum et Alexandrinorum imprudentia
+                        </rdg>
+                     </app>magnum numerum eorum interfecit.</seg>
+                  <seg n="6">Quod nisi locorum notitia <app>
+                        <lem>reliqui se texissent</lem>
+                        <rdg wit="#S" ana="#subtractive #orthographical #syntactic">reliquisset
+                           exissent</rdg>
+                     </app> partimque in naues quibus flumen transierant recepissent, funditus
+                     deleti <app>
+                        <lem xml:id="lem-27.6-essent">essent</lem>
+                        <rdg wit="#M" ana="#morphological" xml:id="rdg-27.6-esset">esset</rdg>
+                        <witDetail wit="#M" target="#rdg-27.6-esset" corresp="#lem-27.6-essent"
+                           type="correction-original"/>
+                     </app>.</seg>
+                  <seg n="7" xml:id="seg-27.7"> Qui ut paulum ab illo timore se recrearunt, <app>
+                        <lem>adiuncti</lem>
+                        <rdg wit="#S #T #V">adiunctis</rdg>
+                     </app> iis qui subsequebantur rursus oppugnare <persName ref="#Mithridates"
+                        >Mithridaten</persName> coeperunt.</seg></p>
 
                <p n="28">
                   <seg n="1">Mittitur a Mithridate nuntius Caesari qui rem gestam perferret.

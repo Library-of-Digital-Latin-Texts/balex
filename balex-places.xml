@@ -41,6 +41,9 @@
             <place xml:id="Creta" corresp="https://pleiades.stoa.org/places/589748">
                <placeName>Creta</placeName>
             </place>
+            <place xml:id="Delta" corresp="https://pleiades.stoa.org/places/619096567">
+               <placeName>Delta</placeName>
+            </place>
             <place xml:id="Lycia" corresp="https://pleiades.stoa.org/places/638965">
                <placeName>Lycia</placeName>
             </place>
