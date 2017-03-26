@@ -87,7 +87,7 @@ This is a subsection within the preface. Editors should use
                                           <item>154v–156v <bibl><title>BHisp</title> 1.1–22.5
                                                   <foreign xml:lang="la">petiit
                                              ab</foreign></bibl></item>
-                                          <item>157v–163v <bibl><title>BHisp</title>22.6–end in a
+                                          <item>157v–163v <bibl><title>BHisp</title> 22.6–end in a
                                                 later hand.</bibl></item>
                                        </list></p>
                                     <p/>
@@ -578,6 +578,12 @@ This is a subsection within the preface. Editors should use
                   <biblScope unit="volume">192</biblScope>. <pubPlace>Göttingen</pubPlace>.
                      <date>2013</date>.</bibl>
 
+               <bibl xml:id="Gemoll"><abbr type="siglum">Gemoll</abbr> = <author>Gemoll, W.</author>
+                     "<title level="a">Zu Caesar und seinen Fortsetzern</title>." <title level="j"
+                     >Jahrbücher für klassische Philologie</title>
+                  <biblScope unit="volume">119</biblScope> (<date>1879</date>) <biblScope
+                     unit="page">267–70</biblScope>.</bibl>
+
                <bibl xml:id="Hedicke"><abbr type="siglum">Hedicke</abbr> = <author>Hedicke,
                      Edmundus</author>. “<title level="a">Scholia in Caesarem et Sallustium (Varia
                      II)</title>.” <title level="j">Programm des königlichen Gymnasiums zu
@@ -684,6 +690,10 @@ This is a subsection within the preface. Editors should use
                <person xml:id="Lewis">
                   <persName>Amy Lewis</persName>
                   <note>Member of the Latin 540 class (spring 2015)</note>
+               </person>
+               <person xml:id="Persyn">
+                  <persName>Marcie Persyn</persName>
+                  <note>Member of the Latin 540 class (spring 2015).</note>
                </person>
                <person xml:id="Siesbye" corresp="http://viaf.org/viaf/289411596">
                   <persName>Oskar Siesbye (see <ref target="#Larsen">Larsen</ref></persName>
@@ -1040,8 +1050,8 @@ This is a subsection within the preface. Editors should use
                      </app> fere tota suffossa specusque habet <app>
                         <lem wit="#M #U" xml:id="lem-5.1-ad-Nilum">ad <placeName ref="#Nilus"
                               >Nilum</placeName></lem>
-                        <note target="#lem-5.1-ad-Nilum">cf. 14.5 et
-                              <bibl><title>BG</title>1.1.6</bibl> etc., u. <bibl><title>TLL</title>
+                        <note target="#lem-5.1-ad-Nilum">cf. 14.5 et <bibl><title>BG</title>
+                              1.1.6</bibl> etc., u. <bibl><title>TLL</title>
                               10.1.1809.73-1810.38</bibl></note>
                         <rdg wit="#S #T #V">a Nilo</rdg>
                      </app>
@@ -2231,7 +2241,7 @@ This is a subsection within the preface. Editors should use
                         <lem source="#Lewis" type="emendation">esse</lem>
                         <rdg wit="#ω" xml:id="rdg-16.2-esset">esset</rdg>
                         <note target="#rdg-16.2-esset">cf. <bibl><author>Hirt.</author> 8.33.1,
-                              39.4</bibl>, <bibl><title>BC</title>3.111.4</bibl> (u. et ad <ref
+                              39.4</bibl>, <bibl><title>BC</title> 3.111.4</bibl> (u. et ad <ref
                               target="#seg-16.1">16.1</ref>)</note>
                      </app>
                      <app>
@@ -2411,8 +2421,8 @@ This is a subsection within the preface. Editors should use
                            <rdg source="#Atkins">utiliter et</rdg>
                            <note>uel</note>
                            <rdg source="#Atkins">constanter et</rdg>
-                           <note>cf. <bibl><title>BG</title>2.20.3</bibl> et
-                                 <bibl><title>BG</title>3.8.1</bibl> et u. ad <ref
+                           <note>cf. <bibl><title>BG</title> 2.20.3</bibl> et
+                                    <bibl><title>BG</title> 3.8.1</bibl> et u. ad <ref
                                  target="#seg-17.5">17.5</ref> infra</note>
                         </rdgGrp>
                         <note target="#lem-17.4-mobiliter-et">an secludendum ut glossema?</note>
@@ -2506,7 +2516,7 @@ This is a subsection within the preface. Editors should use
                         <witDetail wit="#M" target="#rdg-18.3-DCCCC" corresp="#lem-18.3-DCCC"
                            type="correction-original"/>
                         <note target="#rdg-18.3-DCCCC">quem numerum defendit Schiller coll.
-                                 <bibl><title>BC</title>3.112.2</bibl>.</note>
+                                 <bibl><title>BC</title> 3.112.2</bibl>.</note>
                      </app>
                      <app>
                         <lem>passuum</lem>
@@ -2903,9 +2913,8 @@ This is a subsection within the preface. Editors should use
                               3.23.6</bibl></note>
                         <rdg source="#Nipperdey" type="conjecture" xml:id="rdg-25.2-commeatuque"
                            >commeatuque</rdg>
-                        <note target="#rdg-25.2-commeatuque">cf.
-                              <bibl><title>BG</title>4.30.2</bibl> et <bibl><author>Gel.</author>
-                              4.16.8</bibl></note>
+                        <note target="#rdg-25.2-commeatuque">cf. <bibl><title>BG</title>
+                              4.30.2</bibl> et <bibl><author>Gel.</author> 4.16.8</bibl></note>
                         <rdg source="#Mueller" type="conjecture"><surplus>commeatu</surplus></rdg>
                         <rdg source="#Kübler" type="conjecture" xml:id="rdg-25.2-commeatu-onustis"
                            >commeatu <supplied reason="undefined">onustis</supplied></rdg>
@@ -3027,21 +3036,113 @@ This is a subsection within the preface. Editors should use
                      uictrice periit.</seg></p>
 
                <p n="26">
-                  <seg n="1">Sub idem tempus Mithridates Pergamenus, magnae nobilitatis domi
-                     scientiaeque in bello et uirtutis, fidei dignitatisque in amicitia Caesaris,
-                     missus in Syriam Ciliciamque initio belli Alexandrini ad auxilia arcessenda,
-                     cum magnis copiis, quas celeriter et propensissima ciuitatium uoluntate et sua
-                     diligentia confecerat, itinere pedestri, quo coniungitur Aegyptus Syriae,</seg>
-                  <seg n="2">Pelusium <gap reason="lost"/> adducit. Idque oppidum firmo praesidio
-                     occupatum Achillae propter opportunitatem loci — namque tota Aegyptus maritimo
-                     accessu Pharo, pedestri Pelusio uelut claustris munita existimatur — repente
-                     magnis circumdatum copiis multiplici praesidio, pertinaciter propugnantibus et
-                     copiarum magnitudine, quas integras uulneratis defessisque subiciebat, et
-                     perseuerantia constantiaque oppugnandi quo die est aggressus in suam redegit
-                     potestatem praesidiumque ibi suum collocauit.</seg>
-                  <seg n="3">Inde re bene gesta Alexandriam ad Caesarem contendit omnesque eas
-                     regiones per quas iter faciebat auctoritate ea quae plerumque adest uictori
-                     pacarat atque in amicitiam Caesaris redegerat.</seg></p>
+                  <seg n="1">Sub idem tempus <persName ref="#Mithridates">Mithridates
+                        Pergamenus</persName>, magnae nobilitatis domi <app>
+                        <lem>scientiaeque</lem>
+                        <rdg wit="#M" ana="#orthographical #lexical">scientiae quae</rdg>
+                     </app> in bello et uirtutis, fidei dignitatisque in amicitia Caesaris<app>
+                        <lem><persName ref="#Caesar">Caesaris</persName></lem>
+                        <rdg wit="M" ana="#subtractive"/>
+                     </app>, <app>
+                        <lem wit="#M #U">missus</lem>
+                        <rdg wit="#S #T #V" xml:id="rdg-26.1-missis">missis</rdg>
+                        <note target="#rdg-26.1-missis">cf. <ref target="#seg-13.5"
+                           >13.5</ref></note>
+                     </app> in <placeName ref="#Syria">Syriam</placeName>
+                     <placeName ref="#Cilicia">Ciliciamque</placeName> initio belli Alexandrini ad
+                     auxilia arcessenda, cum magnis copiis, quas celeriter et <app>
+                        <lem>propensissima</lem>
+                        <rdg wit="#M" ana="#lexical">impensissima</rdg>
+                     </app> ciuitatium uoluntate et sua diligentia confecerat, itinere pedestri, quo
+                     coniungitur <app>
+                        <lem><placeName ref="#Aegyptus">Aegyptus</placeName></lem>
+                        <rdg wit="#U" ana="#morphological">Aegyptos</rdg>
+                     </app> Syriae,</seg>
+                  <seg n="2"><placeName ref="#Pelusium">Pelusium</placeName>
+                     <app>
+                        <lem source="#Persyn" type="emendation" xml:id="lem-26.2-lacuna"><gap
+                              reason="lost"/></lem>
+                        <note target="#lem-26.2-lacuna">u. <bibl><title>BC</title> 3.107.1</bibl> et
+                           cf. <bibl><title>BC</title> 3.4.3</bibl></note>
+                        <rdgGrp>
+                           <rdg source="#Persyn" type="conjecture"><supplied reason="undefined">III
+                                 legiones</supplied></rdg>
+                           <note>uel</note>
+                           <rdg source="#Persyn" type="conjecture" xml:id="rdg-26.2-eas"><supplied
+                                 reason="undefined">eas</supplied></rdg>
+                           <note target="#rdg-26.2-copias">sc. <hi rend="normal">copias</hi></note>
+                        </rdgGrp>
+                        <!-- Note: THIS NEEDS A NOTE IN STBA; CONSIDER WHETHER IT IS PLAUSIBLE TO POSIT THAT MITHRIDATES LED ROMAN LEGIONS (OR EVEN  COHORTS). ONE LEGION ARRIVED BY BOAT AT 9.3. I'M TEMPTED BY THE ANACOLUTHON EXPLANATION, MYSELF -->
+                     </app>
+                     <app>
+                        <lem wit="#ω" xml:id="lem-26.1-adducit">adducit</lem>
+                        <note target="#lem-26.1-adducit">de anacolutho u. <ref target="#Klotz1927"
+                              >Klotz</ref></note>
+                        <rdg source="#Davies" xml:id="rdg-26.2-aduenit" type="conjecture"
+                           >aduenit</rdg>
+                        <note target="#rdg-26.2-aduenit">teste <ref target="#Oudendorp"
+                              >Oudendorp</ref> (cf.
+                              <!-- Add xml:id to 63.1 when it is available --><ref
+                              target="#seg-63.1">63.1</ref>, u. <ref target="#Landgraf"
+                              >Landgraf</ref> 18912)</note>
+                     </app>. <app>
+                        <lem>Idque oppidum</lem>
+                        <rdg wit="#S" ana="#lexical #syntactic">id quod oppidum</rdg>
+                     </app> firmo praesidio occupatum <persName ref="#Achillas">Achillae</persName>
+                     propter opportunitatem loci — namque tota <placeName ref="#Aegyptus"
+                        >Aegyptus</placeName> maritimo accessu <persName ref="#Pharos"
+                        >Pharo</persName>, pedestri Pelusio uelut <app>
+                        <lem>claustris</lem>
+                        <rdg wit="#S" ana="#lexical">castris</rdg>
+                     </app> munita existimatur — repente <app>
+                        <lem>magnis circumdatum</lem>
+                        <rdg wit="#V" ana="#ordinal">circumdatum magnis</rdg>
+                     </app> copiis <app>
+                        <lem wit="#ω" xml:id="lem-26.2-multiplici-praesidio">multiplici
+                           praesidio</lem>
+                        <note target="#lem-26.2-multiplici-praesidio">cf.
+                                 <bibl><author>Liu.</author> 2.50.8</bibl> et
+                                 <bibl><title>BG</title> 5.9.1</bibl></note>
+                        <rdg source="#Gemoll" xml:id="rdg-26.2-multiplici-praesidio"
+                              ><surplus>multiplici praesidio</surplus></rdg>
+                        <note target="rdg-26.2-multiplici-praesidio">ut glossema (cf.
+                                 <bibl><title>BC</title> 1.69.4</bibl>??)
+                           <!-- I THINK THIS NEEDS A NOTE, TOO. THE RELEVANCE OF THE PARALLELS IS HARD TO SEE --></note>
+                     </app>, pertinaciter propugnantibus et copiarum magnitudine, quas integras
+                     uulneratis defessisque subiciebat, et perseuerantia constantiaque oppugnandi
+                     quo die est aggressus in suam redegit potestatem praesidiumque <app>
+                        <lem wit="#Mmr #U #S #T" xml:id="lem-26.2-ibi-suum">ibi suum</lem>
+                        <rdg wit="#M #V" xml:id="rdg-26.2-suum-ibi">suum ibi</rdg>
+                        <witDetail wit="#M" target="#rdg-26.2-suum-ibi" corresp="#lem-26.2-ibi-suum"
+                           type="correction-original"/>
+                     </app> collocauit.</seg>
+                  <seg n="3">Inde re bene gesta Alexandriam ad <persName ref="#Caesar"
+                        >Caesarem</persName>
+                     <app>
+                        <lem>contendit</lem>
+                        <rdg wit="#M" xml:id="rdg-26.3-conditendit" ana="#orthographical"
+                           >conditendit</rdg>
+                        <witDetail wit="#M" target="#rdg-26.3-conditendit"
+                           corresp="#rdg-26.3-contetendit" type="correction-original"/>
+                        <rdg wit="#M" xml:id="rdg-26.3-contetendit" ana="#orthographical"
+                           >contetendit</rdg>
+                        <witDetail wit="M" target="#rdg-26.3-contetendit"
+                           corresp="#rdg-26.3-conditendit" type="correction-altered"/>
+                     </app> omnesque eas regiones per quas iter faciebat auctoritate <app>
+                        <lem>ea</lem>
+                        <rdg wit="V" ana="#subtractive"/>
+                     </app> quae plerumque adest <app>
+                        <lem>uictori</lem>
+                        <rdg wit="#S" ana="#lexical">victoriae</rdg>
+                     </app>
+                     <app>
+                        <lem wit="#Ϛ" xml:id="lem-26.3-pacarat">pacarat</lem>
+                        <note target="#lem-26.3-pacarat">teste <ref target="#Oudendorp"
+                              >Oudendorp</ref> (cf. <bibl><title>BC</title> 3.73.3</bibl></note>
+                        <rdg wit="#ω" xml:id="rdg-26.3-placarat">placarat</rdg>
+                        <note target="#rdg-26.3-placarat">cf. <bibl><title>BG</title>
+                           6.16.3</bibl></note>
+                     </app> atque in amicitiam Caesaris redegerat.</seg></p>
 
                <p n="27">
                   <seg n="1">Locus est fere regionum illarum nobilissimus non ita longe ab
