@@ -26,16 +26,22 @@
                <persName>Arsinoë</persName>
             </person>
             <person xml:id="Caesar">
-               <persName>Caius Iulius Caesar</persName>
+               <persName>Caesar, Caius Iulius</persName>
             </person>
             <person xml:id="Caluinus">
-               <persName>Domitius Caluinus</persName>
+               <persName>Caluinus, Domitius</persName>
+            </person>
+            <person xml:id="Carfulenus">
+               <persName>Carfulenus, Decimus</persName>
+            </person>
+            <person xml:id="Cleopatra">
+               <persName>Cleopatra</persName>
             </person>
             <person xml:id="Euphranor">
                <persName>Euphranor</persName>
             </person>
             <person xml:id="Gabinius">
-               <persName>Aulus Gabinius</persName>
+               <persName>Gabinius, Aulus</persName>
             </person>
             <person xml:id="Ganymedes">
                <persName>Ganymedes</persName>
@@ -59,7 +65,7 @@
                <persName>Pharos</persName>
             </person>
             <person xml:id="Pompeius">
-               <persName>Gnaeus Pompeius</persName>
+               <persName>Pompeius, Gnaeus</persName>
             </person>
             <person xml:id="Ptolemaeus">
                <persName>Ptolemaeus</persName>

@@ -25,11 +25,11 @@
             <place xml:id="Africa" corresp="https://pleiades.stoa.org/places/775">
                <placeName>Africa</placeName>
             </place>
-            <place xml:id="Asia" corresp="https://pleiades.stoa.org/places/981509">
-               <placeName>Asia</placeName>
-            </place>
             <place xml:id="Alexandria" corresp="https://pleiades.stoa.org/places/727070">
                <placeName>Alexandria</placeName>
+            </place>
+            <place xml:id="Asia" corresp="https://pleiades.stoa.org/places/981509">
+               <placeName>Asia</placeName>
             </place>
             <place xml:id="Canopus" corresp="https://pleiades.stoa.org/places/727097">
                <placeName>Canopus</placeName>

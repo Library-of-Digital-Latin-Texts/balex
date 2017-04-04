@@ -693,6 +693,10 @@ This is a subsection within the preface. Editors should use
                   <persName><abbr type="siglum">Damon</abbr> = Cynthia Damon</persName>
                   <note>Conjectures proposed by the editor of this edition.</note>
                </person>
+               <person xml:id="Faernus" corresp=" http://viaf.org/viaf/88354857">
+                  <persName><abbr type="siglum">Faernus</abbr> = Faerno, Gabriello</persName>
+                  <note>Cited by <ref target="#Klotz">Klotz</ref>.</note>
+               </person>
                <person xml:id="Gruterus" corresp="http://viaf.org/viaf/61599137">
                   <persName><abbr type="siglum">Gruterus</abbr> = Janus Gruterus</persName>
                   <note>Cited in <ref target="#Oudendorp">Oudendorp</ref></note>
@@ -3500,61 +3504,236 @@ This is a subsection within the preface. Editors should use
                      nostros impugnabant.</seg></p>
 
                <p n="31">
-                  <seg n="1">Caesar cum uideret milites acrius proeliari non posse nec tamen multum
-                     profici propter locorum difficultatem, cumque animaduerteret excelsissimum
-                     locum castrorum relictum esse ab Alexandrinis, quod et per se munitus esset et
-                     studio partim pugnandi partim spectandi decucurrissent in eum locum in quo
-                     pugnabatur, cohortes tres circumire castra et summum locum aggredi iussit
-                     iisque Carfulenum praefecit, et animi magnitudine et rei militaris scientia
-                     uirum praestantem.</seg>
+                  <seg n="1" xml:id="seg-31.1"><persName ref="#Caesar">Caesar</persName> cum uideret
+                     milites acrius proeliari non posse nec tamen multum profici propter locorum
+                     difficultatem, cumque animaduerteret excelsissimum locum castrorum relictum
+                     esse ab Alexandrinis, quod et <app>
+                        <lem>per se</lem>
+                        <rdg wit="#V" ana="#lexical #syntactic">ipse in</rdg>
+                     </app> munitus esset et <app>
+                        <lem>studio partim pugnandi partim</lem>
+                        <rdg wit="#M" ana="#ordinal">pugnandi partim studio partim</rdg>
+                     </app> spectandi decucurrissent in eum locum in quo pugnabatur, cohortes <app>
+                        <lem source="#Faernus" xml:id="lem-31.1-tres">tres</lem>
+                        <note target="#lem-31.1-tres">i.e., III, teste <ref target="#Klotz"
+                              >Klotz</ref>. de corruptela u. ad 25.5</note>
+                        <rdg wit="#ω">illo</rdg>
+                     </app> circumire castra et summum locum aggredi iussit iisque <app>
+                        <lem><persName ref="#Carfulenus">Carfulenum</persName></lem>
+                        <rdg wit="#V" ana="#orthographical">carfunelum</rdg>
+                        <rdg wit="M" xml:id="rdg-31.1-calenum-carfulenum" ana="#additive">calenum
+                           carfulenum</rdg>
+                        <witDetail wit="#M" target="#rdg-31.1-calenum-carfulenum"
+                           type="correction-original"/>
+                     </app> praefecit, et animi magnitudine et rei militaris scientia <app>
+                        <lem>uirum</lem>
+                        <rdg wit="S" ana="#subtractive"/>
+                     </app> praestantem.</seg>
                   <seg n="2">Quo ut uentum est, paucis defendentibus munitionem, nostris contra
                      militibus acerrime pugnantibus, diuerso clamore et proelio perterriti
                      Alexandrini trepidantes in omnes partes castrorum discurrere coeperunt.</seg>
-                  <seg n="3"> Quorum perturbatione nostrorum animi adeo sunt incitati ut paene eodem
-                     tempore ex omnibus partibus <gap reason="lost"/>, primi tamen editissimum
-                     castrorum locum caperent; ex quo decurrentes magnam multitudinem hostium in
-                     castris interfecerunt.</seg>
-                  <seg n="4">Quod periculum plerique Alexandrini fugientes aceruatim se de uallo
-                     praecipitarunt in eam partem quae flumini erat adiuncta.</seg>
-                  <seg n="5">Horum primis in ipsa fossa munitionis magna ruina oppressis ceteri
-                     faciliorem fugam habuerunt.</seg>
-                  <seg n="6">Constat fugisse ex castris regem ipsum receptumque in nauem multitudine
-                     eorum qui ad proximas naues adnatabant demerso nauigio perisse.</seg></p>
+                  <seg n="3"> Quorum perturbatione nostrorum animi <app>
+                        <lem>adeo</lem>
+                        <rdg wit="V" ana="#subtractive"/>
+                     </app> sunt incitati ut paene eodem tempore ex omnibus <app>
+                        <lem>partibus <gap reason="lost"/></lem>
+                        <rdg source="#Kübler" type="conjecture" xml:id="rdg-31.3-lacuna-a"><supplied
+                              reason="undefined">partibus <gap reason="lost"/> impetus
+                              fieret</supplied></rdg>
+                        <note target="#rdg-31.3-lacuna-a">cf. <bibl><title>BG</title>
+                           1.22.3</bibl></note>
+                        <rdg source="#Schneider" type="conjecture" xml:id="rdg-31.3-lacuna-b"
+                           >partibus <supplied reason="undefined">irrumperent</supplied></rdg>
+                        <note target="#rdg-31.3-lacuna-b">cf. <bibl><title>BC</title>
+                           1.27.3</bibl></note>
+                     </app>, primi tamen editissimum <app>
+                        <lem wit="#Mmr #S #T #V" xml:id="lem-31.3-castrorum-locum">castrorum
+                           locum</lem>
+                        <note target="#lem-31.3-castrorum-locum">cf. <bibl><title>BG</title>
+                              2.23.5</bibl></note>
+                        <rdg wit="#M #U" xml:id="rdg-31.3-locum-castrorum">locum castrorum</rdg>
+                        <note target="#rdg-31.3-locum-castrorum">cd. <ref target="#seg-31.1"
+                              >31.1</ref></note>
+                     </app> caperent; ex quo decurrentes magnam multitudinem hostium in castris
+                     interfecerunt.</seg>
+                  <seg n="4">Quod periculum plerique Alexandrini fugientes aceruatim se de uallo <app>
+                        <lem>praecipitarunt</lem>
+                        <rdg wit="#M" ana="#morphological">praecipitauerunt</rdg>
+                     </app> in eam partem quae <placeName ref="#Nilus">flumini</placeName> erat
+                     adiuncta.</seg>
+                  <seg n="5">Horum primis in ipsa fossa munitionis magna <app>
+                        <lem>ruina</lem>
+                        <rdg wit="#S" ana="#lexical #orthographical">ui</rdg>
+                     </app> oppressis ceteri faciliorem fugam habuerunt.</seg>
+                  <seg n="6">Constat fugisse ex castris <persName ref="#Ptolemaeus">regem</persName>
+                     ipsum receptumque in <app>
+                        <lem>nauem</lem>
+                        <rdg wit="#S" ana="#additive">navem et</rdg>
+                     </app> multitudine eorum qui ad proximas naues adnatabant demerso nauigio
+                     perisse.</seg></p>
 
                <p n="32">
-                  <seg n="1">Re felicissime celerrimeque gesta Caesar magnae uictoriae fiducia
-                     proximo terrestri itinere Alexandriam cum equitibus contendit atque ea parte
-                     oppidi uictor introiit quae praesidio hostium tenebatur.</seg>
-                  <seg n="2">Neque eum consilium suum fefellit quin hostes eo proelio audito nihil
-                     iam de bello essent cogitaturi.</seg>
-                  <seg n="3">Dignum adueniens fructum uirtutis et animi magnitudinis tulit: omnis
-                     enim multitudo oppidanorum armis proiectis munitionibusque suis relictis, ueste
-                     ea sumpta qua supplices dominantes deprecari consuerunt, sacrisque omnibus
-                     prolatis quorum religione precari offensos iratosque animos regum erant soliti,
-                     aduenienti Caesari occurrerunt seque ei dediderunt.</seg>
-                  <seg n="4">Caesar in fidem receptos consolatus per hostium munitiones in suam
-                     partem oppidi magna gratulatione uenit suorum, qui non tantum bellum ipsum ac
-                     dimicationem sed etiam talem aduentum eius felicem fuisse
-                  laetabantur.</seg></p>
+                  <seg n="1">Re felicissime celerrimeque gesta <persName ref="#Caesar"
+                        >Caesar</persName>
+                     <app>
+                        <lem>magnae</lem>
+                        <rdg source="#Ciacconius" type="conjecture" xml:id="rdg-32.1-magna"
+                           >magna</rdg>
+                        <note target="#rdg-32.1-magna">teste <ref target="#Klotz">Klotz</ref></note>
+                     </app> uictoriae fiducia proximo terrestri itinere Alexandriam cum equitibus
+                     contendit atque ea parte oppidi uictor introiit quae praesidio hostium
+                     tenebatur.</seg>
+                  <seg n="2">Neque <app>
+                        <lem>eum</lem>
+                        <rdg wit="#V" ana="#lexical #syntactic">enim</rdg>
+                     </app> consilium suum <app>
+                        <lem wit="#M #U #V" xml:id="lem-31.2-fefellit">fefellit</lem>
+                        <note target="#lem-31.2-fefellit">cf. <bibl><title>BC</title>
+                           3.94.3</bibl></note>
+                        <rdg wit="#S #T">refellit</rdg>
+                     </app> quin hostes <app>
+                        <lem>eo proelio <app>
+                              <lem>audito</lem>
+                              <rdg wit="#U" ana="#orthographical">auditu</rdg>
+                           </app> nihil</lem>
+                        <rdg wit="#V" ana="#ordinal #orthographical">audito eo proelio nil</rdg>
+                     </app> iam de bello essent cogitaturi.</seg>
+                  <seg n="3">Dignum adueniens fructum uirtutis et animi <app>
+                        <lem>magnitudinis</lem>
+                        <rdg wit="#T" ana="#lexical">multitudinis</rdg>
+                     </app> tulit: omnis enim multitudo oppidanorum armis proiectis munitionibusque
+                     suis relictis, ueste ea sumpta qua supplices dominantes deprecari consuerunt,
+                     sacrisque omnibus prolatis quorum <app>
+                        <lem>religione</lem>
+                        <rdg wit="#U" ana="#orthographical">relegione</rdg>
+                     </app>
+                     <app>
+                        <lem>precari</lem>
+                        <rdg wit="#U" ana="#morphological">precare</rdg>
+                     </app> offensos iratosque animos regum erant soliti, aduenienti <persName
+                        ref="#Caesar">Caesari</persName> occurrerunt seque ei dediderunt.</seg>
+                  <seg n="4"><persName ref="#Caesar">Caesar</persName> in fidem receptos consolatus
+                     per hostium munitiones in suam partem oppidi magna gratulatione uenit suorum,
+                     qui non tantum bellum ipsum <app>
+                        <lem>ac</lem>
+                        <rdg wit="#S" ana="#lexical">a</rdg>
+                     </app> dimicationem sed etiam talem aduentum eius felicem fuisse
+                     laetabantur.</seg></p>
 
                <p n="33">
-                  <seg n="1">Caesar Aegypto atque Alexandria potitus reges constituit, [ut] quos
-                     Ptolomaeus testamento scripserat atque obtestatus erat populum Romanum ne
-                     mutarentur.</seg>
-                  <seg n="2">Nam maiore ex duobus pueris, rege, amisso minori tradidit regnum
-                     maiorique ex duabus filiis, Cleopatrae, quae manserat in fide praesidiisque
-                     eius; minorem, Arsinoem, cuius nomine diu regnasse impotenter Ganymeden
-                     docuimus, deducere ex regno statuit, ne qua rursus noua dissensio, prius quam
-                     diuturnitate confirmarentur regum imperia, per homines seditiosos
-                     nasceretur.</seg>
-                  <seg n="3">Legiones ibi ueterana sexta secum reducta ceteras reliquit, quo firmius
-                     esset eorum regum imperium, qui neque amorem suorum habere poterant, quod
-                     fideliter permanserant in Caesaris amicitia, neque uetustatis auctoritatem,
-                     paucis diebus reges constituti.</seg>
+                  <seg n="1"><persName ref="#Caesar">Caesar</persName>
+                     <placeName ref="Aegyptus">Aegypto</placeName> atque <placeName ref="Alexandria"
+                        >Alexandria</placeName> potitus reges constituit, <app>
+                        <lem wit="#Mmr #Ϛ"><surplus>ut</surplus></lem>
+                     </app> quos <persName ref="#Ptolemaeus">Ptolomaeus</persName> testamento
+                     scripserat atque obtestatus <app>
+                        <lem>erat populum Romanum</lem>
+                        <rdg wit="#V" ana="#subtractive" xml:id="rdg-33.1-erat">erat</rdg>
+                        <witDetail wit="#V" target="#rdg-33.1-erat">post <hi rend="normal">erat</hi>
+                           uacat <ref target="#V">V</ref>" </witDetail>
+                     </app> Romanum ne mutarentur.</seg>
+                  <seg n="2">Nam <app>
+                        <lem wit="#M #U #T" xml:id="lem-33.2-maiore">maiore ex duobus pueris,
+                              <persName ref="#Ptolemaeus">rege</persName></lem>
+                        <witDetail wit="#T" target="#lem-33.2-maiore" type="correction-altered"/>
+                        <rdg wit="#S #T #V" xml:id="rdg-33.2-maiorem">maiorem ex duobus pueris,
+                              <persName ref="#Ptolemaeus">regem</persName></rdg>
+                        <witDetail wit="#T" target="#rdg-33.2-maiorem" type="correction-original"/>
+                        <rdg source="#Mueller" type="conjecture">maiore ex duobus pueris,
+                              <surplus>rege</surplus></rdg>
+                     </app>, amisso minori tradidit regnum <app>
+                        <lem>maiorique</lem>
+                        <rdg wit="#S" ana="#subtractive">maiori</rdg>
+                     </app> ex duabus <app>
+                        <lem>filiis</lem>
+                        <rdg wit="#V" ana="#orthographical">filiabus</rdg>
+                     </app>, <persName ref="#Cleopatra">Cleopatrae</persName>, quae manserat in fide
+                     praesidiisque eius; minorem, <persName ref="#Arsinoë">Arsinoem</persName>,
+                     cuius nomine diu regnasse <app>
+                        <lem>impotenter <persName ref="Ganymedes">Ganymeden</persName></lem>
+                        <rdg wit="#M" ana="#ordinal">ganymeden impotenter</rdg>
+                     </app> docuimus, deducere ex regno statuit, ne qua <app>
+                        <lem>rursus</lem>
+                        <rdg wit="V" ana="#subtractive"/>
+                     </app> noua dissensio, prius quam <app>
+                        <lem wit="#T #Ϛ" xml:id="lem-33.2-diurnitate">diuturnitate</lem>
+                        <witDetail wit="#T" target="#lem-33.2-diurnitate" type="correction-altered"/>
+                        <note target="#lem-33.2-diurnitate">cf.
+                           <!-- Insert xml:id for section 53.5 when it is available -->53.5</note>
+                        <rdg wit="#ω">diurnitates</rdg>
+                     </app> confirmarentur <app>
+                        <lem source="#Stephanus" xml:id="lem-33.2-regum" type="emendation"
+                           >regum</lem>
+                        <note target="#lem-33.2-regum">cf. <ref target="#seg-33.3">33.3</ref></note>
+                        <rdg wit="#M #U">regis</rdg>
+                        <rdg wit="#S #T #V">regi</rdg>
+                        <rdg source="#Kraner" xml:id="rdg-33.2-regibus">regibus</rdg>
+                        <note target="#rdg-33.2-regibus">u. <bibl><title>TLL</title>
+                              2.224.80–225.13</bibl></note>
+                     </app>
+                     <app>
+                        <lem wit="#S #T">imperia</lem>
+                        <rdg wit="#M #U">imperio</rdg>
+                        <rdg wit="#V">imperiam</rdg>
+                        <rdg wit="#Mmr">imperium</rdg>
+                     </app>, per homines seditiosos nasceretur.</seg>
+                  <seg n="3" xml:id="seg-33.3"><app>
+                        <lem wit="#Ϛ">Legiones ibi</lem>
+                        <rdg wit="#M #U">legione ibi</rdg>
+                        <rdg wit="#S">legiones sibi</rdg>
+                        <rdg wit="#T #V">legione sibi</rdg>
+                     </app>
+                     <app>
+                        <lem wit="#M #U #T" xml:id="lem-33.3-ueterana">ueterana</lem>
+                        <witDetail wit="#T" target="#lem-33.3-ueterana" type="correction-altered"/>
+                        <rdg wit="#S #T #V" xml:id="rdg-33.3-ueteranas">ueteranas</rdg>
+                        <witDetail wit="#T" target="#rdg-33.3-ueteranas" type="correction-original"
+                        />
+                     </app> sexta secum <app>
+                        <lem>reducta</lem>
+                        <rdg wit="#Ϛ">deducta</rdg>
+                     </app> ceteras reliquit, <app>
+                        <lem>quo</lem>
+                        <rdg wit="#T" ana="#morphological">quod</rdg>
+                     </app> firmius <app>
+                        <lem>esset eorum</lem>
+                        <rdg wit="#V" ana="#ordinal">eorum esset</rdg>
+                     </app>
+                     <app>
+                        <lem wit="#M #U #V">regum</lem>
+                        <rdg wit="#S #T">regnum</rdg>
+                        <rdg wit="#N" xml:id="rdg-33.3-regnum-et">regnum et</rdg>
+                        <note target="#rdg-33.3-regnum-et">cf. <bibl><author>Liu.</author>
+                              42.50.5</bibl></note>
+                     </app> imperium, qui neque amorem suorum habere poterant, quod fideliter <app>
+                        <lem wit="#U #T #V">permanserant</lem>
+                        <rdg wit="#M">permanerent</rdg>
+                        <rdg wit="#S">permanserunt</rdg>
+                     </app> in <persName ref="#Caesar">Caesaris</persName> amicitia, neque
+                     uetustatis auctoritatem, paucis diebus reges constituti.</seg>
                   <seg n="4">Simul ad imperi nostri dignitatem utilitatemque publicam pertinere
-                     existimabat, si permanerent in fide reges, praesidiis eos nostris esse tutos;
-                     si essent ingrati, posse iisdem praesidiis coerceri. Sic rebus omnibus
-                     confectis et collocatis ipse itinere terrestri profectus est in Syriam.</seg>
+                     existimabat, si permanerent in fide reges, praesidiis <app>
+                        <lem>eos nostris</lem>
+                        <rdg wit="#M8" ana="#ordinal #morphological">nostros eos</rdg>
+                     </app>
+                     <app>
+                        <lem wit="#Mmr">esse tutos</lem>
+                        <rdg wit="#M #U">esset ut hos</rdg>
+                        <rdg wit="#S #T #V">esset ut hos</rdg>
+                     </app>; si <app>
+                        <lem>essent</lem>
+                        <rdg wit="#T" ana="#morphological">esset</rdg>
+                     </app> ingrati, posse iisdem praesidiis <app>
+                        <lem>coerceri</lem>
+                        <rdg wit="#M" ana="#orthographical #lexical">ceteri</rdg>
+                     </app>. Sic rebus omnibus confectis et collocatis ipse <app>
+                        <lem wit="#U #S #T #V">itinere terrestri</lem>
+                        <rdg wit="#M">itinere pedestri</rdg>
+                        <rdg source="#Nipperdey" type="conjecture" xml:id="rdg-33.4-surplus"
+                              ><surplus>itinere terrestri</surplus></rdg>
+                        <note target="#rdg-33.4-surplus">u.
+                           <!-- Insert xml:id for 66.1 when it is available. -->66.1</note>
+                     </app> profectus est in <placeName ref="#Syria">Syriam</placeName>.</seg>
                </p>
             </div>
          </div>
