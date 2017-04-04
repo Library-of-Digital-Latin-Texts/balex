@@ -40,6 +40,9 @@
             <person xml:id="Ganymedes">
                <persName>Ganymedes</persName>
             </person>
+            <org xml:id="Germani">
+               <orgName>Germani</orgName>
+            </org>
             <person xml:id="Malchus">
                <persName>Malchus I</persName>
             </person>

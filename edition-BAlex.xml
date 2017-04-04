@@ -3308,7 +3308,8 @@ This is a subsection within the preface. Editors should use
                         >Mithridaten</persName> coeperunt.</seg></p>
 
                <p n="28">
-                  <seg n="1">Mittitur a <persName ref="#Mithridates">Mithridate</persName> nuntius <persName ref="#Caesar">Caesari</persName> qui <app>
+                  <seg n="1">Mittitur a <persName ref="#Mithridates">Mithridate</persName> nuntius
+                        <persName ref="#Caesar">Caesari</persName> qui <app>
                         <lem>rem</lem>
                         <rdg wit="#S" ana="#lexical">regem</rdg>
                      </app> gestam perferret. Cognoscit ex suis <app>
@@ -3328,7 +3329,8 @@ This is a subsection within the preface. Editors should use
                         <note target="#lem-28.1-quo">teste <ref target="#Oudendorp"
                            >Oudendorp</ref></note>
                         <rdg wit="#ω">qua</rdg>
-                     </app> magnam et paratam classem habebat. <persName ref="#Caesar">Caesar</persName> eodem itinere uti noluit, <app>
+                     </app> magnam et paratam classem habebat. <persName ref="#Caesar"
+                        >Caesar</persName> eodem itinere uti noluit, <app>
                         <lem>ne</lem>
                         <rdg wit="S" ana="#subtractive"/>
                      </app> nauibus in flumine dimicaret, sed <app>
@@ -3337,8 +3339,9 @@ This is a subsection within the preface. Editors should use
                         <witDetail wit="#S" target="#lem-28.2-circumuectus">circum
                            euectus</witDetail>
                         <rdg wit="#T">circumuectus est</rdg>
-                     </app> eo mari, quod <placeName ref="#Africa">Africae</placeName> partis esse dicitur, sicuti supra demonstrauimus;
-                     prius tamen regis copiis occurrit, quam is <persName ref="#Mithridates">Mithridaten</persName> aggredi posset, eumque
+                     </app> eo mari, quod <placeName ref="#Africa">Africae</placeName> partis esse
+                     dicitur, sicuti supra demonstrauimus; prius tamen regis copiis occurrit, quam
+                     is <persName ref="#Mithridates">Mithridaten</persName> aggredi posset, eumque
                      ad se uictorem incolumi exercitu recepit.</seg>
                   <seg n="3" xml:id="seg-28.3"> Considerat cum <app>
                         <lem wit="#S">copiis rex</lem>
@@ -3358,26 +3361,70 @@ This is a subsection within the preface. Editors should use
                      </app> munitionibus tegebatur: unum latus erat <app>
                         <lem>adiectum</lem>
                         <rdg wit="#M" ana="#lexical #orthographical">abiectum</rdg>
-                     </app> <placeName ref="#Nilus">flumini Nilo</placeName>, alterum editissimo loco ductum, ut partem castrorum
-                     obtineret, tertium palude cingebatur.</seg></p>
+                     </app>
+                     <placeName ref="#Nilus ">flumini Nilo</placeName>, alterum editissimo loco
+                     ductum, ut partem castrorum obtineret, tertium palude cingebatur.</seg></p>
 
                <p n="29">
-                  <seg n="1">Inter castra et Caesaris iter flumen intercedebat angustum altissimis
-                     ripis, quod in Nilum influebat, aberat autem ab regis castris milia passuum
-                     circiter VII.</seg>
-                  <seg n="2">Rex cum hoc itinere uenire Caesarem comperisset, equitatum omnem
-                     expeditosque delectos pedites ad id flumen misit qui transitu Caesarem
-                     prohiberent et eminus ex ripis proelium impar inirent: nullum enim processum
-                     uirtus habebat aut periculum ignauia subibat.</seg>
-                  <seg n="3"> Quae res incendit dolore milites equitesque nostros, quod tam diu pari
-                     proelio cum Alexandrinis certaretur.</seg>
-                  <seg n="4">Itaque eodem tempore equites Germani dispersi uada fluminis quaerentes
-                     partim demissioribus ripis flumen tranarunt, et legionarii magnis arboribus
-                     excisis, quae longitudine utramque ripam contingerent, proiectis repentinoque
-                     aggere iniecto flumen transierunt.</seg>
+                  <seg n="1">Inter castra et <persName ref="#Caesar">Caesaris</persName> iter flumen
+                     intercedebat angustum altissimis ripis, quod in <placeName ref="#Nilus"
+                        >Nilum</placeName>
+                     <app>
+                        <lem>influebat</lem>
+                        <rdg wit="#S" ana="#lexical">effluebat</rdg>
+                     </app>, aberat autem <app>
+                        <lem>ab</lem>
+                        <rdg wit="#M" ana="#orthographical">a</rdg>
+                     </app> regis castris milia passuum circiter VII.</seg>
+                  <seg n="2"><persName ref="#Ptolemaeus">Rex</persName> cum hoc itinere uenire
+                        <persName ref="#Caesar">Caesarem</persName> comperisset, <app>
+                        <lem>equitatum</lem>
+                        <rdg wit="#T" ana="#orthographical #morphological">equitatem</rdg>
+                     </app> omnem expeditosque delectos pedites ad id flumen misit qui transitu
+                     Caesarem prohiberent et eminus ex ripis proelium impar inirent: nullum enim
+                     processum uirtus habebat aut periculum ignauia subibat.</seg>
+                  <seg n="3">Quae res incendit <app>
+                        <lem>dolore</lem>
+                        <rdg wit="#S" ana="#morphological #syntactic">dolores</rdg>
+                     </app> milites <app>
+                        <lem>equitesque</lem>
+                        <rdg wit="#S" ana="#lexical #orthographical">equentesque</rdg>
+                     </app> nostros, quod tam diu pari proelio cum Alexandrinis <app>
+                        <lem wit="#T" xml:id="lem-29.3-certaretur">certaretur</lem>
+                        <witDetail wit="#T" target="#lem-29.3-certaretur" type="correction-altered"/>
+                        <rdg wit="#ω">certarentur</rdg>
+                     </app>.</seg>
+                  <seg n="4"><app>
+                        <lem>Itaque</lem>
+                        <rdg wit="V" ana="#subtractive"/>
+                     </app> eodem tempore equites <orgName ref="#Germani">Germani</orgName> dispersi
+                     uada <app>
+                        <lem wit="#Ϛ">fluminis</lem>
+                        <rdg wit="#ω">fluminum</rdg>
+                        <rdg source="#Dübner" type="conjecture"><surplus>fluminum</surplus></rdg>
+                     </app> quaerentes partim demissioribus ripis flumen <app>
+                        <lem>tranarunt</lem>
+                        <rdg wit="#M" ana="#orthographical">transnarunt</rdg>
+                     </app>, et <app>
+                        <lem>legionarii</lem>
+                        <rdg wit="#S" ana="#morphological #orthographical">legionariis</rdg>
+                     </app> magnis arboribus <app>
+                        <lem>excisis</lem>
+                        <rdg wit="#V" ana="#lexical">abscisis</rdg>
+                     </app>, quae longitudine utramque ripam contingerent, <app>
+                        <lem>proiectis</lem>
+                        <rdg source="#Nipperdey">proiectis <supplied reason="undefined"
+                              >iis</supplied></rdg>
+                     </app> repentinoque aggere <app>
+                        <lem>iniecto</lem>
+                        <rdg wit="#V" ana="#lexical">proiecto</rdg>
+                     </app> flumen transierunt.</seg>
                   <seg n="5">Quorum impetum adeo pertimuerunt hostes ut in fuga spem salutis
-                     collocarent; sed id frustra: namque ex ea fuga pauci ad regem refugerunt paene
-                     omni reliqua multitudine interfecta.</seg></p>
+                     collocarent; sed id frustra: namque ex ea fuga pauci ad <persName
+                        ref="#Ptolemaeus">regem</persName> refugerunt paene omni reliqua <app>
+                        <lem>multitudine</lem>
+                        <rdg wit="#M" ana="#orthographical">multidine</rdg>
+                     </app> interfecta.</seg></p>
 
                <p n="30">
                   <seg n="1">Caesar re praeclarissime gesta, cum subitum aduentum suum iudicaret
