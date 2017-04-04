@@ -3427,30 +3427,77 @@ This is a subsection within the preface. Editors should use
                      </app> interfecta.</seg></p>
 
                <p n="30">
-                  <seg n="1">Caesar re praeclarissime gesta, cum subitum aduentum suum iudicaret
-                     magnum terrorem Alexandrinis iniecturum, protinus uictor ad castra regis
-                     pertendit.</seg>
+                  <seg n="1"><persName ref="#Caesar">Caesar</persName>
+                     <app>
+                        <lem>re praeclarissime</lem>
+                        <rdg wit="#U" ana="#ordinal #morphological #syntactic">praeclarissima
+                           re</rdg>
+                     </app> gesta, cum subitum aduentum suum iudicaret magnum terrorem Alexandrinis
+                     iniecturum, protinus uictor ad castra <persName ref="Ptolemaeus"
+                        >regis</persName> pertendit.</seg>
                   <seg n="2">Haec cum et opere magno uallata et loci natura munita animaduerteret
-                     confertamque armatorum multitudinem collocatam in uallo uideret, lassos itinere
-                     ac proeliando milites ad oppugnanda castra succedere noluit. Itaque non magno
-                     interuallo relicto ab hoste castra posuit.</seg>
-                  <seg n="3">Postero die castellum, quod rex in proximo uico non longe a suis
-                     castris munierat bracchiisque cum opere castrorum coniunxerat uici obtinendi
-                     causa, Caesar aggressus omnibus copiis expugnat, non quo id minore numero
-                     militum consequi difficile factu putaret, sed ut ab ea uictoria perterritis
-                     Alexandrinis protinus castra regis oppugnaret.</seg>
-                  <seg n="4">Itaque eo cursu, quo refugientes Alexandrinos ex castello in castra
-                     sunt milites insecuti, munitionibus successerunt acerrimeque eminus proeliari
+                     confertamque armatorum <app>
+                        <lem>multitudinem</lem>
+                        <rdg wit="#S" ana="#morphological #orthographical">multitudine</rdg>
+                     </app> collocatam in uallo uideret, lassos itinere ac proeliando milites ad
+                     oppugnanda castra succedere noluit. Itaque non <app>
+                        <lem>magno</lem>
+                        <rdg wit="#S" ana="#morphological">magna</rdg>
+                     </app> interuallo relicto ab hoste castra posuit.</seg>
+                  <seg n="3"><app>
+                        <lem>Postero die</lem>
+                        <rdg wit="#V" ana="#additive">postero uero die</rdg>
+                     </app> castellum, quod <persName ref="#Ptolemaeus">rex</persName> in proximo
+                     uico non longe a suis castris munierat bracchiisque cum opere castrorum
+                     coniunxerat uici obtinendi causa, <persName ref="#Caesar">Caesar</persName>
+                     aggressus omnibus copiis expugnat, non <app>
+                        <lem>quo id</lem>
+                        <rdg wit="#T" ana="#subtractive #orthographical #morphological">quod</rdg>
+                     </app> minore <app>
+                        <lem>numero</lem>
+                        <rdg wit="U" ana="#subtractive"/>
+                     </app> militum consequi difficile factu putaret, sed ut ab ea uictoria
+                     perterritis Alexandrinis protinus <app>
+                        <lem wit="#U #S #T">castra <persName ref="#Ptolemaeus"
+                           >regis</persName></lem>
+                        <rdg wit="#M">in castra regis</rdg>
+                        <rdg wit="#V">regis castra</rdg>
+                     </app> oppugnaret.</seg>
+                  <seg n="4">Itaque <app>
+                        <lem wit="#ω" xml:id="lem-30.4-eo">eo</lem>
+                        <note target="#lem-30.4-eo">cf. <bibl><title>BG</title> 1.27.2</bibl></note>
+                        <rdg source="#Schneider" xml:id="rdg-30.4-eodem">eodem</rdg>
+                        <note target="#rdg-30.4-eodem">cf. <bibl><title>BG</title>
+                           6.37.1</bibl></note>
+                     </app> cursu, quo refugientes Alexandrinos ex castello in castra sunt milites
+                     insecuti, munitionibus successerunt acerrimeque eminus proeliari
                      coeperunt.</seg>
-                  <seg n="5"> Duabus ex partibus aditus oppugnationis nostris dabatur: una, quam
-                     liberum accessum habere demonstraui, altera, quae mediocre interuallum inter
-                     castra et flumen Nilum habebat.</seg>
+                  <seg n="5"> Duabus ex partibus aditus oppugnationis nostris dabatur: <app>
+                        <lem>una</lem>
+                        <rdg wit="#S" ana="#morphological">unam</rdg>
+                     </app>, quam liberum accessum habere demonstraui, <app>
+                        <lem>altera</lem>
+                        <rdg wit="#S" ana="#morphological">alteram</rdg>
+                     </app>, quae mediocre interuallum inter castra et flumen Nilum habebat.</seg>
                   <seg n="6">Maxima et electissima multitudo Alexandrinorum defendebat eam partem,
-                     quae facillimum aditum habebat; plurimum proficiebant in repellendis
-                     uulnerandisque nostris, qui regione fluminis Nili propugnabant: diuersis enim
-                     telis nostri figebantur, aduersi ex uallo castrorum, auersi ex flumine, in quo
-                     multae naues instructae funditoribus et sagittariis nostros
-                  impugnabant.</seg></p>
+                     quae facillimum aditum habebat; plurimum <app>
+                        <lem>proficiebant</lem>
+                        <rdg wit="#S" ana="#morphological">proficiebat</rdg>
+                     </app> in repellendis <app>
+                        <lem>uulnerandisque</lem>
+                        <rdg wit="#S" ana="#morphological">uulneratisque</rdg>
+                     </app> nostris, qui <app>
+                        <lem>regione</lem>
+                        <rdg wit="#S" ana="#morphological">regionem</rdg>
+                     </app>
+                     <placeName ref="#Nilus">fluminis Nili</placeName> propugnabant: diuersis enim
+                     telis nostri figebantur, aduersi ex uallo castrorum, <app>
+                        <lem wit="#Ϛ" xml:id="lem-30.6-auersi">auersi</lem>
+                        <note target="#lem-30.6-auersi">cf. <bibl><author>Cic.</author>
+                              <title>De Orat.</title> 2.256</bibl></note>
+                        <rdg wit="#ω">mersi</rdg>
+                     </app> ex flumine, in quo multae naues instructae funditoribus et sagittariis
+                     nostros impugnabant.</seg></p>
 
                <p n="31">
                   <seg n="1">Caesar cum uideret milites acrius proeliari non posse nec tamen multum
