@@ -673,6 +673,7 @@ This is a subsection within the preface. Editors should use
                      <pubPlace>Stuttgart</pubPlace>: <date>1973</date>.</bibl>
             </listBibl>
             <listPerson>
+               <head>List of People Cited by Name</head>
                <person xml:id="Atkins">
                   <persName><abbr type="siglum">Atkins</abbr> = Adrienne Atkins. Member of the Latin
                      540 class (spring 2015).</persName>
@@ -741,6 +742,7 @@ This is a subsection within the preface. Editors should use
       <body>
          <div type="edition" xml:id="edition-text">
             <div type="textpart" n="1" xml:id="part1">
+               <head>Bellum Alexandrinum</head>
                <p n="1">
                   <seg n="1" xml:id="seg-1.1">Bello Alexandrino conflato <persName ref="#Caesar"
                         >Caesar</persName>
