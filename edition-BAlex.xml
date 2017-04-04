@@ -456,10 +456,10 @@ This is a subsection within the preface. Editors should use
                      <pubPlace>Vienna</pubPlace>. <date>1890</date>. URL: <ptr
                      target="https://archive.org/details/ciuliicaesarisc02hoffgoog"/></bibl>
 
-               <bibl xml:id="Klotz1927"><abbr type="siglum">Klotz</abbr>: <editor>A.
-                     Klotz</editor>, ed. <title>C. Iulii Caesaris commentarii. Vol. III: Bellum
-                     Alexandrinum, Bellum Africum, Bellum Hispaniense, Fragmenta</title>.
-                     <pubPlace>Leipzig</pubPlace>. <date>1927</date>.</bibl>
+               <bibl xml:id="Klotz1927"><abbr type="siglum">Klotz</abbr>: <editor>A. Klotz</editor>,
+                  ed. <title>C. Iulii Caesaris commentarii. Vol. III: Bellum Alexandrinum, Bellum
+                     Africum, Bellum Hispaniense, Fragmenta</title>. <pubPlace>Leipzig</pubPlace>.
+                     <date>1927</date>.</bibl>
 
                <bibl xml:id="Kraner"><abbr type="siglum">Kraner</abbr>: <editor>F. Kraner</editor>,
                   ed.  <title>C. Iulii Caesaris commentarii cum supplementis A. Hirtii et
@@ -900,7 +900,7 @@ This is a subsection within the preface. Editors should use
                         <lem wit="#ω" xml:id="lem-2.5-confixerant">confixerant</lem>
                         <note target="#lem-2.5-confixerant">cf. BG 3.13.4</note>
                         <!-- Which Davies (Davisius)? -->
-                     <rdg source="#Dauisius1706" xml:id="rdg-2.5-confinxerant">confinxerant</rdg>
+                        <rdg source="#Dauisius1706" xml:id="rdg-2.5-confinxerant">confinxerant</rdg>
                         <note target="#rdg-2.5-confinxerant">coll. Plin. NH 10.93</note>
                         <rdg wit="#Ϛ" xml:id="rdg-2.5-confecerant">confecerant</rdg>
                         <note target="#rdg-2.5-confecerant">teste <ref target="#Oudendorp"
@@ -1274,7 +1274,7 @@ This is a subsection within the preface. Editors should use
                      desciuisse a suis uidebatur: <!-- MORE THOUGHT NEEDED indicated in Cynthia's notes here. Also, the note indicates trouble through potest, but she has put the final † at the end of 7.2. --><sic><app>
                            <lem>ut mihi</lem>
                            <rdg source="#Madvig">at mihi si</rdg>
-                        <rdg source="#Klotz1927">ut mihi si</rdg>
+                           <rdg source="#Klotz1927">ut mihi si</rdg>
                         </app> defendendi <app>
                            <lem>essent</lem>
                            <rdg source="#Nipperdey">esse</rdg>
@@ -3054,8 +3054,8 @@ This is a subsection within the preface. Editors should use
                               >Nipperdey</ref> (cf. <bibl><author>Cic.</author>
                               <title>Sest.</title> 130</bibl>)</note>
                         <rdg wit="#ω">itaque</rdg>
-                        <rdg source="#Gruterus" type="conjecture" xml:id="rdg-25.6-itaque-qui">itaque
-                           qui</rdg>
+                        <rdg source="#Gruterus" type="conjecture" xml:id="rdg-25.6-itaque-qui"
+                           >itaque qui</rdg>
                         <note target="#rdg-25.6-itaque-qui">teste <ref target="#Oudendorp"
                               >Oudendorp</ref> (cf. <bibl><author>Cic.</author>
                               <title>Ver.</title> 2.3.85</bibl>)</note>
@@ -3308,20 +3308,58 @@ This is a subsection within the preface. Editors should use
                         >Mithridaten</persName> coeperunt.</seg></p>
 
                <p n="28">
-                  <seg n="1">Mittitur a Mithridate nuntius Caesari qui rem gestam perferret.
-                     Cognoscit ex suis eadem haec accidisse rex. Ita paene sub idem tempus et rex ad
-                     opprimendum Mithridaten proficiscitur et Caesar ad recipiendum.</seg>
-                  <seg n="2" xml:id="seg-28.2">Celeriore fluminis Nili nauigatione rex est usus, in
-                     quo magnam et paratam classem habebat. Caesar eodem itinere uti noluit, ne
-                     nauibus in flumine dimicaret, sed circumuectus eo mari, quod Africae partis
-                     esse dicitur, sicuti supra demonstrauimus; prius tamen regis copiis occurrit,
-                     quam is Mithridaten aggredi posset, eumque ad se uictorem incolumi exercitu
-                     recepit.</seg>
-                  <seg n="3" xml:id="seg-28.3"> Considerat cum copiis rex loco natura munito, quod
-                     erat ipse excelsior planitie ex omnibus partibus subiecta; tribus autem ex
-                     lateribus uariis generum munitionibus tegebatur: unum latus erat adiectum
-                     flumini Nilo, alterum editissimo loco ductum, ut partem castrorum obtineret,
-                     tertium palude cingebatur.</seg></p>
+                  <seg n="1">Mittitur a <persName ref="#Mithridates">Mithridate</persName> nuntius <persName ref="#Caesar">Caesari</persName> qui <app>
+                        <lem>rem</lem>
+                        <rdg wit="#S" ana="#lexical">regem</rdg>
+                     </app> gestam perferret. Cognoscit ex suis <app>
+                        <lem>eadem haec</lem>
+                        <rdg wit="#U" ana="#ordinal">haec eadem</rdg>
+                     </app> accidisse rex. Ita paene sub idem tempus et rex ad opprimendum
+                     Mithridaten proficiscitur et Caesar ad recipiendum.</seg>
+                  <seg n="2" xml:id="seg-28.2"><app>
+                        <lem>Celeriore</lem>
+                        <rdg wit="#V" ana="#orthographical">celeriori</rdg>
+                     </app>
+                     <app>
+                        <lem><placeName ref="#Nilus">fluminis Nili</placeName></lem>
+                        <rdg wit="#V" ana="#ordinal">nili fluminis</rdg>
+                     </app> nauigatione rex est usus, in <app>
+                        <lem wit="#Ϛ" xml:id="lem-28.1-quo">quo</lem>
+                        <note target="#lem-28.1-quo">teste <ref target="#Oudendorp"
+                           >Oudendorp</ref></note>
+                        <rdg wit="#ω">qua</rdg>
+                     </app> magnam et paratam classem habebat. <persName ref="#Caesar">Caesar</persName> eodem itinere uti noluit, <app>
+                        <lem>ne</lem>
+                        <rdg wit="S" ana="#subtractive"/>
+                     </app> nauibus in flumine dimicaret, sed <app>
+                        <lem wit="#M #U #S #V" xml:id="lem-28.2-circumuectus">circumuectus</lem>
+                        <!-- This is in the appendix critica as a singluar reading. Should it be a separate <rdg>? -->
+                        <witDetail wit="#S" target="#lem-28.2-circumuectus">circum
+                           euectus</witDetail>
+                        <rdg wit="#T">circumuectus est</rdg>
+                     </app> eo mari, quod <placeName ref="#Africa">Africae</placeName> partis esse dicitur, sicuti supra demonstrauimus;
+                     prius tamen regis copiis occurrit, quam is <persName ref="#Mithridates">Mithridaten</persName> aggredi posset, eumque
+                     ad se uictorem incolumi exercitu recepit.</seg>
+                  <seg n="3" xml:id="seg-28.3"> Considerat cum <app>
+                        <lem wit="#S">copiis rex</lem>
+                        <rdg wit="#M #T #V">copiis L ex</rdg>
+                        <rdg wit="#U">copiis ex</rdg>
+                     </app> loco natura munito, quod erat ipse excelsior <app>
+                        <lem wit="#T">planitie</lem>
+                        <rdg wit="#M #U #V">plani(t/c)ia</rdg>
+                        <rdg wit="#S">planicies</rdg>
+                     </app> ex omnibus partibus subiecta; tribus autem ex lateribus <app>
+                        <lem wit="#ω" xml:id="lem-28.3-uariis-generum">uariis generum</lem>
+                        <note target="#lem-28.3-uariis-generum">defendit <ref target="#Loefstedt"
+                              >Loefstedt</ref></note>
+                        <rdg wit="#Ϛ">uariis genere</rdg>
+                        <rdg source="#Oehler" type="conjecture">uarii generis</rdg>
+                        <!-- WE NEED SOME PARALLELS HERE -->
+                     </app> munitionibus tegebatur: unum latus erat <app>
+                        <lem>adiectum</lem>
+                        <rdg wit="#M" ana="#lexical #orthographical">abiectum</rdg>
+                     </app> <placeName ref="#Nilus">flumini Nilo</placeName>, alterum editissimo loco ductum, ut partem castrorum
+                     obtineret, tertium palude cingebatur.</seg></p>
 
                <p n="29">
                   <seg n="1">Inter castra et Caesaris iter flumen intercedebat angustum altissimis
