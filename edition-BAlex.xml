@@ -418,7 +418,7 @@ This is a subsection within the preface. Editors should use
                      target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10217527_00001.html"
                   /></bibl>
 
-               <bibl xml:id="Dauisius1727"><abbr type="siglum">Dauisius 1727</abbr>: <editor>J.
+               <bibl xml:id="Dauisius1727"><abbr type="siglum">Davies</abbr>: <editor>J.
                      Davies</editor>, ed. <title>C. Julii Caesaris et Auli Hirtii quae exstant omnia
                      recensuit ac selectis ... aliorum notis suas addidit Joannes Davisius; accedunt
                      ejusdem secundae curae necnon metaphrasis graeca librorum VII de bello
@@ -456,7 +456,7 @@ This is a subsection within the preface. Editors should use
                      <pubPlace>Vienna</pubPlace>. <date>1890</date>. URL: <ptr
                      target="https://archive.org/details/ciuliicaesarisc02hoffgoog"/></bibl>
 
-               <bibl xml:id="Klotz1927"><abbr type="siglum">Klotz 1927</abbr>: <editor>A.
+               <bibl xml:id="Klotz1927"><abbr type="siglum">Klotz</abbr>: <editor>A.
                      Klotz</editor>, ed. <title>C. Iulii Caesaris commentarii. Vol. III: Bellum
                      Alexandrinum, Bellum Africum, Bellum Hispaniense, Fragmenta</title>.
                      <pubPlace>Leipzig</pubPlace>. <date>1927</date>.</bibl>
@@ -674,45 +674,60 @@ This is a subsection within the preface. Editors should use
             </listBibl>
             <listPerson>
                <person xml:id="Atkins">
-                  <persName>Adrienne Atkins. Member of the Latin 540 class (spring 2015).</persName>
+                  <persName><abbr type="siglum">Atkins</abbr> = Adrienne Atkins. Member of the Latin
+                     540 class (spring 2015).</persName>
                </person>
                <person xml:id="Callaghan">
-                  <persName>Greg Callaghan</persName>
+                  <persName><abbr type="siglum">Callaghan</abbr> = Greg Callaghan</persName>
                   <note>Member of the Latin 540 class (spring 2015)</note>
                </person>
                <person xml:id="Ciacconius" corresp="http://viaf.org/viaf/73950642">
-                  <persName>Petrus Ciacconius (see <ref target="#Dauisius1706">Dauisius
-                     1706</ref>)</persName>
+                  <persName><abbr type="siglum">Ciacconius</abbr> = Petrus Ciacconius (see <ref
+                        target="#Dauisius1706">Dauisius 1706</ref>)</persName>
+               </person>
+               <person xml:id="Clarke" corresp="http://viaf.org/viaf/46768940">
+                  <persName><abbr type="siglum">Clarke</abbr> = Samuel Clarke</persName>
+                  <note>Cited in <ref target="#Oudendorp">Oudendorp</ref></note>
                </person>
                <person xml:id="Damon" corresp="http://viaf.org/viaf/116523553">
-                  <persName>Cynthia Damon</persName>
+                  <persName><abbr type="siglum">Damon</abbr> = Cynthia Damon</persName>
                   <note>Conjectures proposed by the editor of this edition.</note>
                </person>
+               <person xml:id="Gruterus" corresp="http://viaf.org/viaf/61599137">
+                  <persName><abbr type="siglum">Gruterus</abbr> = Janus Gruterus</persName>
+                  <note>Cited in <ref target="#Oudendorp">Oudendorp</ref></note>
+               </person>
+               <person xml:id="Haupt" corresp="http://viaf.org/viaf/36998303">
+                  <persName><abbr type="Haupt">Haupt</abbr> = Moriz Haupt</persName>
+                  <note>Cited in <ref target="#Nipperdey">Nipperdey</ref>.</note>
+               </person>
                <person xml:id="Jurinius">
-                  <persName>Jurinius (see <ref target="#Bentley">T. Bentley</ref>)</persName>
+                  <persName><abbr type="siglum">Jurinius</abbr> = Jurinius</persName>
+                  <note>See <ref target="#Bentley">T. Bentley</ref></note>
                </person>
                <person xml:id="Khan">
-                  <persName>Scheherazade Khan</persName>
+                  <persName><abbr type="siglum">Khan</abbr> = Scheherazade Khan</persName>
                   <note>Member of the Latin 540 class (spring 2015).</note>
                </person>
                <person xml:id="Lewis">
-                  <persName>Amy Lewis</persName>
+                  <persName><abbr type="siglum">Lewis</abbr> = Amy Lewis</persName>
                   <note>Member of the Latin 540 class (spring 2015)</note>
                </person>
                <person xml:id="Persyn">
-                  <persName>Marcie Persyn</persName>
+                  <persName><abbr type="siglum">Persyn</abbr> = Marcie Persyn</persName>
                   <note>Member of the Latin 540 class (spring 2015).</note>
                </person>
                <person xml:id="Siesbye" corresp="http://viaf.org/viaf/289411596">
-                  <persName>Oskar Siesbye (see <ref target="#Larsen">Larsen</ref></persName>
+                  <persName><abbr type="siglum">Siesbye</abbr> = Oskar Siesbye (see <ref
+                        target="#Larsen">Larsen</ref></persName>
                </person>
-               <person xml:id="Simmons">
-                  <persName>Dallas Simons</persName>
+               <person xml:id="Simons">
+                  <persName><abbr type="siglum">Simons</abbr> = Dallas Simons</persName>
                   <note>Member of the Latin 540 class (spring 2015).</note>
                </person>
                <person xml:id="Wölfflin" corresp="http://viaf.org/viaf/45080602">
-                  <persName>Eduard Wölfflin (see <ref target="#Klotz1927">Klotz
-                     1927</ref>)</persName>
+                  <persName><abbr type="siglum">Wölfflin</abbr> = Eduard Wölfflin (see <ref
+                        target="#Klotz1927">Klotz 1927</ref>)</persName>
                </person>
             </listPerson>
          </div>
@@ -885,7 +900,7 @@ This is a subsection within the preface. Editors should use
                         <lem wit="#ω" xml:id="lem-2.5-confixerant">confixerant</lem>
                         <note target="#lem-2.5-confixerant">cf. BG 3.13.4</note>
                         <!-- Which Davies (Davisius)? -->
-                        <rdg source="#Davies" xml:id="rdg-2.5-confinxerant">confinxerant</rdg>
+                     <rdg source="#Dauisius1706" xml:id="rdg-2.5-confinxerant">confinxerant</rdg>
                         <note target="#rdg-2.5-confinxerant">coll. Plin. NH 10.93</note>
                         <rdg wit="#Ϛ" xml:id="rdg-2.5-confecerant">confecerant</rdg>
                         <note target="#rdg-2.5-confecerant">teste <ref target="#Oudendorp"
@@ -1216,7 +1231,7 @@ This is a subsection within the preface. Editors should use
                               ><surplus>casum</surplus></rdg>
                         <note target="#rdg-7.1-casum">teste <ref target="#Nipperdey">Nipperdey</ref>
                            (cf. <bibl><title>BG</title> 1.16.6</bibl>)</note>
-                        <rdg source="#Kraffer" xml:id="rdg-7.1-casurum">casurum</rdg>
+                        <rdg source="#Kraffert" xml:id="rdg-7.1-casurum">casurum</rdg>
                         <note target="#rdg-7.1-casurum">coll. <ref target="#seg-11.2"
                            >11.2</ref></note>
                      </app> quod neque celari <app>
@@ -1259,7 +1274,7 @@ This is a subsection within the preface. Editors should use
                      desciuisse a suis uidebatur: <!-- MORE THOUGHT NEEDED indicated in Cynthia's notes here. Also, the note indicates trouble through potest, but she has put the final † at the end of 7.2. --><sic><app>
                            <lem>ut mihi</lem>
                            <rdg source="#Madvig">at mihi si</rdg>
-                           <rdg source="#Klotz">ut mihi si</rdg>
+                        <rdg source="#Klotz1927">ut mihi si</rdg>
                         </app> defendendi <app>
                            <lem>essent</lem>
                            <rdg source="#Nipperdey">esse</rdg>
@@ -1665,7 +1680,7 @@ This is a subsection within the preface. Editors should use
                         <rdg wit="#S" ana="#orthographical #lexical">sed</rdg>
                      </app> uictos uiderent, <app>
                         <lem><app>
-                              <lem source="#Davies" type="conjecture" xml:id="lem-12.1-lacuna"
+                              <lem source="#Dauisius1706" type="conjecture" xml:id="lem-12.1-lacuna"
                                  corresp="#comm-12.1-lacuna"><supplied reason="undefined"><gap
                                        reason="lost"/></supplied> quibus</lem>
                               <rdg source="#Nipperdey" type="conjecture">quibus <supplied
@@ -2192,7 +2207,7 @@ This is a subsection within the preface. Editors should use
                         <lem wit="#ω" xml:id="lem-16.1-uictis">uictis</lem>
                         <note target="#lem-16.1-uictis">cf.
                            60.2<!-- Insert xml:id for 60.2 when it's available --></note>
-                        <rdg source="#Gruter" type="conjecture" xml:id="rdg-16.1-uictis-secl"
+                        <rdg source="#Gruterus" type="conjecture" xml:id="rdg-16.1-uictis-secl"
                               ><surplus>uictis</surplus></rdg>
                         <note target="#rdg-16.1-uictis-secl">teste <ref target="#Oudendorp"
                               >Oudendorp</ref> uoce <hi rend="normal">pulsis</hi> supra
@@ -2496,7 +2511,7 @@ This is a subsection within the preface. Editors should use
                            diutius</rdg>
                         <witDetail wit="#U" target="#rdg-18.1-ex-munitionibus-diutius"
                            corresp="#lem-18.1-diutius-ex-munitione" type="correction-original"/>
-                        <rdg source="#Davies" type="conjecture">diutius ea munitione</rdg>
+                        <rdg source="#Dauisius1706" type="conjecture">diutius ea munitione</rdg>
                      </app>
                      <app>
                         <lem>se</lem>
@@ -3039,7 +3054,7 @@ This is a subsection within the preface. Editors should use
                               >Nipperdey</ref> (cf. <bibl><author>Cic.</author>
                               <title>Sest.</title> 130</bibl>)</note>
                         <rdg wit="#ω">itaque</rdg>
-                        <rdg source="#Gruter" type="conjecture" xml:id="rdg-25.6-itaque-qui">itaque
+                        <rdg source="#Gruterus" type="conjecture" xml:id="rdg-25.6-itaque-qui">itaque
                            qui</rdg>
                         <note target="#rdg-25.6-itaque-qui">teste <ref target="#Oudendorp"
                               >Oudendorp</ref> (cf. <bibl><author>Cic.</author>
@@ -3090,7 +3105,7 @@ This is a subsection within the preface. Editors should use
                         <lem wit="#ω" xml:id="lem-26.1-adducit">adducit</lem>
                         <note target="#lem-26.1-adducit">de anacolutho u. <ref target="#Klotz1927"
                               >Klotz</ref></note>
-                        <rdg source="#Davies" xml:id="rdg-26.2-aduenit" type="conjecture"
+                        <rdg source="#Dauisius1706" xml:id="rdg-26.2-aduenit" type="conjecture"
                            >aduenit</rdg>
                         <note target="#rdg-26.2-aduenit">teste <ref target="#Oudendorp"
                               >Oudendorp</ref> (cf.
