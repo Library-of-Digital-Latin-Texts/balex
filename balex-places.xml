@@ -22,6 +22,9 @@
             <place xml:id="Aegyptus" corresp="https://pleiades.stoa.org/places/981503">
                <placeName>Aegyptus</placeName>
             </place>
+            <place xml:id="Africa" corresp="https://pleiades.stoa.org/places/775">
+               <placeName>Africa</placeName>
+            </place>
             <place xml:id="Asia" corresp="https://pleiades.stoa.org/places/981509">
                <placeName>Asia</placeName>
             </place>
