@@ -735,7 +735,7 @@ This is a subsection within the preface. Editors should use
                            xml:id="rdg-1.2-nouis-cotidie-operibus">nouis cotidie
                         operibus</rdg></app> augentur atque omnes oppidi partes, quae minus esse
                      firmae uidentur, testudinibus ac musculis
-                           <!-- App entry for 1.2: aptantur --><app><lem wit="ω"
+                           <!-- App entry for 1.2: aptantur --><app><lem wit="#ω"
                            xml:id="lem-1.2-aptantur">aptantur</lem><note target="lem-1.2-aptantur"
                            >u. BC 3.112.7-9</note><rdg source="#Nipperdey"
                            xml:id="rdg-1.2-temptantur">temptantur</rdg><note>alii alia (u.
@@ -766,7 +766,7 @@ This is a subsection within the preface. Editors should use
                      urbis excluderet,</seg>
                   <seg n="5">illud <!-- App entry for 1.5: spectans --><app><lem source="#Vascosanus"
                            xml:id="lem-1.5-spectans">spectans</lem><note target="lem-1.5-spectans"
-                           >cf. BC 3.85.2</note><rdg wit="ω" xml:id="rdg-1.5-expectans"
+                           >cf. BC 3.85.2</note><rdg wit="#ω" xml:id="rdg-1.5-expectans"
                            >expectans</rdg></app> primum ut, cum in duas partes esset
                            <!-- App entry for 1.5: urbs --><app><lem wit="#U" xml:id="lem-1.5-urbs"
                            >urbs</lem><rdg wit="#M" xml:id="rdg-1.5-ubrs">ubrs</rdg><rdg
@@ -802,7 +802,7 @@ This is a subsection within the preface. Editors should use
                            xml:id="lem-2.3-Hac">Hac</lem><rdg wit="#M" xml:id="rdg-2.3-huc"
                            >huc</rdg><rdg wit="#S" xml:id="rdg-2.3-ha">ha</rdg></app> multitudine
                      disposita munitiones <!-- App entry for 2.3: semotarum --><app><lem wit="#Mmr"
-                           xml:id="lem-2.3-semotarum">semotarum</lem><rdg wit="ω"
+                           xml:id="lem-2.3-semotarum">semotarum</lem><rdg wit="#ω"
                            xml:id="rdg-2.3-semotorum">semotorum</rdg></app> partium tuebantur;
                      ueteranas cohortes uacuas
                            <!-- App entry for 2.3: in celeberrimis urbis locis --><app><lem
@@ -840,7 +840,7 @@ This is a subsection within the preface. Editors should use
                            xml:id="rdg-3.1-ingeniosissimi">ingeniosissimi</rdg><note
                            target="rdg-3.1-ingeniosissimi">Wölfflin teste </note></app> atque
                      acutissimi quae a nobis fieri uiderant ea sollertia
-                           <!-- App entry for 3.1: efficiebant --><app><lem wit="ω"
+                           <!-- App entry for 3.1: efficiebant --><app><lem wit="#ω"
                            xml:id="lem-3.1-efficiebant">efficiebant</lem><note
                            target="lem-3.1-efficiebant">cf. 19.5</note><rdg source="#Kübler"
                            xml:id="rdg-3.1-effingebant">effingebant</rdg><note
@@ -937,7 +937,7 @@ This is a subsection within the preface. Editors should use
                            >grauius</lem><rdg source="#Aldus" xml:id="rdg-7.1-grauiorem"
                            >grauiorem</rdg><note target="rdg-7.1-grauiorem">(cf. Cic. Ph. 1.13)
                         </note></app> extimescerent <!-- App entry for 7.1: casum --><app><lem
-                           wit="ω" xml:id="lem-7.1-casum2">casum</lem><note target="lem-7.1-casum"
+                           wit="#ω" xml:id="lem-7.1-casum2">casum</lem><note target="lem-7.1-casum"
                            >(cf. Cic. Att. 4.3.5) </note><rdg source="#Nipperdey"
                            xml:id="rdg-7.1-casum-surplus"><surplus>casum</surplus></rdg><note
                            target="rdg-7.1-casum-surplus">Haupt teste (cf. BG 1.16.6)</note><rdg
@@ -987,10 +987,10 @@ This is a subsection within the preface. Editors should use
                      tamen, quoniam mare libere tenerent, neque hostes classem haberent,
                            <!-- App entry for 8.2: prohiberi --><app><lem wit="Ϛ"
                            source="#Oudendorp" xml:id="lem-8.2-prohiberi">prohiberi</lem><note
-                           target="lem-8.2-prohiberi">teste</note><rdg wit="ω"
+                           target="lem-8.2-prohiberi">teste</note><rdg wit="#ω"
                            xml:id="rdg-8.2-prohibere">prohibere</rdg></app> sese non
                            <!-- App entry for 8.2: posse --><app><lem wit="#ed.pr."
-                           xml:id="lem-8.2-posse">posse</lem><rdg wit="ω" xml:id="rdg-8.2-possent"
+                           xml:id="lem-8.2-posse">posse</lem><rdg wit="#ω" xml:id="rdg-8.2-possent"
                            >possent</rdg></app> quo minus cotidie nauibus aquam
                            <!-- App entry for 8.2: peterent --><app><lem wit="#M #U"
                            xml:id="lem-8.2-peterent">peterent</lem><rdg wit="#S #T #V"
@@ -998,7 +998,7 @@ This is a subsection within the preface. Editors should use
                            <!-- App entry for 8.2: Paraetonio --><app><lem
                            source="#Gaertner-Hausburg" xml:id="lem-8.2-Paraetonio"
                            >Paraetonio</lem><note target="lem-8.2-Paraetonio">78-79 n.16</note><rdg
-                           wit="ω" xml:id="rdg-8.2-paratonio">paratonio</rdg></app>
+                           wit="#ω" xml:id="rdg-8.2-paratonio">paratonio</rdg></app>
                      <!-- App entry for 8.2: Uel --><app><lem xml:id="lem-8.2-Uel2">Uel</lem><rdg
                            wit="Ϛ" xml:id="rdg-8.2-uel-a-addition"><supplied reason="lost">uel
                               a</supplied></rdg><note target="rdg-8.2-uel-a-addition">(cf.
@@ -1164,9 +1164,9 @@ This is a subsection within the preface. Editors should use
                      ueteres reficere naues accuratiusque huic rei studere atque inseruire
                      instituerunt.</seg>
                   <seg n="3">Ac tametsi amplius <!-- App entry for 12.3: CX --><app><lem
-                           source="#Manutius" xml:id="lem-12.3-CX">CX</lem><rdg wit="ω"
+                           source="#Manutius" xml:id="lem-12.3-CX">CX</lem><rdg wit="#ω"
                            xml:id="rdg-12.3-ex">ex</rdg></app> nauibus longis in portu naualibusque
-                           <!-- App entry for 12.3: miserant --><app><lem wit="ω"
+                           <!-- App entry for 12.3: miserant --><app><lem wit="#ω"
                            xml:id="lem-12.3-miserant">miserant</lem><note target="lem-12.3-miserant"
                            >(simplex post compositum)</note><rdg source="#Manutius"
                            xml:id="rdg-12.3-amiserant">amiserant</rdg></app>,
@@ -1174,11 +1174,11 @@ This is a subsection within the preface. Editors should use
                            >non</lem><rdg wit="#S #T #V" xml:id="rdg-12.3-om."/></app> tamen
                      reparandae classis cogitationem deposuerunt.</seg>
                   <seg n="4">Videbant enim non auxilia
-                           <!-- App entry for 12.4: Caesaris --><app><lem wit="ω"
+                           <!-- App entry for 12.4: Caesaris --><app><lem wit="#ω"
                            xml:id="lem-12.4-Caesaris">Caesaris</lem><note target="lem-12.4-Caesaris"
                            >(cf. BC 3.23.2)</note><rdg source="#Stephanus" xml:id="rdg-12.4-Caesari"
                            >Caesari</rdg></app>, non commeatus supportari posse, si classe ipsi
-                     ualerent; praeterea <!-- App entry for 12.4: nautici --><app><lem wit="ω"
+                     ualerent; praeterea <!-- App entry for 12.4: nautici --><app><lem wit="#ω"
                            xml:id="lem-12.4-nautici">nautici</lem><note target="lem-12.4-nautici"
                            >(cf. 16.5) </note><rdg source="#Morus" xml:id="rdg-12.4-nautici-surplus"
                               ><surplus>nautici</surplus></rdg><note
@@ -1207,7 +1207,7 @@ This is a subsection within the preface. Editors should use
                      in portu periclitati remigio quid quaeque earum efficere posset idoneos milites
                      imposuerunt seque ad confligendum omnibus rebus parauerunt.</seg>
                   <seg n="5">Caesar Rhodias naues VIIII habebat—nam decem missis una in cursu
-                           <!-- App entry for 13.5: litore --><app><lem wit="ω"
+                           <!-- App entry for 13.5: litore --><app><lem wit="#ω"
                            xml:id="lem-13.5-litore">litore</lem><note target="lem-13.5-litore">(cf.
                            BG 4.23.6) </note><rdg source="#Nipperdey"
                            xml:id="rdg-13.5-in-litore-addition"><supplied reason="lost">in
@@ -1217,7 +1217,7 @@ This is a subsection within the preface. Editors should use
                            target="rdg-13.5-sub-litore-addition">coll. BG 5.57.3</note><rdg
                            source="#Dinter" xml:id="rdg-13.5-litore-surplus"
                               ><surplus>litore</surplus></rdg></app> Aegyptio
-                           <!-- App entry for 13.5: defecerat --><app><lem wit="ω"
+                           <!-- App entry for 13.5: defecerat --><app><lem wit="#ω"
                            xml:id="lem-13.5-defecerat">defecerat</lem><note
                            target="lem-13.5-defecerat">(cf. Verg. Aen. 6.354) </note><rdg
                            source="#Oudendorp" xml:id="rdg-13.5-decesserat">decesserat</rdg><note
@@ -1238,7 +1238,7 @@ This is a subsection within the preface. Editors should use
                      Caesar Pharon classe circumuehitur aduersasque naues hostibus constituit: in
                      dextro cornu
                            <!-- App entry for 14.1: Rhodios collocat, in sinistro Ponticos. Inter hos --><app><lem
-                           wit="ω"
+                           wit="#ω"
                            xml:id="lem-14.1-Rhodios-collocat-in-sinistro-Ponticos.-Inter-hos"
                            >Rhodios collocat, in sinistro Ponticos. Inter hos</lem><note
                            target="lem-14.1-Rhodios-collocat,-in-sinistro-Ponticos.-Inter-hos">(sc.
