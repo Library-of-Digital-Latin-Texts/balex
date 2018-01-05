@@ -742,11 +742,9 @@ This is a subsection within the preface. Editors should use
       </front>
 
       <body>
-        <head>Bellum Alexandrinum</head>
          <div type="edition" xml:id="edition-text">
-           
             <div type="textpart" n="1" xml:id="part1">
-              <head></head>
+              <head>Bellum Alexandrinum</head>
                <p n="1" xml:id="p1">
                   <seg n="1" xml:id="seg-1.1">Bello Alexandrino conflato <persName ref="#Caesar"
                         >Caesar</persName>
