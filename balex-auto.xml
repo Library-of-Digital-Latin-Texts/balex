@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+            type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng"
+            type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front xml:id="front">
+         <div type="section" xml:id="preface">
+            <head>Preface</head>
+            <p>General introductory remarks about the edition.</p>
+            <div type="section" xml:id="preface-section-1">
+               <!--
+This is a subsection within the preface. Editors should use
+            subsections to organize the content of the edition's preface.
+-->
+            </div>
+         </div>
+         <div type="section" xml:id="bibliography">
+            <listWit xml:id="manuscripts">
+               <head>Manuscripts</head>
+
+               <witness xml:id="ω"><abbr type="siglum">ω</abbr>: Common source of <ref target="#μ"
+                     >μ</ref> and <ref target="ν">ν</ref>.<listWit>
+<witness xml:id="Vac"><abbr type="siglum">Vac</abbr></witness>
+                        <witness xml:id="Tac"><abbr type="siglum">Tac</abbr></witness>
+                        <witness xml:id="ed.pr."><abbr type="siglum">Ed. Pr.</abbr></witness>
+                        <witness xml:id="Mspl"><abbr type="siglum">Mspl</abbr></witness>
+                     <!-- Begin children of ω -->
+                     <witness xml:id="μ"><abbr type="siglum">μ</abbr>: Common source of <ref
+                           target="#M">M</ref> and <ref target="#U">U</ref><abbr type="siglum"
+                           >μ</abbr>: Common source of <ref target="#M">M</ref> and <ref target="#U"
+                           >U</ref>
+                        <listWit>
+
+                           <!-- Begin children of μ -->
+                           <witness xml:id="M"><abbr type="siglum">M</abbr>: Florence, BML Plut. lat
+                              68.8 (s. xii<hi rend="superscript">4</hi> or xiii<hi
+                                 rend="superscript">1</hi>)<msDesc>
+                                 <msIdentifier>
+                                    <settlement>Florence</settlement>
+                                    <repository>Biblioteca Medicea Laurenziana</repository>
+                                    <idno>Plut. lat. 68.8</idno>
+                                 </msIdentifier>
+                                 <msContents>
+                                    <p>
+                                       <list>
+                                          <item>2r–92v <bibl><title>BG</title> 1–8</bibl></item>
+                                          <item>93r-104v <bibl><title>BC</title>
+                                                  1.33.3–<title><foreign xml:lang="la">duum
+                                                  disputationibus</foreign></title> -
+                                             end</bibl></item>
+                                          <item>105r–116r <bibl><title>BC</title> 2</bibl></item>
+                                          <item>116r–133v <bibl><title>BC</title> 3</bibl></item>
+                                          <item>133v–143r <bibl><title>BAlex</title></bibl></item>
+                                          <item>143r–154v <bibl><title>BAfr</title></bibl></item>
+                                          <item>154v–156v <bibl><title>BHisp</title> 1.1–22.5
+                                                  <foreign xml:lang="la">petiit
+                                             ab</foreign></bibl></item>
+                                          <item>157v–163v <bibl><title>BHisp</title> 22.6–end in a
+                                                later hand.</bibl></item>
+                                       </list></p>
+                                    <p/>
+                                 </msContents>
+                                 <physDesc>
+                                    <objectDesc>
+                                       <p>Parchment : 334 × 245mm : one column per page.</p>
+                                       <p>Gatherings from two phases. Those from tenth to eleventh
+                                          centuries have 29 lines each. Pages from the twelfth
+                                          century have around 35 lines per page, with about 90–100
+                                          letters per line.</p>
+                                    </objectDesc>
+                                    <handDesc hands="2">
+                                       <handNote xml:id="Mc"><abbr type="siglum">M<hi
+                                                rend="superscript">c</hi></abbr>: Corrections by the
+                                          original scribe, who usually recovers the reading of the
+                                          exemplar. </handNote>
+                                       <handNote xml:id="Mmr"><abbr type="siglum">M<hi
+                                                rend="superscript">mr</hi></abbr>: Corrections by
+                                          one or more later hands, sometimes recovering the
+                                          exemplar, somethings not</handNote>
+                                       <handNote xml:id="M8"><abbr type="siglum">M*</abbr>:
+                                          ???</handNote>
+                                       <!-- What to do about M* ? -->
+                                    </handDesc>
+                                 </physDesc>
+                                 <history>
+                                    <origin>
+                                       <p>Folios 2–117, 125–32, 157–63 from the <origDate
+                                             notBefore="0899" notAfter="1100">tenth or eleventh
+                                             centuries</origDate>. Folios 117–24 and 133–56 from the
+                                             <origDate notBefore="1199" notAfter="1300">twelfth
+                                             century</origDate>.</p>
+                                    </origin>
+                                    <provenance>
+                                       <p>Italy</p>
+                                    </provenance>
+                                 </history>
+                                 <additional>
+                                    <surrogates>
+                                       <ptr type="url"
+                                          target="http://teca.bmlonline.it/ImageViewer/servlet/ImageViewer?idr=TECA0000807118#page/1/mode/1up"
+                                       />
+                                    </surrogates>
+                                 </additional>
+                              </msDesc></witness>
+                           <!-- End witness M -->
+
+                           <!-- Begin witness U -->
+                           <witness xml:id="U"><abbr type="siglum">U</abbr>: Vatican, BAV Vat. lat.
+                              3324 (s. xi<hi rend="superscript">4</hi> or xii<hi rend="superscript"
+                                 >1</hi>)<msDesc>
+                                 <msIdentifier>
+                                    <settlement>Vatican City</settlement>
+                                    <repository>Biblioteca Apostolica Vaticana</repository>
+                                    <idno>Vaticanus lat. 3324</idno>
+                                 </msIdentifier>
+                                 <msContents>
+                                    <p>Fourteen books of the <bibl><title>corpus
+                                          Caesarianum</title></bibl> on ff. 1–111. The remaining
+                                       three leaves contain miscellaneous texts and musical
+                                       notation.</p>
+                                    <p>
+                                       <list>
+                                          <item>1r–55r <bibl><title>BG</title> 1–8</bibl></item>
+                                          <item>55r–65r <bibl><title>BC</title> 1</bibl></item>
+                                          <item>65r–71v <bibl><title>BC</title> 2</bibl></item>
+                                          <item>71v–85r <bibl><title>BC</title> 3</bibl></item>
+                                          <item>85r–95r <bibl><title>BAlex</title></bibl></item>
+                                          <item>95r–106v <bibl><title>BAfr</title></bibl></item>
+                                          <item>106v–110v <bibl><title>BHisp</title></bibl></item>
+                                          <item>111r–v End of <bibl><title>BHisp.</title></bibl> in
+                                             a later hand</item>
+                                       </list>
+                                    </p>
+                                 </msContents>
+                                 <physDesc>
+                                    <objectDesc>
+                                       <p>Parchment : 284 × 192mm : one column per page : about 40
+                                          lines per page : about 75–80 letters per line.</p>
+                                       <p>For more information about this manuscript, see <ref
+                                             target="#Brown">Brown</ref> 83; <ref
+                                             target="#Damon2015">Damon (2015)</ref> xxxiv–xli; <ref
+                                             target="#MunkOlsen">Munk Olsen</ref> 40.</p>
+                                    </objectDesc>
+                                    <handDesc>
+                                       <handNote xml:id="Uc"><abbr type="siglum">U<hi
+                                                rend="superscript">c</hi></abbr>: Corrections by the
+                                          original scribe or a close contemporary.</handNote>
+                                    </handDesc>
+                                 </physDesc>
+                                 <history>
+                                    <origin>Late <origDate notBefore="1075" notAfter="1200">eleventh
+                                          or early twelfth century</origDate></origin>
+                                 </history>
+                              </msDesc>
+                           </witness>
+                           <!-- End witness U -->
+                        </listWit>
+                        <!-- End of children of μ -->
+                     </witness>
+                     <!-- End of Family μ -->
+
+                     <!-- Begin Family ν -->
+                     <witness xml:id="ν"><abbr type="siglum">ν</abbr>: Common source of <ref
+                           target="#S">S</ref> and <ref target="#π">π</ref>
+                        <!-- Begin children of ν -->
+                        <listWit>
+                           <!-- Begin witness S -->
+                           <witness xml:id="S"><abbr type="siglum">S</abbr>: Florence, BML
+                              Ashburnham 33 (s. x<hi rend="superscript">2–3</hi>)<msDesc>
+                                 <msIdentifier>
+                                    <settlement>Florence</settlement>
+                                    <repository>Biblioteca Medicea Laurenziana</repository>
+                                    <idno>Ashburnhamensis 33</idno>
+                                 </msIdentifier>
+                                 <msContents>
+                                    <p>Contains the fourteen book of the <bibl><title>corpus
+                                             Caesarianum</title></bibl> on ff. 1–161.</p>
+                                    <p>
+                                       <list>
+                                          <item>1r–73v <bibl><title>BG</title> 1.30.1 <foreign
+                                                  xml:lang="la">bello
+                                             heueticorum</foreign>–8</bibl></item>
+                                          <item>74r–90r <bibl><title>BC</title> 1,1,1–1.79.4
+                                                  <foreign xml:lang="la">incitati
+                                                cursu</foreign></bibl></item>
+                                          <item>90r–102v <bibl><title>BC</title> 2.19.3
+                                                vigiliasque–3.43.2 pompeium instituit</bibl></item>
+                                          <item>103r–108v <bibl><title>BC</title> 1.79.4 <foreign
+                                                  xml:lang="la">sese in ualles</foreign> – 2.18.6
+                                                  <foreign xml:lang="la">rebus
+                                                faue-</foreign></bibl></item>
+                                          <item>109r–121r<bibl><title>BC</title> 3.48.2 <foreign
+                                                  xml:lang="la">ut spem eorum</foreign> –
+                                             end</bibl></item>
+                                          <item><bibl>BAlex<title/></bibl></item>
+                                          <item><bibl><title>BAfr</title></bibl></item>
+                                          <item><bibl><title>BHisp</title></bibl></item>
+                                       </list>
+                                    </p>
+                                 </msContents>
+                                 <physDesc>
+                                    <objectDesc>
+                                       <p>Parchment : 270 × 220mm : one column per page.</p>
+                                       <p>For more information on this manuscript, see <ref
+                                             target="#Hering">Hering</ref> 12–13 and 80–4; <ref
+                                             target="#Brown">Brown</ref> 84–5; <ref
+                                             target="#MunkOlsen">Munk Olsen</ref> 38–9; <ref
+                                             target="#Rostagno">Rostagno</ref> passim; <ref
+                                             target="#Jax">Jax</ref> passim; <ref
+                                             target="#Damon2015">Damon (2015)</ref> xlvii–liii.</p>
+                                    </objectDesc>
+                                    <handDesc>
+                                       <handNote xml:id="Sc"><abbr type="siglum">S<hi
+                                                rend="superscript">c</hi></abbr>: Corrections made
+                                          by the original scribe or a close contemporary.
+                                       </handNote>
+                                    </handDesc>
+                                 </physDesc>
+                                 <history>
+                                    <origin>
+                                       <p><origDate notBefore="0925" notAfter="0975">Middle of the
+                                             tenth century</origDate>.</p>
+                                    </origin>
+                                 </history>
+                              </msDesc>
+                           </witness>
+
+                           <!-- Begin witness π -->
+                           <witness xml:id="π"><abbr type="siglum">π</abbr>: Common source of <ref
+                                 target="#T">T</ref> and <ref target="V">V</ref>. <!-- Begin children of π -->
+                              <listWit>
+                                 <!-- Begin T -->
+                                 <witness xml:id="T"><abbr type="siglum">T</abbr>: Paris, BNF lat.
+                                    5764 (s. xi<hi rend="superscript">3–4</hi>)<msDesc>
+                                       <msIdentifier>
+                                          <settlement>Paris</settlement>
+                                          <repository>Bibliothèque Nationale</repository>
+                                          <idno>lat. 5764</idno>
+                                       </msIdentifier>
+                                       <msContents>
+                                          <p>Contains the fourteen book of the <bibl><title>corpus
+                                                  Caesarianum</title></bibl> on ff. 1–159.</p>
+                                       </msContents>
+                                       <physDesc>
+                                          <!-- groups information about the manuscript. -->
+                                          <objectDesc>
+                                             <p>Parchment : about 345 × 235mm : two column per page
+                                                : roughly thirty lines per page : each line about
+                                                30–5 letters.</p>
+                                             <p>For more information about this manuscript, see <ref
+                                                  target="#Hering">Hering</ref> 38–40; <ref
+                                                  target="#Brown">Brown</ref> 85–6; <ref
+                                                  target="#MunkOlsen">Munk Olsen</ref> 44.</p>
+                                          </objectDesc>
+                                          <handDesc>
+                                             <handNote xml:id="Tc"><abbr type="siglum">T<hi
+                                                  rend="superscript">c</hi></abbr>: Corrections made
+                                                by the original scribe or a close contemporary.
+                                             </handNote>
+                                          </handDesc>
+                                       </physDesc>
+                                       <history>
+                                          <origin>
+                                             <p><origDate notBefore="1050" notAfter="1100">Second
+                                                  half of the eleventh century.</origDate></p>
+                                          </origin>
+                                       </history>
+                                       <additional>
+                                          <surrogates>
+                                             <ptr type="url"
+                                                target="http://gallica.bnf.fr/ark:/12148/btv1b10542010c"
+                                             />
+                                          </surrogates>
+                                       </additional>
+                                    </msDesc>
+                                 </witness>
+                                 <!-- End witness T -->
+
+                                 <!-- Begin witness V -->
+                                 <witness xml:id="V"><abbr type="siglum">V</abbr>: Vienna, ÖN 95 (s. xii)<msDesc>
+                                       <msIdentifier>
+                                          <settlement>Vienna</settlement>
+                                          <repository>Österreichische
+                                             Nationalbibliothek</repository>
+                                          <idno>95</idno>
+                                       </msIdentifier>
+                                       <msContents>
+                                          <p>Contains the fourteen book of the <bibl><title>corpus
+                                                  Caesarianum</title></bibl> on ff. 2–182.</p>
+                                       </msContents>
+                                       <physDesc>
+                                          <objectDesc>
+                                             <p>Parchment : 281 × 190mm : two columns per page : 34
+                                                lines per column : 29–33 letters per line.</p>
+                                          </objectDesc>
+                                          <handDesc>
+                                             <handNote xml:id="Vc"><abbr type="siglum">V<hi
+                                                  rend="superscript">c</hi></abbr>: Corrections made
+                                                by the original scribe or a close contemporary.
+                                             </handNote>
+                                          </handDesc>
+                                       </physDesc>
+                                       <history>
+                                          <origin>
+                                             <p><origDate notBefore="1100" notAfter="1200">Twelfth
+                                                  century</origDate></p>
+                                          </origin>
+                                       </history>
+                                       <additional>
+                                          <surrogates>
+                                             <ptr type="url" target="http://some-url"/>
+                                          </surrogates>
+                                       </additional>
+                                    </msDesc></witness>
+                                 <!-- End witness V -->
+                              </listWit></witness>
+                        </listWit><!-- End of children of ν -->
+                     </witness>
+                     <!-- End of witness ν -->
+
+                     <!-- Begin occasionally cited MSS -->
+                     <listWit>
+                        <head>Occasionally cited</head>
+                        <witness xml:id="m"><abbr type="siglum">m</abbr>: Florence, BML Plut. lat.
+                           68.6 (s. xii<hi rend="superscript">4</hi> or xiii<hi rend="superscript"
+                              >1</hi>, cited where <ref target="#M">M</ref> is missing.</witness>
+                        <witness xml:id="N"><abbr type="siglum">N</abbr>: Naples, BN IV.C.11 (s.
+                           xi), cited where <ref target="#S">S</ref> is lacunose.</witness>
+                        <witness xml:id="Vall."><abbr type="siglum">Vall.</abbr>: Rome, Bibl.
+                           Vallicelliana B. 45 (c. 1100), cited where <ref target="#m">m</ref> is
+                           illegible</witness>
+                        <witness xml:id="Ϛ"><abbr type="siglum">ϛ</abbr>: A reading found in one or
+                           more later manuscripts.</witness>
+                     </listWit>
+                     <!-- End list of occasionally cited MSS -->
+                  </listWit>
+                  <!-- End of list of children of ω -->
+               </witness>
+               <!-- End of witness ω -->
+               <!-- Need more information here -->
+            </listWit>
+            <!-- End of Manuscripts -->
+
+            <listWit xml:id="early-editions">
+               <head>Early Editions</head>
+               <witness xml:id="edprin"><abbr type="siglum">ed. pr.</abbr>: <bibl><editor>G.
+                        Bussi</editor>, ed. <pubPlace>Romae</pubPlace>: <publisher>In domo Petri de
+                        Maximis [= Sweynheym and Pannartz]</publisher>. <date>12 May
+                     1469</date>.URL: <ptr
+                        target="http://daten.digitale-sammlungen.de/~db/0006/bsb00064880/images/"
+                     /></bibl></witness>
+
+               <witness xml:id="Aldus"><abbr type="siglum">Aldus</abbr>:<bibl><editor>G.
+                        Giocondo</editor>, ed. <pubPlace>Venice</pubPlace>.
+                     <date>1513</date>.</bibl></witness>
+
+               <witness xml:id="Beroaldus"><abbr type="siglum">Beroaldus</abbr>: <bibl><editor>P.
+                        Beroaldus</editor>, ed. <title>Caii Iulii Caesaris commentarios Belli
+                        Gallici, Ciuilis Pompeiani, Alexandrini, Africi, ac Hispaniensis</title>.
+                        <pubPlace>Bologna</pubPlace>. <date>1504</date>. URL: <ptr
+                        target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10140427_00001.html"
+                     /></bibl></witness>
+            </listWit>
+            <!-- End bibliography of early editions -->
+
+            <!-- Begin bibliography of modern editions -->
+
+            <!-- Need to find URL's for these -->
+            <listBibl xml:id="modern-editions">
+               <head>Modern Editions</head>
+               <bibl xml:id="Andrieu"><abbr type="siglum">Andrieu</abbr>: <editor>J.
+                     Andrieu</editor>, ed. <title>Pseudo-César, Guerre d'Alexandrie</title>.
+                     <pubPlace>Paris</pubPlace>. <date>1954</date>.</bibl>
+
+               <bibl xml:id="Bentley"><abbr type="siglum">Bentley</abbr><editor>T. Bentley</editor>,
+                  ed. <title>Caii Julii Caesaris de bello gallico et ciuili nec non A. Hirtii
+                     aliorumque de bellis Alexandrino, Africano, et Hispaniensi commentarii</title>.
+                  Notas et animaduersiones addidit Tho. Bentleius. Accessere conjecturae et
+                  emendationes Jacobi Jurini. <pubPlace>London</pubPlace>. <date>1742</date>.</bibl>
+
+               <bibl xml:id="Dauisius1706"><abbr type="siglum">Dauisius 1706</abbr>: <editor>J.
+                     Davies</editor>, ed. <title>C. Julii Caesaris quae exstant omnia ... cum
+                     eiusdem animadversionibus ac notis Pet. Ciacconii, Fr. Hotomanni, Joan.
+                     Brantii, Dionys. Vossii et aliorum</title>. <pubPlace>Cambridge</pubPlace>.
+                     <date>1706</date>. URL: <ptr
+                     target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10217527_00001.html"
+                  /></bibl>
+
+               <bibl xml:id="Dauisius1727"><abbr type="siglum">Davies</abbr>: <editor>J.
+                     Davies</editor>, ed. <title>C. Julii Caesaris et Auli Hirtii quae exstant omnia
+                     recensuit ac selectis ... aliorum notis suas addidit Joannes Davisius; accedunt
+                     ejusdem secundae curae necnon metaphrasis graeca librorum VII de bello
+                     gallico</title>. <pubPlace>Cambridge</pubPlace>. <date>1727</date>.</bibl>
+
+               <bibl xml:id="Dinter"><abbr type="siglum">Dinter</abbr>: <editor>B. Dinter</editor>,
+                  ed. <title>C. Iuli Caesaris commentarii cum A. Hirti aliorumque supplementis .
+                     III: C. Iuli Caesaris commentarii commentarii de bello Alexandrino, Africano,
+                     Hispaniensi. Caesaris Hirtiique fragmenta</title>.
+                  <pubPlace>Leipzig</pubPlace>. <date>1887</date>. URL: <ptr
+                     target="https://books.google.com/books?id=luswAQAAMAAJ&amp;pg=PT4#v=onepage&amp;q&amp;f=false"
+                  /></bibl>
+
+               <bibl xml:id="Dübner"><abbr type="siglum">Dübner</abbr>: <editor>F. Dübner</editor>,
+                  ed. <title>C. Julii Caesaris commentarii de bellis Gallico et civili, aliorum, de
+                     bellis Alexandrino, Africano et Hispaniensi. Tomus secundus</title>.
+                     <pubPlace>Paris</pubPlace>. <date>1867</date>. URL: <ptr
+                     target="https://archive.org/details/commentariidebel02caesuoft"/></bibl>
+
+               <bibl xml:id="Fischer"><abbr type="siglum">Fischer</abbr> = <author>Fischer,
+                     Eduard</author>. <title>Das achte Buch vom Gallischem Kriege und das Bellum
+                     Alexandrinum: Eine Studie</title>. <pubPlace>Passau</pubPlace>.
+                     <date>1880</date>.</bibl>
+
+               <bibl xml:id="Fleischer"><abbr type="siglum">Fleischer</abbr> = <author>Fleischer,
+                     Curt</author>. "<title level="a">Zu Caesar und seinen Fortsetzern</title>."
+                     <title level="j">Neue Jahrbücher für Philologie und Pädagogik</title>
+                  <biblScope unit="volume">119</biblScope> (<date>1879</date>) <biblScope
+                     unit="page">849–67</biblScope>.</bibl>
+
+               <bibl xml:id="Hoffmann"><abbr type="siglum">Hoffmann</abbr>: <editor>E.
+                     Hoffmann</editor>, ed. <title>C. Iulii Caesaris commentarii cum supplementis A.
+                     Hirtii et aliorum. Vol. II: Commentarii de bello ciuili. Accedunt commentarii
+                     de bello Alexandrino, Africano, Hispaniensi</title>. New edition.
+                     <pubPlace>Vienna</pubPlace>. <date>1890</date>. URL: <ptr
+                     target="https://archive.org/details/ciuliicaesarisc02hoffgoog"/></bibl>
+
+               <bibl xml:id="Klotz1927"><abbr type="siglum">Klotz</abbr>: <editor>A. Klotz</editor>,
+                  ed. <title>C. Iulii Caesaris commentarii. Vol. III: Bellum Alexandrinum, Bellum
+                     Africum, Bellum Hispaniense, Fragmenta</title>. <pubPlace>Leipzig</pubPlace>.
+                     <date>1927</date>.</bibl>
+
+               <bibl xml:id="Kraner"><abbr type="siglum">Kraner</abbr>: <editor>F. Kraner</editor>,
+                  ed.  <title>C. Iulii Caesaris commentarii cum supplementis A. Hirtii et
+                     aliorum</title>.  Editio stereotypa. <pubPlace>Leipzig</pubPlace>.
+                     <date>1861</date>. </bibl>
+
+               <bibl xml:id="Kübler"><abbr type="siglum">Kübler</abbr>: <editor>B. Kübler</editor>,
+                  ed. <title>C Iulii Caesaris commentarii. Vol. III: Commentarius de bello
+                     Alexandrino</title>. <pubPlace>Leipzig</pubPlace>:
+                     <publisher>Teubner</publisher>, <date>1894</date>.<ptr
+                     target="https://archive.org/details/commentarii03caesuoft"/></bibl>
+
+               <bibl xml:id="Lipsius"><abbr type="siglum">Lipsius</abbr>: <editor>J.
+                     Lipsius</editor>, ed. <title>C. Iulii Caesaris commentarii ... eiusdem ...
+                     fragmenta</title>. <pubPlace>Antwerp</pubPlace>. <date>1586</date>. URL: <ptr
+                     target="https://books.google.com/books?id=6BYsAQAAMAAJ&amp;pg=PP1#v=onepage&amp;q&amp;f=false"
+                  /></bibl>
+
+               <bibl xml:id="Manutius"><abbr type="siglum">Manutius</abbr>: <editor>Aldus
+                     Manutius</editor>, ed. <title>C. Iulii Caesaris commentarii ab Aldo Manutio
+                     Paulli filio Aldi nepote emendati et scholiis illustrati</title>.
+                     <pubPlace>Venice</pubPlace>. <date>1597</date>. (First edition 1571.)</bibl>
+
+               <!-- Start searching for URL's here -->
+
+               <bibl xml:id="Morus"><abbr type="siglum">Morus</abbr>: <editor>S. F. N.
+                     Morus</editor>, ed. <title>C. Iulii Caesaris commentarii de bello Gallico et
+                     civili; accedunt libri de bello Alexandrino Africano et Hispaniensi e
+                     recensione Francisci Oudendorpii; curavit editionem Sam. Fr. Nathan.
+                     Morus</title>. <pubPlace>Leipzig</pubPlace>. <date>1780</date>.</bibl>
+
+               <bibl xml:id="Oehler"><abbr type="siglum">Oehler</abbr>: <editor>F. Oehler</editor>,
+                  ed. <title>C. Iulii Caesaris commentarii cum supplementis A. Hirtii et
+                     aliorum</title>. <pubPlace>Leipzig</pubPlace>. <date>1852</date>.</bibl>
+
+               <bibl xml:id="Oudendorp"><abbr type="siglum">Oudendorp</abbr>: <editor>F.
+                     Oudendorp</editor>, ed., <title>C. Julii Caesaris De bellis gallico et civili
+                     pompejano; nec non A. Hirtii aliorumque de bellis Alexandrino, Africano et
+                     Hispaniensi commentarii ad MSStorum fidem expressi, cum integris notis Dionysii
+                     Vossii, Joannis Davisii et Samuelis Clarkii cura et studio Francisci
+                     Oudendorpii qui suas animadversiones ac varias lectiones adjecit</title>.
+                     <pubPlace>Leiden</pubPlace>. <date>1737</date>.</bibl>
+
+               <bibl xml:id="Nipperdey"><abbr type="siglum">Nipperdey</abbr>: <editor>K.
+                     Nipperdey</editor>, ed. <title>C. Iulii Caesaris commentarii</title>.
+                     <pubPlace>Leipzig</pubPlace>. <date>1847</date>.</bibl>
+
+               <bibl xml:id="Scaliger"><abbr type="siglum">Scaliger</abbr>: <editor>J.
+                     Scaliger</editor>, ed. <title>C. Iulii Caesaris quae extant</title>.
+                     <pubPlace>Amsterdam</pubPlace>. <date>1661</date>. (First edition 1635.)</bibl>
+
+               <bibl xml:id="Schneider"><abbr type="siglum">Schneider</abbr>: <editor>R.
+                     Schneider</editor>, ed. <title>Bellum Alexandrinum</title>.
+                     <pubPlace>Berlin</pubPlace>. <date>1888</date>.</bibl>
+
+               <bibl xml:id="Stephanus"><abbr type="siglum">Stephanus</abbr>: <editor>R.
+                     Estienne</editor>, ed. <title>C. Iulii Caesaris rerum ab se gestarum
+                     comentarii</title>. <pubPlace>Paris</pubPlace>. <date>1544</date>.</bibl>
+
+               <bibl xml:id="Ursinus"><abbr type="siglum">Ursinus</abbr>: <editor>F.
+                  Orsini</editor>, ed. <title>C. Iulii Caesaris commentarii novis emendationibus
+                     illustrati ... ejusdem fragmenta ... ex bibliotheca Fulvii Ursini</title>.
+                     <pubPlace>Antwerp</pubPlace>. <date>1595</date>.</bibl>
+
+               <bibl xml:id="Vascosanus"><abbr type="siglum">Vascosanus</abbr>: <editor>M.
+                     Vascosanus</editor>, ed. <pubPlace>Paris</pubPlace>. <date>1543</date>.</bibl>
+            </listBibl>
+            <!-- End bibliography for modern editions -->
+
+            <!-- Begin bibliography of secondary sources -->
+            <listBibl xml:id="secondary-sources">
+               <head>Secondary Sources</head>
+               <bibl xml:id="Austin"><abbr type="siglum">Austin</abbr> = <author>Austin,
+                     R.G.</author>
+                  <title>P. Vergili Maronis Aeneidos Liber Sextus</title>.
+                     <pubPlace>Oxford</pubPlace>. <date>1986</date>.</bibl>
+
+               <bibl xml:id="Barwick"><abbr type="siglum">Barwick</abbr> = Barwick, K.
+                     <title>Caesars Commentarii und das Corpus Caesarianum</title>.
+                     <pubPlace>Leipzig</pubPlace>. <date>1938</date>.</bibl>
+
+               <bibl xml:id="Brown"><abbr type="siglum">Brown</abbr> = <author>Brown,
+                     Virginia</author>. <title>The Textual Transmission of Caesar's Civil
+                     War</title>. <pubPlace>Leiden</pubPlace>: <publisher>Brill</publisher>
+                  <date>1972</date>, p. 83.</bibl>
+
+               <bibl xml:id="Castiglioni"><abbr type="siglum">Castiglioni</abbr> =
+                     <author>Castiglioni, L.</author> "<title level="a">Intorno a Cesare ed ai suoi
+                     continuatori (Bellum Civile, Africanum, Alexandrinum</title>)." <title
+                     level="j">Athenaeum</title> n.s. <biblScope unit="volume">11</biblScope>
+                     (<date>1924</date>) <biblScope unit="page">229-40</biblScope>.</bibl>
+
+               <bibl xml:id="Cornelissen"><abbr type="siglum">Cornelissen</abbr> =
+                     <author>Cornelissen, J. J.</author> "<title level="a">Adversaria
+                     critica</title>." <title level="j">Mnemosyne</title>
+                  <biblScope unit="volume">17</biblScope> (<date>1889</date>) <biblScope unit="page"
+                     >44–55</biblScope>.</bibl>
+
+               <bibl xml:id="Damon2015"><abbr type="siglum">Damon 2015</abbr> = <editor>Damon,
+                     C.</editor>
+                  <title>C. Iuli Caesaris Commentariorum Libri III De Bello Civili</title>.
+                     <pubPlace>Oxford</pubPlace>: <publisher>Clarendon Press</publisher>,
+                     <date>2015</date>, pp. xxxiv–xli.</bibl>
+
+               <bibl xml:id="Forchhammer"><abbr type="siglum">Forchhammer</abbr> =
+                     <author>Forchhammer, J. N. G.</author>
+                  <title level="m">Quaestiones criticae de vera commentarios de bellis civili,
+                     Alexandrino, Africano, Hispaniensi emendandi ratione</title>.
+                     <pubPlace>Copenhagen</pubPlace>. <date>1852</date>.</bibl>
+
+               <bibl xml:id="Gaertner-Hausburg"><abbr type="siglum">Gaertner-Hausburg</abbr> =
+                     <author>Gaertner, J. F.</author>, and <author>B. Hausburg</author>. <title
+                     level="m">Caesar and the Bellum Alexandrinum: An analysis of style, narrative
+                     technique, and the reception of Greek historiography</title>. <title level="j"
+                     >Hypomnemata</title>
+                  <biblScope unit="volume">192</biblScope>. <pubPlace>Göttingen</pubPlace>.
+                     <date>2013</date>.</bibl>
+
+               <bibl xml:id="Gemoll"><abbr type="siglum">Gemoll</abbr> = <author>Gemoll, W.</author>
+                     "<title level="a">Zu Caesar und seinen Fortsetzern</title>." <title level="j"
+                     >Jahrbücher für klassische Philologie</title>
+                  <biblScope unit="volume">119</biblScope> (<date>1879</date>) <biblScope
+                     unit="page">267–70</biblScope>.</bibl>
+
+               <bibl xml:id="Hedicke"><abbr type="siglum">Hedicke</abbr> = <author>Hedicke,
+                     Edmundus</author>. “<title level="a">Scholia in Caesarem et Sallustium (Varia
+                     II)</title>.” <title level="j">Programm des königlichen Gymnasiums zu
+                     Quedlinburg</title> (<date>1879</date>) <biblScope unit="page"
+                  >9–18</biblScope>.</bibl>
+
+               <bibl xml:id="Hering"><author>Hering, Wolfgang</author>
+                  <title>Die Recensio der Caesarhandschriften</title>. <pubPlace>Berlin</pubPlace>:
+                     <publisher>Akademie-Verlag</publisher>, <date>1963</date>.</bibl>
+
+               <bibl xml:id="Jax"><abbr type="siglum">Jax</abbr> = <author>Jax, Karl</author>
+                     “<title level="a">Di Stellung der Handschriften <hi rend="italic">S</hi> und
+                        <hi rend="italic">L</hi> in der Caesarüberlieferung</title>.” <title
+                     level="j">Wiener Studien</title>
+                  <biblScope unit="volume">52</biblScope> (<date>1934</date>): <biblScope
+                     unit="page">95–105</biblScope>.</bibl>
+
+               <bibl xml:id="Kraffert"><abbr type="siglum">Kraffert</abbr> = <author>Kraffert,
+                     Hermann</author>. <title level="m">Beiträge zur Kritik und Erklärung
+                     lateinischer Autoren</title>. <pubPlace>Aurich</pubPlace>.
+                  <date>1882</date>.</bibl>
+
+               <bibl xml:id="Landgraf"><abbr type="siglum">Landgraf 1888</abbr> = <author>Landgraf,
+                     G</author>. <title>Untersuchungen zu Caesar und seinen Fortsetzern insbesondere
+                     über Autorschaft und Komposition des Bellum Alexandrinum und Africanum</title>.
+                     <pubPlace>Erlangen</pubPlace>. <date>1888</date>. URL: <ptr
+                     target="https://archive.org/details/untersuchungenzu00landuoft"/></bibl>
+
+               <bibl xml:id="Larsen"><abbr type="siglum">Larsen</abbr> = <author>Larsen, Sophus
+                     C.</author>
+                  <title level="m">Studia in libellum incerti auctoris de bello Alexandrino</title>.
+                     <pubPlace>Copenhagen</pubPlace>. <date>1886</date>.</bibl>
+
+               <bibl xml:id="Madvig"><abbr type="siglum">Madvig</abbr> = <author>Madvig, J.
+                     N.</author> "<title level="a">Capitulum III: Caesar, Sallustius.</title>" In
+                     <title level="s">Adversaria critica ad scriptores graecos et latinos</title>.
+                  Vol. <biblScope unit="volume">2</biblScope>: <title level="m">Emendationes
+                     latinae</title>. <pubPlace>Copenhagen</pubPlace>. <date>1873</date>. <biblScope
+                     unit="page">281-85</biblScope>.</bibl>
+
+               <bibl xml:id="Mitchell"><abbr type="siglum">Mitchell</abbr> = <author>Mitchell,
+                     S.</author> "<title level="a">The treaty between Rome and Lycia of 46 BC
+                     (MS2070).</title>" In R. Pintaudi, ed., <title level="s">Papyri graecae Schøyen
+                     (P. Schøyen I)</title>. <pubPlace>Florence</pubPlace>. <date>2005</date>.
+                     <biblScope unit="page">161–259</biblScope>.</bibl>
+
+               <bibl xml:id="Mueller"><abbr type="siglum">Mueller</abbr> = <author>Müller, H.
+                     J.</author> Footnote to a Nachtrag on <ref target="#Schneider">Schneider</ref>
+                  (1888). <title level="j">Jahresberichte des philologischen Vereins zu
+                     Berlin</title>
+                  <biblScope unit="volume">14</biblScope> (<date>1888</date>) <biblScope unit="page"
+                     >348</biblScope>. </bibl>
+
+               <bibl xml:id="MunkOlsen"><author>Munk Olsen, B.</author>
+                  <title>L'étude des auteurs classiques latins aux XIe et XIIe siècles. Tome I:
+                     Catalogue des manuscrits classiques latins copiés du IXe au XIIe siècle:
+                     Apicius–Juvénal.</title>
+                  <pubPlace>Paris</pubPlace>: <publisher>CNRS</publisher>, <date>1982</date>, p.
+                  40.</bibl>
+
+               <bibl xml:id="Rice-Holmes"><abbr type="siglum">Rice Holmes</abbr> = <author>Rice
+                     Holmes, T.</author>
+                  <title>The Roman Republic and the Founder of the Empire</title> Vol. <biblScope
+                     unit="volume">3</biblScope>, <pubPlace>Oxford</pubPlace>.
+                  <date>1923</date>.</bibl>
+
+               <bibl xml:id="Rostagno"><author>Rostagno, Enrico</author> “<title level="a">Il libro
+                     de Bello Africo nel cod. Laurenziano-Ashb. n. 33</title>.” <title level="j"
+                     >Studi italiani di filologia classica</title>
+                  <biblScope unit="volume">2</biblScope> (<date>1894)</date>: <biblScope unit="page"
+                     >321–9</biblScope>.</bibl>
+
+               <bibl xml:id="Schambach"><abbr type="siglum">Schambach</abbr> = <author>Schambach,
+                     Otfried</author>. "<title level="a">Zu Caesar und seinen Fortsetzern</title>."
+                     <title level="j">Jahrbücher für klassische Philologie</title>
+                  <biblScope unit="volume">119</biblScope> (<date>1879</date>) <biblScope
+                     unit="page">867–70</biblScope> and <biblScope unit="volume">125</biblScope>
+                     (<date>1882</date>) <biblScope unit="page">215–24</biblScope>.</bibl>
+
+               <bibl xml:id="Townend"><abbr type="siglum">Townend</abbr> = <author>Townend,
+                     G.</author>
+                  <title>Caesar's War in Alexandria</title>, <pubPlace>Bristol</pubPlace>.
+                     <date>1988</date>.</bibl>
+
+               <bibl xml:id="West"><abbr type="siglum">West</abbr> = <author>West, M.L.</author>
+                  <title>Textual Criticism and Editorial Technique</title>.
+                     <pubPlace>Stuttgart</pubPlace>: <date>1973</date>.</bibl>
+            </listBibl>
+            <listPerson>
+               <head>List of People Cited by Name</head>
+               <person xml:id="Atkins">
+                  <persName><abbr type="siglum">Atkins</abbr> = Adrienne Atkins. Member of the Latin
+                     540 class (spring 2015).</persName>
+               </person>
+               <person xml:id="Callaghan">
+                  <persName><abbr type="siglum">Callaghan</abbr> = Greg Callaghan</persName>
+                  <note>Member of the Latin 540 class (spring 2015)</note>
+               </person>
+               <person xml:id="Ciacconius" corresp="http://viaf.org/viaf/73950642">
+                  <persName><abbr type="siglum">Ciacconius</abbr> = Petrus Ciacconius (see <ref
+                        target="#Dauisius1706">Dauisius 1706</ref>)</persName>
+               </person>
+               <person xml:id="Clarke" corresp="http://viaf.org/viaf/46768940">
+                  <persName><abbr type="siglum">Clarke</abbr> = Samuel Clarke</persName>
+                  <note>Cited in <ref target="#Oudendorp">Oudendorp</ref></note>
+               </person>
+               <person xml:id="Damon" corresp="http://viaf.org/viaf/116523553">
+                  <persName><abbr type="siglum">Damon</abbr> = Cynthia Damon</persName>
+                  <note>Conjectures proposed by the editor of this edition.</note>
+               </person>
+               <person xml:id="Faernus" corresp=" http://viaf.org/viaf/88354857">
+                  <persName><abbr type="siglum">Faernus</abbr> = Faerno, Gabriello</persName>
+                  <note>Cited by <ref target="#Klotz">Klotz</ref>.</note>
+               </person>
+               <person xml:id="Gruterus" corresp="http://viaf.org/viaf/61599137">
+                  <persName><abbr type="siglum">Gruterus</abbr> = Janus Gruterus</persName>
+                  <note>Cited in <ref target="#Oudendorp">Oudendorp</ref></note>
+               </person>
+               <person xml:id="Haupt" corresp="http://viaf.org/viaf/36998303">
+                  <persName><abbr type="Haupt">Haupt</abbr> = Moriz Haupt</persName>
+                  <note>Cited in <ref target="#Nipperdey">Nipperdey</ref>.</note>
+               </person>
+               <person xml:id="Jurinius">
+                  <persName><abbr type="siglum">Jurinius</abbr> = Jurinius</persName>
+                  <note>See <ref target="#Bentley">T. Bentley</ref></note>
+               </person>
+               <person xml:id="Khan">
+                  <persName><abbr type="siglum">Khan</abbr> = Scheherazade Khan</persName>
+                  <note>Member of the Latin 540 class (spring 2015).</note>
+               </person>
+               <person xml:id="Lewis">
+                  <persName><abbr type="siglum">Lewis</abbr> = Amy Lewis</persName>
+                  <note>Member of the Latin 540 class (spring 2015)</note>
+               </person>
+               <person xml:id="Persyn">
+                  <persName><abbr type="siglum">Persyn</abbr> = Marcie Persyn</persName>
+                  <note>Member of the Latin 540 class (spring 2015).</note>
+               </person>
+               <person xml:id="Siesbye" corresp="http://viaf.org/viaf/289411596">
+                  <persName><abbr type="siglum">Siesbye</abbr> = Oskar Siesbye (see <ref
+                        target="#Larsen">Larsen</ref></persName>
+               </person>
+               <person xml:id="Simons">
+                  <persName><abbr type="siglum">Simons</abbr> = Dallas Simons</persName>
+                  <note>Member of the Latin 540 class (spring 2015).</note>
+               </person>
+               <person xml:id="Wölfflin" corresp="http://viaf.org/viaf/45080602">
+                  <persName><abbr type="siglum">Wölfflin</abbr> = Eduard Wölfflin (see <ref
+                        target="#Klotz1927">Klotz 1927</ref>)</persName>
+               </person>
+            </listPerson>
+         </div>
+         <!-- End of bibliography -->
+      </front>
+      <body>
+         <div type="edition" xml:id="edition-text">
+            <div type="textpart" n="1" xml:id="part1">
+               <head>Bellum Alexandrinum</head>
+               <p n="1">
+                  <seg n="1">Bello Alexandrino conflato Caesar Rhodo atque ex Syria Ciliciaque omnem
+                     classem arcessit; Creta sagittarios, equites ab rege Nabataeorum Malcho euocat;
+                     tormenta undique conquiri et frumentum mitti, auxilia adduci iubet.</seg>
+                  <seg n="2">Interim munitiones
+                           <!-- App entry for 1.2: cotidie operibus --><app><lem wit="#U #S #T #V"
+                           xml:id="lem-1.2-cotidie-operibus">cotidie operibus</lem><rdg wit="#M"
+                           xml:id="rdg-1.2-cotidie">cotidie</rdg><rdg source="#Castiglioni"
+                           xml:id="rdg-1.2-nouis-cotidie-operibus">nouis cotidie
+                        operibus</rdg></app> augentur atque omnes oppidi partes, quae minus esse
+                     firmae uidentur, testudinibus ac musculis
+                           <!-- App entry for 1.2: aptantur --><app><lem wit="#ω"
+                           xml:id="lem-1.2-aptantur">aptantur</lem><note target="lem-1.2-aptantur"
+                           >u. BC 3.112.7-9</note><rdg source="#Nipperdey"
+                           xml:id="rdg-1.2-temptantur">temptantur</rdg><note>alii alia (u.
+                           Gaertner-Hausburg 48 n.87)</note></app>; ex aedificiis autem
+                           <!-- App entry for 1.2: per --><app><lem xml:id="lem-1.2-per"
+                           >per</lem><rdg wit="#S #T #V" xml:id="rdg-1.2-om."/></app> foramina in
+                     proxima aedificia arietes immittuntur, quantumque aut ruinis deicitur aut per
+                     uim recipitur loci, <!-- App entry for 1.2: in --><app><lem wit="#Vac #Tc"
+                           xml:id="lem-1.2-in2">in</lem><witDetail wit="#Vac" target="#lem-1.2-in"
+                           type="correction-original"/><witDetail wit="#Tc" target="#lem-1.2-in"
+                           type="correction-altered"/><rdg source="#Schneider"
+                           xml:id="rdg-1.2-in-surplus"><surplus>in</surplus></rdg><note
+                           target="rdg-1.2-in-surplus">coll. Hirt. 8.27.4</note></app> tantum
+                     munitiones proferuntur.</seg>
+                  <seg n="3">Nam
+                           <!-- App entry for 1.3: <supplied reason="lost">ab</supplied> --><app><lem
+                           source="#Mueller" xml:id="lem-1.3-ab-addition"><supplied reason="lost"
+                              >ab</supplied></lem><note target="lem-1.3-ab-addition">cf.
+                        61.3</note></app> incendio fere tuta est Alexandria, quod sine contignatione
+                     ac materia sunt aedificia <!-- App entry for 1.3: et --><app><lem
+                           xml:id="lem-1.3-et">et</lem><rdg wit="#M" xml:id="rdg-1.3-om."/></app>
+                     structuris <!-- App entry for 1.3: ac --><app><lem wit="#M #T #V"
+                           xml:id="lem-1.3-ac2">ac</lem><rdg wit="#U" xml:id="rdg-1.3-et"
+                           >et</rdg><rdg wit="#S" xml:id="rdg-1.3-a">a</rdg></app> fornicibus
+                     continentur tectaque sunt rudere aut pauimentis.</seg>
+                  <seg n="4">Caesar maxime studebat ut quam angustissimam partem oppidi palus a
+                     meridie interiecta efficiebat, hanc operibus uineisque agendis ab reliqua parte
+                     urbis excluderet,</seg>
+                  <seg n="5">illud <!-- App entry for 1.5: spectans --><app><lem source="#Vascosanus"
+                           xml:id="lem-1.5-spectans">spectans</lem><note target="lem-1.5-spectans"
+                           >cf. BC 3.85.2</note><rdg wit="#ω" xml:id="rdg-1.5-expectans"
+                           >expectans</rdg></app> primum ut, cum in duas partes esset
+                           <!-- App entry for 1.5: urbs --><app><lem wit="#U" xml:id="lem-1.5-urbs"
+                           >urbs</lem><rdg wit="#M" xml:id="rdg-1.5-ubrs">ubrs</rdg><rdg
+                           wit="#S #T #V" xml:id="rdg-1.5-urbis">urbis</rdg></app> diuisa,
+                           <!-- App entry for 1.5: <supplied reason="lost">sua</supplied> acies --><app><lem
+                           source="#Fleischer" xml:id="lem-1.5-sua-acies-addition"><supplied
+                              reason="lost">sua</supplied> acies</lem></app> uno consilio atque
+                     imperio administraretur, deinde ut laborantibus succurri atque ex altera oppidi
+                     parte auxilium ferri posset, in primis uero ut aqua pabuloque abundaret, quarum
+                     alterius <!-- App entry for 1.5: rei copiam exiguam, alterius --><app><lem
+                           xml:id="lem-1.5-rei-copiam-exiguam-alterius">rei copiam exiguam,
+                           alterius</lem><rdg wit="#S" xml:id="rdg-1.5-om."/></app> nullam omnino
+                     facultatem habebat; quod utrumque large palus praebere poterat. </seg>
+               </p>
+               <p n="2">
+                  <seg n="1">Neque uero Alexandrinis in gerendis negotiis cunctatio ulla aut mora
+                     inferebatur. Nam in omnes partes, per quas fines Aegypti regnumque pertinet,
+                     legatos conquisitoresque dilectus habendi causa miserant
+                           <!-- App entry for 2.1: magnumque numerum in oppidum telorum atque tormentorum conuexerant et innumerabilem multitudinem adduxerant --><app><lem
+                           xml:id="lem-2.1-magnumque-numerum-in-oppidum-telorum-atque-tormentorum-conuexerant-et-innumerabilem-multitudinem-adduxerant"
+                           >magnumque numerum in oppidum telorum atque tormentorum conuexerant et
+                           innumerabilem <!-- App entry for 2.1: multitudinem --><app><lem
+                                 xml:id="lem-2.1-multitudinem">multitudinem</lem><rdg
+                                 source="#Fischer" xml:id="rdg-2.1-multitudinem-armatorum"
+                                 >multitudinem armatorum</rdg><note
+                                 target="rdg-2.1-multitudinem-armatorum">cf. 30.2</note></app>
+                           adduxerant</lem><rdg wit="#S" xml:id="rdg-2.1-om."/><note
+                           target="rdg-2.1-om.">uerba 12</note></app>.</seg>
+                  <seg n="2">Nec minus in urbe maximae armorum erant institutae officinae. Seruos
+                     praeterea puberes armauerant; quibus domini locupletiores uictum cotidianum
+                     stipendiumque praebebant.</seg>
+                  <seg n="3"><!-- App entry for 2.3: Hac --><app><lem wit="#U #T #V"
+                           xml:id="lem-2.3-Hac">Hac</lem><rdg wit="#M" xml:id="rdg-2.3-huc"
+                           >huc</rdg><rdg wit="#S" xml:id="rdg-2.3-ha">ha</rdg></app> multitudine
+                     disposita munitiones <!-- App entry for 2.3: semotarum --><app><lem wit="#Mmr"
+                           xml:id="lem-2.3-semotarum">semotarum</lem><rdg wit="#ω"
+                           xml:id="rdg-2.3-semotorum">semotorum</rdg></app> partium tuebantur;
+                     ueteranas cohortes uacuas
+                           <!-- App entry for 2.3: in celeberrimis urbis locis --><app><lem
+                           xml:id="lem-2.3-in-celeberrimis-urbis-locis">in celeberrimis urbis
+                           locis</lem><rdg wit="#M" xml:id="rdg-2.3-om."/><note target="rdg-2.3-om."
+                           >Uerba 4</note></app> habebant, ut quacumque regione pugnaretur integris
+                     uiribus ad auxilium ferendum opponi possent.</seg>
+                  <seg n="4">Omnibus uiis atque angiportis triplicem uallum obduxerant — erat autem
+                     quadrato extructus saxo neque minus XL pedes altitudinis habebat — quaeque
+                     partes urbis inferiores erant, has altissimis turribus denorum tabulatorum
+                     munierant.</seg>
+                  <seg n="5">Praeterea alias ambulatorias totidem tabulatorum confixerant
+                     subiectisque eas rotis funibus iumentisque
+                              <sic><!-- App entry for 2.5: obiectis --><app><lem
+                              xml:id="lem-2.5-obiectis">obiectis</lem><rdg source="#Scaliger"
+                              xml:id="rdg-2.5-obiectis-surplus"
+                              ><surplus>obiectis</surplus></rdg><rdg source="#Cornelissen"
+                              xml:id="rdg-2.5-subiunctis">subiunctis</rdg><note
+                              target="rdg-2.5-subiunctis">coll. Col. 6.2.8</note><rdg
+                              source="#Castiglioni" xml:id="rdg-2.5-adiectis">adiectis</rdg><note
+                              target="rdg-2.5-adiectis">cf. 28.3</note><rdg source="#Klotz1927"
+                              xml:id="rdg-2.5-obtectis">obtectis</rdg><note
+                              target="rdg-2.5-obtectis">dubitanter (cf. BC 3.19.7)</note><rdg
+                              xml:id="rdg-2.5-iuncits">iuncits</rdg><note target="rdg-2.5-iuncits"
+                              >an </note><note target="rdg-2.5-iuncits"> (cf. Vitr.
+                              10.2.14)</note><rdg xml:id="rdg-2.5-adiunctis">adiunctis</rdg><note
+                              target="rdg-2.5-adiunctis">vel </note><note target="rdg-2.5-adiunctis"
+                              > (cf. 27.7 et Gel. 20.1.28)?</note></app></sic> derectis plateis in
+                     quamcumque erat uisum partem mouebant. </seg>
+               </p>
+               <p n="3">
+                  <seg n="1">Urbs fertilissima et copiosissima omnium rerum apparatus suggerebat.
+                     Ipsi homines <!-- App entry for 3.1: ingeniosi --><app><lem
+                           xml:id="lem-3.1-ingeniosi">ingeniosi</lem><rdg source="#Klotz1927"
+                           xml:id="rdg-3.1-ingeniosissimi">ingeniosissimi</rdg><note
+                           target="rdg-3.1-ingeniosissimi">Wölfflin teste </note></app> atque
+                     acutissimi quae a nobis fieri uiderant ea sollertia
+                           <!-- App entry for 3.1: efficiebant --><app><lem wit="#ω"
+                           xml:id="lem-3.1-efficiebant">efficiebant</lem><note
+                           target="lem-3.1-efficiebant">cf. 19.5</note><rdg source="#Kübler"
+                           xml:id="rdg-3.1-effingebant">effingebant</rdg><note
+                           target="rdg-3.1-effingebant">cf. Cic. ND 3.23</note></app> ut nostri
+                     illorum opera imitati uiderentur, et sua sponte multa reperiebant unoque
+                     tempore et nostras munitiones infestabant et suas defendebant.</seg>
+                  <seg n="2">Atque haec principes in consiliis contionibusque agitabant: populum
+                     Romanum paulatim in consuetudinem eius regni occupandi uenire.</seg>
+                  <seg n="3">Paucis annis <!-- App entry for 3.3: ante A. Gabinium --><app><lem
+                           source="#Schneider" xml:id="lem-3.3-ante-A.-Gabinium">ante A.
+                           Gabinium</lem><rdg wit="#M #U #S #Tc #Vac"
+                           xml:id="rdg-3.3-antea-gabinium-vel-ante-agabinium">antea gabinium vel
+                           ante agabinium</rdg><witDetail wit="#Tc"
+                           target="#rdg-3.3-antea-gabinium-vel-ante-agabinium"
+                           type="correction-altered"/><witDetail wit="#Vac"
+                           target="#rdg-3.3-antea-gabinium-vel-ante-agabinium"
+                           type="correction-original"/><rdg wit="#Tac #Vc"
+                           xml:id="rdg-3.3-ante-Gabinium">ante Gabinium</rdg><witDetail wit="#Tac"
+                           target="#rdg-3.3-ante-Gabinium" type="correction-original"/><witDetail
+                           wit="#Vc" target="#rdg-3.3-ante-Gabinium" type="correction-altered"
+                        /></app> cum exercitu fuisse in Aegypto; Pompeium se ex fuga eodem
+                     recepisse; Caesarem uenisse cum copiis, neque morte Pompei quicquam profectum
+                     quo minus apud se Caesar commoraretur.</seg>
+                  <seg n="4">Quem si non expulissent, futuram ex regno prouinciam; idque agendum
+                     mature: namque eum interclusum tempestatibus propter anni tempus recipere
+                     transmarina auxilia non posse. </seg>
+               </p>
+               <p n="4">
+                  <seg n="1">Interim dissensione orta inter Achillan, qui ueterano exercitui
+                     praeerat, et Arsinoen, regis Ptolomaei minorem filiam, ut supra demonstratum
+                     est, cum uterque utrique insidiaretur et summam imperi ipse obtinere uellet,
+                     praeoccupat Arsinoe per Ganymeden eunuchum, nutricium suum, atque Achillan
+                           <!-- App entry for 4.1: interficit --><app><lem wit="#U #S #V"
+                           xml:id="lem-4.1-interficit">interficit</lem><note
+                           target="lem-4.1-interficit">cf. BG 7.38.9</note><rdg wit="#M #T"
+                           xml:id="rdg-4.1-interfecit">interfecit</rdg></app>.</seg>
+                  <seg n="2">Hoc occiso sine ullo socio et custode ipsa omne imperium obtinebat;
+                     exercitus Ganymedi traditur. <!-- App entry for 4.2: is --><app><lem
+                           wit="#M #U #V" xml:id="lem-4.2-is">is</lem><rdg wit="#T"
+                           xml:id="rdg-4.2-his">his</rdg><rdg wit="#S" xml:id="rdg-4.2-hic"
+                           >hic</rdg></app> suscepto officio largitionem in
+                           <!-- App entry for 4.2: militem --><app><lem wit="#S #T #V"
+                           xml:id="lem-4.2-militem">militem</lem><note target="lem-4.2-militem">cf.
+                           BC 2.15.3</note><rdg wit="#M #U" xml:id="rdg-4.2-milites"
+                        >milites</rdg></app> auget; <!-- App entry for 4.2: reliqua --><app><lem
+                           wit="#M #S" xml:id="lem-4.2-reliqua">reliqua</lem><note
+                           target="lem-4.2-reliqua">cf. BC 3.9.5</note><rdg wit="#U #T #V"
+                           xml:id="rdg-4.2-et-reliqua">et reliqua</rdg></app> pari diligentia
+                     administrat. </seg>
+               </p>
+               <p n="5">
+                  <seg n="1">Alexandria est fere tota suffossa specusque habet
+                           <!-- App entry for 5.1: ad Nilum --><app><lem wit="#M #U"
+                           xml:id="lem-5.1-ad-Nilum">ad Nilum</lem><note target="lem-5.1-ad-Nilum"
+                           >(cf. 14.5 et BG 1.1.6 etc., u. TLL 10.1.1809.73-1810.38) </note><rdg
+                           wit="#S #T #V" xml:id="rdg-5.1-a-Nilo">a Nilo</rdg></app> pertinentes,
+                     quibus aqua in priuatas domos inducitur, quae paulatim spatio temporis
+                     liquescit ac subsidit.</seg>
+                  <seg n="2">Hac uti domini aedificiorum atque eorum familiae consuerunt: nam quae
+                     flumine Nilo fertur adeo est limosa ac turbida ut multos uariosque morbos
+                     efficiat; sed ea plebes ac multitudo contenta est necessario, quod fons urbe
+                     tota nullus est. Hoc tamen flumen in ea parte erat urbis quae ab Alexandrinis
+                     tenebatur.</seg>
+                  <seg n="3">Quo facto est admonitus Ganymedes posse nostros aqua intercludi; qui
+                     distributi <!-- App entry for 5.3: munitionum --><app><lem wit="#M #U #S"
+                           xml:id="lem-5.3-munitionum">munitionum</lem><rdg wit="#T"
+                           xml:id="rdg-5.3-munitionem">munitionem</rdg><rdg wit="#V"
+                           xml:id="rdg-5.3-muni">muni</rdg></app> tuendarum causa uicatim ex
+                     priuatis aedificiis specibus ac puteis extracta aqua utebantur. </seg>
+               </p>
+               <p n="6">
+                  <seg n="1">Hoc probato consilio magnum ac difficile opus aggreditur. Intersaeptis
+                     enim specibus atque omnibus urbis partibus exclusis quae ab ipso tenebantur,
+                     aquae magnam uim ex mari rotis ac machinationibus exprimere contendit: hanc
+                        <supplied reason="lost">ex</supplied> locis superioribus fundere in partem
+                     Caesaris non intermittebat.</seg>
+                  <seg n="2">Quam ob causam salsior paulo praeter consuetudinem aqua trahebatur ex
+                     proximis aedificiis magnamque hominibus admirationem praebebat, quam ob rem id
+                     accidisset; nec satis sibi ipsi credebant, cum se inferiores eiusdem generis ac
+                     saporis aqua dicerent uti atque ante consuessent, uulgoque inter se conferebant
+                     et degustando quantum inter se differrent aquae cognoscebant.</seg>
+                  <seg n="3">Paruo uero temporis spatio haec propior bibi omnino non poterat, illa
+                     inferior corruptior iam salsiorque reperiebatur. </seg>
+               </p>
+               <p n="7">
+                  <seg n="1">Quo facto dubitatione sublata tantus incessit timor ut ad extremum
+                     casum <!-- App entry for 7.1: periculi --><app><lem xml:id="lem-7.1-periculi"
+                           >periculi</lem><rdg wit="Ϛ" xml:id="rdg-7.1-om."/></app> omnes deducti
+                     uiderentur atque alii morari Caesarem dicerent quin naues conscendere
+                           <!-- App entry for 7.1: iuberet --><app><lem wit="#M #U"
+                           xml:id="lem-7.1-iuberet">iuberet</lem><rdg wit="#S #T #V"
+                           xml:id="rdg-7.1-iuberent">iuberent</rdg></app>, alii multo
+                           <!-- App entry for 7.1: grauius --><app><lem xml:id="lem-7.1-grauius"
+                           >grauius</lem><rdg source="#Aldus" xml:id="rdg-7.1-grauiorem"
+                           >grauiorem</rdg><note target="rdg-7.1-grauiorem">(cf. Cic. Ph. 1.13)
+                        </note></app> extimescerent <!-- App entry for 7.1: casum --><app><lem
+                           wit="#ω" xml:id="lem-7.1-casum2">casum</lem><note target="lem-7.1-casum"
+                           >(cf. Cic. Att. 4.3.5) </note><rdg source="#Nipperdey"
+                           xml:id="rdg-7.1-casum-surplus"><surplus>casum</surplus></rdg><note
+                           target="rdg-7.1-casum-surplus">Haupt teste (cf. BG 1.16.6)</note><rdg
+                           source="#Kraffert" xml:id="rdg-7.1-casurum">casurum</rdg><note
+                           target="rdg-7.1-casurum">coll. 11.2 </note></app> quod neque celari
+                           <!-- App entry for 7.1: Alexandrini --><app><lem wit="#S #T #V"
+                           xml:id="lem-7.1-Alexandrini">Alexandrini</lem><rdg wit="#M #U"
+                           xml:id="rdg-7.1-Alexandrinis">Alexandrinis</rdg></app>
+                     <!-- App entry for 7.1: possent --><app><lem wit="#M #U #V"
+                           xml:id="lem-7.1-possent">possent</lem><rdg wit="#S #T"
+                           xml:id="rdg-7.1-possint">possint</rdg></app> in
+                           <!-- App entry for 7.1: apparanda --><app><lem wit="#M #U #S"
+                           xml:id="lem-7.1-apparanda">apparanda</lem><rdg wit="#T #V"
+                           xml:id="rdg-7.1-apparenda">apparenda</rdg></app> fuga, cum tam paruo
+                     spatio distarent ab ipsis, neque <!-- App entry for 7.1: illis --><app><lem
+                           wit="#M #U" xml:id="lem-7.1-illis">illis</lem><rdg wit="#S #T #V"
+                           xml:id="rdg-7.1-illi">illi</rdg></app> imminentibus atque insequentibus
+                     ullus in naues receptus daretur.</seg>
+                  <seg n="2">Erat autem magna multitudo oppidanorum in parte Caesaris, quam
+                           <!-- App entry for 7.2: domiciliis --><app><lem wit="#S"
+                           xml:id="lem-7.2-domiciliis">domiciliis</lem><rdg wit="#M #U #T #V"
+                           xml:id="rdg-7.2-domicilius">domicilius</rdg><note
+                           target="rdg-7.2-domicilius">(MUT per compendia) </note><note
+                           target="rdg-7.2-domicilius"> [U domicius]</note></app> ipsorum non
+                     mouerat, quod ea se fidelem palam nostris esse simulabat et desciuisse a suis
+                     uidebatur: †<!-- App entry for 7.2: ut mihi --><app><lem
+                           xml:id="lem-7.2-ut-mihi">ut mihi</lem><rdg source="#Madvig"
+                           xml:id="rdg-7.2-at-mihi-si">at mihi si</rdg><rdg source="#Klotz1927"
+                           xml:id="rdg-7.2-ut-mihi-si">ut mihi si</rdg></app> defendendi
+                           <!-- App entry for 7.2: essent --><app><lem xml:id="lem-7.2-essent"
+                           >essent</lem><rdg source="#Nipperdey" xml:id="rdg-7.2-esse"
+                        >esse</rdg></app> Alexandrini neque fallaces essent neque temerarii,
+                           <!-- App entry for 7.2: multaque --><app><lem xml:id="lem-7.2-multaque"
+                           >multaque</lem><rdg source="#Manutius" xml:id="rdg-7.2-multa"
+                        >multa</rdg></app> oratio frustra absumeretur†</seg>
+                  <seg n="3">cum uero uno tempore et natio eorum et natura cognoscatur, aptissimum
+                     esse hoc genus ad proditionem dubitare nemo potest. </seg>
+               </p>
+               <p n="8">
+                  <seg n="1">Caesar suorum timorem consolatione et
+                           <!-- App entry for 8.1: ratione --><app><lem xml:id="lem-8.1-ratione"
+                           >ratione</lem><rdg source="#Schneider" xml:id="rdg-8.1-horatione"
+                           >horatione</rdg><note target="rdg-8.1-horatione">coll. BG 5.4.2 (u. Et
+                           9.1)</note></app> minuebat. Nam puteis fossis aquam dulcem reperiri posse
+                     adfirmabat: omnia enim litora naturaliter aquae dulcis uenas habere.</seg>
+                  <seg n="2">Quod si alia esset litoris Aegypti natura atque omnium reliquorum,
+                     tamen, quoniam mare libere tenerent, neque hostes classem haberent,
+                           <!-- App entry for 8.2: prohiberi --><app><lem wit="Ϛ"
+                           source="#Oudendorp" xml:id="lem-8.2-prohiberi">prohiberi</lem><note
+                           target="lem-8.2-prohiberi">teste</note><rdg wit="#ω"
+                           xml:id="rdg-8.2-prohibere">prohibere</rdg></app> sese non
+                           <!-- App entry for 8.2: posse --><app><lem wit="#ed.pr."
+                           xml:id="lem-8.2-posse">posse</lem><rdg wit="#ω" xml:id="rdg-8.2-possent"
+                           >possent</rdg></app> quo minus cotidie nauibus aquam
+                           <!-- App entry for 8.2: peterent --><app><lem wit="#M #U"
+                           xml:id="lem-8.2-peterent">peterent</lem><rdg wit="#S #T #V"
+                           xml:id="rdg-8.2-petere">petere</rdg></app> uel a sinistra parte a
+                           <!-- App entry for 8.2: Paraetonio --><app><lem
+                           source="#Gaertner-Hausburg" xml:id="lem-8.2-Paraetonio"
+                           >Paraetonio</lem><note target="lem-8.2-Paraetonio">78-79 n.16</note><rdg
+                           wit="#ω" xml:id="rdg-8.2-paratonio">paratonio</rdg></app>
+                     <!-- App entry for 8.2: Uel --><app><lem xml:id="lem-8.2-Uel2">Uel</lem><rdg
+                           wit="Ϛ" xml:id="rdg-8.2-uel-a-addition"><supplied reason="lost">uel
+                              a</supplied></rdg><note target="rdg-8.2-uel-a-addition">(cf.
+                           74.1)</note></app> dextra ab insula, quae diuersae nauigationes numquam
+                     uno tempore aduersis uentis praecluderentur.</seg>
+                  <seg n="3">Fugae uero nullum esse consilium non solum iis qui primam dignitatem
+                     haberent, sed ne iis quidem <!-- App entry for 8.3: qui --><app><lem
+                           xml:id="lem-8.3-qui2">qui</lem><rdg wit="#T #V" xml:id="rdg-8.3-om."
+                        /></app> nihil praeterquam de uita cogitarent.</seg>
+                  <seg n="4">Magno negotio impetus hostium aduersos ex munitionibus
+                           <!-- App entry for 8.4: sustineri --><app><lem wit="#M #U #T #V"
+                           xml:id="lem-8.4-sustineri">sustineri</lem><rdg wit="#S"
+                           xml:id="rdg-8.4-sustinere">sustinere</rdg></app>; quibus relictis nec
+                     loco nec numero pares esse posse.</seg>
+                  <seg n="5">Magnam autem moram et difficultatem ascensum in naues habere,
+                     praesertim ex scaphis; summam esse contra in Alexandrinis uelocitatem
+                     locorumque et aedificiorum notitiam.</seg>
+                  <seg n="6">Hos praecipue in uictoria insolentes praecursuros
+                           <!-- App entry for 8.6: et loca excelsiora atque aedificia occupaturos --><app><lem
+                           xml:id="lem-8.6-et-loca-excelsiora-atque-aedificia-occupaturos">et loca
+                           excelsiora atque aedificia occupaturos</lem><rdg wit="#M"
+                           xml:id="rdg-8.6-om."/><note target="rdg-8.6-om.">(uerba 6)</note></app>:
+                     ita <!-- App entry for 8.6: fuga --><app><lem wit="#M #S" xml:id="lem-8.6-fuga"
+                           >fuga</lem><rdg wit="#U #V" xml:id="rdg-8.6-fugam">fugam</rdg><rdg
+                           wit="#T" xml:id="rdg-8.6-tamen-fugam">tamen fugam</rdg></app> nauibusque
+                     nostros prohibituros. Proinde eius consilii obliuiscerentur atque omni ratione
+                     esse uincendum cogitarent. </seg>
+               </p>
+               <p n="9">
+                  <seg n="1">Hac oratione apud suos habita atque omnium mentibus excitatis dat
+                     centurionibus negotium ut reliquis operibus intermissis ad fodiendos puteos
+                     animum conferant neue quam partem nocturni temporis intermittant.</seg>
+                  <seg n="2">Quo suscepto negotio atque omnium animis ad laborem incitatis magna una
+                     nocte uis aquae dulcis inuenta est. Ita operosis Alexandrinorum machinationibus
+                     maximisque conatibus non longi temporis labore occursum est.</seg>
+                  <seg n="3">Eo biduo legio XXXVII ex dediticiis Pompeianis militibus cum frumento,
+                     armis, telis, tormentis imposita in naues a Domitio Caluino ad litora Africae
+                     paulo supra Alexandriam delata est.</seg>
+                  <seg n="4"><!-- App entry for 9.4: hae --><app><lem wit="#M #U #T #V"
+                           xml:id="lem-9.4-hae">hae</lem><note target="lem-9.4-hae">[M
+                           heae]</note><rdg wit="#S" xml:id="rdg-9.4-haec">haec</rdg><note
+                           target="rdg-9.4-haec">quod defendit Landgraf 1891</note></app> naues
+                     Euro, qui multos dies continenter flabat, portum capere prohibebantur; sed loca
+                     sunt egregia omni illa regione ad tenendas ancoras. Hi cum diu retinerentur
+                     atque aquae inopia premerentur, nauigio actuario Caesarem faciunt certiorem.
+                  </seg>
+               </p>
+               <p n="10">
+                  <seg n="1">Caesar, ut per se consilium caperet quid faciendum uideretur, nauem
+                     conscendit atque omnem classem se sequi iussit nullis nostris militibus
+                     impositis, quod, cum longius paulo discederet, munitiones nudare nolebat.</seg>
+                  <seg n="2">Cumque ad eum locum <!-- App entry for 10.2: accessissent --><app><lem
+                           xml:id="lem-10.2-accessissent">accessissent</lem><rdg wit="Ϛ"
+                           source="#Manutius" xml:id="rdg-10.2-accessisset">accessisset</rdg><note
+                           target="rdg-10.2-accessisset">teste</note></app>, qui appellatur
+                     Chersonensus, aquandique causa remiges in terram
+                           <!-- App entry for 10.2: exposuissent --><app><lem
+                           xml:id="lem-10.2-exposuissent">exposuissent</lem><rdg source="#Manutius"
+                           xml:id="rdg-10.2-exposuisset">exposuisset</rdg></app>, non nulli ex eo
+                     numero, cum longius a nauibus praedatum processissent, ab equitibus hostium
+                     sunt excepti.</seg>
+                  <seg n="3">Ex his cognouerunt Caesarem ipsum in classe uenisse nec ullos milites
+                     in nauibus habere. Qua re comperta magnam sibi facultatem fortunam obtulisse
+                     bene gerendae rei crediderunt.</seg>
+                  <seg n="4">Itaque naues omnes quas paratas habuerant ad nauigandum propugnatoribus
+                     instruxerunt Caesarique redeunti cum classe
+                           <!-- App entry for 10.4: occurrerunt --><app><lem wit="#M #U"
+                           xml:id="lem-10.4-occurrerunt">occurrerunt</lem><rdg wit="#S #T #V"
+                           xml:id="rdg-10.4-occurrerant">occurrerant</rdg></app>.</seg>
+                  <seg n="5">Qui duabus de causis eo die dimicare nolebat, quod et nullos milites in
+                     nauibus habebat <!-- App entry for 10.5: et --><app><lem xml:id="lem-10.5-et2"
+                           >et</lem><rdg wit="#S #T #V" xml:id="rdg-10.5-om."/></app> post horam X
+                     diei res agebatur. Nox autem allatura uidebatur maiorem fiduciam illis, qui
+                     locorum notitia confidebant; sibi etiam hortandi suos auxilium defuturum,
+                           <!-- App entry for 10.5: quod --><app><lem wit="#M #U #S"
+                           xml:id="lem-10.5-quod2">quod</lem><rdg wit="#T #V" xml:id="rdg-10.5-quo"
+                           >quo</rdg></app> nulla satis idonea esset hortatio quae neque uirtutem
+                     posset notare neque inertiam.</seg>
+                  <seg n="6">Quibus de causis naues quas potuit Caesar ad terram detrahit, quem in
+                     locum illos <!-- App entry for 10.6: successuros --><app><lem wit="#Mc #U #S"
+                           xml:id="lem-10.6-successuros">successuros</lem><witDetail wit="#Mc"
+                           target="#lem-10.6-successuros" type="correction-altered"/><note
+                           target="lem-10.6-successuros">[Mac successoros]</note><rdg wit="#Tc #V"
+                           xml:id="rdg-10.6-succensuores">succens(u/o)res</rdg><witDetail wit="#Tc"
+                           target="#rdg-10.6-succens(uo)res" type="correction-altered"/><note
+                           target="rdg-10.6-succens(uo)res">[Tac succens(u</note><note
+                           target="rdg-10.6-succens(uo)res">o)ros]</note></app> non
+                           <!-- App entry for 10.6: existimabat --><app><lem wit="#U #T"
+                           xml:id="lem-10.6-existimabat">existimabat</lem><rdg wit="#M #V"
+                           xml:id="rdg-10.6-estimabat">estimabat</rdg><rdg wit="#S"
+                           xml:id="rdg-10.6-exstimabat">exstimabat</rdg></app>. </seg>
+               </p>
+               <p n="11">
+                  <seg n="1">Erat una nauis Rhodia in dextro Caesaris cornu longe ab reliquis
+                     collocata. Hanc conspicati hostes non
+                           <!-- App entry for 11.1: tenuerunt --><app><lem wit="#M #U"
+                           xml:id="lem-11.1-tenuerunt">tenuerunt</lem><note
+                           target="lem-11.1-tenuerunt">[U tenurunt]</note><rdg wit="#S #T"
+                           xml:id="rdg-11.1-terunt">terunt</rdg><rdg wit="#V"
+                           xml:id="rdg-11.1-terter">terter</rdg></app> sese, magnoque impetu IIII ad
+                     eam constratae naues et complures apertae contenderunt.</seg>
+                  <seg n="2">Cui coactus est Caesar ferre subsidium ne turpem in conspectu <supplied
+                        reason="lost">suorum</supplied> contumeliam acciperet, quamquam, si quid
+                     grauius illis accidisset, merito casurum iudicabat.</seg>
+                  <seg n="3">Proelium commissum est magna
+                           <!-- App entry for 11.3: contentione --><app><lem wit="#S"
+                           xml:id="lem-11.3-contentione">contentione</lem><rdg wit="#M #U #T #V"
+                           xml:id="rdg-11.3-contentio">contentio</rdg></app> Rhodiorum; qui cum in
+                     omnibus dimicationibus et scientia et uirtute praestitissent, tum maxime illo
+                     tempore totum onus sustinere non recusabant, ne quod suorum culpa detrimentum
+                     acceptum uideretur.</seg>
+                  <seg n="4">Ita proelium secundissimum est factum. Capta est una hostium
+                     quadriremis, depressa est altera, duae omnibus epibatis nudatae;
+                           <!-- App entry for 11.4: magna --><app><lem wit="#M #U #S"
+                           xml:id="lem-11.4-magna">magna</lem><rdg wit="#T #V"
+                           xml:id="rdg-11.4-magnae">magnae</rdg></app> praeterea multitudo in
+                     reliquis nauibus propugnatorum est interfecta.</seg>
+                  <seg n="5">Quod nisi nox proelium diremisset, tota classe hostium Caesar potitus
+                     esset.</seg>
+                  <seg n="6">Hac calamitate perterritis hostibus aduerso uento leniter flante naues
+                           <!-- App entry for 11.6: onerarias --><app><lem
+                           xml:id="lem-11.6-onerarias">onerarias</lem><rdg source="#Kraffert"
+                           xml:id="rdg-11.6-onerarias-surplus"
+                           ><surplus>onerarias</surplus></rdg><note
+                           target="rdg-11.6-onerarias-surplus">ut glossema</note></app> Caesar
+                     remulco uictricibus suis nauibus Alexandriam deducit. </seg>
+               </p>
+               <p n="12">
+                  <seg n="1">Eo detrimento adeo sunt fracti Alexandrini, cum iam non uirtute
+                     propugnatorum sed scientia <!-- App entry for 12.1: classiariorum --><app><lem
+                           wit="#U #S #T #V #Mspl" xml:id="lem-12.1-classiariorum"
+                           >classiariorum</lem><witDetail wit="#Mspl"
+                           target="#lem-12.1-classiariorum">supra lineam</witDetail><rdg wit="#M"
+                           xml:id="rdg-12.1-nauigatorum">nauigatorum</rdg></app> se uictos uiderent,
+                        <gap reason="lost"/> quibus et superioribus
+                           <!-- App entry for 12.1: locis --><app><lem xml:id="lem-12.1-locis"
+                           >locis</lem><rdg source="#Kübler" xml:id="rdg-12.1-temporibus"
+                           >temporibus</rdg><note target="rdg-12.1-temporibus"
+                        >dubitanter</note></app> subleuabantur, ut
+                           <!-- App entry for 12.1: ex --><app><lem xml:id="lem-12.1-ex"
+                           >ex</lem><rdg source="#Manutius" xml:id="rdg-12.1-uix">uix</rdg><rdg
+                           source="#Dinter" xml:id="rdg-12.1-uix-ex">uix ex</rdg><note
+                           target="rdg-12.1-uix-ex">(u. et infra) </note></app> aedificiis defendi
+                           <!-- App entry for 12.1: possent --><app><lem xml:id="lem-12.1-possent"
+                           >possent</lem><rdg source="#Dinter"
+                           xml:id="rdg-12.1-posse-se-confiderent">posse se confiderent</rdg><note
+                           target="rdg-12.1-posse-se-confiderent">(u. et supra)</note></app> et
+                     materiam cunctam obicerent, quod nostrae classis oppugnationem etiam ad terram
+                     uerebantur.</seg>
+                  <seg n="2">Idem, postea quam Ganymedes in concilio
+                           <!-- App entry for 12.2: confirmauit --><app><lem wit="#M #U #S"
+                           xml:id="lem-12.2-confirmauit">confirmauit</lem><rdg wit="#T #V"
+                           xml:id="rdg-12.2-firmauit">firmauit</rdg></app> sese
+                           <!-- App entry for 12.2: et --><app><lem wit="#M #U"
+                           xml:id="lem-12.2-et1">et</lem><rdg wit="#S #T #V" xml:id="rdg-12.2-ut"
+                           >ut</rdg></app> eas quae essent amissae
+                           <!-- App entry for 12.2: restituturum --><app><lem wit="#M #S #V"
+                           xml:id="lem-12.2-restituturum">restituturum</lem><rdg wit="#U #T"
+                           xml:id="rdg-12.2-restiturum">restiturum</rdg></app> et numerum
+                           <!-- App entry for 12.2: adaucturum --><app><lem wit="#M #U #S"
+                           xml:id="lem-12.2-adaucturum">adaucturum</lem><rdg wit="#T #V"
+                           xml:id="rdg-12.2-adacturum">adacturum</rdg></app>, magna spe et fiducia
+                     ueteres reficere naues accuratiusque huic rei studere atque inseruire
+                     instituerunt.</seg>
+                  <seg n="3">Ac tametsi amplius <!-- App entry for 12.3: CX --><app><lem
+                           source="#Manutius" xml:id="lem-12.3-CX">CX</lem><rdg wit="#ω"
+                           xml:id="rdg-12.3-ex">ex</rdg></app> nauibus longis in portu naualibusque
+                           <!-- App entry for 12.3: miserant --><app><lem wit="#ω"
+                           xml:id="lem-12.3-miserant">miserant</lem><note target="lem-12.3-miserant"
+                           >(simplex post compositum)</note><rdg source="#Manutius"
+                           xml:id="rdg-12.3-amiserant">amiserant</rdg></app>,
+                           <!-- App entry for 12.3: non --><app><lem xml:id="lem-12.3-non"
+                           >non</lem><rdg wit="#S #T #V" xml:id="rdg-12.3-om."/></app> tamen
+                     reparandae classis cogitationem deposuerunt.</seg>
+                  <seg n="4">Videbant enim non auxilia
+                           <!-- App entry for 12.4: Caesaris --><app><lem wit="#ω"
+                           xml:id="lem-12.4-Caesaris">Caesaris</lem><note target="lem-12.4-Caesaris"
+                           >(cf. BC 3.23.2)</note><rdg source="#Stephanus" xml:id="rdg-12.4-Caesari"
+                           >Caesari</rdg></app>, non commeatus supportari posse, si classe ipsi
+                     ualerent; praeterea <!-- App entry for 12.4: nautici --><app><lem wit="#ω"
+                           xml:id="lem-12.4-nautici">nautici</lem><note target="lem-12.4-nautici"
+                           >(cf. 16.5) </note><rdg source="#Morus" xml:id="rdg-12.4-nautici-surplus"
+                              ><surplus>nautici</surplus></rdg><note
+                           target="rdg-12.4-nautici-surplus">ut glossema</note></app> homines urbis
+                     et <!-- App entry for 12.4: regionis --><app><lem wit="#M #T #V"
+                           xml:id="lem-12.4-regionis">regionis</lem><rdg wit="#U #S"
+                           xml:id="rdg-12.4-religioneis">religion(e/i)s</rdg></app> maritimae
+                     cotidianoque usu a pueris exercitati ad
+                           <!-- App entry for 12.4: naturale --><app><lem wit="#M #T"
+                           xml:id="lem-12.4-naturale">naturale</lem><rdg wit="#U #S #V"
+                           xml:id="rdg-12.4-naturalem">naturalem</rdg></app> ac domesticum bonum
+                     refugere cupiebant et quantum paruulis nauigiis profecissent sentiebant; itaque
+                     omni studio ad parandam classem incubuerunt. </seg>
+               </p>
+               <p n="13">
+                  <seg n="1">Erant omnibus ostiis Nili custodiae exigendi portorii causa dispositae;
+                     naues ueteres erant in occultis regiae naualibus, quibus multis annis ad
+                     nauigandum non erant usi: has reficiebant, illas Alexandriam reuocabant.</seg>
+                  <seg n="2">Deerant remi: porticus, gymnasia, publica aedificia detegebant, asseres
+                     remorum usum obtinebant; aliud naturalis sollertia, aliud urbis copia
+                     sumministrabat.</seg>
+                  <seg n="3">Postremo non longam nauigationem parabant, sed praesentis temporis
+                     necessitati seruiebant et in ipso portu confligendum uidebant.</seg>
+                  <seg n="4">Itaque paucis diebus contra omnium opinionem quadriremes XXII,
+                     quinqueremes V confecerunt; ad has minores apertasque complures adiecerunt et
+                     in portu periclitati remigio quid quaeque earum efficere posset idoneos milites
+                     imposuerunt seque ad confligendum omnibus rebus parauerunt.</seg>
+                  <seg n="5">Caesar Rhodias naues VIIII habebat—nam decem missis una in cursu
+                           <!-- App entry for 13.5: litore --><app><lem wit="#ω"
+                           xml:id="lem-13.5-litore">litore</lem><note target="lem-13.5-litore">(cf.
+                           BG 4.23.6) </note><rdg source="#Nipperdey"
+                           xml:id="rdg-13.5-in-litore-addition"><supplied reason="lost">in
+                              litore</supplied></rdg><note target="rdg-13.5-in-litore-addition">(cf.
+                           17.5)</note><rdg source="#Larsen" xml:id="rdg-13.5-sub-litore-addition"
+                              ><supplied reason="lost">sub litore</supplied></rdg><note
+                           target="rdg-13.5-sub-litore-addition">coll. BG 5.57.3</note><rdg
+                           source="#Dinter" xml:id="rdg-13.5-litore-surplus"
+                              ><surplus>litore</surplus></rdg></app> Aegyptio
+                           <!-- App entry for 13.5: defecerat --><app><lem wit="#ω"
+                           xml:id="lem-13.5-defecerat">defecerat</lem><note
+                           target="lem-13.5-defecerat">(cf. Verg. Aen. 6.354) </note><rdg
+                           source="#Oudendorp" xml:id="rdg-13.5-decesserat">decesserat</rdg><note
+                           target="rdg-13.5-decesserat">Ciacconius teste coll. BC 3.112.3 (sed u.
+                           Davies)</note><rdg xml:id="rdg-13.5-Siesbye-teste">Siesbye
+                        teste</rdg></app>—Ponticas VIII, Lycias V, ex Asia XII. Ex his erant
+                     quinqueremes <!-- App entry for 13.5: et --><app><lem xml:id="lem-13.5-et1"
+                           >et</lem><rdg source="#Schneider" xml:id="rdg-13.5-VI">VI</rdg><note>alii
+                           numeros alios</note></app> quadriremes X, reliquae infra hanc
+                     magnitudinem et pleraeque apertae.</seg>
+                  <seg n="6">Tamen uirtute militum confisus cognitis hostium copiis se ad dimicandum
+                     parabat. </seg>
+               </p>
+               <p n="14">
+                  <seg n="1">Postquam eo uentum est ut sibi uterque
+                           <!-- App entry for 14.1: eorum --><app><lem xml:id="lem-14.1-eorum"
+                           >eorum</lem><rdg wit="#T #V" xml:id="rdg-14.1-om."/></app> confideret,
+                     Caesar Pharon classe circumuehitur aduersasque naues hostibus constituit: in
+                     dextro cornu
+                           <!-- App entry for 14.1: Rhodios collocat, in sinistro Ponticos. Inter hos --><app><lem
+                           wit="#ω"
+                           xml:id="lem-14.1-Rhodios-collocat-in-sinistro-Ponticos.-Inter-hos"
+                           >Rhodios collocat, in sinistro Ponticos. Inter hos</lem><note
+                           target="lem-14.1-Rhodios-collocat,-in-sinistro-Ponticos.-Inter-hos">(sc.
+                           e.g. classiarios</note><note> u. et ad 15.6 infra) </note></app> spatium
+                     CCCC passuum <!-- App entry for 14.1: relinquit --><app><lem wit="#M #U #V"
+                           xml:id="lem-14.1-relinquit">relinquit</lem><rdg wit="#S #T"
+                           xml:id="rdg-14.1-reliquit">reliquit</rdg></app>, quod satis esse ad
+                     explicandas naues uidebatur.</seg>
+                  <seg n="2">Post hunc ordinem reliquas naues subsidio distribuit; quae quamque
+                     earum sequatur et cui subueniat constituit atque imperat.</seg>
+                  <seg n="3">Non dubitanter Alexandrini classem producunt atque instruunt: in fronte
+                     collocant XXII, reliquas subsidiarias in secundo ordine constituunt.</seg>
+                  <seg n="4">Magnum praeterea numerum minorum nauigiorum et scapharum producunt cum
+                     malleolis ignibusque, si quid ipsa multitudo et clamor et flamma nostris
+                     terroris adferre possent.</seg>
+                  <seg n="5">Erant inter duas classis uada transitu angusto, quae pertinent ad
+                     regionem Africae —
+                           <!-- App entry for 14.5: sic enim praedicant, partem esse Alexandriae dimidiam Africae --><app><lem
+                           xml:id="lem-14.5-sic-enim-praedicant-partem-esse-Alexandriae-dimidiam-Africae"
+                           >sic enim praedicant, partem esse Alexandriae dimidiam Africae</lem><rdg
+                           wit="#M" xml:id="rdg-14.5-om."/><note>uerba 8</note></app> — satisque diu
+                     inter ipsos est exspectatum ab utris transeundi fieret initium, propterea quod
+                           <!-- App entry for 14.5: ei --><app><lem wit="#U #S #T"
+                           xml:id="lem-14.5-ei">ei</lem><rdg wit="#M" xml:id="rdg-14.5-eis"
+                           >eis</rdg><rdg wit="#V" xml:id="rdg-14.5-et">et</rdg></app> qui
+                     intrassent et ad explicandam classem et ad receptum, si durior accidisset
+                     casus, <!-- App entry for 14.5: impeditiores --><app><lem wit="#M"
+                           xml:id="lem-14.5-impeditiores">impeditiores</lem><rdg wit="#U #S #T #V"
+                           xml:id="rdg-14.5-expeditiores">expeditiores</rdg></app> fore uidebantur.
+                  </seg>
+               </p>
+               <p n="15">
+                  <seg n="1">Rhodiis nauibus praeerat Euphranor, animi magnitudine ac uirtute magis
+                     cum nostris hominibus quam cum Graecis comparandus.</seg>
+                  <seg n="2">Hic ob notissimam scientiam atque animi magnitudinem delectus est ab
+                     Rhodiis qui imperium classis obtineret.</seg>
+                  <seg n="3">Qui ubi Caesaris <supplied reason="lost">moram</supplied> animaduertit,
+                     'Videris, mihi,' inquit, 'Caesar, uereri, si haec uada primis nauibus intraris,
+                     ne prius dimicare cogaris quam reliquam classem potueris explicare. Nobis rem
+                     committe:</seg>
+                  <seg n="4">nos proelium sustinebimus — neque tuum iudicium fallemus — dum reliqui
+                     subsequantur. Hos quidem diutius in nostro conspectu gloriari magno nobis et
+                     dedecori et dolori est.'</seg>
+                  <seg n="5">Caesar illum adhortatus atque omnibus laudibus prosecutus dat signum
+                     pugnae. Progressis ultra uadum, IIII Rhodias naues circumsistunt Alexandrini
+                     atque in eas impetum faciunt.</seg>
+                  <seg n="6">Sustinent illi atque arte sollertiaque se explicant; ac tantum doctrina
+                     potuit ut in dispari numero nulla transuersa hosti obiceretur, nullius remi
+                     detergerentur, sed semper uenientibus aduersae occurrerent.</seg>
+                  <seg n="7">Interim sunt reliquae subsecutae. Tum necessario discessum ab arte est
+                     propter angustias loci, atque omne certamen in uirtute constitit.</seg>
+                  <seg n="8">Neque uero Alexandriae fuit quisquam aut nostrorum aut oppidanorum
+                        <supplied reason="lost">nisi</supplied> qui aut in opere aut in pugna
+                     occupatum animum haberent quin altissima tecta peteret atque ex omni prospectu
+                     locum spectaculo caperet precibusque et uotis uictoriam suis ab dis
+                     immortalibus exposceret. </seg>
+               </p>
+               <p n="16">
+                  <seg n="1">Minime autem par erat proeli certamen. Nostris enim pulsis neque terra
+                     neque mari effugium dabatur uictis, omniaque uictoribus erant futura in incerto
+                        <supplied reason="lost">cum</supplied> illi si superassent nauibus, omnia
+                     tenerent, si inferiores fuissent, reliquam tamen fortunam
+                     periclitarentur.</seg>
+                  <seg n="2">Simul illud graue ac miserum uidebatur, perpaucos de summa <supplied
+                        reason="lost">rerum</supplied> ac de salute omnium decertare; quorum si qui
+                     aut animo aut uirtute cessisset, reliquis etiam esse cauendum, quibus pro se
+                     pugnandi facultas non fuisset.</seg>
+                  <seg n="3">Haec superioribus diebus saepenumero Caesar suis exposuerat, ut hoc
+                     maiore animo contenderent, quod omnium salutem sibi commendatam uiderent.</seg>
+                  <seg n="4">Eadem suum quisque contubernalem, amicum, notum prosequens erat
+                     obtestatus, ne suam atque omnium falleret opinionem, quorum iudicio delectus ad
+                     pugnam proficisceretur.</seg>
+                  <seg n="5">Itaque hoc animo est decertatum, ut neque maritimis nauticisque
+                     sollertia atque ars praesidium ferret, neque numero nauium praestantibus
+                     multitudo prodesset, neque electi ad uirtutem e tanta multitudine uiri uirtuti
+                     nostrorum possent adaequare.</seg>
+                  <seg n="6">Capitur hoc proelio quinqueremis una et biremis cum defensoribus
+                     remigibusque, et deprimuntur tres, nostris incolumibus omnibus.</seg>
+                  <seg n="7">Reliquae propinquam fugam ad oppidum capiunt; quas protexerunt ex
+                     molibus atque aedificiis imminentibus et nostros adire propius prohibuerunt.
+                  </seg>
+               </p>
+               <p n="17">
+                  <seg n="1">Hoc ne sibi saepius accidere posset, omni ratione Caesar contendendum
+                     existimauit ut insulam molemque ad insulam pertinentem in suam redigeret
+                     potestatem.</seg>
+                  <seg n="2">Perfectis enim magna ex parte munitionibus in oppido, et illam et urbem
+                     uno tempore temptari posse confidebat.</seg>
+                  <seg n="3">Quo capto consilio cohortes X et leuis armaturae electos, quosque
+                     idoneos ex equitibus Gallis arbitrabatur, in nauigia minora scaphasque imponit,
+                     inde alteram insulae partem distinendae manus causa constratis nauibus
+                     aggreditur, praemiis magnis propositis qui primus insulam cepisset.</seg>
+                  <seg n="4">Ac primo impetum nostrorum pariter sustinuerunt: uno enim tempore et ex
+                     tectis aedificiorum propugnabant et litora armati defendebant, quo propter
+                     asperitatem loci non facilis nostris aditus dabatur, et scaphis nauibusque
+                     longis V mobiliter et scienter angustias loci tuebantur.</seg>
+                  <seg n="5">Sed ubi primum locis cognitis uadisque pertemptatis pauci nostri in
+                     litore constiterunt atque hos sunt alii subsecuti constanterque in eos qui in
+                     litore aequo institerant impetum fecerunt, omnes Pharitae terga
+                     uerterunt.</seg>
+                  <seg n="6">His pulsis<gap reason="lost"/> custodia portus relicta naues ad litora
+                     et uicum applicarunt seque ex nauibus ad tuenda aedificia eiecerunt. </seg>
+               </p>
+               <p n="18">
+                  <seg n="1">Neque uero diutius ex munitione se continere potuerunt, etsi erat non
+                     dissimile atque Alexandriae genus aedificiorum, ut minora maioribus
+                     conferantur, turresque editae et coniunctae muri locum obtinebant, neque nostri
+                     aut scalis aut cratibus aut reliquis rebus parati uenerant ad
+                     oppugnandum.</seg>
+                  <seg n="2">Sed terror hominibus mentem consiliumque eripit et membra debilitat; ut
+                     tum accidit.</seg>
+                  <seg n="3">Qui se in aequo loco ac plano pares esse confidebant, idem perterriti
+                     fuga suorum et caede paucorum XXX pedum altitudine in aedificiis consistere
+                     ausi non sunt seque per molem in mare praecipitauerunt et DCCC passuum
+                     interuallum ad oppidum enatauerunt.</seg>
+                  <seg n="4">Multi tamen ex his capti interfectique sunt; sed numerus captiuorum
+                     omnino fuit VI milium. </seg>
+               </p>
+               <p n="19">
+                  <seg n="1">Caesar praeda militibus concessa aedificia diripi iussit castellumque
+                     ad pontem, qui propior erat Pharo, communiuit atque ibi praesidium
+                     posuit.</seg>
+                  <seg n="2">Hunc fuga Pharitae reliquerant; artiorem illum propioremque oppido
+                     Alexandrini tuebantur. Sed eum postero die simili ratione aggreditur, quod his
+                     obtentis duobus omnem nauigiorum excursum et repentina latrocinia sublatum iri
+                     uidebat.</seg>
+                  <seg n="3">Iamque eos qui praesidio eum locum tenebant tormentis ex nauibus
+                     sagittisque depulerat atque in oppidum redegerat et cohortium trium instar in
+                     terram exposuerat — non enim plures consistere angustiae loci patiebantur — ;
+                     reliquae copiae in nauibus stationem obtinebant.</seg>
+                  <seg n="4">Quo facto imperat pontem aduersus hostem praeuallari et, qua exitus
+                     nauibus erat fornice extructo, quo pons sustinebatur, lapidibus oppleri atque
+                     obstrui.</seg>
+                  <seg n="5">Quorum altero opere effecto, ut nulla omnino scapha egredi posset,
+                     altero instituto omnes Alexandrinorum copiae ex oppido se eiecerunt et contra
+                     munitiones pontis latiore loco constiterunt, eodemque tempore quae consueuerant
+                     nauigia per pontes ad incendia onerariarum emittere ad molem
+                     constituerunt.</seg>
+                  <seg n="6">Pugnabatur a nobis ex ponte <supplied reason="lost">et</supplied> ex
+                     mole; ab illis ex area quae erat aduersus pontem et ex nauibus contra molem.
+                  </seg>
+               </p>
+               <p n="20">
+                  <seg n="1">In his rebus occupato Caesare militesque hortante remigum magnus
+                     numerus et classiariorum ex longis nauibus nostris in molem se eiecit.</seg>
+                  <seg n="2">Pars eorum studio spectandi ferebatur, pars etiam cupiditate pugnandi.
+                     Hi primum nauigia hostium lapidibus ac fundis a mole repellebant ac multum
+                     proficere multitudine telorum uidebantur.</seg>
+                  <seg n="3">Sed postquam ultra eum locum ab latere eorum aperto ausi sunt egredi ex
+                     nauibus Alexandrini pauci, ut sine signis certisque ordinibus, <supplied
+                        reason="lost">et</supplied> sine ratione prodierant, sic temere in naues
+                     refugere coeperunt.</seg>
+                  <seg n="4">Quorum fuga incitati Alexandrini plures ex nauibus egrediebantur
+                     nostrosque acrius perturbatos insequebantur. Simul qui in nauibus longis
+                     remanserant scalas rapere nauesque a terra repellere properabant, ne hostes
+                     nauibus potirentur.</seg>
+                  <seg n="5">Quibus omnibus rebus perturbati milites nostri cohortium trium quae in
+                     ponte ac prima mole constiterant, cum post se clamorem exaudirent, fugam suorum
+                     uiderent, magnam uim telorum aduersi sustinerent, ueriti ne ab tergo
+                     circumuenirentur et discessu nauium omnino reditu intercluderentur munitionem
+                     in ponte institutam reliquerunt et magno cursu incitati ad naues
+                     contenderunt.</seg>
+                  <seg n="6">Quorum pars proximas nacta naues multitudine hominum atque onere
+                     depressa est, pars resistens et dubitans quid esset capiendum consili ab
+                     Alexandrinis interfecta est; nonnulli feliciore exitu expeditas ad ancoram
+                     naues consecuti incolumes discesserunt, pauci alleuatis scutis et animo ad
+                     conandum nisi ad proxima nauigia adnatarunt. </seg>
+               </p>
+               <p n="21">
+                  <seg n="1">Caesar quoad potuit cohortando suos ad pontem ac munitiones continere,
+                     eodem in periculo uersatus est; postquam uniuersos cedere animaduertit, in suum
+                     nauigium se recepit.</seg>
+                  <seg n="2">Quo multitudo hominum insecuta cum irrumperet neque administrandi neque
+                     repellendi a terra facultas daretur, fore quod accidit suspicatus sese ex
+                     nauigio eiecit atque ad eas quae longius constiterant naues adnatauit.</seg>
+                  <seg n="3">Hinc suis laborantibus subsidio scaphas mittens nonnullos conseruauit.
+                     Nauigium quidem eius multitudine depressum militum una cum hominibus
+                     interiit.</seg>
+                  <seg n="4">Hoc proelio desiderati sunt ex numero legionariorum militum circiter
+                     CCCC et paulo <supplied reason="lost">ultra</supplied> eum numerum classiarii
+                     et remiges.</seg>
+                  <seg n="5">Alexandrini eo loco castellum magnis munitionibus multisque tormentis
+                     confirmarunt atque egestis ex mari lapidibus libere sunt usi postea ad mittenda
+                     nauigia. </seg>
+               </p>
+               <p n="22">
+                  <seg n="1">Hoc detrimento milites nostri tantum afuerunt ut perturbarentur, ut
+                     incensi atque incitati magnas accessiones fecerint in operibus hostium
+                     expugnandis.</seg>
+                  <seg n="2">In proeliis cotidianis, quandocumque fors obtulerat, procurrentibus et
+                     erumpentibus Alexandrinis, manum comprehendi <gap reason="lost"/> multum
+                     operibus et ardentibus studiis militum; nec diuulgata Caesaris hortatio
+                     subsequi legionum aut laborem aut pugnandi poterat cupiditatem, ut magis
+                     deterrendi et continendi a periculosissimis essent dimicationibus quam
+                     incitandi ad pugnandum. </seg>
+               </p>
+               <p n="23">
+                  <seg n="1">Alexandrini cum Romanos et secundis rebus confirmari et aduersis
+                     incitari uiderent neque ullum belli tertium casum nossent quo possent esse
+                     firmiores, ut coniectura consequi possumus, aut admoniti a regis amicis qui in
+                     Caesaris erant praesidiis, aut suo priore consilio per occultos nuntios regi
+                     probato legatos ad Caesarem miserunt, ut dimitteret regem transireque ad suos
+                     pateretur:</seg>
+                  <seg n="2">paratam enim omnem multitudinem esse, confectam taedio puellae,
+                     fiduciario regno, dominatione crudelissima Ganymedis, facere id quod rex
+                     imperasset; quo si auctore in Caesaris fidem amicitiamque uenturi essent,
+                     nullius periculi timorem multitudini fore impedimento quo minus se dederent.
+                  </seg>
+               </p>
+               <p n="24">
+                  <seg n="1">Caesar etsi fallacem gentem semperque alia cogitantem, alia simulantem
+                     bene cognitam habebat, tamen petentibus dare ueniam utile esse statuit, quod,
+                     si quo pacto sentirent ea quae postularent, mansurum in fide dimissum regem
+                     credebat, sin, id quod magis illorum naturae conueniebat, ducem ad bellum
+                     gerendum regem habere uellent, splendidius atque honestius se contra regem quam
+                     contra conuenarum ac fugitiuorum manum bellum esse gesturum.</seg>
+                  <seg n="2">Itaque regem cohortatus ut consuleret regno paterno, parceret
+                     praeclarissimae patriae, quae turpibus incendiis et ruinis esset deformata,
+                     ciues suos primum ad sanitatem reuocaret, deinde conseruaret, fidem populo
+                     Romano sibique praestaret, cum ipse tantum ei crederet ut ad hostes armatos eum
+                     mitteret, dextra dextram tenens dimittere coepit adulta iam aetate
+                     puerum.</seg>
+                  <seg n="3">At regius animus disciplinis fallacissimis eruditus, ne a gentis suae
+                     moribus degeneraret, flens orare contra Caesarem coepit ne se dimitteret: non
+                     enim sibi regnum ipsum conspectu Caesaris esse iucundius.</seg>
+                  <seg n="4">Compressis pueri lacrimis Caesar ipse commotus celeriter, si illa
+                     sentiret, fore eum secum adfirmans ad suos dimisit.</seg>
+                  <seg n="5">Ille, ut ex carceribus in liberum cursum emissus, adeo contra Caesarem
+                     acriter bellum gerere coepit ut lacrimas quas in colloquio proiecerat gaudio
+                     uideretur profudisse.</seg>
+                  <seg n="6">Accidisse hoc complures Caesaris legati, amici, centuriones militesque
+                     laetabantur, quod nimia bonitas eius fallaciis pueri elusa esset. Quasi uero id
+                     Caesar bonitate tantum adductus ac non prudentissimo consilio fecisset. </seg>
+               </p>
+               <p n="25">
+                  <seg n="1">Cum duce assumpto Alexandrini nihilo se firmiores factos aut
+                     languidiores Romanos animaduerterent eludentibusque militibus regis aetatem
+                     atque infirmitatem magnum dolorem acciperent neque se quicquam proficere
+                     uiderent, rumoresque existerent magna Caesari praesidia terrestri itinere
+                        <supplied reason="lost">ex</supplied> Syria Ciliciaque adduci, quod nondum
+                     auditum Caesari erat, commeatum, qui mari nostris supportabatur, intercipere
+                     statuerunt.</seg>
+                  <seg n="2">Itaque expeditis nauigiis locis idoneis ad Canopum in statione
+                     dispositis nauibus insidiabantur nostris <sic>commeatu</sic>.</seg>
+                  <seg n="3">Quod ubi Caesari nuntiatum est, uniuersam classem iubet expediri atque
+                     instrui. Praeficit huic Tiberium Neronem. Proficiscuntur in ea classe Rhodiae
+                     naues atque in iis Euphranor, sine quo nulla umquam dimicatio maritima, nulla
+                     etiam parum feliciter confecta erat.</seg>
+                  <seg n="4">At fortuna, quae plerumque eos quos plurimis beneficiis ornauit ad
+                     duriorem casum reseruat, superiorum temporum dissimilis Euphranorem
+                     prosequebatur.</seg>
+                  <seg n="5">Nam cum ad Canopum uentum esset instructaque utrimque classis
+                     conflixisset et sua consuetudine Euphranor primus proelium commisisset et
+                     quadriremem hostium perforasset ac demersisset, proximam longius insecutus
+                     parum celeriter insequentibus reliquis circumuentus ab Alexandrinis.</seg>
+                  <seg n="6">Cui subsidium nemo tulit, siue quod in ipso satis praesidi pro uirtute
+                     ac felicitate eius putarent esse, siue quod ipsi sibi timebant. Ita, qui unus
+                     ex omnibus eo proelio bene rem gessit, solus cum sua quadriremi uictrice
+                     periit. </seg>
+               </p>
+               <p n="26">
+                  <seg n="1">Sub idem tempus Mithridates Pergamenus, magnae nobilitatis domi
+                     scientiaeque in bello et uirtutis, fidei dignitatisque in amicitia Caesaris,
+                     missus in Syriam Ciliciamque initio belli Alexandrini ad auxilia arcessenda,
+                     cum magnis copiis, quas celeriter et propensissima ciuitatium uoluntate et sua
+                     diligentia confecerat, itinere pedestri, quo coniungitur Aegyptus Syriae,</seg>
+                  <seg n="2">Pelusium <gap reason="lost"/> adducit. Idque oppidum firmo praesidio
+                     occupatum Achillae propter opportunitatem loci — namque tota Aegyptus maritimo
+                     accessu Pharo, pedestri Pelusio uelut claustris munita existimatur — repente
+                     magnis circumdatum copiis multiplici praesidio, pertinaciter propugnantibus et
+                     copiarum magnitudine, quas integras uulneratis defessisque subiciebat, et
+                     perseuerantia constantiaque oppugnandi quo die est aggressus in suam redegit
+                     potestatem praesidiumque ibi suum collocauit.</seg>
+                  <seg n="3">Inde re bene gesta Alexandriam ad Caesarem contendit omnesque eas
+                     regiones per quas iter faciebat auctoritate ea quae plerumque adest uictori
+                     pacarat atque in amicitiam Caesaris redegerat. </seg>
+               </p>
+               <p n="27">
+                  <seg n="1">Locus est fere regionum illarum nobilissimus non ita longe ab
+                     Alexandria, qui nominatur Delta; quod nomen a similitudine litterae cepit: nam
+                     pars quaedam fluminis Nili deriuata [inter se] duobus itineribus paulatim
+                     medium inter se spatium relinquens diuersissimo ad litus interuallo
+                        <surplus>a</surplus> mari coniungitur.</seg>
+                  <seg n="2">Cui loco cum appropinquare Mithridaten rex cognouisset et transeundum
+                     ei flumen sciret, magnas aduersus eum copias misit, quibus uel superari
+                     delerique Mithridaten uel sine dubio retineri posse credebat.</seg>
+                  <seg n="3">Quem ad modum autem optabat eum uinci, sic satis habebat interclusum a
+                     Caesare a se retineri.</seg>
+                  <seg n="4">Quae primae copiae flumen a Delta transire et Mithridati occurrere
+                     potuerunt proelium commiserunt festinantes praeripere subsequentibus uictoriae
+                     societatem.</seg>
+                  <seg n="5">Quorum impetum Mithridates [magna cum prudentia constantiaque uirtutum
+                     et Alexandrinorum imprudentia] consuetudine nostra castris uallatis sustinuit;
+                     cum uero incaute atque insolenter succedere eos munitionibus uideret, eruptione
+                     undique facta magnum numerum eorum interfecit.</seg>
+                  <seg n="6">Quod nisi locorum notitia reliqui se texissent partimque in naues
+                     quibus flumen transierant recepissent, funditus deleti essent.</seg>
+                  <seg n="7">Qui ut paulum ab illo timore se recrearunt, adiuncti iis qui
+                     subsequebantur rursus oppugnare Mithridaten coeperunt. </seg>
+               </p>
+               <p n="28">
+                  <seg n="1">Mittitur a Mithridate nuntius Caesari qui rem gestam perferret.
+                     Cognoscit ex suis eadem haec accidisse rex. Ita paene sub idem tempus et rex ad
+                     opprimendum Mithridaten proficiscitur et Caesar ad recipiendum.</seg>
+                  <seg n="2">Celeriore fluminis Nili nauigatione rex est usus, in quo magnam et
+                     paratam classem habebat. Caesar eodem itinere uti noluit, ne nauibus in flumine
+                     dimicaret, sed circumuectus eo mari, quod Africae partis esse dicitur, sicuti
+                     supra demonstrauimus; prius tamen regis copiis occurrit, quam is Mithridaten
+                     aggredi posset, eumque ad se uictorem incolumi exercitu recepit.</seg>
+                  <seg n="3">Considerat cum copiis rex loco natura munito, quod erat ipse excelsior
+                     planitie ex omnibus partibus subiecta; tribus autem ex lateribus uariis generum
+                     munitionibus tegebatur: unum latus erat adiectum flumini Nilo, alterum
+                     editissimo loco ductum, ut partem castrorum obtineret, tertium palude
+                     cingebatur. </seg>
+               </p>
+               <p n="29">
+                  <seg n="1">Inter castra et Caesaris iter flumen intercedebat angustum altissimis
+                     ripis, quod in Nilum influebat, aberat autem ab regis castris milia passuum
+                     circiter VII.</seg>
+                  <seg n="2">Rex cum hoc itinere uenire Caesarem comperisset, equitatum omnem
+                     expeditosque delectos pedites ad id flumen misit qui transitu Caesarem
+                     prohiberent et eminus ex ripis proelium impar inirent: nullum enim processum
+                     uirtus habebat aut periculum ignauia subibat.</seg>
+                  <seg n="3">Quae res incendit dolore milites equitesque nostros, quod tam diu pari
+                     proelio cum Alexandrinis certaretur.</seg>
+                  <seg n="4">Itaque eodem tempore equites Germani dispersi uada fluminis quaerentes
+                     partim demissioribus ripis flumen tranarunt, et legionarii magnis arboribus
+                     excisis, quae longitudine utramque ripam contingerent, proiectis repentinoque
+                     aggere iniecto flumen transierunt.</seg>
+                  <seg n="5">Quorum impetum adeo pertimuerunt hostes ut in fuga spem salutis
+                     collocarent; sed id frustra: namque ex ea fuga pauci ad regem refugerunt paene
+                     omni reliqua multitudine interfecta. </seg>
+               </p>
+               <p n="30">
+                  <seg n="1">Caesar re praeclarissime gesta, cum subitum aduentum suum iudicaret
+                     magnum terrorem Alexandrinis iniecturum, protinus uictor ad castra regis
+                     pertendit.</seg>
+                  <seg n="2">Haec cum et opere magno uallata et loci natura munita animaduerteret
+                     confertamque armatorum multitudinem collocatam in uallo uideret, lassos itinere
+                     ac proeliando milites ad oppugnanda castra succedere noluit. Itaque non magno
+                     interuallo relicto ab hoste castra posuit.</seg>
+                  <seg n="3">Postero die castellum, quod rex in proximo uico non longe a suis
+                     castris munierat bracchiisque cum opere castrorum coniunxerat uici obtinendi
+                     causa, Caesar aggressus omnibus copiis expugnat, non quo id minore numero
+                     militum consequi difficile factu putaret, sed ut ab ea uictoria perterritis
+                     Alexandrinis protinus castra regis oppugnaret.</seg>
+                  <seg n="4">Itaque eo cursu, quo refugientes Alexandrinos ex castello in castra
+                     sunt milites insecuti, munitionibus successerunt acerrimeque eminus proeliari
+                     coeperunt.</seg>
+                  <seg n="5">Duabus ex partibus aditus oppugnationis nostris dabatur: una, quam
+                     liberum accessum habere demonstraui, altera, quae mediocre interuallum inter
+                     castra et flumen Nilum habebat.</seg>
+                  <seg n="6">Maxima et electissima multitudo Alexandrinorum defendebat eam partem,
+                     quae facillimum aditum habebat; plurimum proficiebant in repellendis
+                     uulnerandisque nostris, qui regione fluminis Nili propugnabant: diuersis enim
+                     telis nostri figebantur, aduersi ex uallo castrorum, auersi ex flumine, in quo
+                     multae naues instructae funditoribus et sagittariis nostros impugnabant. </seg>
+               </p>
+               <p n="31">
+                  <seg n="1">Caesar cum uideret milites acrius proeliari non posse nec tamen multum
+                     profici propter locorum difficultatem, cumque animaduerteret excelsissimum
+                     locum castrorum relictum esse ab Alexandrinis, quod et per se munitus esset et
+                     studio partim pugnandi partim spectandi decucurrissent in eum locum in quo
+                     pugnabatur, cohortes tres circumire castra et summum locum aggredi iussit
+                     iisque Carfulenum praefecit, et animi magnitudine et rei militaris scientia
+                     uirum praestantem.</seg>
+                  <seg n="2">Quo ut uentum est, paucis defendentibus munitionem, nostris contra
+                     militibus acerrime pugnantibus, diuerso clamore et proelio perterriti
+                     Alexandrini trepidantes in omnes partes castrorum discurrere coeperunt.</seg>
+                  <seg n="3">Quorum perturbatione nostrorum animi adeo sunt incitati ut paene eodem
+                     tempore ex omnibus partibus <gap reason="lost"/> , primi tamen editissimum
+                     castrorum locum caperent; ex quo decurrentes magnam multitudinem hostium in
+                     castris interfecerunt.</seg>
+                  <seg n="4">Quod periculum plerique Alexandrini fugientes aceruatim se de uallo
+                     praecipitarunt in eam partem quae flumini erat adiuncta.</seg>
+                  <seg n="5">Horum primis in ipsa fossa munitionis magna ruina oppressis ceteri
+                     faciliorem fugam habuerunt.</seg>
+                  <seg n="6">Constat fugisse ex castris regem ipsum receptumque in nauem multitudine
+                     eorum qui ad proximas naues adnatabant demerso nauigio perisse. </seg>
+               </p>
+               <p n="32">
+                  <seg n="1">Re felicissime celerrimeque gesta Caesar magnae uictoriae fiducia
+                     proximo terrestri itinere Alexandriam cum equitibus contendit atque ea parte
+                     oppidi uictor introiit quae praesidio hostium tenebatur.</seg>
+                  <seg n="2">Neque eum consilium suum fefellit quin hostes eo proelio audito nihil
+                     iam de bello essent cogitaturi.</seg>
+                  <seg n="3">Dignum adueniens fructum uirtutis et animi magnitudinis tulit: omnis
+                     enim multitudo oppidanorum armis proiectis munitionibusque suis relictis, ueste
+                     ea sumpta qua supplices dominantes deprecari consuerunt, sacrisque omnibus
+                     prolatis quorum religione precari offensos iratosque animos regum erant soliti,
+                     aduenienti Caesari occurrerunt seque ei dediderunt.</seg>
+                  <seg n="4">Caesar in fidem receptos consolatus per hostium munitiones in suam
+                     partem oppidi magna gratulatione uenit suorum, qui non tantum bellum ipsum ac
+                     dimicationem sed etiam talem aduentum eius felicem fuisse laetabantur. </seg>
+               </p>
+               <p n="33">
+                  <seg n="1">Caesar Aegypto atque Alexandria potitus reges constituit,
+                        <surplus>ut</surplus> quos Ptolomaeus testamento scripserat atque obtestatus
+                     erat populum Romanum ne mutarentur.</seg>
+                  <seg n="2">Nam maiore ex duobus pueris, rege, amisso minori tradidit regnum
+                     maiorique ex duabus filiis, Cleopatrae, quae manserat in fide praesidiisque
+                     eius; minorem, Arsinoem, cuius nomine diu regnasse impotenter Ganymeden
+                     docuimus, deducere ex regno statuit, ne qua rursus noua dissensio, prius quam
+                     diuturnitate confirmarentur regum imperia, per homines seditiosos
+                     nasceretur.</seg>
+                  <seg n="3">Legiones ibi ueterana sexta secum reducta ceteras reliquit, quo firmius
+                     esset eorum regum imperium, qui neque amorem suorum habere poterant, quod
+                     fideliter permanserant in Caesaris amicitia, neque uetustatis auctoritatem,
+                     paucis diebus reges constituti.</seg>
+                  <seg n="4">Simul ad imperi nostri dignitatem utilitatemque publicam pertinere
+                     existimabat, si permanerent in fide reges, praesidiis eos nostris esse tutos;
+                     si essent ingrati, posse iisdem praesidiis coerceri. Sic rebus omnibus
+                     confectis et collocatis ipse itinere terrestri profectus est in Syriam.</seg>
+               </p>
+            </div>
+         </div>
+      </body>
+      <back>
+         <!--
+The content of the back matter will be determined in consultation between
+        the editor and the staff of the DLL. Because LDLT editions are encoded, the
+        matter traditionally found in the back of a printed critical edition may be
+        generated by applications instead of having to be entered manually.
+        Nevertheless, there is space here for notes, indices, and other kinds of
+        information.
+-->
+      </back>
+   </text>
+</TEI>
