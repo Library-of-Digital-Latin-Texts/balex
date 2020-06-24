@@ -144,3 +144,6 @@ Temporary Items
 
 # OxygenXML project files
 *.xpr
+
+# Other
+bib-orphans.docx
