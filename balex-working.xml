@@ -11145,7 +11145,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!-- End STBA 46.1 -->
 
             <!-- Begin STBA 47.2 -->
-            <div type="section" xml:id="stba-47.2">
+            <div type="section" xml:id="stba-47.2" resp="#Warnock #Damon">
                <head>47.2</head>
 
                <p rend="byline"><hi rend="italic">Tim Warnock and Cynthia Damon</hi></p>
@@ -11235,7 +11235,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!-- End of STBA 47.2 -->
 
             <!-- Begin of STBA 49.1 -->
-            <div type="section" xml:id="stba-49.1">
+            <div type="section" xml:id="stba-49.1" resp="#Warnock #Damon">
                <head>49.1</head>
 
                <p rend="byline"><hi rend="italic">Tim Warnock and Cynthia Damon</hi></p>
@@ -11388,7 +11388,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!-- End of STBA 49.1 -->
 
             <!-- Begin STBA 49.2 -->
-            <div type="section" xml:id="stba-49.2-3">
+            <div type="section" xml:id="stba-49.2-3" resp="#Warnock #Damon">
                <head>49.2–3</head>
 
                <p rend="byline"><hi rend="italic">Tim Warnock and Cynthia Damon</hi></p>
@@ -11695,7 +11695,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!-- End of STBA 49.2 -->
 
             <!-- Begin STBA 60.2 -->
-            <div type="section" xml:id="stba-60.2">
+            <div type="section" xml:id="stba-60.2" resp="#Reinhardt #Damon">
                <head>60.2</head>
 
                <p rend="byline"><hi rend="italic">Isabella Reinhardt and Cynthia Damon</hi></p>
@@ -11938,7 +11938,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!-- End STBA 60.2 -->
 
             <!-- Begin STBA 63.5 -->
-            <div type="section" xml:id="stba-63.5">
+            <div type="section" xml:id="stba-63.5" resp="#Credo #Damon">
                <head>63.5</head>
 
                <p rend="byline"><hi rend="italic">Brian Credo and Cynthia Damon</hi></p>
@@ -12144,10 +12144,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!-- End STBA 63.5 -->
 
             <!-- Start STBA 66.3-4 -->
-            <div type="section" xml:id="stba-66.3-4">
+            <div type="section" xml:id="stba-66.3-4" resp="#Credo #Damon">
                <head>66.3–4</head>
 
-               <p rend="byline"><hi rend="italic">—Brian Credo and Cynthia Damon</hi></p>
+               <p rend="byline"><hi rend="italic">Brian Credo and Cynthia Damon</hi></p>
 
                <quote rend="blockquote">Ibi rebus omnibus prouinciae et finitimarum ciuitatium
                   constitutis cupiditate proficiscendi ad bellum gerendum non diutius moratur
@@ -12380,7 +12380,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!-- End STBA 66.3-4 -->
 
             <!-- Begin STBA 67.1 -->
-            <div type="section" xml:id="stba-67.1">
+            <div type="section" xml:id="stba-67.1" resp="#Bensch-Schaus #Damon">
                <head>67.1</head>
 
                <p rend="byline"><hi rend="italic">Amelia Bensch-Schaus and Cynthia Damon</hi></p>
@@ -12667,7 +12667,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!-- End STBA 67.1 -->
 
             <!-- Begin STBA 68.1 -->
-            <div type="section" xml:id="stba-68.1">
+            <div type="section" xml:id="stba-68.1" resp="#Bensch-Schaus #Damon">
                <head>68.1</head>
 
                <p rend="byline"><hi rend="italic">Amelia Bensch-Schaus and Cynthia Damon</hi></p>
@@ -12768,7 +12768,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!-- End STBA 68.1 -->
 
             <!-- Begin STBA 72.2 -->
-            <div type="section" xml:id="stba-72.2-3">
+            <div type="section" xml:id="stba-72.2-3" resp="#Hanson #Damon">
                <head>72.2–3</head>
 
                <p rend="byline"><hi rend="italic">Wes Hanson and Cynthia Damon</hi></p>
@@ -13052,7 +13052,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <!-- End STBA 72.2 -->
 
             <!-- Begin STBA 74.4 -->
-            <div type="section" xml:id="stba-74.4">
+            <div type="section" xml:id="stba-74.4" resp="#Hanson #Damon">
                <head>74.4</head>
 
                <p rend="byline"><hi rend="italic">Wes Hanson and Cynthia Damon</hi></p>
