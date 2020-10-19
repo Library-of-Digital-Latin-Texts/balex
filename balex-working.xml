@@ -94,175 +94,1030 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <front xml:id="front">
          <div type="section" xml:id="preface">
             <head>Preface</head>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc metus,
-               condimentum quis auctor eget, convallis id enim. Mauris ligula augue, aliquam quis
-               commodo non, vehicula vel nisl. Ut non pulvinar arcu, nec tincidunt eros. Class
-               aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-               Phasellus eleifend justo non massa gravida condimentum. Fusce tempor molestie lorem
-               quis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada
-               fames ac turpis egestas. Phasellus lobortis dignissim tempus. Aenean efficitur augue
-               vel iaculis scelerisque</p>
+            <p>This edition of the <title>Bellum Alexandrinum</title>, a text of unknown authorship
+               belonging to the <title>Corpus Caesarianum</title>, is the product of collaborations
+               involving nearly 100 people. The text and critical apparatus were prepared under
+               Cynthia Damon’s direction by students at the University of Pennsylvania between 2014
+               and 2019, as were the supplementary materials included in this addition: detailed
+               textual notes on difficult passages (<title>Studies on the Text of the Bellum
+                  Alexandrinum</title>), an appendix of singular readings (the Appendix critica),
+               folio-by-folio transcriptions of the five manuscript witnesses used in the
+               constitution of the text, and a translation. Damon converted the apparatus into a
+               spreadsheet, and the LDLT team led by Sam Huskey at the University of Oklahoma
+               converted both the text and the apparatus into the machine-readable form that
+               underlies the version you are reading, either at the interactive LDLT website or as
+               an on-demand .pdf. WHO wrote this preface. <note place="bottom" xml:id="ftn1" n="1"
+                     ><p> The processes summarized here have been the subject of several talks at
+                     the annual meeting of the Society for Classical Studies (LINKS?) and will be
+                     described more fully in Damon and Huskey (in preparation).</p></note>
+            </p>
 
-            <p>Nulla finibus dui quis enim convallis faucibus. Donec in sem dapibus, pellentesque
-               nulla vel, pulvinar felis. Curabitur finibus dapibus enim in auctor. Integer
-               ultricies libero eu nibh cursus, in mattis lacus hendrerit. Duis vel est auctor,
-               rhoncus dolor volutpat, rhoncus elit. Aenean volutpat sit amet est quis placerat. In
-               consectetur feugiat diam, ut porttitor mauris accumsan et. Sed pellentesque rhoncus
-               diam. Nulla in turpis dui. Vestibulum sagittis porttitor tortor, vitae facilisis
-               risus rutrum efficitur. Integer vel rutrum felis. Proin porta in felis nec
-               commodo</p>
+            <!-- Subsection on why a new edition -->
+            <div type="section" xml:id="preface-why-a-new-edition">
+               <head>Why a new edition of the <title>Bellum Alexandrinum</title>?</head>
+               <p>There are two answers to that question. The traditional answer is that the
+                  discoveries that underpin my recent critical edition of Caesar’s <title>Civil
+                     War</title> (Oxford, 2015) should also be used to reassess the text of the
+                     <title>Bellum Alexandrinum</title>, which rests on the same manuscript
+                     witnesses.<note place="bottom" xml:id="ftn2" n="2"><p> OUP site: <ref
+                           target="https://global.oup.com/academic/product/c-iuli-caesaris-commentarii-de-bello-civili-bellum-civile-or-civil-war-9780199659746?cc=us&amp;lang=en&amp;"
+                           >https://global.oup.com/academic/product/c-iuli-caesaris-commentarii-de-bello-civili-bellum-civile-or-civil-war-9780199659746?cc=us&amp;lang=en&amp;</ref>.</p></note>
+                  But the real answer is that in the digital era we urgently need new editors, and
+                  that creating an edition such as this is an excellent way to expose students to
+                  the editing process. The next generation of critical editions, <hi rend="italic"
+                     >digital</hi> critical editions, can improve significantly on past editions,
+                  but for classical texts there are currently no good models: existing digital
+                  editions are woefully inadequate for both teaching and research. <hi
+                     rend="background(cyan)">[SAM on the project as training for digital humanities
+                     students?]</hi></p>
 
-            <p>Pellentesque at odio id orci imperdiet suscipit. Aenean ac lectus elit. Donec mattis
-               congue lacus at viverra. Etiam lobortis iaculis luctus. Maecenas sed elit eget justo
-               ullamcorper dapibus sit amet sed nisl. Phasellus ex tortor, scelerisque quis nunc ac,
-               eleifend malesuada lacus. Donec ut diam eu nisl commodo ultrices. Aenean nec ornare
-               nisl, ac sodales quam. Mauris faucibus metus sed quam viverra, nec maximus lacus
-               ultrices. Cras pharetra, felis vel rhoncus ultrices, sem sem blandit tortor, at
-               molestie ex elit ut enim</p>
+               <!-- Sub-subsection on what is new -->
+               <div type="section" xml:id="preface-what-is-new">
+                  <head>What is New?</head>
 
-            <p>Integer vehicula ex cursus lorem congue efficitur. Nullam imperdiet, mauris at
-               convallis condimentum, neque tellus tempus quam, eu rutrum tellus ex vel augue.
-               Aenean fermentum nunc vel lacus imperdiet, eu molestie ligula pulvinar. Praesent
-               pulvinar dolor et gravida cursus. Donec rutrum tincidunt risus, sit amet consequat
-               purus aliquam ut. Donec quis dolor ornare, ultricies quam in, facilisis libero. Morbi
-               at cursus neque. Cras quis nulla sodales, imperdiet erat a, efficitur augue. In eu
-               tellus in erat viverra rhoncus a nec nibh. Suspendisse rhoncus tortor nec libero
-               egestas vehicula. Aliquam laoreet purus diam, sit amet scelerisque enim laoreet
-               bibendum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-               ac turpis egestas</p>
+                  <div type="section" xml:id="preface-what-is-new-text">
+                     <head>The text and apparatus:</head>
 
-            <p>Nulla quis iaculis nisi. Praesent pretium magna vel turpis ultrices venenatis. Nunc
-               molestie dapibus est, ut vehicula lacus maximus a. Mauris posuere pellentesque eros,
-               in ultricies augue pellentesque lobortis. Maecenas eget leo nec tellus eleifend
-               eleifend sit amet vitae nulla. Fusce dolor urna, tristique a massa at, ultricies
-               tempor elit. Nulla lobortis odio risus, a viverra orci dictum at. Proin elementum
-               metus at turpis pulvinar porttitor</p>
+                     <p>As can be seen from the Conspectus editionum, our text differs from that of
+                        Andrieu <hi rend="background(yellow)">1954</hi>, which we used as our base
+                        text, in nearly 100 places. Eleven of these changes are a consequence of the
+                        new stemma, in which the manuscript that differs the most from the rest, S,
+                        is treated as a witness to the hyparchetype nu rather than as an independent
+                        witness to the archetype.<note place="foot" xml:id="ftn3" n="3"><p> 42.2
+                              exercitus alendos, 49.2 causae, 57.3 †in†, 60.1 educerentur, 60.3
+                              animaduerteret, 61.6 sibi usui, 62.1 auxiliares, 62.2 Marcello
+                              fauebant, 64.3 derectam, 66.1 praefecit, 66.5 inceptum. <hi
+                                 rend="background(yellow)">See further S-demoted lists in Damon
+                                 2015b, PAGES</hi>. </p></note> In fifty-three places we print the
+                        archetype (or a possibly archetypal reading) where other editors emend it.
+                           <note place="bottom" xml:id="ftn4" n="4"><p> 1.5 expectans, 7.2 casum,
+                              7.2 ut … absumeretur, 8.2 Paratonio, 10.2 accessissent, 10.2
+                              exposuissent, 12.3 miserant, 12.4 Caesaris, 13.5 Lycias, 13.5 et, 14.1
+                              Rhodios, 14.1 Ponticos, 14.1 hos, 16.1 uictis, 19.2 certiorem, 20.4
+                              perturbatos, 26.2 adducit, 26.2 multiplici praesidio, 27.5
+                              constantiaque, 27.7 adiuncti his, 31.3 partibus, 32.1 magnae, 33.5
+                              itinere terrestri, 36.5 siue amicus siue inimicus, 40.2 aperto, 42.3
+                              Iadertinorum, 48.3 minuebat, 49.1 in ea, 51.2 uoluntate, 51.3
+                              describerentur, 53.4 Laterensis, 54.3 indicaretur, 55.1 cohortibus,
+                              55.5 Q. Sestio, 56.2 temporum, 56.2 animus, 57.1 Leptim, 59.1
+                              detraxerunt, 60.1 educerentur, 60.2 esset <hi rend="superscript"
+                                 >2</hi>, 60.5 educit, 61.6 sibi usui, 64.3 derectam, 66.1
+                              legionibus, 66.1 praefecit, 66.5 inceptum, 67.1 Caesaris, 68.1
+                              defensionem, 68.2 natura, 70.8 si, 72.2 superioribus … oppido, 75.1
+                              operibus, 78.2 quod.<seg> </seg></p></note> We print thirteen new
+                        emendations and propose a number of others. <note place="bottom"
+                           xml:id="ftn5" n="5"><p> 11.2 &lt;suorum&gt; <hi rend="italic">Khan</hi>,
+                              15.3 &lt;moram&gt; <hi rend="italic">Lewis</hi>, 16.2
+                              &lt;exercitus&gt; <hi rend="italic">scripsimus</hi>, 17.2 &lt;et
+                              hanc&gt; et illam [urbem] <hi rend="italic">scripsimus</hi>, 35.3
+                              &lt;constat&gt; <hi rend="italic">scripsimus</hi>, 44.4 has adiunxit
+                                 <hi rend="italic">scripsimus</hi>, 60.3 animaduerteret causa <hi
+                                 rend="italic">Reinhardt</hi>, 61.4 adductus <hi rend="italic"
+                                 >scripsimus</hi>, 62.1 auxiliares <hi rend="italic"
+                              >scripsimus</hi>, 67.1 &lt;et coactus&gt; <hi rend="italic"
+                                 >Bensch-Schaus</hi>, 73.3 aggerere tum <hi rend="italic"
+                                 >scripsimus</hi>, 74.3 contemptione <hi rend="italic"
+                                 >scripsimus</hi>, 75.1 operibus reuocat <hi rend="italic"
+                                 >Naqvi</hi>. Emendations proposed but not printed: 20.3 &lt;et&gt;
+                              sine ratione <hi rend="italic">Callaghan</hi>, 26.2 <hi rend="italic"
+                                 >&lt;gap&gt; </hi>adducit<hi rend="italic"> Persyn</hi>, 27.5
+                              Mithridates [magna cum prudentia] <hi rend="italic">D. Simons</hi>,
+                              57.1 adducebatur <hi rend="italic">J. Simons</hi>, 58.1 ueteranas <hi
+                                 rend="italic">J. Simons.</hi> There are also more than 40 new
+                              suggestions introduced at the end of apparatus notes with the formulas
+                                 <hi rend="italic">an … ?</hi> or <hi rend="italic">nisi mauis</hi>.
+                           </p></note> We also revive fourteen.<note place="foot" xml:id="ftn6"
+                           n="6"><p> 2.1 &lt;armatorum&gt;<hi rend="italic"> Fischer</hi>, 7.2 esse
+                                 <hi rend="italic">Nipperdey</hi>, 15.8 &lt;nisi&gt; qui <hi
+                                 rend="italic">Fleischer, </hi>17.3 quosque <hi rend="italic"
+                                 >Lipsius, </hi>25.1 Caesaris praesidia <hi rend="italic">ed. pr.,
+                              </hi>36.5 aduentu sin <hi rend="italic">Hoffmann, </hi>40.2 circumire
+                              ac transcendere <hi rend="italic">Nipperdey, </hi>42.2 exercitus
+                              alendos <hi rend="italic">M, </hi>45.2 distentis <hi rend="italic"
+                                 >Hoffmann, </hi>49.2 simul et <hi rend="italic">Latinius, </hi>55.1
+                              legionem quintam in castra remittit <hi rend="italic">ed. pr.,
+                              </hi>58.1 Torius <hi rend="italic">ς</hi>, 70.4 quamquam <hi
+                                 rend="italic">Dinter</hi>, 74.4 in procliuem <hi rend="italic"
+                                 >Nipperdey</hi>.</p></note> In the process of our work we silently
+                        corrected dozens of errors in the apparatus of Andrieu 1954 and Klotz 1927.
+                        More broadly, we hope to have improved the apparatus everywhere by making
+                        the arguments relevant to the constitution of the text more salient and more
+                        explicit (see further below for our policy on apparatus notes).<lb/></p>
+                  </div>
+                  <!-- End of sub-subsection on text. -->
 
-            <p>Duis sed lectus feugiat, posuere turpis lobortis, semper tellus. Phasellus vel libero
-               lectus. Mauris vitae sem sollicitudin, iaculis lacus sit amet, ultrices diam. Duis
-               semper ultricies massa, nec consectetur nulla. Nullam commodo tempor tortor, vel
-               aliquet magna venenatis in. Curabitur hendrerit porttitor tortor. Pellentesque vitae
-               leo sit amet dui rutrum tincidunt ut eu lorem. Nullam pulvinar at mi id sagittis.
-               Fusce id viverra quam, quis dapibus leo. Vestibulum consequat, tellus quis auctor
-               egestas, massa eros volutpat erat, id pulvinar magna ante a nunc</p>
+                  <div type="section" xml:id="preface-what-is-new-machine">
+                     <head>The machine-readable form:</head>
+                     <p><hi rend="background(cyan)">[SAM on the enhancements of the digital LDLT?
+                           BRIEFLY HERE, IN MORE DETAIL BELOW?]</hi>
+                     </p>
+                  </div>
+                  <!-- End of sub-subsection on machine-readable form. -->
+               </div>
+               <!-- End of subsection on what is new. -->
+            </div>
+            <!-- End of section on why a new edition. -->
 
-            <p>Phasellus pharetra tellus et purus consectetur, nec condimentum elit posuere.
-               Phasellus volutpat et nulla vitae congue. Nunc commodo purus lacinia mauris ornare,
-               quis lobortis massa ullamcorper. Proin consectetur tincidunt pulvinar. Vivamus
-               pharetra dui vitae nisi fringilla, vitae elementum risus lobortis. Vestibulum ac
-               fringilla lacus. Integer interdum mi neque, in pretium diam tempus eu. Class aptent
-               taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos</p>
+            <!-- Begin subsection on the Bellum Alexandrinum. -->
+            <div type="section" xml:id="preface-the-bellum-alexandrinum">
+               <head>I. The <title>Bellum Alexandrinum</title></head>
 
-            <p>Nulla aliquam bibendum scelerisque. Nulla eget sagittis lacus. Nulla ultricies
-               eleifend purus eu iaculis. Sed ultrices et odio et placerat. Donec ut turpis velit.
-               Nam ac sollicitudin diam. Phasellus a elit interdum, volutpat elit eu, blandit
-               turpis. Duis commodo felis eros, ac consectetur lectus dictum ac. Suspendisse
-               suscipit urna eget euismod varius</p>
+               <p>The work now known as the <title>Bellum Alexandrinum</title> or <hi rend="italic"
+                     >War in Alexandria</hi> was completed after the assassination of Caesar in 44
+                  BCE, probably in connection with an attempt by Caesar’s supporters to produce an
+                  edition of texts narrating Caesar’s military achievements (see the Letter to
+                  Balbus prefaced to <hi rend="italic">Gallic War</hi> 8, written by Aulus Hirtius).
+                  The title is misleading, since only the first of the 000 campaigns described in
+                  the work occurred in Alexandria. The Caesarian commanders and theaters of war are
+                  as follows: Caesar in Alexandria (chh. 1-33; September 48 -February 47), Domitius
+                  Calvinus in Pontus (34-41; September-October 48), Cornificius, Gabinius, and
+                  Vatinius in Illyricum (42-47; October 48 - January 47), Q. Cassius in Spain
+                  (48-64; May-December 48), Caesar in Pontus (65-78; March-May 47). <note
+                     place="bottom" xml:id="ftn7" n="7"><p> The dates (Julian) are taken from
+                        Raaflaub and Ramsey 2017. </p></note> None of Caesar’s officers is known to
+                  have participated in all of these overlapping campaigns. As a result, the
+                  narrative, like Caesar’s own commentaries, must rest on sources written by various
+                  hands. The identity of the person who compiled these reports and turned them into
+                  a coherent narrative is unknown now and was unclear already in antiquity
+                  (Suetonius, <hi rend="italic">Jul</hi>. 56.1). Between the copy from which
+                  Suetonius draws several excerpts and the nearly 200 medieval manuscripts that
+                  survive the history of the text is hard to discern, but it is clear that all of
+                  the surviving witnesses ultimately rest on a single copy of the text that was
+                  produced during the Carolingian period: they share significant errors that must go
+                  back to a single source. For the <hi rend="italic">Bellum Alexandrinum</hi>, a
+                  work of just under 11,000 words, they number about 150. <note place="bottom"
+                     xml:id="ftn8" n="8"><p> The word count used by Gaertner and Hausburg is <hi
+                           rend="background(yellow)">FILL IN</hi> (see, e.g., 2013, 286).</p></note>
+                  The most striking are the gaps (12.1, 17.3, 17.6, 22.2) and the insoluble problems
+                  (2.5 †obiectis†, 22.2 †multum†, 57.2 †noctu†, 57.3 †in†). But almost every page of
+                  the critical apparatus shows one or more spots where the reading of the archetype
+                  is not the reading in the text. </p>
+            </div>
+            <!-- End of subsection on the Bellum Alexandrinum. -->
 
-            <p>Nullam in dapibus risus. Suspendisse sapien elit, euismod nec ipsum sed, imperdiet
-               cursus purus. Suspendisse aliquam nisl vitae tortor rutrum semper. Cras placerat
-               pellentesque nulla, quis tempor velit scelerisque at. Etiam ipsum urna, placerat at
-               libero ut, fringilla auctor lectus. Ut eros ex, faucibus ac mattis in, tempus vitae
-               lorem. In a elit at sem condimentum tempus. Etiam et consequat velit. Mauris eu
-               placerat orci. In hac habitasse platea dictumst. Pellentesque ipsum arcu, rhoncus vel
-               velit sed, pulvinar posuere magna</p>
+            <!-- Beginning of subsection on constituting the text. -->
+            <div type="section" xml:id="preface-constituting-the-text">
+               <head>II. Constituting the text</head>
 
-            <p>Vivamus consequat in mi nec tristique. Nulla nec odio vitae metus facilisis euismod
-               sit amet vitae enim. Etiam pharetra sapien vitae ornare porta. Pellentesque at eros
-               vel lacus gravida placerat vestibulum in nibh. Etiam in ipsum neque. Suspendisse eu
-               risus feugiat, euismod risus a, commodo velit. Nullam quis vehicula diam. Class
-               aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-               Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-               egestas. Donec elementum, arcu ut hendrerit viverra, felis ante ornare nunc, nec
-               fermentum tortor purus ac dolor. Ut hendrerit egestas volutpat</p>
+               <!-- Beginning of sub-subection on constituting the stemma. -->
+               <div type="section" xml:id="preface-constituting-the-text-stemma">
+                  <head><hi rend="bold">A. The stemma</hi></head>
+                  <p>The foundations of the present edition are Damon 2015a and Damon 2015b.<note
+                        place="foot" xml:id="ftn9" n="9"><p> For a fuller discussion of the history
+                           of the text and of editorial work on the Caesarian corpus see <hi
+                              rend="background(yellow)">the Preface to Damon 2015a and the first
+                              chapter of Damon 2015</hi>b.</p></note> The<hi rend="italic"> Bellum
+                        Alexandrinum</hi> rests on the same five independent manuscript witnesses as
+                     Caesar’s <hi rend="italic">Bellum ciuile</hi>. We looked for evidence that
+                     would challenge the stemma proposed for the <hi rend="italic">Bellum
+                        ciuile</hi>, but found nothing conclusive.<note place="bottom"
+                        xml:id="ftn10" n="10"><p> As was the case for the <hi rend="italic">Bellum
+                              ciuile</hi>, the “good readings” in <hi rend="bold">S</hi>, which have
+                           traditionally been taken as evidence of agreement in error by the
+                           hyparchetypes mu and pi and proof that they have a common ancestor, can
+                           be explained as scribal emendations. Examples are given in the
+                           description of <hi rend="bold">S</hi> below. </p></note> Accordingly, we
+                     used the same bipartite stemma.</p>
+                  <p><hi rend="background(yellow)">Image of stemma?</hi></p>
+               </div>
+               <!-- End of subsection on constituting the stemma. -->
 
-            <p>In eleifend leo sem, eu blandit purus feugiat ut. Phasellus eleifend viverra
-               vestibulum. Fusce magna enim, scelerisque quis elementum sit amet, accumsan feugiat
-               justo. Nullam molestie risus turpis, in dignissim tellus tincidunt a. Quisque
-               bibendum turpis nec odio commodo bibendum ullamcorper eget nisl. Aenean elementum
-               volutpat vestibulum. Curabitur vel sapien ac diam vehicula facilisis vitae sed
-               dolor</p>
+               <!-- Beginning sub-subsection on the witnesses. -->
+               <div type="section" xml:id="preface-constituting-the-text-witnesses">
+                  <head>B. The witnesses<note place="bottom" xml:id="ftn11" n="11"><p> More detailed
+                           versions of the following paragraphs are given in <hi
+                              rend="background(yellow)">Damon 2015a, PAGES and 2015b,
+                           PAGES</hi>.</p></note></head>
+                  
+                  <!-- Beginning os sub-sub-subsection on the archetype. -->
+                  <div type="section" xml:id="preface-constituting-the-text-witnesses-archetype">
+                     <head>1. The archetype</head>
 
-            <p>Vestibulum egestas, risus nec hendrerit vehicula, dolor turpis facilisis turpis, non
-               blandit massa mauris et ipsum. Vestibulum sapien erat, blandit eu libero eu, placerat
-               ullamcorper nunc. Donec id dui enim. Fusce eu enim mauris. Aliquam egestas lacus id
-               est venenatis, id elementum ante pulvinar. Phasellus ullamcorper lectus augue, quis
-               aliquet ante blandit at. Praesent nec velit ac arcu aliquam congue sit amet quis
-               lacus. Nullam placerat nisi non venenatis fermentum. Vivamus nec aliquam dolor, nec
-               posuere ex. Fusce vel erat massa. Suspendisse ante ipsum, congue vel massa iaculis,
-               varius venenatis sapien</p>
+                     <p>The stemma allowed us to reconstruct the text of the archetype of the <hi
+                           rend="italic">Bellum Alexandrinum</hi> in most of the hundreds of places
+                        where the manuscripts disagree, but as was mentioned earlier, that archetype
+                        has to be emended in roughly 140 spots. Regular sources of error in the
+                        archetype include abbreviations, <hi rend="italic">scriptura continua</hi>,
+                        and inversions. Some of the archetype’s original readings seem to have been
+                        altered in such a way that both the original reading and the correction (or
+                        “correction”) were visible to the scribes of the two hyparchetypes, <hi
+                           rend="bold">mu</hi> (the common source of <hi rend="bold">M</hi> and <hi
+                           rend="bold">U</hi>) and <hi rend="bold">nu</hi> (the common source of <hi
+                           rend="bold">S</hi> and <hi rend="bold">pi</hi>, the common source of <hi
+                           rend="bold">T</hi> and <hi rend="bold">V</hi>).<note place="bottom"
+                           xml:id="ftn12" n="12"><p> Possible instances can be found throughout the
+                              apparatus, but the clearest examples are these: 9.3 dediticiis <hi
+                                 rend="italic">U</hi><hi rend="italic superscript">c</hi><hi
+                                 rend="italic">SV et M</hi><hi rend="italic superscript">mr</hi> :
+                              dedi(c/t)iis <hi rend="italic">MU</hi><hi rend="italic superscript"
+                                 >ac</hi><hi rend="italic">T</hi>; 10.6 successuros <hi
+                                 rend="italic">M</hi><hi rend="italic superscript">c</hi><hi
+                                 rend="italic">US</hi> : successoros <hi rend="italic">M</hi><hi
+                                 rend="italic superscript">ac</hi> : succens(u/o)res <hi
+                                 rend="italic">T</hi><hi rend="italic superscript">c</hi><hi
+                                 rend="italic">V</hi> : succensuros <hi rend="italic">T</hi><hi
+                                 rend="italic superscript">ac </hi>; 15.5 pugnae <hi rend="italic"
+                                 >MT</hi><hi rend="italic superscript">c</hi> : pugna <hi
+                                 rend="italic">UST</hi><hi rend="italic superscript">ac</hi><hi
+                                 rend="italic">V</hi><hi rend="italic superscript">ac</hi> :
+                              pugnandi <hi rend="italic">V</hi><hi rend="italic superscript">c</hi>;
+                              26.2 ibi suum <hi rend="italic">UST et M</hi><hi
+                                 rend="italic superscript">mr</hi> : suum ibi <hi rend="italic"
+                                 >MV</hi>; 32.3 precari <hi rend="italic">MT</hi><hi
+                                 rend="italic superscript">c</hi><hi rend="italic">V</hi> : precare
+                                 <hi rend="italic">UST</hi><hi rend="italic superscript">ac</hi>;
+                              45.1 cum Vatinium <hi rend="italic">MUV</hi> : eum uatinium <hi
+                                 rend="italic">T</hi> : eum uatinium cum <hi rend="italic">S</hi>;
+                              46.2 contra illo remigante <hi rend="italic">M</hi> (<hi rend="italic"
+                                 >cf. BG 7.28.1 contra ueniretur</hi>) : contra illum remigantem <hi
+                                 rend="italic">SV</hi> : contra illo remigantem <hi rend="italic"
+                                 >UT</hi>; 56.4 creabat <hi rend="italic">UST</hi> : credebat <hi
+                                 rend="italic">MV</hi>; 57.3 ex <hi rend="italic">USV</hi> : et <hi
+                                 rend="italic">MT</hi> ; 58.3 inscriptum <hi rend="italic">UST</hi>
+                              : scriptum <hi rend="italic">MV</hi>; 60.4 esse <hi rend="italic"
+                                 >U</hi><hi rend="italic superscript">ac</hi><hi rend="italic"
+                                 >STV</hi> : eum <hi rend="italic">MU</hi><hi
+                                 rend="italic superscript">c</hi>; 73.2 triarium <hi rend="italic"
+                                 >MS</hi> : traiarium <hi rend="italic">UTV</hi>; 74.4 in procliuem
+                                 <hi rend="italic">Nipperdey</hi> : in proelium <hi rend="italic">ST
+                              </hi>: in bellum <hi rend="italic">V</hi> : praeruptam in proelium <hi
+                                 rend="italic">U </hi>: in praeruptam <hi rend="italic">M.
+                              </hi>Other examples of innovations in the archetype that aim to repair
+                              the text include: 27.1 [a]; 29.3 [fluminum]; 70.3 [non]; 78.3
+                              [legibus]. </p></note> Disagreement among our manuscript witnesses
+                        also arises from other features of the archetype, such as variant readings
+                        and glosses.<note place="bottom" xml:id="ftn13" n="13"><p> Variants: 12.1
+                              classiariorum <hi rend="italic">USTV et M supra lineam</hi> :
+                                 nauigatorum <hi rend="italic">M</hi>; 24.1 statuit <hi
+                                 rend="italic">UTV et M supra lineam</hi> : constituit <hi
+                                 rend="italic">M </hi>(<hi rend="italic">deest S</hi>); 27.5
+                              prudentia <hi rend="italic">MUS</hi><hi rend="italic superscript"
+                                 >c</hi><hi rend="italic">V et T supra lineam</hi> : potentia <hi
+                                 rend="italic">S</hi><hi rend="italic superscript">ac</hi><hi
+                                 rend="italic">T</hi>; 34.1 prouincias <hi rend="italic">USTV et M
+                                 supra lineam</hi> : regiones <hi rend="italic">M</hi>; 46.4
+                              dubitabant <hi rend="italic">USTV et M supra lineam</hi> :
+                                 dubitarent <hi rend="italic">M</hi>; 73.3 discederet <hi
+                                 rend="italic">USTV et M supra lineam</hi> : cessaret <hi
+                                 rend="italic">M</hi>. Glosses: 17.2 [urbem]; 27.5 [uirtutum …
+                              imprudentia]; 37.3 [rex]; 46.1 [fortunae].</p></note>
+                     </p>
+                  </div>
+                  <!-- End of subsection on archetype. -->
 
-            <p>Nulla facilisi. Etiam at sagittis augue. Pellentesque et arcu ligula. In suscipit
-               quam sem, et vestibulum tellus sodales blandit. In vitae massa consequat, condimentum
-               sapien sit amet, suscipit lorem. Pellentesque ut fermentum tellus. Morbi eu mauris
-               sed diam dictum imperdiet. Suspendisse potenti. Etiam a ante eget tellus venenatis
-               interdum. Cras vehicula blandit est, laoreet mattis sapien sollicitudin id.
-               Suspendisse non aliquet velit, at egestas mi. Ut est nulla, blandit ut tincidunt eu,
-               pulvinar nec justo. Interdum et malesuada fames ac ante ipsum primis in faucibus</p>
-
-            <p>Morbi fringilla accumsan felis pulvinar placerat. Mauris ut fermentum neque, a
-               venenatis ligula. Nunc cursus laoreet ipsum id pellentesque. Sed nec lectus tortor.
-               Quisque pretium felis urna, at volutpat velit sodales vitae. Sed ullamcorper, mauris
-               sit amet tempor cursus, mauris est facilisis dolor, in cursus nibh nulla eget mi.
-               Mauris finibus dignissim quam eu finibus. Donec tincidunt bibendum pellentesque.
-               Aenean a cursus massa. Etiam ut ex arcu. In hac habitasse platea dictumst. Aliquam at
-               augue vel arcu dignissim viverra. In consectetur a nibh in malesuada. Nullam id
-               ligula in est viverra fermentum. Maecenas dapibus, mauris et vehicula consequat,
-               augue tortor luctus neque, at faucibus massa enim non justo</p>
-
-            <p>Donec porta turpis ultricies tempus vulputate. In vel dui sit amet mauris rutrum
-               pharetra. Pellentesque porta pulvinar nibh, id sagittis enim efficitur vel. Praesent
-               convallis leo ac interdum pretium. Maecenas nisi mi, auctor at hendrerit eget,
-               suscipit sit amet odio. Pellentesque ut scelerisque risus, sed fermentum mauris.
-               Phasellus id euismod purus. Mauris fermentum massa neque, eget pharetra nisi faucibus
-               sed</p>
-
-            <p>Suspendisse cursus augue urna, in fermentum tortor fermentum eu. Nulla eu sapien
-               elementum, viverra nibh vel, sagittis lorem. Nullam auctor lacus nec faucibus
-               imperdiet. Pellentesque nec mattis mi. Vivamus mollis cursus dapibus. Fusce interdum
-               ultrices ullamcorper. Sed eu congue risus, vitae ultricies tortor. Nulla congue
-               iaculis arcu, non molestie ipsum tempus a. Proin posuere, magna vitae venenatis
-               tempor, ipsum mi dictum felis, sed bibendum magna leo congue diam</p>
-
-            <p>Sed convallis consequat quam, in sodales tellus convallis sed. Donec aliquet dictum
-               ipsum non hendrerit. Fusce enim erat, aliquet ultrices dui sed, convallis cursus
-               felis. Praesent accumsan sodales libero a mattis. Morbi nec auctor risus. Phasellus
-               ipsum sem, posuere in varius ac, pulvinar vel nisl. Nulla id lectus eu magna viverra
-               faucibus sit amet vel felis. Fusce fermentum suscipit est ut dapibus. Praesent velit
-               lectus, tincidunt accumsan leo sit amet, euismod hendrerit tortor. Curabitur sit amet
-               sem quis lectus maximus pharetra. Sed interdum lacus non leo pulvinar aliquam.
-               Vestibulum dapibus, augue sit amet consectetur dignissim, metus neque vestibulum sem,
-               eget accumsan quam metus sit amet dolor. Suspendisse mollis vestibulum odio nec
-               tempor</p>
-
-            <p>Etiam tempor fermentum arcu, nec dignissim dolor commodo nec. Suspendisse ac tellus
-               in lacus bibendum dictum ut eu elit. Sed eget ligula tortor. Vestibulum odio ante,
-               volutpat id consequat sed, porttitor in purus. Nunc a pharetra augue. Phasellus eget
-               lobortis turpis. Etiam a tortor in massa rutrum efficitur. Aenean blandit massa id ex
-               euismod luctus. Pellentesque efficitur congue tortor, quis vestibulum mi dapibus
-               vitae. Mauris mattis luctus nulla. Proin congue imperdiet venenatis. Sed pellentesque
-               hendrerit massa, ac ullamcorper mauris laoreet tempor. Class aptent taciti sociosqu
-               ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus augue metus,
-               pulvinar pulvinar augue a, scelerisque tincidunt leo</p>
-
-            <p>Sed lobortis volutpat eros, et ullamcorper quam porta sed. Aliquam erat volutpat.
-               Morbi tincidunt ante nisi, et bibendum odio suscipit et. Cras sit amet scelerisque
-               odio. Vivamus sagittis, mi ac aliquet finibus, enim dolor condimentum neque, id
-               gravida velit velit eu ante. Nunc placerat mattis maximus. Aliquam malesuada mauris a
-               nisi porttitor, sit amet molestie odio varius. Nullam a congue purus. Aenean diam
-               nunc, suscipit sed tincidunt vel, tincidunt vitae nunc. Aliquam sagittis, ipsum id
-               sagittis tristique, ante sapien ultrices arcu, quis blandit leo ligula volutpat
-               nulla. Sed risus lacus, gravida quis quam quis, consequat tincidunt purus. Nulla
-               facilisi. Duis purus nibh, eleifend in ipsum sit amet, porttitor dictum felis</p>
-
-            <p>Nullam non justo laoreet, posuere dui id, vehicula velit. Duis nisl mauris, efficitur
-               at blandit ut, ultrices nec nulla. Sed ac nisl in est tristique convallis. Donec in
-               metus sit amet diam vestibulum elementum. Fusce et condimentum arcu. Nam ornare
-               aliquam commodo. Sed sodales dictum lectus nec convallis. Nam mauris nunc, convallis
-               ac semper nec, egestas in neque. Donec eu euismod felis. Vivamus eu laoreet neque, et
-               tincidunt nisi. Morbi id tristique sem. Aenean arcu lacus, luctus in elit sit amet,
-               tempor molestie velit. Pellentesque habitant morbi tristique senectus et netus et
-               malesuada fames ac turpis egestas.</p>
+<!-- START HERE -->
+                  <p><hi rend="bold">2. The hyparchetypes</hi></p>
+                  <p>The hyparchetypes that transmitted the archetype’s text to the extant
+                     manuscripts are hard to discern in this tradition; our work on the <hi
+                        rend="italic">Bellum Alexandrinum</hi> turned up no new and conclusive
+                     evidence for them.<note place="foot" xml:id="ftn14" n="14"><p> The most
+                           suggestive evidence from the <title>Bellum Alexandrinum</title> is
+                           discussed at <hi rend="background(yellow)">Damon 2015b, PAGES</hi>.
+                        </p></note><seg> </seg></p>
+                  <p><hi rend="bold">a. μ</hi></p>
+                  <p>Numerous innovations common to <hi rend="bold">M</hi> and <hi rend="bold"
+                        >U</hi> are consistent with descent from a hyparchetype, <hi rend="bold"
+                        >μ</hi>. In the <hi rend="italic">BAlex</hi> the most telling are these,
+                     where the reading in <hi rend="bold">ν</hi> is likely to be archetypal: </p>
+                  <p>4.2 militem <hi rend="italic">STV</hi> : milites <hi rend="italic">MU </hi></p>
+                  <p>7.1 Alexandrini <hi rend="italic">STV</hi> : Alexandrinis <hi rend="italic"
+                        >MU</hi></p>
+                  <p>16.2 qui <hi rend="italic">STV </hi>: quis <hi rend="italic">MU</hi></p>
+                  <p>19.2 certiorem <hi rend="italic">STV</hi> : fortiorem <hi rend="italic"
+                     >MU</hi></p>
+                  <p>27.7 adiuncti his <hi rend="italic">STV</hi>: adiunctis (h)iis <hi
+                        rend="italic">MU</hi></p>
+                  <p>33.2 imperia <hi rend="italic">ST</hi> : imperio <hi rend="italic">MU</hi> :
+                     imperiam <hi rend="italic">V </hi>: imperium <hi rend="italic">M</hi><hi
+                        rend="italic superscript">mr </hi></p>
+                  <p>37.2 cum uereretur <hi rend="italic">S</hi> : uereretur <hi rend="italic">TV
+                     </hi>: ueritus <hi rend="italic">MU</hi>
+                  </p>
+                  <p>55.3 adfectus <hi rend="italic">STV </hi>: a(d/f)fecit <hi rend="italic"
+                        >MU</hi></p>
+                  <p>56.2 dolore <hi rend="italic">STV</hi> : dolori <hi rend="italic">MU </hi></p>
+                  <p>74.3 quem<hi rend="superscript">1</hi>
+                     <hi rend="italic">STV</hi> : quem cum legione <hi rend="italic">M</hi> : cum
+                     legione quem <hi rend="italic">U</hi></p>
+                  <p>75.1 oppressus <hi rend="italic">STV</hi> : oppressos <hi rend="italic"
+                     >MU</hi></p>
+                  <p>Significant innovations unique to <hi rend="bold">M</hi> or <hi rend="bold"
+                        >U</hi> show that neither is descended from the other. Innovations of the
+                     sort that could not be corrected by conjecture, for example, include the
+                     following: </p>
+                  <p>1.2 operibus <hi rend="italic">om.</hi> <hi rend="bold">M</hi></p>
+                  <p>1.2 uidentur <hi rend="italic">om.</hi> <hi rend="bold">M</hi></p>
+                  <p>2.3 in … locis <hi rend="italic">om. </hi><hi rend="bold">M </hi>(<hi
+                        rend="italic">uerba 4</hi>)</p>
+                  <p>9.1 negotium <hi rend="italic">om.</hi> <hi rend="bold">M</hi></p>
+                  <p>14.5 sic … Africae <hi rend="italic">om. </hi><hi rend="bold">M</hi> (<hi
+                        rend="italic">uerba 8</hi>)</p>
+                  <p>16.4 falleret <hi rend="italic">om. </hi><hi rend="bold">M</hi></p>
+                  <p>17.1 ad insulam <hi rend="italic">om.</hi>
+                     <hi rend="bold">M</hi></p>
+                  <p>26.1 Caesaris <hi rend="italic">om.</hi> <hi rend="bold">M</hi></p>
+                  <p>27.5 undique <hi rend="italic">om. </hi><hi rend="bold">M</hi></p>
+                  <p>37.5 pro uallo <hi rend="italic">om.</hi> <hi rend="bold">M</hi></p>
+                  <p>40.4 non amplius <hi rend="italic">om.</hi><hi rend="italic bold"> </hi><hi
+                        rend="bold">M</hi></p>
+                  <p>44.2 misit <hi rend="italic">om</hi>. <hi rend="bold">M</hi></p>
+                  <p>45.2 aduersam <hi rend="italic">om</hi>. <hi rend="bold">M</hi></p>
+                  <p>57.6 prouincia <hi rend="italic">om.</hi> <hi rend="bold">M</hi></p>
+                  <p>58.2 Pompei <hi rend="italic">om.</hi> <hi rend="bold">M</hi></p>
+                  <p>58.3 milites adeo fatebantur <hi rend="italic">om.</hi> <hi rend="bold"
+                     >M</hi></p>
+                  <p>61.1 Marcellus <hi rend="italic">om. </hi><hi rend="bold">M</hi></p>
+                  <p>63.2 Marcellus <hi rend="italic">om. </hi><hi rend="bold">M</hi></p>
+                  <p>67.2 populi Romani <hi rend="italic">per compendia om</hi>. <hi rend="bold"
+                        >M</hi></p>
+                  <p>76.1 acri <hi rend="italic">om</hi>. <hi rend="bold">M</hi></p>
+                  <p>6.3 uero <hi rend="italic">om. </hi><hi rend="bold">U</hi></p>
+                  <p>18.4 ex his <hi rend="italic">om.</hi> <hi rend="bold">U</hi></p>
+                  <p>30.3 numero <hi rend="italic">om.</hi> <hi rend="bold">U</hi></p>
+                  <p>50.1 faceret quae <hi rend="italic">om</hi>. <hi rend="bold">U</hi></p>
+                  <p>As was the case in the <hi rend="italic">Bellum ciuile</hi>, the relative
+                     lengths of these two lists suggests that <hi rend="bold">U</hi> is a more
+                     faithful copy of <hi rend="bold">μ</hi> than <hi rend="bold">M</hi> is; this is
+                     borne out by other sorts of singular readings, which are far more numerous in
+                        <hi rend="bold">M</hi> than in <hi rend="bold">U</hi>, as can be seen in the
+                     Appendix critica.</p>
+                  <p>Where <hi rend="bold">μ</hi> and <hi rend="bold">ν</hi> diverge, as they do
+                     more than 60 times in the <title>Bellum Alexandrinum</title>, <hi rend="bold"
+                        >μ</hi> more often offers a good reading, either by conjecture or by
+                     preserving the archetype.</p>
+                  <p><hi rend="bold">b. ν </hi></p>
+                  <p>Innovations common to <hi rend="bold">S</hi> and <hi rend="bold">π</hi> are
+                     consistent with descent from a hyparchetype, <hi rend="bold">ν</hi>. In the <hi
+                        rend="italic">Bellum Alexandrinum</hi> the most telling are these, where the
+                     reading in <hi rend="bold">μ</hi> is likely to be archetypal: </p>
+                  <p>19.2 quod <hi rend="italic">MU</hi> : <hi rend="italic">om. STV</hi></p>
+                  <p>25.1 commeatum <hi rend="italic">MU</hi> : commeatumque <hi rend="italic"
+                        >STV</hi></p>
+                  <p>44.3 non <hi rend="italic">MU</hi> : <hi rend="italic">om. STV</hi>
+                  </p>
+                  <p>44.3 iusta ad <hi rend="italic">MU</hi> : iuxta ad <hi rend="italic"
+                     >STV</hi></p>
+                  <p>48.2 esset MU : <hi rend="italic">om. STV</hi></p>
+                  <p>49.2 causae <hi rend="italic">MU</hi>: causa <hi rend="italic">STV </hi></p>
+                  <p>5.3 isdem <hi rend="italic">MU</hi> : idem <hi rend="italic">STV</hi>
+                  </p>
+                  <p>56.6 ut <hi rend="italic">MU</hi>: <hi rend="italic">om. STV</hi></p>
+                  <p>59.1 tamque <hi rend="italic">MU</hi> : ta(m/n)quam <hi rend="italic"
+                     >STV</hi></p>
+                  <p>61.4 confligeret <hi rend="italic">MU</hi> : confligere <hi rend="italic"
+                        >STV</hi></p>
+                  <p>68.1 frequentes <hi rend="italic">MUT </hi>: frequenter <hi rend="italic"
+                        >SV</hi></p>
+                  <p>70.8 ei MU : <hi rend="italic">om. STV</hi></p>
+                  <p>71.1 proficisceretur <hi rend="italic">STV</hi> : proficisceretur existimabat
+                        <hi rend="italic">MU</hi></p>
+                  <p>Significant innovations unique to <hi rend="bold">S</hi> or <hi rend="bold"
+                        >π</hi> show that neither is descended from the other. Omissions of the sort
+                     that could not be corrected by conjecture, for example, include the
+                     following:</p>
+                  <p>1.5 rei … alterius <hi rend="italic">om.</hi>
+                     <hi rend="bold">S </hi>(<hi rend="italic">uerba 4</hi>)</p>
+                  <p>2.1 magnumque … adduxerant <hi rend="italic">om.</hi>
+                     <hi rend="bold">S </hi>(<hi rend="italic">uerba 12</hi>)</p>
+                  <p>15.8 atque … exposceret <hi rend="italic">om.</hi>
+                     <hi rend="bold">S </hi>(<hi rend="italic">uerba 16</hi>)</p>
+                  <p>17.5 constiterunt … litore <hi rend="italic">om.</hi>
+                     <hi rend="bold">S </hi>(<hi rend="italic">uerba 12</hi>)</p>
+                  <p>19.6 pugnabatur … (<hi rend="italic">24.2</hi>) ut ad <hi rend="italic"
+                        >om.</hi>
+                     <hi rend="bold">S</hi></p>
+                  <p>27.5 constantiaque … imprudentia <hi rend="italic">om. </hi><hi rend="bold">S
+                        </hi>(<hi rend="italic">uerba 5</hi>)</p>
+                  <p>31.1 uirum <hi rend="italic">om.</hi>
+                     <hi rend="bold">S</hi><seg> </seg></p>
+                  <p>57.5 namque <hi rend="italic">om.</hi>
+                     <hi rend="bold">S</hi></p>
+                  <p>74.4 inanem <hi rend="italic">om</hi>. <hi rend="bold">S</hi></p>
+                  <p>8.3 qui <hi rend="italic">MUS</hi> : <hi rend="italic">om.</hi> <hi
+                        rend="italic">T</hi></p>
+                  <p>14.1 eorum <hi rend="italic">MUS</hi> : <hi rend="italic">om. TV</hi></p>
+                  <p>46.4 erant <hi rend="italic">MUS</hi> : <hi rend="italic">om. TV</hi></p>
+                  <p>68.1 consul esset <hi rend="italic">M</hi><hi rend="italic superscript">c
+                        </hi><hi rend="italic">et uocibus perpere diuisis U </hi>: consules sed <hi
+                        rend="italic">M</hi><hi rend="italic superscript">ac</hi> : consules se <hi
+                        rend="italic">S </hi>: consules <hi rend="italic">TV non male</hi></p>
+                  <p>70.5 se <hi rend="italic">MUS</hi> : <hi rend="italic">om. TV</hi></p>
+                  <p>76.1 in <hi rend="italic">MUS</hi> : <hi rend="italic">om. TV</hi><note
+                        place="bottom" xml:id="ftn15" n="15"><p> Textual variation between <hi
+                              rend="bold">π</hi> and <hi rend="bold">μ</hi> in some of the many
+                           passages omitted by <hi rend="bold">S</hi> make it unlikely that these
+                           omissions were filled by contamination from the <hi rend="bold">μ</hi>
+                           branch. There are also some small discrepancies between <hi rend="bold"
+                              >S</hi> and <hi rend="bold">μ</hi> in text omitted by <hi rend="bold"
+                              >π</hi> (see above on 68.1). It is therefore likely that in all of the
+                           passages listed above <hi rend="bold">ν</hi>'s text was complete and
+                           transmitted to one of its two descendants.</p></note></p>
+                  <p>The relative number of words omitted in these two lists suggests that <hi
+                        rend="bold">π</hi> is a more faithful copy of <hi rend="bold">ν</hi> than
+                        <hi rend="bold">S</hi> is; this is borne out by other sorts of singular
+                     readings, which are vastly more numerous in <hi rend="bold">S</hi> than in <hi
+                        rend="bold">π</hi>.</p>
+                  <p>Where <hi rend="bold">ν</hi> and <hi rend="bold">μ</hi> diverge, <hi
+                        rend="bold">ν</hi> is more often in error than <hi rend="bold">μ</hi> is,
+                     either by preserving a corrupt archetype or by innovating.</p>
+                  <p><hi rend="bold">c. π </hi></p>
+                  <p>A large number of shared innovations both link <hi rend="bold">T</hi> and <hi
+                        rend="bold">V</hi> and separate them from the rest of the tradition, more
+                     than 50 for the <title>Bellum Alexandrinum</title>; the traditional siglum for
+                     the source of these innovations is <hi rend="bold">π</hi>.<note place="bottom"
+                        xml:id="ftn16" n="16"><p> Hering (1963, 40) lists six substantial omissions
+                           common to <hi rend="bold">T</hi> and <hi rend="bold">V</hi> in the <hi
+                              rend="italic">BG</hi>. There is another at <hi rend="italic"
+                              >BHisp</hi> 40.2. (The relationship between <hi rend="bold">T</hi> and
+                              <hi rend="bold">V</hi> is the same for all fourteen books of the
+                           Caesarian corpus.) </p></note> The separative innovations in the <hi
+                        rend="italic">Bellum Alexandrinum</hi> also include a handful of brief
+                     omissions (see above), and an inversios, another variety of innovation that,
+                     once made, tends to persist in an uncontaminated tradition: 35.2 suo regno <hi
+                        rend="italic">MUS</hi> : regno suo <hi rend="italic">TV</hi>. Finally, among
+                     the innovations unique to these two manuscripts in the <hi rend="italic"
+                        >BC</hi> are some two dozen that repair the corrupt archetype and, once
+                     made, are unlikely to have been removed except by accident:</p>
+                  <p>15.8 in pugna occupatum animum haberent <hi rend="italic">TV</hi> :
+                     inpugnatioccupatum animum haberent <hi rend="italic">S</hi> : in pugna
+                     occupatum animum haberet <hi rend="italic">U </hi>: pugna haberet occupatum
+                     animum <hi rend="italic">M</hi><hi rend="italic superscript">ac</hi> : pugna
+                     occupatum animum haberet <hi rend="italic">M</hi><hi rend="italic superscript"
+                        >c</hi>
+                  </p>
+                  <p>19.1 propior <hi rend="italic">TV</hi> : prior <hi rend="italic">MUS</hi></p>
+                  <p>22.1 accessiones <hi rend="italic">TV</hi> : accensiones <hi rend="italic">MU
+                        </hi>(<hi rend="italic">deest S</hi>) </p>
+                  <p>24.1 postularent <hi rend="italic">TV</hi> : postularet (<hi rend="italic">sc.
+                     </hi>rex) <hi rend="italic">MU uix recte </hi>(<hi rend="italic">deest S</hi>) </p>
+                  <p>66.4 sacerdotium <hi rend="italic">TV </hi>: sacerdotum <hi rend="italic"
+                        >S</hi> : sacerdotio <hi rend="italic">MU</hi></p>
+                  <p>For the hyparchetypes discussed above, <hi rend="bold">μ</hi> and <hi
+                        rend="bold">ν</hi>, it was a simple matter to show the independence of the
+                     two earliest descendants of each (<hi rend="bold">M</hi> and <hi rend="bold"
+                        >U</hi>; <hi rend="bold">S</hi> and <hi rend="bold">π</hi>). This is not the
+                     case for <hi rend="bold">π</hi>. A detailed discussion of the relationship
+                     between <hi rend="bold">T</hi> and <hi rend="bold">V</hi> is presented in <hi
+                        rend="background(yellow)">Damon 2015b</hi>. Our work on the <hi
+                        rend="italic">Bellum Alexandrinum</hi> turned up no new and conclusive
+                     evidence. We report the readings of T and V throughout. </p>
+                  <p><hi rend="bold">3. The extant manuscripts</hi></p>
+                  <p>For detailed descriptions of the five manuscripts used to constitute the text
+                     see <hi rend="background(yellow)">Damon 2015a, PAGES</hi>. Here we indicate the
+                     folio numbers in each for the text of the <title>Bellum Alexandrinum</title>
+                     and the noteworthy innovations. Full transcriptions are available online at the
+                     LDLT website (see further below). </p>
+                  <p><hi rend="bold">a. M</hi></p>
+                  <p><hi rend="bold">M</hi> is a manuscript in the Biblioteca Medicea Laurenziana in
+                     Florence, shelf mark Plut. lat. 68.8.<note place="bottom" xml:id="ftn17" n="17"
+                           ><p> High quality page images of <hi rend="bold">M</hi> can be viewed at
+                              <ref
+                              target="http://mss.bmlonline.it/s.aspx?Id=AWOIs_iEI1A4r7GxML1h&amp;c=Caesaris%20Commentaria#/oro/13"
+                              >http://mss.bmlonline.it/s.aspx?Id=AWOIs_iEI1A4r7GxML1h&amp;c=Caesaris%20Commentaria#/oro/13</ref>.
+                        </p></note> The <hi rend="italic">Bellum Alexandrinum </hi>occupies ff.
+                     133v-143r. <hi rend="bold">M</hi> offers some uniquely successful or
+                     meritorious innovations (those marked with an asterisk are particularly
+                        impressive<note place="bottom" xml:id="ftn18" n="18"><p> Also noteworthy in
+                              <hi rend="bold">M</hi>: 11.2 conspectu &lt;suorum&gt; <hi
+                              rend="italic">Khan</hi> : conspectu hostium <hi rend="italic">M </hi>:
+                           conspectu <hi rend="italic">USTV</hi> :<hi rend="italic"> an</hi>
+                           conspectu &lt;omnium&gt;<hi rend="italic">?</hi>; 48.1 multis <hi
+                              rend="italic">UTV</hi> : mutis <hi rend="italic">M</hi> : mutus <hi
+                              rend="italic">S.</hi>
+                        </p></note>; there are of course other spots where <hi rend="bold">M</hi>
+                     has been joined by one or another manuscript in a successful innovation): </p>
+                  <p>11.1 tenuerunt <hi rend="italic">M</hi> : tenurunt <hi rend="italic">U</hi> :
+                     terunt <hi rend="italic">ST </hi>: terter <hi rend="italic">V</hi></p>
+                  <p>12.4 naturale <hi rend="italic">M</hi> : naturalem <hi rend="italic"
+                     >USTV</hi></p>
+                  <p>14.5 impeditiores <hi rend="italic">M</hi> : expeditiores <hi rend="italic"
+                        >USTV</hi></p>
+                  <p>23.1 quo <hi rend="italic">M</hi> : qui <hi rend="italic">UTV </hi>(<hi
+                        rend="italic">deest S</hi>) </p>
+                  <p>24.2 parceret <hi rend="italic">M</hi> : parceret et <hi rend="italic">UTV
+                        </hi>(<hi rend="italic">deest S</hi>) </p>
+                  <p>42.2 exercitus alendos <hi rend="italic">M </hi>: exercitum alendos <hi
+                        rend="italic">UTV </hi>: exercitum alendum <hi rend="italic">S</hi></p>
+                  <p>43.3 quo <hi rend="italic">M </hi>: quod <hi rend="italic">USTV</hi></p>
+                  <p>*46.2 contra illo remigante <hi rend="italic">M</hi> : contra illum remigantem
+                        <hi rend="italic">SV</hi> : contra illo remigantem <hi rend="italic"
+                        >UT</hi><hi rend="italic color(9900FF)"> </hi></p>
+                  <p>*47.3 ea <hi rend="italic">M</hi> : eum <hi rend="italic">USTV</hi></p>
+                  <p>48.1 animaduertere <hi rend="italic">M </hi>: animum auertere <hi rend="italic"
+                        >USTV</hi></p>
+                  <p>60.5 difficultatisque <hi rend="color(578726)">: </hi>difficultatesque <hi
+                        rend="italic">USTV</hi></p>
+                  <p>61.4 passi <hi rend="italic">M </hi>: pass(a)e <hi rend="italic">USTV</hi>
+                  </p>
+                  <p>72.2 huic <hi rend="italic">M</hi> : hoc <hi rend="italic">USTV</hi></p>
+                  <p><hi rend="bold">b. U</hi></p>
+                  <p><hi rend="bold">U</hi> is a manuscript in the Biblioteca Apostolica Vaticana in
+                     the Vatican, shelf mark Vaticanus lat. 3324.<note place="bottom" xml:id="ftn19"
+                        n="19"><p> Microfilm images are available online: <ref
+                              target="https://digi.vatlib.it/view/MSS_Vat.lat.3324"
+                              >https://digi.vatlib.it/view/MSS_Vat.lat.3324</ref>. </p></note> The
+                        <hi rend="italic">Bellum Alexandrinum </hi>occupies ff. 85r-95r. These
+                     folios contain, besides the text, a small number of brief marginal comments on
+                     content, either factual (e.g., “situs Alexandrie" 85v, "epibatis" 86v,
+                     “berones” 92r, “dinastas”“tarsus” 93v) or moral (e.g., "laus euphranoris" 87r,
+                     “mors euphranoris” 87v), along with the familiar “quaere” and "nota bene"
+                     symbols. The singular readings in <hi rend="bold">U</hi> are far fewer than
+                     those of <hi rend="bold">M</hi>, <hi rend="bold">S</hi>, <hi rend="bold"
+                     >T</hi>, or <hi rend="bold">V</hi>, as can be seen in the Appendix
+                        critica.<note place="bottom" xml:id="ftn20" n="20"><p> In the <title>Bellum
+                              Alexandrinum</title>
+                           <hi rend="bold">U</hi> has roughly 80 singular readings listed in the
+                           Appendix critica; the approximate figures for the other manuscripts are
+                           as follows: <hi rend="bold">M </hi>170, <hi rend="bold">S</hi> 260, <hi
+                              rend="bold">T</hi> 130, <hi rend="bold">V</hi> 165. Orthographical
+                           variants are not included in these figures.</p></note> The uniquely
+                     successful innovations in <hi rend="bold">U</hi> are few and mostly
+                        cautious<note place="bottom" xml:id="ftn21" n="21"><p> Also noteworthy in
+                              <hi rend="bold">U</hi>: 10.1 nudare <hi rend="italic">MSTV</hi> :
+                           nudari <hi rend="italic">U non male; </hi>28.3 rex <hi rend="italic">S
+                           </hi>: L ex <hi rend="italic">MTV </hi>: ex <hi rend="italic">U</hi>;
+                           44.3 magnitudo nequaquam <hi rend="italic">Larsen</hi> (<hi rend="italic"
+                              >cf. BC 3.109.2</hi>) : magnitudine quam non <hi rend="italic">M</hi>
+                           : magnitudine quamquam non <hi rend="italic">U</hi> : magnitudine quaquam
+                              <hi rend="italic">S</hi> : magnitudine quamquam <hi rend="italic"
+                              >TV.</hi>
+                        </p></note> (there are of course other spots where <hi rend="bold">U
+                     </hi>has been joined by one or another manuscript in a successful
+                     innovation):</p>
+                  <p>1.5 urbs <hi rend="italic">U</hi> : ubrs <hi rend="italic">M</hi> : urbis <hi
+                        rend="italic">STV non male</hi></p>
+                  <p>20.3 refugere coeperunt <hi rend="italic">U</hi> : receperunt <hi rend="italic"
+                        >M</hi> : fugere coeperunt <hi rend="italic">T</hi> : profugere coeperunt
+                        <hi rend="italic">V </hi>(<hi rend="italic">deest S</hi>)</p>
+                  <p>35.2 adductum <hi rend="italic">U</hi> : abductum <hi rend="italic">MSTV
+                     </hi></p>
+                  <p>36.3 castra <hi rend="italic">U </hi>: sex castra <hi rend="italic">M </hi>: et
+                     castra <hi rend="italic">S</hi> : ex castra <hi rend="italic">TV</hi></p>
+                  <p>49.1 hiberna <hi rend="italic">U</hi> : hibernia <hi rend="italic">MTV </hi>:
+                        ibernia <hi rend="italic">S</hi></p>
+                  <p>52.4 ibi T. Vasius <hi rend="italic">U et M</hi><hi rend="italic superscript"
+                        >mr </hi>: ibi tuasius <hi rend="italic">MTV</hi> : ibit uasius <hi
+                        rend="italic">S</hi></p>
+                  <p>73.1 munituras <hi rend="italic">U</hi> : munitura <hi rend="italic">M</hi> :
+                        muniturus<hi rend="italic"> ST et V</hi><hi rend="italic superscript">c
+                        </hi><hi rend="italic">ut uidetur</hi> : munitur <hi rend="italic">V</hi><hi
+                        rend="italic superscript">ac</hi>
+                  </p>
+                  <p><hi rend="bold">c. S</hi></p>
+                  <p><hi rend="bold">S</hi> is a manuscript in the Biblioteca Medicea Laurenziana in
+                     Florence, shelf mark Ashburnhamensis 33. The <hi rend="italic">Bellum
+                        Alexandrinum </hi>occupies ff. 121r-134v. The manuscript has lost some
+                     folios between 124v and 125r covering <hi rend="italic">BAlex</hi> 19.6 <hi
+                        rend="italic">pugnabatur</hi>-24.2 <hi rend="italic">ad</hi>; there are also
+                     some shorter gaps (see above). Thirteen of <hi rend="bold">S</hi>'s singular
+                     readings make it into the text in this edition, a lower number than that in
+                     previous editions (see above). But the philological acumen of the
+                        innovator<note place="bottom" xml:id="ftn22" n="22"><p> On the innovator see
+                           further <hi rend="background(yellow)">Damon 2015a, 000</hi>. The
+                           innovations in <hi rend="bold">S</hi>, here as in the <hi rend="italic"
+                              >Bellum ciuile</hi>, include supplements to apparent omissions,
+                           omissions of superfluous material, alterations of inflexional endings to
+                           repair the syntax, corrections to misreadings of letters, and repairs
+                           based on material elsewhere in the text. There are also a large number of
+                           obvious mistakes, and some possible misreadings of corrections: see the
+                           apparatus for 11.3 <hi rend="italic">contentione Rhodiorum</hi>, 26.2 <hi
+                              rend="italic">idque</hi>, 28.2 circumuectus, 61.6 sibi usui. … The
+                           most interesting of these can be seen in the apparatus for 11.4 <hi
+                              rend="italic">altera duae</hi>, where the nonsensical <hi
+                              rend="italic">que pertur</hi> and <hi rend="italic">que peritur</hi>
+                           in <hi rend="bold">Sac</hi> and <hi rend="bold">Sc </hi>respectively may
+                           contain the kernel of <hi rend="italic">apertae un-</hi> in Kübler’s
+                           emendation. </p></note> whose legacy reaches us through <hi rend="bold"
+                        >S</hi> is as evident here as it was in the <hi rend="italic">Bellum ciuile
+                     </hi>(the innovations marked with an asterisk are particularly impressive <note
+                        place="bottom" xml:id="ftn23" n="23"><p> Also noteworthy in <hi rend="bold"
+                              >S</hi>: 8.4 aduersos (<hi rend="italic">sc</hi>. impetus) ex
+                           munitionibus sustineri <hi rend="italic">MUTV</hi> : aduersos (<hi
+                              rend="italic">sc.</hi> nostros) ex munitionibus sustinere <hi
+                              rend="italic">S fortasse recte; </hi>11.6 suis nauibus <hi
+                              rend="italic">MUTV</hi> : suis <hi rend="italic">S non male</hi>; 17.4
+                           quo <hi rend="italic">MUTV</hi> : qua <hi rend="italic">S fortasse recte;
+                           </hi>26.2 idque <hi rend="italic">MUTV</hi> (<hi rend="italic">cf.
+                              3.4</hi>) : idque quod <hi rend="italic">S</hi> : quod <hi
+                              rend="italic">Landgraf</hi>; 45.4 parati deinceps <hi rend="italic"
+                              >MUTV</hi> : deinceps<hi rend="italic"> S </hi>: paratis ( <hi
+                              rend="italic">sc. </hi>Vatinianis) deinceps<hi rend="italic"> Klotz
+                              dubitanter</hi>; 48.1 Q. Cassius <hi rend="italic">MU</hi> : quae
+                           cassius <hi rend="italic">TV</hi> : cassius <hi rend="italic">S</hi>;
+                           48.2 sestertiis centenis <hi rend="italic">ς teste Oudendorp</hi> : ihs c
+                              <hi rend="italic">MUT compendio indicato</hi> : Iterum ihs c <hi
+                              rend="italic">S compendio indicato </hi>: ihc cesar<hi rend="italic">
+                              V compendio indicato</hi>; 72.2 unus qui <hi rend="italic">MUTV</hi> :
+                              qui<hi rend="italic"> S non male</hi>; 78.3 Deiotaro <hi rend="italic"
+                              >MUTV</hi>: a deiotaro <hi rend="italic">S fortasse recte. </hi>See
+                           also the immediately previous note. </p></note>): </p>
+                  <p>7.2 domiciliis <hi rend="italic">S</hi> : domicilius <hi rend="italic">V et MT
+                        per compendia</hi> : domicius<hi rend="italic"> U per compendium</hi></p>
+                  <p>*11.3 contentione Rhodiorum <hi rend="italic">scripsimus</hi> (<hi
+                        rend="italic">cf. BC 1.1.1</hi>) : contentio nerhodiorum <hi rend="italic">S
+                     </hi>: contentio r(h)odiorum <hi rend="italic">MUTV</hi></p>
+                  <p>*28.3 rex <hi rend="italic">S </hi>: L ex <hi rend="italic">MTV </hi>: ex <hi
+                        rend="italic">U</hi></p>
+                  <p>37.2 cum uereretur <hi rend="italic">S</hi> : uereretur <hi rend="italic">TV
+                     </hi>: ueritus <hi rend="italic">MU</hi></p>
+                  <p>*37.3 contulit <hi rend="italic">S</hi> : contulit rex <hi rend="italic"
+                        >MUTV</hi></p>
+                  <p>44.1 classe <hi rend="italic">S</hi> : classem <hi rend="italic">MUTV</hi></p>
+                  <p>45.1 classem magna <hi rend="italic">S</hi> : classem magnam <hi rend="italic"
+                        >M </hi>: classe magna <hi rend="italic">UTV</hi></p>
+                  <p>*49.3 quin <hi rend="italic">S</hi> : qui <hi rend="italic">MUTV</hi></p>
+                  <p>52.4 at <hi rend="italic">S</hi>: ad <hi rend="italic">M</hi><hi
+                        rend="italic superscript">c</hi><hi rend="italic">UTV </hi></p>
+                  <p>*60.5 uitii <hi rend="italic">S</hi> : uti <hi rend="italic">UTV</hi> : usus
+                        <hi rend="italic">M</hi></p>
+                  <p>62.1 paucis diebus q <hi rend="italic">S </hi>: paucis diebusque <hi
+                        rend="italic">MU</hi> : paucisque diebus <hi rend="italic">T</hi> : paucis
+                     diebus <hi rend="italic">V</hi></p>
+                  <p>64.2 obtinendam uenit <hi rend="italic">S</hi> : obtinendam <hi rend="italic"
+                        >MUTV </hi>: obtinendam mittitur <hi rend="italic">Damon exempli gratia</hi>
+                  </p>
+                  <p>64.3 nihilo <hi rend="italic">S</hi> (<hi rend="italic">cf. 25.1</hi>) :
+                     ni(c)hil <hi rend="italic">MUTV</hi>
+                  </p>
+                  <p><hi rend="bold">d. T</hi></p>
+                  <p><hi rend="bold">T</hi> is a manuscript preserved in Bibliothèque Nationale in
+                     Paris, shelf mark lat. 5764.<note place="bottom" xml:id="ftn24" n="24"><p> Page
+                           images of <hi rend="bold">T</hi> may be viewed at <ref
+                              target="http://gallica.bnf.fr/ark:/12148/btv1b90668596"
+                              >http://gallica.bnf.fr/ark:/12148/btv1b90668596</ref>. </p></note> The
+                        <hi rend="italic">Bellum Alexandrinum </hi>occupies ff. 122va-136ra. For the
+                        <hi rend="italic">Bellum Alexandrinum</hi> T only offers one successful
+                        innovation<note place="bottom" xml:id="ftn25" n="25"><p> Another noteworthy
+                           correction in <hi rend="bold">T</hi>: 12.3 non tamen <hi rend="italic"
+                              >MU</hi> : tamen <hi rend="italic">ST</hi><hi
+                              rend="italic superscript">ac</hi><hi rend="italic">V </hi>: non <hi
+                              rend="italic">post cogitationem suppleuit T</hi><hi
+                              rend="italic superscript">c</hi><hi rend="italic"
+                     >.</hi></p></note>(there are of course other spots where <hi rend="bold">T
+                     </hi>has been joined by one or another manuscript in a successful innovation): </p>
+                  <p>33.2 diuturnitate confirmarentur <hi rend="italic">T</hi><hi
+                        rend="italic superscript">c</hi><hi rend="italic"> et M</hi><hi
+                        rend="italic superscript">mr</hi> : diuturnitates confirmarentur <hi
+                        rend="italic">MUST</hi><hi rend="italic superscript">ac</hi><hi
+                        rend="italic">V </hi></p>
+                  <p><hi rend="bold">e. V</hi></p>
+                  <p><hi rend="bold">V</hi> is a manuscript preserved in the Österreichische
+                     Nationalbibliothek in Vienna, shelf mark 95.</p>
+                  <p>The <hi rend="italic">Bellum Alexandrinum </hi>occupies ff. 137vb-153rb. <hi
+                        rend="bold">V</hi> is unique in presenting the three non-Caesarian <hi
+                        rend="italic">Bella</hi> under the title <hi rend="italic">Bellum
+                        Alexandrinum</hi> and numbering the <hi rend="italic">Bellum Africum</hi>
+                     and the <hi rend="italic">Bellum Hispaniense</hi> as Books III-IV of that work.
+                     The number of uniquely successful innovations in <hi rend="bold">V</hi> in the
+                        <hi rend="italic">Bellum Alexandrinum</hi> is much lower than would have
+                     been expected based the evidence of the <hi rend="italic">Bellum
+                        ciuile</hi><note place="bottom" xml:id="ftn26" n="26"><p> Also noteworthy in
+                              <hi rend="bold">V</hi>: 27.5 Mithridates magna cum prudentia <hi
+                              rend="italic">MUS</hi><hi rend="italic superscript">c</hi><hi
+                              rend="italic"> et T supra lineam</hi> : mithridates magna cum potentia
+                              <hi rend="italic">S</hi><hi rend="italic superscript">ac</hi><hi
+                              rend="italic">T</hi> : magna cum prudentia mithridates <hi
+                              rend="italic">V feliciter</hi>; 62.1 paucis diebus q <hi rend="italic"
+                              >S </hi>: paucis diebusque <hi rend="italic">MU</hi> : paucisque
+                           diebus <hi rend="italic">T</hi> : paucis diebus <hi rend="italic">V non
+                              male. </hi>Perhaps the scribe devoted less attention to this work than
+                           to those written by Caesar himself.</p></note> (there are of course other
+                     spots where <hi rend="bold">V</hi> has been joined by one or another manuscript
+                     in a successful innovation, or where <hi rend="bold">V</hi> seems to have
+                     joined <hi rend="bold">μ</hi> in a good reading):</p>
+                  <p>59.1 esse<hi rend="superscript">1</hi>
+                     <hi rend="italic">V</hi> : esset <hi rend="italic">MUST</hi></p>
+               </div>
+               <!-- End of subsection on witnesses. -->
+            </div>
+            <p><hi rend="bold">III. Using this edition</hi></p>
+            <p>The <title>Bellum Alexandrinum</title> has come down to us in a very imperfect state.
+               The ongoing process of rendering it readable and at least arguably authentic has
+               resulted in a text that differs in hundreds of spots from that transmitted by the
+               manuscripts. The critical apparatus of this edition is designed to facilitate
+               scrutiny of these textual repairs. We hope that readers will accept repairs not
+               because they are there but because they are persuasive, or better than others, or
+               better than nothing. Some of the damage incurred in the text's transmission seems
+               irreparable: where text has been lost, for example, or where rival repairs are
+               equally (im)plausible. These spots are marked with *** and †† respectively. But the
+               vast majority of the problem spots are amenable to emendation, and the apparatus
+               presents the evidence and (in brief) the arguments for the repairs adopted or
+               proposed.</p>
+            <p><hi rend="bold">A. Text</hi></p>
+            <p>In general terms the text of this edition aims to reproduce the text of the archetype
+               of our tradition, as emended where it seems possible to restore a text closer to the
+               original. However, several expedients adopted to improve the legibility of the text
+               constitute exceptions to this policy.</p>
+            <p>The spelling of names and common Latin words and forms is silently regularized where
+               the manuscript variants are not relevant to understanding the text or its
+               transmission. The lemmata in the critical apparatus match the reading in the text
+               (except in capitalization) and therefore do not necessarily represent the spelling in
+               the manuscripts cited.</p>
+            <p>Abbreviations and symbols are silently spelled out where there is no ambiguity about
+               the full form of the word. (For the special case of numbers see below.) Roman
+               praenomina are an exception to this general rule, since we use the standard
+               abbreviations (C. for Gaius, Cn. for Gnaeus, L. for Lucius, and so on), regardless of
+               what is in the text. The phrase <hi rend="italic">per compendium</hi> in the
+               apparatus indicates that a manuscript contains an abbreviation when this information
+               is helpful for understanding the transmission of the text. But the absence of such an
+               indication should not be taken to imply that the text is written in full. All of the
+               manuscripts cited here use abbreviations to a greater (<hi rend="bold">U</hi>) or
+               lesser (<hi rend="bold">TV</hi>) or variable (<hi rend="bold">MS</hi>) degree. The
+               phrase <hi rend="italic">compendio indicato</hi> indicates that a word is presented
+               as an abbreviation in the manuscript but that the significance of the abbreviation is
+               unclear. </p>
+            <p>We have silently regularized the manuscripts' inconsistent and discrepant
+               representations of cardinal and ordinal numbers. For one, two, and three we use the
+               inflected forms, and for most cardinal numbers higher than three we use Roman
+               numerals, since the inflected forms of large numerical adjectives and adverbs are
+               cumbersome in Latin and less perspicuous than their symbolic counterparts. However,
+               we do spell out <hi rend="italic">mille</hi> and the inflected forms of <hi
+                  rend="italic">milia</hi>. Ordinal numbers are spelled out; this is particularly
+               useful in connection with legions, where the difference between, say, "five legions"
+               and "the fifth legion" is significant. Distributive numbers, which are infrequent in
+               this text, are also spelled out.</p>
+            <p>We used modern punctuation in the text since the punctuation in the manuscripts is
+               neither consistent nor reliable. The terminal punctuation for main clauses is
+               generally a full stop. Where a series of actions seems to gain from presentation as a
+               series, on the other hand, we use commas instead of full stops. But in many instances
+               there was rather little to tip the balance. In extended passages of indirect
+               statement we use semicolons to indicate sentence breaks. Commas are used to
+               articulate the text where clause structure and word order are not sufficient (see
+               further below). We occasionally use paired dashes to indicate a gap between the
+               narrative and an embedded utterance such as an editorializing comment by the author,
+               an afterthought, or a "snippet" of indirect statement, where commas don't
+                  suffice.<note place="bottom" xml:id="ftn27" n="27"><p> See Damon (forthcoming) on
+                     such parentheses. </p></note> Where such utterances extend for a sentence or
+               more and full stops don't suffice we use parentheses rather than dashes. Single
+               dashes precede instances of anacoluthon. Pointed and square brackets indicate
+               additions to (&lt; &gt;) and excisions from ([ ]) the text that involve complete
+               words. Where syllables or individual letters are added or excised the change is not
+               signaled in the text but the relevant information can be found in the apparatus. In
+               general Incertus’ prose requires more punctuation that Caesar’s. For passages where
+               the periodic style consists of a heavily punctuated accumulation of clauses see,
+               e.g., 1.4-5 (<hi rend="italic">Caesar … poterat</hi>), 14.5 (<hi rend="italic">Erant
+                  … uidebantur</hi>), 24.1-2 (<hi rend="italic">Caesar … puerum</hi>), 35.2 (<hi
+                  rend="italic">Domitius … fuisset</hi>), 42.2-3 (<hi rend="italic">Namque …
+                  sociorum</hi>), 43.1 (<hi rend="italic">Gabinius … gerebat</hi>), 44.1 (<hi
+                  rend="italic">Vatinius … praeparationis</hi>), 44.3-4 (<hi rend="italic">Quod …
+                  persequeretur</hi>), 48.1 (<hi rend="italic">Iis … cupiebat</hi>).</p>
+            <p>Paragraphs are generally those established by Jungermann's 1606 edition, which serve
+               as the basis for the modern citation system. Units within the paragraphs are numbered
+               as in Andrieu 1954.</p>
+            <p>The features of the text described so far are available in both the online and print
+               versions of the LDLT edition. But the online text has one important feature that
+               cannot be reproduced on paper. </p>
+            <p><hi rend="background(cyan)">DETAILED DESCRIPTION OF THE SWAPPING FUNCTION IN THE
+                  ONLINE VERSION</hi></p>
+            <p><hi rend="bold">B. Critical apparatus </hi></p>
+            <p>There is an entry in the apparatus criticus if any of the following circumstances
+               applies for a word or phrase in the text.</p>
+            <p>1. If the reading of the archetype is uncertain: <hi rend="bold">μ</hi>≠<hi
+                  rend="bold">ν</hi>, or <hi rend="bold">MS</hi>≠<hi rend="bold">Uπ</hi>, etc. In
+               choices between equally authoritative variants we have put in the text the one that
+               offers the best sense and style. Or, if these criteria fail, the <hi rend="italic"
+                  >lectio difficilior.</hi> If no other criterion suffices, we follow <hi
+                  rend="bold">U</hi>, which is the least deviant manuscript. In some places these
+               criteria pull in different directions.</p>
+            <p>2. If there may be a disagreement between <hi rend="bold">μ</hi> and <hi rend="bold"
+                  >ν</hi>: <hi rend="bold">μS</hi>≠<hi rend="bold">π</hi>, <hi rend="bold"
+                  >U</hi>≠<hi rend="bold">Mν</hi>, etc. We list this category separately from (1)
+               because it is often difficult, owing to the waywardness of <hi rend="bold">S</hi>, to
+               determine the reading of <hi rend="bold">ν</hi>. The same is true, but to a much
+               lesser extent, about <hi rend="bold">μ</hi>, owing to <hi rend="bold">M</hi>'s
+               propensity to stray.</p>
+            <p>3. If the manuscript evidence warrants display for some other reason. Readings unique
+               to a particular manuscript—<hi rend="italic">lectiones singulares</hi> or singular
+               readings—are generally recorded in the Appendix critica if the text is not in doubt,
+               but multi-word omissions are also reported in the apparatus since they provide
+               crucial information about the shape of hyparchetype families. When other sorts of
+               singular readings are reported in the apparatus, they are mentioned for their value
+               as emendations. Where two manuscripts have different singular readings at the same
+               spot we generally record this in the apparatus.<note place="bottom" xml:id="ftn28"
+                  n="28"><p> In some cases the Appendix critica seemed the more appropriate home for
+                     the information, especially when unrelated errors were typical of their
+                     manuscripts or where one of the two errors has been corrected by the
+                     scribe.</p></note></p>
+            <p>4. If the syntax is faulty, showing omissions, problems of agreement, etc. The
+               problem is fixed in the text if possible, even if the solution adopted is only one of
+               several possible solutions. But sometimes a lacuna (&lt;gap&gt;) is indicated
+                  instead.<note place="bottom" xml:id="ftn29" n="29"><p> For the more difficult
+                     examples of categories (4)-(7) there are notes explaining our reasoning in <hi
+                        rend="italic">Studies on the Text of the Bellum Alexandrinum</hi>. These are
+                     signaled by a diamond (◊) in the apparatus note.</p></note></p>
+            <p>5. If the usage is or appears to be problematic. In this situation, the problem is
+               usually fixed in the text, unless it can be attributed to the author himself. This
+               large category is subject to some limitations.</p>
+            <p>a. We rarely make notes involving the regularization of acceptable syntax. A very
+               common type of emendation involves verb forms. E.g., where in a series of historical
+               present tense verbs one finds a perfect. These generally require trivial textual
+               intervention. But readers can spot these discrepancies for themselves and decide
+               about the suitability of the preserved reading and the repairs available. The fact
+               that someone before them has also queried the text is unlikely to help resolve the
+               problem, and such notes, which would be very very numerous, would clog the
+                  apparatus.<note place="bottom" xml:id="ftn30" n="30"><p> The <hi rend="bold"
+                        >α</hi> and <hi rend="bold">β</hi> branches of the tradition of the <hi
+                        rend="italic">BG</hi> frequently differ over verb tenses, which leads one to
+                     suspect that in our tradition, which is limited to the <hi rend="bold">β</hi>
+                     branch, tense errors will be numerous (see further <hi
+                        rend="background(yellow)">Damon 2015b, PAGES for Part 2</hi>). </p></note>
+               Emendations of this sort (and of those discussed below) can be seen in the Conspectus
+               editionum. However, where such emendations remove a contradiction within the text
+               they are usually either accepted or at least reported. Similarly if they help address
+               an otherwise problematic passage or draw attention to a notable feature of the text
+               such as a <hi rend="italic">constructio ad sensum</hi>. (This logic and these
+               exceptions also apply to the following two categories.)</p>
+            <p>b. We rarely make notes involving the addition or excision or interchange of verb
+               prefixes. </p>
+            <p>c. We rarely make notes involving the addition or excision of the connectives <hi
+                  rend="italic">et</hi> and -<hi rend="italic">que</hi>, or the interchange of -<hi
+                  rend="italic">que</hi> and -<hi rend="italic">ue</hi>. A glance at the apparatus
+               will show that these words are frequently overlooked or added by our manuscripts.</p>
+            <p>d. We rarely make notes involving diction. Unlike categories (a) - (c), such notes
+               sometimes involve substantial changes to the text, and the presumed innovations have
+               to be explained as substitutions (deliberate or unconscious) by the scribe.<note
+                  place="foot" xml:id="ftn31" n="31"><p> Or additions. We also refrain from making
+                     notes about possible intrusive glosses, as long as they don't interfere with
+                     the comprehension of the text.</p></note> Spotting this sort of problem is an
+               almost infinite task, as there are a great number of words in the text for which one
+               could think of a more apt, a more common, or at least a different expression. The
+               fact that in the <hi rend="italic">BG</hi> tradition there are numerous
+               synonym-variants between the <hi rend="bold">α</hi> and <hi rend="bold">β</hi>
+               branches (<hi rend="background(yellow)">see Damon 2015b, PAGES for Part 2</hi>)
+               almost guarantees that some of the expressions in our text were not those originally
+               chosen by the author, and one advantage of notes on diction would be to call
+               attention to anomalies, but at the cost of suggesting, even if only gently, that
+               dictional anomalies need to be fixed. Readers who are sensitive enough to diction to
+               look to the apparatus when an expression seems odd already have what they need to
+               analyse the situation. This is obviously a matter for editorial judgment, and
+               "rarely" does not mean "never."</p>
+            <p>6. If the sense is or appears to be problematic on grounds of either history or
+               logic. Such a problem is fixed in the text unless it can be attributed to the author
+               himself. A number of these passages involve names.<note place="bottom" xml:id="ftn32"
+                  n="32"><p> For example, we printed the transmitted spelling even though epigraphic
+                     evidence suggests that it is wrong, at 42.3 Iadertinorum and 48.2 Medobrigam.
+                     Incertus might not have known the local or accepted spelling of these rather
+                     out of the way toponyms. Like Caesar, Incertus is inconsistent in his use of
+                     the <hi rend="italic">tria nomina</hi>, both at an individual’s introduction,
+                     where he sometimes supplies the <hi rend="italic">praenomen</hi> and sometimes
+                     doesn’t, and subsequently. Q. Cassius Longinus, for example, is sometimes
+                     called Cassius, sometimes Longinus. </p></note>
+            </p>
+            <p>7. If the text is or appears to be suspect on other grounds. Numbers are responsible
+               for most of this category. Sometimes no solution can be proposed but it still seems
+               worth marking the problem.</p>
+            <p>Parallel passages are often cited in the apparatus to defend the text, a variant, or
+               an emendation, but only when the available parallels are rare; regular usage speaks
+               for itself. In directing the reader to parallels we use <hi rend="italic">uide</hi>
+                  [<hi rend="italic">u</hi>.] for passages illustrating the matter, <hi
+                  rend="italic">confer</hi> [<hi rend="italic">cf</hi>.] for passages illustrating
+               the expression. If a parallel from the Caesarian corpus is given, it is the best one,
+               and often the only one, unless "etc." follows, in which case there are up to five or
+               so pertinent parallels. If parallels are given for distinct aspects of the phrase in
+               question, <hi rend="italic">et</hi> is interposed between citations. If a parallel is
+               given from outside of the Caesarian corpus, no adequate parallel exists within the
+               corpus. Where the cited parallel nevertheless provides only indifferent support for
+               the reading it defends, the reading can be assessed accordingly.</p>
+            <p>In this edition the readings of all of the principal manuscripts are stated for every
+               lemma. This makes it easy for the reader to follow the behavior and affiliations of
+               the manuscripts over large stretches of text. It also facilitates the task of
+               assessing the arguments about readings in the text, since the lemmata and the
+               evidence for them are listed alongside the conflicting evidence.</p>
+            <p>Orthographical variants and the related category of abbreviations abound in this
+               tradition (see <hi rend="background(yellow)">Damon 2015a, PAGES</hi>). They are
+               generally ignored in the apparatus, unless a variant helps explain subsequent
+               innovations, as is sometimes the case for abbreviations in particular. </p>
+            <p>Citations for works of classical literature are given in the abbreviated forms
+               standardized by the <hi rend="italic">OLD</hi> and Liddell-Scott-Jones. (With
+               space-saving exceptions for the six works in the <hi rend="italic">corpus
+                  Caesarianum</hi>, which appear as <hi rend="italic">BG</hi>, Hirt., <hi
+                  rend="italic">BC</hi>, <hi rend="italic">BAlex</hi>, <hi rend="italic">BAfr</hi>,
+                  <hi rend="italic">BHisp</hi>.) Citations without titles refer to the <hi
+                  rend="italic">Bellum Alexandrinum.</hi></p>
+            <p>Scholars are cited by name only, or by name and date if it is necessary to
+               distinguish among their works. Full bibliographic information is given in the List of
+               works cited.<note place="bottom" xml:id="ftn33" n="33"><p> In the long history of
+                     work on the text of the <hi rend="italic">Bellum Alexandrinum</hi> some
+                     emendations have lost their source. Where other editors ascribe a reading to
+                        "<hi rend="italic">edd</hi>.," we have named the earliest source we can
+                     find. We use <hi rend="italic bold">ς</hi> if I can verify that a reading is in
+                     a manuscript other than those used here to constitute the text. (This usually
+                     means that the reading is in <hi rend="bold">L</hi> or <hi rend="bold">N</hi>
+                     or <hi rend="bold">R.</hi>) Otherwise we give the earliest edition in which it
+                     appears. Emendations credited to the first edition (“ed. pr.”) are presumably
+                     drawn from a manuscript source. </p></note></p>
+            <p>The features of the apparatus described so far are available in both the online and
+               print versions of the LDLT edition. But the online apparatus has important features
+               that cannot be reproduced on paper. </p>
+            <p><hi rend="background(cyan)">DETAILED DESCRIPTION OF THE ONLINE APPARATUS</hi></p>
+            <p><hi rend="bold">C. Appendix critica</hi></p>
+            <p>In the Appendix critica we record the singular readings of the principal manuscripts
+               in passages where the text is not in doubt. (Where a singular reading is useful for
+               the constitution of the text it is recorded in the critical apparatus.) This
+               collection of readings illustrates the character of the witnesses to the text,
+               allowing the reader to see both the frequency and the types of errors in each.
+               Lemmata are provided to show the nature of the error. The spelling of the lemma is
+               that of the printed text. Orthographical variants are not registered in the Appendix.
+               An erroneous reading ascribed to <hi rend="bold">M</hi><hi rend="bold superscript"
+                  >ac</hi> (or <hi rend="bold">M</hi><hi rend="bold superscript">c</hi>) implies
+               that <hi rend="bold">M</hi><hi rend="bold superscript">c</hi> (or <hi rend="bold"
+                  >M</hi><hi rend="bold superscript">ac</hi>) has the reading of the lemma. All
+               singular omissions are listed. Omissions notable for length or content are also
+               reported in the apparatus criticus. An asterisk marks errors in <hi rend="bold"
+                  >M</hi> that prompted a correction—not necessarily a successful one—by <hi
+                  rend="bold">M</hi><hi rend="bold superscript">mr</hi>.</p>
+            <p>=============</p>
+            <p><hi rend="bold">Additional materials in the LDLT edition:</hi></p>
+            <p><hi rend="italic bold">Studies on the Text of the Bellum Alexandrinum</hi>
+            </p>
+            <p>Twenty-three notes on difficult spots in the text by members of the Latin 540 classes
+               in 2015 and 2017. These present in depth the arguments that underlie the various
+               remedies suggested in the edition's critical apparatus. They are signaled in the
+               relevant apparatus note by a diamond (◊) before the lemma. </p>
+            <p><hi rend="bold">Transcriptions of the manuscript witnesses (MUSTV)</hi></p>
+            <p>The five manuscript witnesses used to constitute the text were transcribed by members
+               of the Postbac Latin seminars in 2014 and 2016, and by highschool volunteers in the
+               summer of 2016. The transcriptions were checked and doublechecked by the transcribing
+               teams, by other class members, and by the Latin 540 students who used the
+               transcriptions to generate the critical apparatus. Machine-collation was used to
+               locate discrepancies that needed verification; we used the collation tool at
+               juxtacommons.org. (For the process see Damon and Huskey, forthcoming.) Errors
+               certainly remain, and many features of the original are not reflected in these simple
+               documents, but they are helpful maps for finding a particular bit of text in a
+               manuscript book or a page image. Abbreviations are filled out unless obscure (as is
+               sometimes the case with monetary amounts, for example), punctuation is ignored, and
+               capitalization is reproduced rather erratically. Where a manuscript contains a
+               correction the transcription records the corrected form, not the original reading;
+               the original readings were recorded elsewhere and are taken account of in the
+               apparatus and Appendix critica. </p>
+            <p><hi rend="bold">Translation</hi>
+            </p>
+            <p>The students in the two Latin 540 classes produced a translation of the <hi
+                  rend="italic">Bellum Alexandrinum</hi> in the course of their work on the text. It
+               is a work of many hands and makes no claim to stylistic merit or even consistency. It
+               is designed to communicate our interpretation of the text, particularly where we have
+               emended it. </p>
+            <p><hi rend="bold">Conspectus editionum</hi></p>
+            <p>A list of the 98 places where the reading of the LDLT <hi rend="italic">Bellum
+                  Alexandrinum</hi> differs from that of Andrieu 1954, which we used as our base
+               text. (Differences of orthography and punctuation are not reported.)</p>
+            <p>=============</p>
+            <p>Acknowledgements <hi rend="background(yellow)">WORK HERE</hi></p>
+            <p>Balex acknowledgments</p>
+            <p>Penn’s Price Lab for Digital Humanities (2016-17<note place="bottom" xml:id="ftn34"
+                  n="34"><p> Price Lab blurb: <ref
+                        target="https://pricelab.sas.upenn.edu/fellows/damon-cynthia"
+                        >https://pricelab.sas.upenn.edu/fellows/damon-cynthia</ref>.
+               </p></note>),</p>
+            <p>Sean Carpenter: worked out a manuscript transcription protocol compatible with
+               automatic collation and produced directories of abbreviations to guide future
+               transcribers of this tradition (summer 2014, 10 weeks, 20hrs per week, $3000 PURM
+               funding)</p>
+            <p>Greg Crane: contacts within the world of digital philology</p>
+            <p>Uwe Springmann: OCR for scans of early editions, essential for census of
+               emendations</p>
+            <p>Katie Rawson, Van Pelt Library, converting scans to pages for OCR</p>
+            <p>Dallas Simons, CLST grad student, converting scans to pages for OCR and cleaning up
+               results of LATN 540 work, adding hyperlinks to ???</p>
+            <p>???, preparing census editionum from machine-collations of early editions and
+               scrutiny of critical notes and apparatus from many others. </p>
+            <p>STUDENTS IN fall 2014 PB and spring 2015 LATN 540 courses</p>
+            <p rend="normal">spring 2015 LATN 540, responsibility for paragraphs in BAlex 1-33</p>
+            <p rend="normal"><hi rend="color(A61C00)">1-6, 27 Dallas</hi></p>
+            <p rend="normal"><hi rend="color(0000FF)">7 class project</hi></p>
+            <p rend="normal"><hi rend="color(FF0000)">8-11, 28-29 Scheherazade</hi></p>
+            <p rend="normal"><hi rend="color(783F04)">12-14 Tom</hi></p>
+            <p rend="normal"><hi rend="color(FF9900)">15-16 Amy</hi></p>
+            <p rend="normal"><hi rend="color(38761D)">17-19 Addie</hi></p>
+            <p rend="normal"><hi rend="color(9900FF)">20-24 Greg</hi></p>
+            <p rend="normal"><hi rend="color(00FF00)">25-26 Marcie</hi></p>
+            <p rend="normal"><hi rend="color(FF00FF)">30-33 Kate</hi></p>
+            <p>HS students winter and summer 2016 (transcription)</p>
+            <p>Jessica Shaw</p>
+            <p>Isaac Rand</p>
+            <p>Addie McKenzie</p>
+            <p>zachary Elliott and Molly for conversion help</p>
+            <p>Amy Lewis for checking </p>
+            <p>Bibliography</p>
+            <p><lb/>needs two new items</p>
+            <p>Damon, C. ‘<hi rend="color(212121)">On (authorial and other) parentheses in Caesar’s
+                  </hi><hi rend="italic color(212121)">commentarii</hi><hi rend="color(212121)">,’
+                  forthcoming. </hi></p>
+            <p>Damon and Huskey (in preparation)--paper on LDLT BAlex?</p>
+            <p>Missing items: </p>
+            <p>[Cellarius] C. Cellarius, ed. <hi rend="italic">C. Iulii Caesaris Commentarii de
+                  bello gallico et ciuili. Cum utriusque supplementis ab A. Hirtio vel Oppio
+                  adiectis</hi>. Leipzig. 1705.</p>
+            <p>[Domaszewski] Domaszewski, A. von. ‘Die Heere der Bürgerkriege in den Jahren 49 bis
+               42 vor Christus,’ <hi rend="italic">Neue Heidelberger Jahrbücher</hi> 4 (1894):
+               157-188. </p>
+            <p>[Gertz] See Klotz.</p>
+            <p>[Glandorpius] See Jungermann.</p>
+            <p>[Hoffmann] This is E. Hoffmann. All of the citations have dates (1857 or 1890), and
+               these editions are already in the bibliography. So nothing more should be needed.</p>
+            <p>[Keil] See Klotz.</p>
+            <p>[Naqvi] Theodora Naqvi. Member of the Latin 540 class (spring 2017).</p>
+            <p>[Rossetus] See Gaertner-Hausberg.</p>
          </div>
          <!-- End of Preface -->
 
@@ -4710,9 +5565,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            next="#lem-58.2-et-forsitan">dictitabat.</lem>
                      </app></seg>
                   <seg n="2"><app>
-                     <lem wit="#M #U #S #T #V" xml:id="lem-58.2-transposition" prev="#lem-58.1-dictitabat">Et forsitan etiam
-                           hoc fecerit odio Caesaris et amore Pompei, cuius nomen multum poterat
-                           apud eas legiones quas M. Varro obtinuerat, sed id qua mente communis <app>
+                        <lem wit="#M #U #S #T #V" xml:id="lem-58.2-transposition"
+                           prev="#lem-58.1-dictitabat">Et forsitan etiam hoc fecerit odio Caesaris
+                           et amore Pompei, cuius nomen multum poterat apud eas legiones quas M.
+                           Varro obtinuerat, sed id qua mente communis <app>
                               <lem xml:id="lem-58.2-erat">erat</lem>
                               <rdg source="#Madvig" xml:id="rdg-58.2-erit">erit</rdg>
                               <note target="#rdg-58.2-erit">coll. Liu. 4.20.8</note>
@@ -7926,7 +8782,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      >funibus</foreign>, which sits oddly with the prefix <foreign xml:lang="la"
                      >sub</foreign>-, and the verb itself appears nowhere else in the corpus. The
                   form <foreign xml:lang="la">adiunctis</foreign>, from a verb used eight times in
-                  the <hi rend="italic">Bellum Alexandrinum</hi> and twenty-five times in the corpus
+                  the <title>Bellum Alexandrinum</title> and twenty-five times in the corpus
                   overall, is perhaps a better repair. Aulus Gellius uses <foreign xml:lang="la"
                      >adiunctis</foreign> absolutely with <foreign xml:lang="la">iumenta</foreign>
                   (Gel. 20.1.28 <foreign xml:lang="la">uectaculum … quod adiunctis pecoribus
@@ -8654,8 +9510,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   inscription on bronze shows that Caesar presided over the negotiation of a
                   generous treaty with the Lycians in 46 BCE, which several historians have
                   interpreted as a reward for the contingent of ships that (according to the
-                  pre-Schneider text of the <hi rend="italic">Bellum Alexandrinum</hi>) Lycia sent
-                  to Egypt.<note place="bottom"><foreign xml:lang="la">Editio princeps</foreign> and
+                  pre-Schneider text of the <title>Bellum Alexandrinum</title>) Lycia sent to
+                     Egypt.<note place="bottom"><foreign xml:lang="la">Editio princeps</foreign> and
                      discussion in S. Mitchell, 2005, “The Treaty between Rome and Lycia of 46 BC
                      (MS2070),” <hi rend="italic">Papyri Graecae Schøyen (P. Schøyen I)</hi>, ed. R.
                      Pintaudi, Florence: 161–259, with reference to the position of Lycia and the
@@ -8784,39 +9640,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               xml:lang="la">et illam et urbem</foreign>: “il comptait pouvoir se
                            porter contre <hi rend="underline">l’ile</hi> en même temps que contre la
                            ville.”</note> The <foreign xml:lang="la">et … et</foreign> construction
-                        is well paralleled in the <hi rend="italic">Bellum Alexandrinum</hi> (3.1
-                           <foreign xml:lang="la">uno … tempore et nostras munitiones infestabant et
-                           suas defendebant</foreign>, 7.3 <foreign xml:lang="la">cum uero uno
-                           tempore et natio eorum et natura cognoscatur</foreign>, 17.4 <foreign
-                           xml:lang="la">Vno enim tempore et ex tectis aedificiorum propugnabant et
-                           litora armati defendebant</foreign>), but there are no good parallels in
-                        the corpus for a neuter plural pronoun with two feminine antecedents.<note
-                           place="bottom">According to <ref target="#Pinkster">Pinkster</ref> (2015,
-                           1258), the construction occurs only from Sallust onwards.</note> The best
-                        one can do is point to 24.4 <foreign xml:lang="la">si illa
-                           sentiret</foreign>, where the antecendent of <foreign xml:lang="la"
-                           >illa</foreign> is vague, and <hi rend="italic">BG</hi> 1.27.4 <foreign
-                           xml:lang="la">dum ea conquiruntur</foreign>, where the antecedent of
-                           <foreign xml:lang="la">ea</foreign> is the preceding <foreign
-                           xml:lang="la">obsides arma seruos</foreign>. <ref target="#Fleischer"
-                           >Fleischer</ref> fixes the problem with the obvious <foreign
-                           xml:lang="la">illas</foreign>, but this form leaves the origin of
-                           <foreign xml:lang="la">in</foreign> obscure (1878, 279). <ref
-                           target="#Nipperdey">Nipperdey</ref> takes the antecedent of <foreign
-                           xml:lang="la">illa</foreign> to be <foreign xml:lang="la">molem</foreign>
-                        and construes the pronoun as an ablative: Caesar projects an attack on
-                        Alexandria from the jetty. Nipperdey obtains the two actions required here
-                        by emending <foreign xml:lang="la">et</foreign> to <foreign xml:lang="la"
-                           >etiam</foreign> and excising <foreign xml:lang="la">in</foreign>:
-                           <foreign xml:lang="la">etiam illa urbem uno tempore temptari posse
-                           confidebat</foreign>. With this reading the possibility of attacking the
-                        city is an afterthought to the aforementioned project of attacking the
-                        island and jetty, which does not work very well with <foreign xml:lang="la"
-                           >uno tempore</foreign>.<note place="bottom">As <ref target="#Larsen"
-                              >Larsen</ref> notes, however, this ablative is “nimis audax, nec sine
-                           difficultate uerbis <hi rend="italic">perfectis … oppido</hi> interiectis
-                           in <hi rend="italic">illa</hi> audiri potest <hi rend="italic"
-                           >moles</hi>” (1886, <ref
+                        is well paralleled in the <title>Bellum Alexandrinum</title> (3.1 <foreign
+                           xml:lang="la">uno … tempore et nostras munitiones infestabant et suas
+                           defendebant</foreign>, 7.3 <foreign xml:lang="la">cum uero uno tempore et
+                           natio eorum et natura cognoscatur</foreign>, 17.4 <foreign xml:lang="la"
+                           >Vno enim tempore et ex tectis aedificiorum propugnabant et litora armati
+                           defendebant</foreign>), but there are no good parallels in the corpus for
+                        a neuter plural pronoun with two feminine antecedents.<note place="bottom"
+                           >According to <ref target="#Pinkster">Pinkster</ref> (2015, 1258), the
+                           construction occurs only from Sallust onwards.</note> The best one can do
+                        is point to 24.4 <foreign xml:lang="la">si illa sentiret</foreign>, where
+                        the antecendent of <foreign xml:lang="la">illa</foreign> is vague, and <hi
+                           rend="italic">BG</hi> 1.27.4 <foreign xml:lang="la">dum ea
+                           conquiruntur</foreign>, where the antecedent of <foreign xml:lang="la"
+                           >ea</foreign> is the preceding <foreign xml:lang="la">obsides arma
+                           seruos</foreign>. <ref target="#Fleischer">Fleischer</ref> fixes the
+                        problem with the obvious <foreign xml:lang="la">illas</foreign>, but this
+                        form leaves the origin of <foreign xml:lang="la">in</foreign> obscure (1878,
+                        279). <ref target="#Nipperdey">Nipperdey</ref> takes the antecedent of
+                           <foreign xml:lang="la">illa</foreign> to be <foreign xml:lang="la"
+                           >molem</foreign> and construes the pronoun as an ablative: Caesar
+                        projects an attack on Alexandria from the jetty. Nipperdey obtains the two
+                        actions required here by emending <foreign xml:lang="la">et</foreign> to
+                           <foreign xml:lang="la">etiam</foreign> and excising <foreign
+                           xml:lang="la">in</foreign>: <foreign xml:lang="la">etiam illa urbem uno
+                           tempore temptari posse confidebat</foreign>. With this reading the
+                        possibility of attacking the city is an afterthought to the aforementioned
+                        project of attacking the island and jetty, which does not work very well
+                        with <foreign xml:lang="la">uno tempore</foreign>.<note place="bottom">As
+                              <ref target="#Larsen">Larsen</ref> notes, however, this ablative is
+                           “nimis audax, nec sine difficultate uerbis <hi rend="italic">perfectis …
+                              oppido</hi> interiectis in <hi rend="italic">illa</hi> audiri potest
+                              <hi rend="italic">moles</hi>” (1886, <ref
                               target="https://hdl.handle.net/2027/nnc2.ark:/13960/t3cz4fm0n?urlappend=%3Bseq=16"
                               >13</ref>). <ref target="#Hoffmann1890">Hoffmann 1890</ref> simplifies
                            the construction, if not the transmission history, by adding <foreign
@@ -9460,8 +10315,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      rend="italic">MV</hi>
                </quote>
 
-               <p>1. Paragraph 26 of the <hi rend="italic">Bellum Alexandrinum</hi> presents four
-                  primary difficulties, all indicated by problems of syntax or style rather than by
+               <p>1. Paragraph 26 of the <title>Bellum Alexandrinum</title> presents four primary
+                  difficulties, all indicated by problems of syntax or style rather than by
                   discrepancies in the manuscript tradition: first, the tense of <foreign
                      xml:lang="la">adducit</foreign>, which stands alone as a present-tense verb
                   amid perfect-tense verbs both in the previous section and in the following clauses
@@ -9517,11 +10372,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <p>But why the mixture of tenses? For paragraph 26, the most probable explanation is
                   the vividness of the present tense, which complements the dramatic staging of the
                   introductory phrase <foreign xml:lang="la">sub idem tempus</foreign>. This same
-                  opening hook is used five times in the <hi rend="italic">Bellum Alexandrinum</hi>
-                  (at 26.1, 28.1, 40.1, 42.1, 64.2), and two of these passages have clear
-                  present-tense verbs (28.1 <foreign xml:lang="la">proficiscitur</foreign>, 40.1
-                     <foreign xml:lang="la">concurritur</foreign>), one includes an ambiguous form
-                  (64.2 <foreign xml:lang="la">uenit</foreign>), and one a perfect passive (42.1
+                  opening hook is used five times in the <title>Bellum Alexandrinum</title> (at
+                  26.1, 28.1, 40.1, 42.1, 64.2), and two of these passages have clear present-tense
+                  verbs (28.1 <foreign xml:lang="la">proficiscitur</foreign>, 40.1 <foreign
+                     xml:lang="la">concurritur</foreign>), one includes an ambiguous form (64.2
+                     <foreign xml:lang="la">uenit</foreign>), and one a perfect passive (42.1
                      <foreign xml:lang="la">acceptum est</foreign>). In those cases where <foreign
                      xml:lang="la">sub idem tempus</foreign> introduces a verb of present (or
                   potentially-present) tense, the surrounding sentences include a medley of perfect
@@ -9548,10 +10403,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <foreign xml:lang="la">adduco</foreign> is a compound of this verb, the <hi
                         rend="italic">TLL</hi> reports only passive forms used absolutely (<hi
                         rend="italic">cf. TLL</hi> 1.0.602.70–603.5).</note>; there are fifteen uses
-                  within the <hi rend="italic">Bellum Alexandrinum</hi>, eight of which are finite
-                  and active; all eight of these have their own direct objects (2.2, 34.5, 35.2,
-                  42.4, 43.4, 58.1, 62.1, 68.1). The present sentence lacks a direct object to
-                  complete the sense of <foreign xml:lang="la">adducit</foreign>. The ablative of
+                  within the <title>Bellum Alexandrinum</title>, eight of which are finite and
+                  active; all eight of these have their own direct objects (2.2, 34.5, 35.2, 42.4,
+                  43.4, 58.1, 62.1, 68.1). The present sentence lacks a direct object to complete
+                  the sense of <foreign xml:lang="la">adducit</foreign>. The ablative of
                   accompaniment <foreign xml:lang="la">cum magnis copiis</foreign> demonstrates that
                   Mithridates was not proceeding towards Egypt alone, but does not fulfill the need
                   of the verb <foreign xml:lang="la">adducit</foreign> for an object. Various
@@ -9578,24 +10433,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   was followed by both <ref target="#Schneider">Schneider</ref> (1888) and <ref
                      target="#Klotz">Klotz</ref> (1927), and is attractive for its simplicity, but
                   it must be noted that <foreign xml:lang="la">aduenio</foreign> is not found as a
-                  finite verb in the <hi rend="italic">Bellum Alexandrinum</hi>, and is only found
-                  twice in participial form (32.3 <foreign xml:lang="la">dignum adueniens fructum
-                     uirtutis et animi magnitudinis tulit</foreign> and, later in the same passage,
-                     <foreign xml:lang="la">aduenienti Caesari occurrerunt seque ei
-                     dediderunt</foreign>). In neither of these instances is a destination
-                  designated, although parallel—albeit, again, participial—forms of <foreign
-                     xml:lang="la">aduenio</foreign> with attendant accusatives of place do appear
-                  at Liu. 42.56.3 (<foreign xml:lang="la">M. Lucretius, Chalcidem adueniens …
-                     nuntium, praetoris uerbis qui abscedere eum inde iuberet, misit</foreign>) and
-                  44.30.9 (<foreign xml:lang="la">Carauantium in Cauiis Durnium oppidum aduenientem
-                     benigne accepit</foreign>; see further <hi rend="italic">TLL</hi> 1.831.40–50).
-                  Overall, participial forms are far more common in the Caesarian corpus
-                  (participial forms occurring at <hi rend="italic">BC</hi> 2.32.12, twice at <hi
-                     rend="italic">BAlex</hi> 32.3, <hi rend="italic">BAfr</hi> 11.2, 23.2, 74.2,
-                  89.2; only once in a finite form at <hi rend="italic">BAfr</hi> 7.3). The
-                  infrequency of this verb with an accusative of destination, as well as the
-                  apparent preference for the verb in its participial form, together justify editors
-                  in continuing to search for alternative solutions.</p>
+                  finite verb in the <title>Bellum Alexandrinum</title>, and is only found twice in
+                  participial form (32.3 <foreign xml:lang="la">dignum adueniens fructum uirtutis et
+                     animi magnitudinis tulit</foreign> and, later in the same passage, <foreign
+                     xml:lang="la">aduenienti Caesari occurrerunt seque ei dediderunt</foreign>). In
+                  neither of these instances is a destination designated, although parallel—albeit,
+                  again, participial—forms of <foreign xml:lang="la">aduenio</foreign> with
+                  attendant accusatives of place do appear at Liu. 42.56.3 (<foreign xml:lang="la"
+                     >M. Lucretius, Chalcidem adueniens … nuntium, praetoris uerbis qui abscedere
+                     eum inde iuberet, misit</foreign>) and 44.30.9 (<foreign xml:lang="la"
+                     >Carauantium in Cauiis Durnium oppidum aduenientem benigne accepit</foreign>;
+                  see further <hi rend="italic">TLL</hi> 1.831.40–50). Overall, participial forms
+                  are far more common in the Caesarian corpus (participial forms occurring at <hi
+                     rend="italic">BC</hi> 2.32.12, twice at <hi rend="italic">BAlex</hi> 32.3, <hi
+                     rend="italic">BAfr</hi> 11.2, 23.2, 74.2, 89.2; only once in a finite form at
+                     <hi rend="italic">BAfr</hi> 7.3). The infrequency of this verb with an
+                  accusative of destination, as well as the apparent preference for the verb in its
+                  participial form, together justify editors in continuing to search for alternative
+                  solutions.</p>
 
                <p>b. <ref target="#Vielhaber">Vielhaber</ref>’s emendation, though made over a
                   century later, closely corresponds with that of <ref target="#Dauisius1727"
@@ -9617,7 +10472,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <p>
                   <foreign xml:lang="la">Venit</foreign> is, additionally, far more common in the
-                     <hi rend="italic">Bellum Alexandrinum</hi> than <ref target="#Dauisius1727"
+                     <title>Bellum Alexandrinum</title> than <ref target="#Dauisius1727"
                      >Davisius’</ref>
                   <foreign xml:lang="la">aduenit</foreign>, and is found in finite and infinitive
                   forms twenty times in the text, and in participial forms three further times.
@@ -9737,12 +10592,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   the text resulting from the ungainly length of the sentence, which resulted either
                   in the author’s losing track of the syntax of his sentence or choosing rather to
                   start again with emphasis—a subtle distinction that either demeans the style of
-                  the author of the <hi rend="italic">Bellum Alexandrinum</hi> or underscores its
-                  similarity to other prose works incorporating rhetorical figures. This is an
-                  attractive solution, as it requires no alteration of the text at all, and can be
-                  used to explain the rambling structure of this sentence with logic rather than by
-                  assuming random clumsiness of the author and ignorance of all subsequent scribes
-                  and readers. Even with anacoluthon, however, the verb <foreign xml:lang="la"
+                  the author of the <title>Bellum Alexandrinum</title> or underscores its similarity
+                  to other prose works incorporating rhetorical figures. This is an attractive
+                  solution, as it requires no alteration of the text at all, and can be used to
+                  explain the rambling structure of this sentence with logic rather than by assuming
+                  random clumsiness of the author and ignorance of all subsequent scribes and
+                  readers. Even with anacoluthon, however, the verb <foreign xml:lang="la"
                      >adducit</foreign> strongly desires a direct object, even if only a resumptive
                   deictic hearkening back to the ablative of accompaniment.</p>
 
@@ -10063,8 +10918,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      3.112.12 [<foreign xml:lang="la">nutricius pueri et procurator regni, in parte
                         Caesaris</foreign>], 3.112.12 [<foreign xml:lang="la">Haec initia belli
                         Alexandrini fuerunt</foreign>.]. See also on 7.2 above for a possible gloss
-                     in the <hi rend="italic">Bellum Alexandrinum</hi>. For further details, see
-                        <ref target="#Damon2015b">Damon 2015b</ref>, 59–60.</note> One might defend
+                     in the <title>Bellum Alexandrinum</title>. For further details, see <ref
+                        target="#Damon2015b">Damon 2015b</ref>, 59–60.</note> One might defend
                   printing the text of <hi rend="italic">S</hi> by saying that the string <foreign
                      xml:lang="la">constantiaque … imprudentia</foreign> was a gloss in the
                   archetype and that <hi rend="italic">S</hi> transmits the text of the archetype
@@ -10314,8 +11169,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   Hirt. 8.8.3 <foreign xml:lang="la">omnium impedimentorum agmen, quod <hi
                         rend="underline">tamen</hi> erat mediocre</foreign>). <note place="bottom"
                      >On the relatively high frequency of <foreign xml:lang="la">tamen</foreign> in
-                     the <hi rend="italic">Bellum Alexandrinum</hi>, particularly in chapters 22–78,
-                     see <ref target="#Gaertner-Hausburg">Gaertner/Hausburg</ref> (2013) 67 n.184
+                     the <title>Bellum Alexandrinum</title>, particularly in chapters 22–78, see
+                        <ref target="#Gaertner-Hausburg">Gaertner/Hausburg</ref> (2013) 67 n.184
                      (the numbers in their Appendix K, p. 288, are mistaken).</note></p>
             </div>
             <!-- End of STBA 31.3 -->
@@ -10491,14 +11346,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   attack on higher ground (<foreign xml:lang="la">quod in locis superioribus nullus
                      impetus repentinus accidere hostium</foreign><note place="bottom">In the
                      apparatus we suggest the excision of <foreign xml:lang="la">hostium</foreign>
-                     as a gloss. Elsewhere in the <hi rend="italic">Bellum Alexandrinum</hi> and
-                     everywhere in the corpus subjective genitives are adjacent to <foreign
-                        xml:lang="la">impetus</foreign>, either after it (8.4 <foreign xml:lang="la"
-                        >impetus hostium</foreign>, 17.4 <foreign xml:lang="la">impetus
-                        nostrorum</foreign>, 44.3 <foreign xml:lang="la">impetum Octauii</foreign>)
-                     or before it (27.5 and 29.5 <foreign xml:lang="la">quorum impetum</foreign>,
-                     40.3 <foreign xml:lang="la">uincentium impetum</foreign>). It seems superfluous
-                     here, and this part of the sentence needs nothing else.</note>
+                     as a gloss. Elsewhere in the <title>Bellum Alexandrinum</title> and everywhere
+                     in the corpus subjective genitives are adjacent to <foreign xml:lang="la"
+                        >impetus</foreign>, either after it (8.4 <foreign xml:lang="la">impetus
+                        hostium</foreign>, 17.4 <foreign xml:lang="la">impetus nostrorum</foreign>,
+                     44.3 <foreign xml:lang="la">impetum Octauii</foreign>) or before it (27.5 and
+                     29.5 <foreign xml:lang="la">quorum impetum</foreign>, 40.3 <foreign
+                        xml:lang="la">uincentium impetum</foreign>). It seems superfluous here, and
+                     this part of the sentence needs nothing else.</note>
                   <foreign xml:lang="la">poterat</foreign>): such an attack might be unlikely, but
                   would one guarantee with <foreign xml:lang="la">certas</foreign> that it was
                   impossible? However, it seems unlikely that <foreign xml:lang="la"
@@ -10543,9 +11398,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      xml:lang="la">opportunitates</foreign>, i.e., at the end of its clause. We
                   prefer to place it after <foreign xml:lang="la">certas,</foreign> i.e., between an
                   adjective and the noun it modifies. This unusual word order, which is well
-                  attested in the <hi rend="italic">Bellum Alexandrinum</hi>,<note place="bottom"
-                     >Cf., e.g., 17.1 <foreign xml:lang="la">in suam redigeret potestatem</foreign>,
-                     37.4 <foreign xml:lang="la">triniis firmabantur subsidiis</foreign>, 37.4
+                  attested in the <title>Bellum Alexandrinum</title>,<note place="bottom">Cf., e.g.,
+                     17.1 <foreign xml:lang="la">in suam redigeret potestatem</foreign>, 37.4
+                        <foreign xml:lang="la">triniis firmabantur subsidiis</foreign>, 37.4
                         <foreign xml:lang="la">media collocabantur acie</foreign>, 38.3 <foreign
                         xml:lang="la">suam non producere aciem</foreign>, 48.3 <foreign
                         xml:lang="la">speciosum reddebant … amorem</foreign>, 52.1 <foreign
@@ -10801,15 +11656,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   was hostile? 1890, <ref
                      target="https://hdl.handle.net/2027/uiug.30112099806678?urlappend=%3Bseq=62"
                      >LIV</ref>). The adversative <foreign xml:lang="la">sin</foreign> is used twice
-                  elsewhere in the <hi rend="italic">Bellum Alexandrinum</hi> (24.1, 42.4), the
-                  sequence <foreign xml:lang="la">siue … siue … sin</foreign> in Cicero (<hi
-                     rend="italic">De orat</hi>. 2.292, <foreign xml:lang="la">Att</foreign>.
-                  7.3.2). Hoffmann’s repair implies a two-part innovation (<foreign xml:lang="la"
-                     >aduentu</foreign> =&gt; <foreign xml:lang="la">aduentus</foreign>, <foreign
-                     xml:lang="la">in</foreign> is omitted) but neither stage is <foreign
-                     xml:lang="la">per se</foreign> implausible and the fact that they involve the
-                  same spot in the text is a distinct advantage over the repairs discussed so far.
-                     <ref target="#Dübner">Dübner</ref> adopted it, and so do we.</p>
+                  elsewhere in the <title>Bellum Alexandrinum</title> (24.1, 42.4), the sequence
+                     <foreign xml:lang="la">siue … siue … sin</foreign> in Cicero (<hi rend="italic"
+                     >De orat</hi>. 2.292, <foreign xml:lang="la">Att</foreign>. 7.3.2). Hoffmann’s
+                  repair implies a two-part innovation (<foreign xml:lang="la">aduentu</foreign>
+                  =&gt; <foreign xml:lang="la">aduentus</foreign>, <foreign xml:lang="la"
+                     >in</foreign> is omitted) but neither stage is <foreign xml:lang="la">per
+                     se</foreign> implausible and the fact that they involve the same spot in the
+                  text is a distinct advantage over the repairs discussed so far. <ref
+                     target="#Dübner">Dübner</ref> adopted it, and so do we.</p>
             </div>
             <!-- End of STBA 36.4-5 -->
 
@@ -12045,7 +12900,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <supplied reason="lost"><foreign xml:lang="la"
                      >uenit</foreign></supplied>.</note> And the unannounced change of subject from
                   singular to plural in <foreign xml:lang="la">complanarent</foreign> is, if not
-                  unparalleled in the <hi rend="italic">Bellum Alexandrinum</hi> (see <ref
+                  unparalleled in the <title>Bellum Alexandrinum</title> (see <ref
                      target="#Gaertner-Hausburg">Gaertner and Hausburg</ref> 2013, General Index
                   s.v. “syntax: abrupt changes of subject”), at least odd.</p>
 
@@ -13193,8 +14048,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   descendants, perhaps because the hyperbaton <foreign xml:lang="la">in praeruptam …
                      uallem</foreign> seemed more immediately problematic than <foreign
                      xml:lang="la">in proelium</foreign>.<note place="bottom">On hyperbata in the
-                        <hi rend="italic">Bellum Alexandrinum</hi> see Gaertner and Hausburg 2013,
-                     36–39. Incertus is particularly fond of clause-ending hyperbata of the form
+                        <title>Bellum Alexandrinum</title> see Gaertner and Hausburg 2013, 36–39.
+                     Incertus is particularly fond of clause-ending hyperbata of the form
                      adjective-verb-substantive (see the discussion of 35.3 above, n. 11).</note> Be
                   that as it may, what one wants to know is whether <foreign xml:lang="la"
                      >praeruptam</foreign> reached μ by transmission, in other words, whether it may
