@@ -31,7 +31,7 @@
     </teiHeader>
     <text>
         <body>
-            <p>Preface</p>
+            <div><head>Preface</head>
             <p>This edition of the <hi rend="italic">Bellum Alexandrinum</hi>, a text of unknown
                 authorship belonging to the <hi rend="italic">Corpus Caesarianum</hi>, is the
                 product of collaborations involving nearly 100 people. The text and critical
@@ -44,11 +44,11 @@
                 translation. Damon converted the apparatus into a spreadsheet, and the LDLT team led
                 by Sam Huskey at the University of Oklahoma converted both the text and the
                 apparatus into the machine-readable form that underlies the version you are reading,
-                either at the interactive LDLT website or as an on-demand .pdf. WHO wrote this
+                either at the interactive LDLT website or as an on-demand PDF. WHO wrote this
                 preface. <note place="foot" xml:id="ftn1" n="1"><p rend="footnote text"> The
                         processes summarized here have been the subject of several talks at the
                         annual meeting of the Society for Classical Studies (LINKS?) and will be
-                        described more fully in Damon and Huskey (in preparation). </p></note>
+                        described more fully in <!-- SJH: What shall we do about this? -->Damon and Huskey (in preparation). </p></note>
             </p>
             <p>Why a new edition of the <hi rend="italic">Bellum Alexandrinum</hi>?</p>
             <p>There are two answers to that question. The traditional answer is that the
@@ -62,9 +62,9 @@
                 But the real answer is that in the digital era we urgently need new editors, and
                 that creating an edition such as this is an excellent way to expose students to the
                 editing process. The next generation of critical editions, <hi rend="italic"
-                    >digital</hi><hi> critical editions, can improve significantly on past editions,
+                    >digital</hi> critical editions, can improve significantly on past editions,
                     but for classical texts there are currently no good models: existing digital
-                    editions are woefully inadequate for both teaching and research.</hi>
+                    editions are woefully inadequate for both teaching and research.
                 <hi rend="background(cyan)">[SAM on the project as training for digital humanities
                     students?]</hi></p>
             <p>What is new in this edition?</p>
@@ -1051,7 +1051,7 @@
                     needed.</hi></p>
             <p><hi>[Keil] See Klotz.</hi></p>
             <p><hi>[Naqvi] Theodora Naqvi. Member of the Latin 540 class (spring 2017).</hi></p>
-            <p><hi>[Rossetus] See Gaertner-Hausberg.</hi></p>
+            <p><hi>[Rossetus] See Gaertner-Hausberg.</hi></p></div>
         </body>
     </text>
 </TEI>
