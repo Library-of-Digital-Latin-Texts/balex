@@ -722,14 +722,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     >USTV</hi></item>
                               <item>*46.2 contra illo remigante <hi rend="italic">M</hi> : contra
                                  illum remigantem <hi rend="italic">SV</hi> : contra illo remigantem
-                                    <hi rend="italic">UT</hi><hi rend="italic color(9900FF)"
-                                 > </hi></item>
+                                    <hi rend="italic">UT</hi></item>
                               <item>*47.3 ea <hi rend="italic">M</hi> : eum <hi rend="italic"
                                     >USTV</hi></item>
                               <item>48.1 animaduertere <hi rend="italic">M </hi>: animum auertere
                                     <hi rend="italic">USTV</hi></item>
-                              <item>60.5 difficultatisque <hi rend="color(578726)">:
-                                 </hi>difficultatesque <hi rend="italic">USTV</hi></item>
+                              <item>60.5 difficultatisque:
+                                 difficultatesque <hi rend="italic">USTV</hi></item>
                               <item>61.4 passi <hi rend="italic">M </hi>: pass(a)e <hi rend="italic"
                                     >USTV</hi>
                               </item>
@@ -974,342 +973,438 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <!-- End of subsection on witnesses. -->
             </div>
             <!-- End of section II. -->
-            
+
             <!-- Beginning of section III. -->
             <div type="section" xml:id="preface-using-this-edition">
                <head>III. Using this edition</head>
-               
-            <p>The <title>Bellum Alexandrinum</title> has come down to us in a very imperfect state.
-               The ongoing process of rendering it readable and at least arguably authentic has
-               resulted in a text that differs in hundreds of spots from that transmitted by the
-               manuscripts. The critical apparatus of this edition is designed to facilitate
-               scrutiny of these textual repairs. We hope that readers will accept repairs not
-               because they are there but because they are persuasive, or better than others, or
-               better than nothing. Some of the damage incurred in the text's transmission seems
-               irreparable: where text has been lost, for example, or where rival repairs are
-               equally (im)plausible. These spots are marked with *** and †† respectively. But the
-               vast majority of the problem spots are amenable to emendation, and the apparatus
-               presents the evidence and (in brief) the arguments for the repairs adopted or
-               proposed.</p>
-               
-               <!-- Start here. -->
-               
-            <p><hi rend="bold">A. Text</hi></p>
-            <p>In general terms the text of this edition aims to reproduce the text of the archetype
-               of our tradition, as emended where it seems possible to restore a text closer to the
-               original. However, several expedients adopted to improve the legibility of the text
-               constitute exceptions to this policy.</p>
-            <p>The spelling of names and common Latin words and forms is silently regularized where
-               the manuscript variants are not relevant to understanding the text or its
-               transmission. The lemmata in the critical apparatus match the reading in the text
-               (except in capitalization) and therefore do not necessarily represent the spelling in
-               the manuscripts cited.</p>
-            <p>Abbreviations and symbols are silently spelled out where there is no ambiguity about
-               the full form of the word. (For the special case of numbers see below.) Roman
-               praenomina are an exception to this general rule, since we use the standard
-               abbreviations (C. for Gaius, Cn. for Gnaeus, L. for Lucius, and so on), regardless of
-               what is in the text. The phrase <hi rend="italic">per compendium</hi> in the
-               apparatus indicates that a manuscript contains an abbreviation when this information
-               is helpful for understanding the transmission of the text. But the absence of such an
-               indication should not be taken to imply that the text is written in full. All of the
-               manuscripts cited here use abbreviations to a greater (<hi rend="bold">U</hi>) or
-               lesser (<hi rend="bold">TV</hi>) or variable (<hi rend="bold">MS</hi>) degree. The
-               phrase <hi rend="italic">compendio indicato</hi> indicates that a word is presented
-               as an abbreviation in the manuscript but that the significance of the abbreviation is
-               unclear. </p>
-            <p>We have silently regularized the manuscripts' inconsistent and discrepant
-               representations of cardinal and ordinal numbers. For one, two, and three we use the
-               inflected forms, and for most cardinal numbers higher than three we use Roman
-               numerals, since the inflected forms of large numerical adjectives and adverbs are
-               cumbersome in Latin and less perspicuous than their symbolic counterparts. However,
-               we do spell out <hi rend="italic">mille</hi> and the inflected forms of <hi
-                  rend="italic">milia</hi>. Ordinal numbers are spelled out; this is particularly
-               useful in connection with legions, where the difference between, say, "five legions"
-               and "the fifth legion" is significant. Distributive numbers, which are infrequent in
-               this text, are also spelled out.</p>
-            <p>We used modern punctuation in the text since the punctuation in the manuscripts is
-               neither consistent nor reliable. The terminal punctuation for main clauses is
-               generally a full stop. Where a series of actions seems to gain from presentation as a
-               series, on the other hand, we use commas instead of full stops. But in many instances
-               there was rather little to tip the balance. In extended passages of indirect
-               statement we use semicolons to indicate sentence breaks. Commas are used to
-               articulate the text where clause structure and word order are not sufficient (see
-               further below). We occasionally use paired dashes to indicate a gap between the
-               narrative and an embedded utterance such as an editorializing comment by the author,
-               an afterthought, or a "snippet" of indirect statement, where commas don't
-                  suffice.<note place="bottom" xml:id="ftn27" n="27"><p>See Damon (forthcoming) on
-                     such parentheses. </p></note> Where such utterances extend for a sentence or
-               more and full stops don't suffice we use parentheses rather than dashes. Single
-               dashes precede instances of anacoluthon. Pointed and square brackets indicate
-               additions to (&lt; &gt;) and excisions from ([ ]) the text that involve complete
-               words. Where syllables or individual letters are added or excised the change is not
-               signaled in the text but the relevant information can be found in the apparatus. In
-               general Incertus’ prose requires more punctuation that Caesar’s. For passages where
-               the periodic style consists of a heavily punctuated accumulation of clauses see,
-               e.g., 1.4-5 (<hi rend="italic">Caesar … poterat</hi>), 14.5 (<hi rend="italic">Erant
-                  … uidebantur</hi>), 24.1-2 (<hi rend="italic">Caesar … puerum</hi>), 35.2 (<hi
-                  rend="italic">Domitius … fuisset</hi>), 42.2-3 (<hi rend="italic">Namque …
-                  sociorum</hi>), 43.1 (<hi rend="italic">Gabinius … gerebat</hi>), 44.1 (<hi
-                  rend="italic">Vatinius … praeparationis</hi>), 44.3-4 (<hi rend="italic">Quod …
-                  persequeretur</hi>), 48.1 (<hi rend="italic">Iis … cupiebat</hi>).</p>
-            <p>Paragraphs are generally those established by Jungermann's 1606 edition, which serve
-               as the basis for the modern citation system. Units within the paragraphs are numbered
-               as in Andrieu 1954.</p>
-            <p>The features of the text described so far are available in both the online and print
-               versions of the LDLT edition. But the online text has one important feature that
-               cannot be reproduced on paper. </p>
-            <p><hi rend="background(cyan)">DETAILED DESCRIPTION OF THE SWAPPING FUNCTION IN THE
-                  ONLINE VERSION</hi></p>
-            <p><hi rend="bold">B. Critical apparatus </hi></p>
-            <p>There is an entry in the apparatus criticus if any of the following circumstances
-               applies for a word or phrase in the text.</p>
-            <p>1. If the reading of the archetype is uncertain: <hi rend="bold">μ</hi>≠<hi
-                  rend="bold">ν</hi>, or <hi rend="bold">MS</hi>≠<hi rend="bold">Uπ</hi>, etc. In
-               choices between equally authoritative variants we have put in the text the one that
-               offers the best sense and style. Or, if these criteria fail, the <hi rend="italic"
-                  >lectio difficilior.</hi> If no other criterion suffices, we follow <hi
-                  rend="bold">U</hi>, which is the least deviant manuscript. In some places these
-               criteria pull in different directions.</p>
-            <p>2. If there may be a disagreement between <hi rend="bold">μ</hi> and <hi rend="bold"
-                  >ν</hi>: <hi rend="bold">μS</hi>≠<hi rend="bold">π</hi>, <hi rend="bold"
-                  >U</hi>≠<hi rend="bold">Mν</hi>, etc. We list this category separately from (1)
-               because it is often difficult, owing to the waywardness of <hi rend="bold">S</hi>, to
-               determine the reading of <hi rend="bold">ν</hi>. The same is true, but to a much
-               lesser extent, about <hi rend="bold">μ</hi>, owing to <hi rend="bold">M</hi>'s
-               propensity to stray.</p>
-            <p>3. If the manuscript evidence warrants display for some other reason. Readings unique
-               to a particular manuscript—<hi rend="italic">lectiones singulares</hi> or singular
-               readings—are generally recorded in the Appendix critica if the text is not in doubt,
-               but multi-word omissions are also reported in the apparatus since they provide
-               crucial information about the shape of hyparchetype families. When other sorts of
-               singular readings are reported in the apparatus, they are mentioned for their value
-               as emendations. Where two manuscripts have different singular readings at the same
-               spot we generally record this in the apparatus.<note place="bottom" xml:id="ftn28"
-                  n="28"><p>In some cases the Appendix critica seemed the more appropriate home for
-                     the information, especially when unrelated errors were typical of their
-                     manuscripts or where one of the two errors has been corrected by the
-                     scribe.</p></note></p>
-            <p>4. If the syntax is faulty, showing omissions, problems of agreement, etc. The
-               problem is fixed in the text if possible, even if the solution adopted is only one of
-               several possible solutions. But sometimes a lacuna (&lt;gap&gt;) is indicated
-                  instead.<note place="bottom" xml:id="ftn29" n="29"><p>For the more difficult
-                     examples of categories (4)-(7) there are notes explaining our reasoning in <hi
-                        rend="italic">Studies on the Text of the Bellum Alexandrinum</hi>. These are
-                     signaled by a diamond (◊) in the apparatus note.</p></note></p>
-            <p>5. If the usage is or appears to be problematic. In this situation, the problem is
-               usually fixed in the text, unless it can be attributed to the author himself. This
-               large category is subject to some limitations.</p>
-            <p>a. We rarely make notes involving the regularization of acceptable syntax. A very
-               common type of emendation involves verb forms. E.g., where in a series of historical
-               present tense verbs one finds a perfect. These generally require trivial textual
-               intervention. But readers can spot these discrepancies for themselves and decide
-               about the suitability of the preserved reading and the repairs available. The fact
-               that someone before them has also queried the text is unlikely to help resolve the
-               problem, and such notes, which would be very very numerous, would clog the
-                  apparatus.<note place="bottom" xml:id="ftn30" n="30"><p>The <hi rend="bold">α</hi>
-                     and <hi rend="bold">β</hi> branches of the tradition of the <hi rend="italic"
-                        >BG</hi> frequently differ over verb tenses, which leads one to suspect that
-                     in our tradition, which is limited to the <hi rend="bold">β</hi> branch, tense
-                     errors will be numerous (see further <hi rend="background(yellow)">Damon 2015b,
-                        PAGES for Part 2</hi>). </p></note> Emendations of this sort (and of those
-               discussed below) can be seen in the Conspectus editionum. However, where such
-               emendations remove a contradiction within the text they are usually either accepted
-               or at least reported. Similarly if they help address an otherwise problematic passage
-               or draw attention to a notable feature of the text such as a <hi rend="italic"
-                  >constructio ad sensum</hi>. (This logic and these exceptions also apply to the
-               following two categories.)</p>
-            <p>b. We rarely make notes involving the addition or excision or interchange of verb
-               prefixes. </p>
-            <p>c. We rarely make notes involving the addition or excision of the connectives <hi
-                  rend="italic">et</hi> and -<hi rend="italic">que</hi>, or the interchange of -<hi
-                  rend="italic">que</hi> and -<hi rend="italic">ue</hi>. A glance at the apparatus
-               will show that these words are frequently overlooked or added by our manuscripts.</p>
-            <p>d. We rarely make notes involving diction. Unlike categories (a) - (c), such notes
-               sometimes involve substantial changes to the text, and the presumed innovations have
-               to be explained as substitutions (deliberate or unconscious) by the scribe.<note
-                  place="foot" xml:id="ftn31" n="31"><p>Or additions. We also refrain from making
-                     notes about possible intrusive glosses, as long as they don't interfere with
-                     the comprehension of the text.</p></note> Spotting this sort of problem is an
-               almost infinite task, as there are a great number of words in the text for which one
-               could think of a more apt, a more common, or at least a different expression. The
-               fact that in the <hi rend="italic">BG</hi> tradition there are numerous
-               synonym-variants between the <hi rend="bold">α</hi> and <hi rend="bold">β</hi>
-               branches (<hi rend="background(yellow)">see Damon 2015b, PAGES for Part 2</hi>)
-               almost guarantees that some of the expressions in our text were not those originally
-               chosen by the author, and one advantage of notes on diction would be to call
-               attention to anomalies, but at the cost of suggesting, even if only gently, that
-               dictional anomalies need to be fixed. Readers who are sensitive enough to diction to
-               look to the apparatus when an expression seems odd already have what they need to
-               analyse the situation. This is obviously a matter for editorial judgment, and
-               "rarely" does not mean "never."</p>
-            <p>6. If the sense is or appears to be problematic on grounds of either history or
-               logic. Such a problem is fixed in the text unless it can be attributed to the author
-               himself. A number of these passages involve names.<note place="bottom" xml:id="ftn32"
-                  n="32"><p>For example, we printed the transmitted spelling even though epigraphic
-                     evidence suggests that it is wrong, at 42.3 Iadertinorum and 48.2 Medobrigam.
-                     Incertus might not have known the local or accepted spelling of these rather
-                     out of the way toponyms. Like Caesar, Incertus is inconsistent in his use of
-                     the <hi rend="italic">tria nomina</hi>, both at an individual’s introduction,
-                     where he sometimes supplies the <hi rend="italic">praenomen</hi> and sometimes
-                     doesn’t, and subsequently. Q. Cassius Longinus, for example, is sometimes
-                     called Cassius, sometimes Longinus. </p></note>
-            </p>
-            <p>7. If the text is or appears to be suspect on other grounds. Numbers are responsible
-               for most of this category. Sometimes no solution can be proposed but it still seems
-               worth marking the problem.</p>
-            <p>Parallel passages are often cited in the apparatus to defend the text, a variant, or
-               an emendation, but only when the available parallels are rare; regular usage speaks
-               for itself. In directing the reader to parallels we use <hi rend="italic">uide</hi>
-                  [<hi rend="italic">u</hi>.] for passages illustrating the matter, <hi
-                  rend="italic">confer</hi> [<hi rend="italic">cf</hi>.] for passages illustrating
-               the expression. If a parallel from the Caesarian corpus is given, it is the best one,
-               and often the only one, unless "etc." follows, in which case there are up to five or
-               so pertinent parallels. If parallels are given for distinct aspects of the phrase in
-               question, <hi rend="italic">et</hi> is interposed between citations. If a parallel is
-               given from outside of the Caesarian corpus, no adequate parallel exists within the
-               corpus. Where the cited parallel nevertheless provides only indifferent support for
-               the reading it defends, the reading can be assessed accordingly.</p>
-            <p>In this edition the readings of all of the principal manuscripts are stated for every
-               lemma. This makes it easy for the reader to follow the behavior and affiliations of
-               the manuscripts over large stretches of text. It also facilitates the task of
-               assessing the arguments about readings in the text, since the lemmata and the
-               evidence for them are listed alongside the conflicting evidence.</p>
-            <p>Orthographical variants and the related category of abbreviations abound in this
-               tradition (see <hi rend="background(yellow)">Damon 2015a, PAGES</hi>). They are
-               generally ignored in the apparatus, unless a variant helps explain subsequent
-               innovations, as is sometimes the case for abbreviations in particular. </p>
-            <p>Citations for works of classical literature are given in the abbreviated forms
-               standardized by the <hi rend="italic">OLD</hi> and Liddell-Scott-Jones. (With
-               space-saving exceptions for the six works in the <hi rend="italic">corpus
-                  Caesarianum</hi>, which appear as <hi rend="italic">BG</hi>, Hirt., <hi
-                  rend="italic">BC</hi>, <hi rend="italic">BAlex</hi>, <hi rend="italic">BAfr</hi>,
-                  <hi rend="italic">BHisp</hi>.) Citations without titles refer to the <hi
-                  rend="italic">Bellum Alexandrinum.</hi></p>
-            <p>Scholars are cited by name only, or by name and date if it is necessary to
-               distinguish among their works. Full bibliographic information is given in the List of
-               works cited.<note place="bottom" xml:id="ftn33" n="33"><p>In the long history of work
-                     on the text of the <hi rend="italic">Bellum Alexandrinum</hi> some emendations
-                     have lost their source. Where other editors ascribe a reading to "<hi
-                        rend="italic">edd</hi>.," we have named the earliest source we can find. We
-                     use <hi rend="italic bold">ς</hi> if I can verify that a reading is in a
-                     manuscript other than those used here to constitute the text. (This usually
-                     means that the reading is in <hi rend="bold">L</hi> or <hi rend="bold">N</hi>
-                     or <hi rend="bold">R.</hi>) Otherwise we give the earliest edition in which it
-                     appears. Emendations credited to the first edition (“ed. pr.”) are presumably
-                     drawn from a manuscript source. </p></note></p>
-            <p>The features of the apparatus described so far are available in both the online and
-               print versions of the LDLT edition. But the online apparatus has important features
-               that cannot be reproduced on paper. </p>
-            <p><hi rend="background(cyan)">DETAILED DESCRIPTION OF THE ONLINE APPARATUS</hi></p>
-            <p><hi rend="bold">C. Appendix critica</hi></p>
-            <p>In the Appendix critica we record the singular readings of the principal manuscripts
-               in passages where the text is not in doubt. (Where a singular reading is useful for
-               the constitution of the text it is recorded in the critical apparatus.) This
-               collection of readings illustrates the character of the witnesses to the text,
-               allowing the reader to see both the frequency and the types of errors in each.
-               Lemmata are provided to show the nature of the error. The spelling of the lemma is
-               that of the printed text. Orthographical variants are not registered in the Appendix.
-               An erroneous reading ascribed to <hi rend="bold">M</hi><hi rend="bold superscript"
-                  >ac</hi> (or <hi rend="bold">M</hi><hi rend="bold superscript">c</hi>) implies
-               that <hi rend="bold">M</hi><hi rend="bold superscript">c</hi> (or <hi rend="bold"
-                  >M</hi><hi rend="bold superscript">ac</hi>) has the reading of the lemma. All
-               singular omissions are listed. Omissions notable for length or content are also
-               reported in the apparatus criticus. An asterisk marks errors in <hi rend="bold"
-                  >M</hi> that prompted a correction—not necessarily a successful one—by <hi
-                  rend="bold">M</hi><hi rend="bold superscript">mr</hi>.</p>
-            <p>=============</p></div>
+
+               <p>The <title>Bellum Alexandrinum</title> has come down to us in a very imperfect
+                  state. The ongoing process of rendering it readable and at least arguably
+                  authentic has resulted in a text that differs in hundreds of spots from that
+                  transmitted by the manuscripts. The critical apparatus of this edition is designed
+                  to facilitate scrutiny of these textual repairs. We hope that readers will accept
+                  repairs not because they are there but because they are persuasive, or better than
+                  others, or better than nothing. Some of the damage incurred in the text's
+                  transmission seems irreparable: where text has been lost, for example, or where
+                  rival repairs are equally (im)plausible. These spots are marked with *** and ††
+                  respectively. But the vast majority of the problem spots are amenable to
+                  emendation, and the apparatus presents the evidence and (in brief) the arguments
+                  for the repairs adopted or proposed.</p>
+
+               <!-- Begin subsection on the text. -->
+               <div type="section" xml:id="preface-using-this-edition-text">
+                  <head>A. Text</head>
+
+                  <p>In general terms the text of this edition aims to reproduce the text of the
+                     archetype of our tradition, as emended where it seems possible to restore a
+                     text closer to the original. However, several expedients adopted to improve the
+                     legibility of the text constitute exceptions to this policy.</p>
+
+                  <p>The spelling of names and common Latin words and forms is silently regularized
+                     where the manuscript variants are not relevant to understanding the text or its
+                     transmission. The lemmata in the critical apparatus match the reading in the
+                     text (except in capitalization) and therefore do not necessarily represent the
+                     spelling in the manuscripts cited.</p>
+
+                  <p>Abbreviations and symbols are silently spelled out where there is no ambiguity
+                     about the full form of the word. (For the special case of numbers see below.)
+                     Roman praenomina are an exception to this general rule, since we use the
+                     standard abbreviations (C. for Gaius, Cn. for Gnaeus, L. for Lucius, and so
+                     on), regardless of what is in the text. The phrase <hi rend="italic">per
+                        compendium</hi> in the apparatus indicates that a manuscript contains an
+                     abbreviation when this information is helpful for understanding the
+                     transmission of the text. But the absence of such an indication should not be
+                     taken to imply that the text is written in full. All of the manuscripts cited
+                     here use abbreviations to a greater (<hi rend="bold">U</hi>) or lesser (<hi
+                        rend="bold">TV</hi>) or variable (<hi rend="bold">MS</hi>) degree. The
+                     phrase <hi rend="italic">compendio indicato</hi> indicates that a word is
+                     presented as an abbreviation in the manuscript but that the significance of the
+                     abbreviation is unclear. </p>
+
+                  <p>We have silently regularized the manuscripts' inconsistent and discrepant
+                     representations of cardinal and ordinal numbers. For one, two, and three we use
+                     the inflected forms, and for most cardinal numbers higher than three we use
+                     Roman numerals, since the inflected forms of large numerical adjectives and
+                     adverbs are cumbersome in Latin and less perspicuous than their symbolic
+                     counterparts. However, we do spell out <hi rend="italic">mille</hi> and the
+                     inflected forms of <hi rend="italic">milia</hi>. Ordinal numbers are spelled
+                     out; this is particularly useful in connection with legions, where the
+                     difference between, say, "five legions" and "the fifth legion" is significant.
+                     Distributive numbers, which are infrequent in this text, are also spelled
+                     out.</p>
+
+                  <p>We used modern punctuation in the text since the punctuation in the manuscripts
+                     is neither consistent nor reliable. The terminal punctuation for main clauses
+                     is generally a full stop. Where a series of actions seems to gain from
+                     presentation as a series, on the other hand, we use commas instead of full
+                     stops. But in many instances there was rather little to tip the balance. In
+                     extended passages of indirect statement we use semicolons to indicate sentence
+                     breaks. Commas are used to articulate the text where clause structure and word
+                     order are not sufficient (see further below). We occasionally use paired dashes
+                     to indicate a gap between the narrative and an embedded utterance such as an
+                     editorializing comment by the author, an afterthought, or a "snippet" of
+                     indirect statement, where commas don't suffice.<note place="bottom"
+                        xml:id="ftn27" n="27"><p>See Damon (forthcoming) on such parentheses.
+                        </p></note> Where such utterances extend for a sentence or more and full
+                     stops don't suffice we use parentheses rather than dashes. Single dashes
+                     precede instances of anacoluthon. Pointed and square brackets indicate
+                     additions to (&lt; &gt;) and excisions from ([ ]) the text that involve
+                     complete words. Where syllables or individual letters are added or excised the
+                     change is not signaled in the text but the relevant information can be found in
+                     the apparatus. In general Incertus’ prose requires more punctuation than
+                     Caesar’s. For passages where the periodic style consists of a heavily
+                     punctuated accumulation of clauses see, e.g., 1.4-5 (<hi rend="italic">Caesar …
+                        poterat</hi>), 14.5 (<hi rend="italic">Erant … uidebantur</hi>), 24.1-2 (<hi
+                        rend="italic">Caesar … puerum</hi>), 35.2 (<hi rend="italic">Domitius …
+                        fuisset</hi>), 42.2-3 (<hi rend="italic">Namque … sociorum</hi>), 43.1 (<hi
+                        rend="italic">Gabinius … gerebat</hi>), 44.1 (<hi rend="italic">Vatinius …
+                        praeparationis</hi>), 44.3-4 (<hi rend="italic">Quod … persequeretur</hi>),
+                     48.1 (<hi rend="italic">Iis … cupiebat</hi>).</p>
+
+                  <p>Paragraphs are generally those established by Jungermann's 1606 edition, which
+                     serve as the basis for the modern citation system. Units within the paragraphs
+                     are numbered as in Andrieu 1954.</p>
+
+                  <p>The features of the text described so far are available in both online and
+                     print versions of the LDLT edition.<note place="bottom" xml:id="ftn28" n="28"
+                        >Since the edition itself is an XML file, it is important to note that
+                        online and print versions" refer to visualizations of the data in that file.
+                        The LDLT's official online reading application is based on the <ref
+                           target="https://github.com/TEIC/CETEIcean">CETEIcean</ref> application
+                        developed by Hugh Cayless and Raffaele Viglianti. This edition can be viewed
+                        in the LDLT's online reading application at <!-- TODO: Insert URL here. -->
+                        The print version is available as a PDF in the code repository for this
+                        edition.</note> But the LDLT's official online version has one important
+                     feature that cannot be reproduced on paper: dynamic swapping. Unlike
+                     traditional editions, in which variant readings are collected in a critical
+                     apparatus at the bottom of each page, the LDLT's online reading application not
+                     only places the critical apparatus in the margin where the variation occurs,
+                     but also allows readers to swap variant readers into the text so that they can
+                     be evaluated <foreign xml:lang="lat">in situ</foreign>. Every attempt has been
+                     made to eliminate the possibility of introducing novel readings into the text.
+                     This is a hazard when variants in two places are related to each other: If a
+                     reader swaps one of the variants into the text, the one related to it elsewhere
+                     should be swapped, too. Otherwise, this dynamic swapping feature could create a
+                     version of the text that never existed previously. This is why we opted not to
+                     encode certain combinations of variants to enable the swapping feature, since
+                     the application, at least at the time this was written, was not able to render
+                     them reliably.<!-- TODO: Insert examples --></p>
+               </div>
+               <!-- End subsection on the text. -->
+
+               <!-- Begin subsection on the critical apparatus. -->
+               <div type="section" xml:id="preface-using-this-edition-critical-apparatus">
+                  <head>B. Critical apparatus</head>
+
+                  <p>There is an entry in the apparatus criticus if any of the following
+                     circumstances applies for a word or phrase in the text:<list>
+
+                        <item>1. If the reading of the archetype is uncertain: <hi rend="bold"
+                              >μ</hi>≠<hi rend="bold">ν</hi>, or <hi rend="bold">MS</hi>≠<hi
+                              rend="bold">Uπ</hi>, etc. In choices between equally authoritative
+                           variants we have put in the text the one that offers the best sense and
+                           style. Or, if these criteria fail, the <hi rend="italic">lectio
+                              difficilior.</hi> If no other criterion suffices, we follow <hi
+                              rend="bold">U</hi>, which is the least deviant manuscript. In some
+                           places these criteria pull in different directions.</item>
+
+                        <item>2. If there may be a disagreement between <hi rend="bold">μ</hi> and
+                              <hi rend="bold">ν</hi>: <hi rend="bold">μS</hi>≠<hi rend="bold"
+                           >π</hi>, <hi rend="bold">U</hi>≠<hi rend="bold">Mν</hi>, etc. We list
+                           this category separately from (1) because it is often difficult, owing to
+                           the waywardness of <hi rend="bold">S</hi>, to determine the reading of
+                              <hi rend="bold">ν</hi>. The same is true, but to a much lesser extent,
+                           about <hi rend="bold">μ</hi>, owing to <hi rend="bold">M</hi>'s
+                           propensity to stray.</item>
+
+                        <item>3. If the manuscript evidence warrants display for some other reason.
+                           Readings unique to a particular manuscript—<foreign xml:lang="lat">lectiones
+                              singulares</foreign> or singular readings—are generally recorded in the
+                           <ref target="#appendix-critica">Appendix critica</ref> if the text is not in doubt, but multi-word omissions
+                           are also reported in the apparatus since they provide crucial information
+                           about the shape of hyparchetype families. When other sorts of singular
+                           readings are reported in the apparatus, they are mentioned for their
+                           value as emendations. Where two manuscripts have different singular
+                           readings at the same spot we generally record this in the apparatus.<note
+                              place="bottom" xml:id="ftn29" n="29"><p>In some cases the <ref target="#appendix-critica">Appendix
+                                 critica</ref> seemed the more appropriate home for the information,
+                                 especially when unrelated errors were typical of their manuscripts
+                                 or where one of the two errors has been corrected by the
+                                 scribe.</p></note></item>
+
+                        <item>4. If the syntax is faulty, showing omissions, problems of agreement,
+                           etc. The problem is fixed in the text if possible, even if the solution
+                           adopted is only one of several possible solutions. But sometimes a lacuna
+                           (indicated by &lt;gap/&gt;) is indicated instead.<note place="bottom" xml:id="ftn30"
+                              n="30"><p>For the more difficult examples of categories (4)–(7) there
+                                 are notes explaining our reasoning in <ref target="#commentary"><title>Studies on
+                                    the Text of the Bellum Alexandrinum</title></ref>. These are signaled by
+                                 a diamond (◊) in the apparatus note.</p></note></item>
+
+                        <item>5. If the usage is or appears to be problematic. In this situation,
+                           the problem is usually fixed in the text, unless it can be attributed to
+                           the author himself. This large category is subject to some limitations. <list>
+                              <item>a. We rarely make notes involving the regularization of
+                                 acceptable syntax. A very common type of emendation involves verb
+                                 forms. E.g., where in a series of historical present tense verbs
+                                 one finds a perfect. These generally require trivial textual
+                                 intervention. But readers can spot these discrepancies for
+                                 themselves and decide about the suitability of the preserved
+                                 reading and the repairs available. The fact that someone before
+                                 them has also queried the text is unlikely to help resolve the
+                                 problem, and such notes, which would be very very numerous, would
+                                 clog the apparatus.<note place="bottom" xml:id="ftn31" n="31"
+                                       ><p>The <hi rend="bold">α</hi> and <hi rend="bold">β</hi>
+                                       branches of the tradition of the <hi rend="italic">BG</hi>
+                                       frequently differ over verb tenses, which leads one to
+                                       suspect that in our tradition, which is limited to the <hi
+                                          rend="bold">β</hi> branch, tense errors will be numerous
+                                       (see further <hi rend="background(yellow)">Damon 2015b, <!-- TODO: Get the pages for this reference. -->PAGES
+                                          for Part 2</hi>). </p></note> Emendations of this sort
+                                 (and of those discussed below) can be seen in the <!-- TODO: What is this? -->Conspectus
+                                 editionum. However, where such emendations remove a contradiction
+                                 within the text they are usually either accepted or at least
+                                 reported. Similarly if they help address an otherwise problematic
+                                 passage or draw attention to a notable feature of the text such as
+                                 a <foreign xml:lang="lat">constructio ad sensum</foreign>. (This logic and
+                                 these exceptions also apply to the following two
+                                 categories.)</item>
+                              <item>b. We rarely make notes involving the addition or excision or
+                                 interchange of verb prefixes. </item>
+                              <item>c. We rarely make notes involving the addition or excision of
+                                 the connectives <hi rend="italic">et</hi> and -<hi rend="italic"
+                                    >que</hi>, or the interchange of -<hi rend="italic">que</hi> and
+                                    -<hi rend="italic">ue</hi>. A glance at the apparatus will show
+                                 that these words are frequently overlooked or added by our
+                                 manuscripts.</item>
+                              <item>d. We rarely make notes involving diction. Unlike categories (a)–(c), such notes sometimes involve substantial changes to the
+                                 text, and the presumed innovations have to be explained as
+                                 substitutions (deliberate or unconscious) by the scribe.<note
+                                    place="foot" xml:id="ftn32" n="32"><p>Or additions. We also
+                                       refrain from making notes about possible intrusive glosses,
+                                       as long as they don't interfere with the comprehension of the
+                                       text.</p></note> Spotting this sort of problem is an almost
+                                 infinite task, as there are many words in the text for
+                                 which one could think of a more apt, a more common, or at least a
+                                 different expression. The fact that in the <hi rend="italic"
+                                    >BG</hi> tradition there are numerous synonym-variants between
+                                 the <hi rend="bold">α</hi> and <hi rend="bold">β</hi> branches (see Damon 2015b, <!-- TODO: Get pages for this reference. -->PAGES for Part
+                                 2) almost guarantees that some of the expressions in our text
+                                 were not those originally chosen by the author, and one advantage
+                                 of notes on diction would be to call attention to anomalies, but at
+                                 the cost of suggesting, even if only gently, that dictional
+                                 anomalies need to be fixed. Readers who are sensitive enough to
+                                 diction to look to the apparatus when an expression seems odd
+                                 already have what they need to analyse the situation. This is
+                                 obviously a matter for editorial judgment, and "rarely" does not
+                                 mean "never."</item>
+                           </list>
+                        </item>
+
+                        <item>6. If the sense is or appears to be problematic on grounds of either
+                           history or logic. Such a problem is fixed in the text unless it can be
+                           attributed to the author himself. A number of these passages involve
+                              names.<note place="bottom" xml:id="ftn33" n="33"><p>For example, we
+                                 printed the transmitted spelling, even though epigraphic evidence
+                                 suggests that it is wrong, at 42.3 <foreign xml:lang="lat">Iadertinorum</foreign> and 48.2
+                                 <foreign xml:lang="lat">Medobrigam</foreign>. Incertus might not have known the local or accepted
+                                 spelling of these rather out of the way toponyms. Like Caesar,
+                                 Incertus is inconsistent in his use of the <foreign xml:lang="lat">tria
+                                    nomina</foreign>, both at an individual’s introduction, where he
+                                 sometimes supplies the <foreign xml:lang="lat">praenomen</foreign> and
+                                 sometimes doesn’t, and subsequently. Q. Cassius Longinus, for
+                                 example, is sometimes called Cassius, sometimes Longinus.
+                              </p></note>
+                        </item>
+
+                        <item>7. If the text is or appears to be suspect on other grounds. Numbers
+                           are responsible for most of this category. Sometimes no solution can be
+                           proposed but it still seems worth marking the problem.</item>
+                     </list></p>
+                  
+                  <p>Parallel passages are often cited in the apparatus to defend the text, a
+                     variant, or an emendation, but only when the available parallels are rare;
+                     regular usage speaks for itself. In directing the reader to parallels we use
+                        <foreign xml:lang="lat">uide</foreign> [<hi rend="italic">u</hi>.] for passages
+                     illustrating the matter, <foreign xml:lang="lat">confer</foreign> [<hi rend="italic"
+                        >cf</hi>.] for passages illustrating the expression. If a parallel from the
+                     Caesarian corpus is given, it is the best one, and often the only one, unless
+                     "etc." follows, in which case there are up to five or so pertinent parallels.
+                     If parallels are given for distinct aspects of the phrase in question, <foreign xml:lang="lat">et</foreign> is interposed between citations. If a parallel is
+                     given from outside of the Caesarian corpus, no adequate parallel exists within
+                     the corpus. Where the cited parallel nevertheless provides only indifferent
+                     support for the reading it defends, the reading can be assessed
+                     accordingly.</p>
+
+                  <p>In this edition the readings of all of the principal manuscripts are stated for
+                     every lemma. This makes it easy for the reader to follow the behavior and
+                     affiliations of the manuscripts over large stretches of text. It also
+                     facilitates the task of assessing the arguments about readings in the text,
+                     since the lemmata and the evidence for them are listed alongside the
+                     conflicting evidence.</p>
+
+                  <p>Orthographical variants and the related category of abbreviations abound in
+                     this tradition (see <!-- TODO: Get the pages for this reference. -->Damon 2015a, PAGES).
+                     They are generally ignored in the apparatus, unless a variant helps explain
+                     subsequent innovations, as is sometimes the case for abbreviations in
+                     particular. </p>
+
+                  <p>Citations for works of classical literature are given in the abbreviated forms
+                     standardized by the <hi rend="italic">OLD</hi> and Liddell-Scott-Jones. (With
+                     space-saving exceptions for the six works in the <title>corpus
+                        Caesarianum</title>, which appear as <hi rend="italic">BG</hi>, Hirt., <hi
+                        rend="italic">BC</hi>, <hi rend="italic">BAlex</hi>, <hi rend="italic"
+                        >BAfr</hi>, <hi rend="italic">BHisp</hi>.) Citations without titles refer to
+                     the <title>Bellum Alexandrinum.</title></p>
+
+                  <p>Scholars are cited by name only, or by name and date if it is necessary to
+                     distinguish among their works. Full bibliographic information is given in the
+                     <ref target="#bibliography">List of works cited</ref>.<note place="bottom" xml:id="ftn34" n="34"><p>In the long
+                           history of work on the text of the <title>Bellum
+                              Alexandrinum</title> some emendations have lost their source. Where other
+                           editors ascribe a reading to "<hi rend="italic">edd</hi>.," we have named
+                           the earliest source we can find. We use <hi rend="italic bold">ς</hi> if
+                           we can verify that a reading is in a manuscript other than those used here
+                           to constitute the text. (This usually means that the reading is in <hi
+                              rend="bold">L</hi> or <hi rend="bold">N</hi> or <hi rend="bold"
+                              >R.</hi>) Otherwise we give the earliest edition in which it appears.
+                           Emendations credited to the first edition (“ed. pr.”) are presumably
+                           drawn from a manuscript source. </p></note></p>
+
+                  <p>The features of the apparatus described so far are available in both the online
+                     and print versions of the LDLT edition. But the online apparatus has important
+                     features that cannot be reproduced on paper. </p>
+<!-- Start here -->
+                  <p><hi rend="background(cyan)">DETAILED DESCRIPTION OF THE ONLINE
+                     APPARATUS</hi></p>
+               </div>
+               <!-- End of subsection on the critical apparatus. -->
+
+               <!-- Begin subsection on the appendix critica. -->
+               <div type="section" xml:id="preface-using-this-edition-appendix-critica">
+                  <head>C. Appendix critica</head>
+
+                  <p>In the Appendix critica we record the singular readings of the principal
+                     manuscripts in passages where the text is not in doubt. (Where a singular
+                     reading is useful for the constitution of the text it is recorded in the
+                     critical apparatus.) This collection of readings illustrates the character of
+                     the witnesses to the text, allowing the reader to see both the frequency and
+                     the types of errors in each. Lemmata are provided to show the nature of the
+                     error. The spelling of the lemma is that of the printed text. Orthographical
+                     variants are not registered in the Appendix. An erroneous reading ascribed to
+                        <hi rend="bold">M</hi><hi rend="bold superscript">ac</hi> (or <hi
+                        rend="bold">M</hi><hi rend="bold superscript">c</hi>) implies that <hi
+                        rend="bold">M</hi><hi rend="bold superscript">c</hi> (or <hi rend="bold"
+                        >M</hi><hi rend="bold superscript">ac</hi>) has the reading of the lemma.
+                     All singular omissions are listed. Omissions notable for length or content are
+                     also reported in the apparatus criticus. An asterisk marks errors in <hi
+                        rend="bold">M</hi> that prompted a correction—not necessarily a successful
+                     one—by <hi rend="bold">M</hi><hi rend="bold superscript">mr</hi>.</p>
+               </div>
+            </div>
             <!-- End of section III. -->
-            <p><hi rend="bold">Additional materials in the LDLT edition:</hi></p>
-            <p><hi rend="italic bold">Studies on the Text of the Bellum Alexandrinum</hi>
-            </p>
-            <p>Twenty-three notes on difficult spots in the text by members of the Latin 540 classes
-               in 2015 and 2017. These present in depth the arguments that underlie the various
-               remedies suggested in the edition's critical apparatus. They are signaled in the
-               relevant apparatus note by a diamond (◊) before the lemma. </p>
-            <p><hi rend="bold">Transcriptions of the manuscript witnesses (MUSTV)</hi></p>
-            <p>The five manuscript witnesses used to constitute the text were transcribed by members
-               of the Postbac Latin seminars in 2014 and 2016, and by highschool volunteers in the
-               summer of 2016. The transcriptions were checked and doublechecked by the transcribing
-               teams, by other class members, and by the Latin 540 students who used the
-               transcriptions to generate the critical apparatus. Machine-collation was used to
-               locate discrepancies that needed verification; we used the collation tool at
-               juxtacommons.org. (For the process see Damon and Huskey, forthcoming.) Errors
-               certainly remain, and many features of the original are not reflected in these simple
-               documents, but they are helpful maps for finding a particular bit of text in a
-               manuscript book or a page image. Abbreviations are filled out unless obscure (as is
-               sometimes the case with monetary amounts, for example), punctuation is ignored, and
-               capitalization is reproduced rather erratically. Where a manuscript contains a
-               correction the transcription records the corrected form, not the original reading;
-               the original readings were recorded elsewhere and are taken account of in the
-               apparatus and Appendix critica. </p>
-            <p><hi rend="bold">Translation</hi>
-            </p>
-            <p>The students in the two Latin 540 classes produced a translation of the <hi
-                  rend="italic">Bellum Alexandrinum</hi> in the course of their work on the text. It
-               is a work of many hands and makes no claim to stylistic merit or even consistency. It
-               is designed to communicate our interpretation of the text, particularly where we have
-               emended it. </p>
-            <p><hi rend="bold">Conspectus editionum</hi></p>
-            <p>A list of the 98 places where the reading of the LDLT <hi rend="italic">Bellum
-                  Alexandrinum</hi> differs from that of Andrieu 1954, which we used as our base
-               text. (Differences of orthography and punctuation are not reported.)</p>
-            <p>=============</p>
-            <p>Acknowledgements <hi rend="background(yellow)">WORK HERE</hi></p>
-            <p>Balex acknowledgments</p>
-            <p>Penn’s Price Lab for Digital Humanities (2016-17<note place="bottom" xml:id="ftn34"
-                  n="34"><p>Price Lab blurb: <ref
-                        target="https://pricelab.sas.upenn.edu/fellows/damon-cynthia"
-                        >https://pricelab.sas.upenn.edu/fellows/damon-cynthia</ref>.
-               </p></note>),</p>
-            <p>Sean Carpenter: worked out a manuscript transcription protocol compatible with
-               automatic collation and produced directories of abbreviations to guide future
-               transcribers of this tradition (summer 2014, 10 weeks, 20hrs per week, $3000 PURM
-               funding)</p>
-            <p>Greg Crane: contacts within the world of digital philology</p>
-            <p>Uwe Springmann: OCR for scans of early editions, essential for census of
-               emendations</p>
-            <p>Katie Rawson, Van Pelt Library, converting scans to pages for OCR</p>
-            <p>Dallas Simons, CLST grad student, converting scans to pages for OCR and cleaning up
-               results of LATN 540 work, adding hyperlinks to ???</p>
-            <p>???, preparing census editionum from machine-collations of early editions and
-               scrutiny of critical notes and apparatus from many others. </p>
-            <p>STUDENTS IN fall 2014 PB and spring 2015 LATN 540 courses</p>
-            <p rend="normal">spring 2015 LATN 540, responsibility for paragraphs in BAlex 1-33</p>
-            <p rend="normal"><hi rend="color(A61C00)">1-6, 27 Dallas</hi></p>
-            <p rend="normal"><hi rend="color(0000FF)">7 class project</hi></p>
-            <p rend="normal"><hi rend="color(FF0000)">8-11, 28-29 Scheherazade</hi></p>
-            <p rend="normal"><hi rend="color(783F04)">12-14 Tom</hi></p>
-            <p rend="normal"><hi rend="color(FF9900)">15-16 Amy</hi></p>
-            <p rend="normal"><hi rend="color(38761D)">17-19 Addie</hi></p>
-            <p rend="normal"><hi rend="color(9900FF)">20-24 Greg</hi></p>
-            <p rend="normal"><hi rend="color(00FF00)">25-26 Marcie</hi></p>
-            <p rend="normal"><hi rend="color(FF00FF)">30-33 Kate</hi></p>
-            <p>HS students winter and summer 2016 (transcription)</p>
-            <p>Jessica Shaw</p>
-            <p>Isaac Rand</p>
-            <p>Addie McKenzie</p>
-            <p>zachary Elliott and Molly for conversion help</p>
-            <p>Amy Lewis for checking </p>
-            <p>Bibliography</p>
-            <p><lb/>needs two new items</p>
-            <p>Damon, C. ‘<hi rend="color(212121)">On (authorial and other) parentheses in Caesar’s
-                  </hi><hi rend="italic color(212121)">commentarii</hi><hi rend="color(212121)">,’
-                  forthcoming. </hi></p>
-            <p>Damon and Huskey (in preparation)--paper on LDLT BAlex?</p>
-            <p>Missing items: </p>
-            <p>[Cellarius] C. Cellarius, ed. <hi rend="italic">C. Iulii Caesaris Commentarii de
-                  bello gallico et ciuili. Cum utriusque supplementis ab A. Hirtio vel Oppio
-                  adiectis</hi>. Leipzig. 1705.</p>
-            <p>[Domaszewski] Domaszewski, A. von. ‘Die Heere der Bürgerkriege in den Jahren 49 bis
-               42 vor Christus,’ <hi rend="italic">Neue Heidelberger Jahrbücher</hi> 4 (1894):
-               157-188. </p>
-            <p>[Gertz] See Klotz.</p>
-            <p>[Glandorpius] See Jungermann.</p>
-            <p>[Hoffmann] This is E. Hoffmann. All of the citations have dates (1857 or 1890), and
-               these editions are already in the bibliography. So nothing more should be needed.</p>
-            <p>[Keil] See Klotz.</p>
-            <p>[Naqvi] Theodora Naqvi. Member of the Latin 540 class (spring 2017).</p>
-            <p>[Rossetus] See Gaertner-Hausberg.</p>
+
+            <!-- Beginning of section IV. -->
+            <div type="section" xml:id="preface-additional-materials">
+               <head>Additional materials in the LDLT edition:</head>
+
+               <!-- Begin subsection on Studies on the Text. -->
+               <div type="section" xml:id="preface-additional-materials-studies">
+                  <head>Studies on the Text of the Bellum Alexandrinum</head>
+
+                  <p>Twenty-three notes on difficult spots in the text by members of the Latin 540
+                     classes in 2015 and 2017. These present in depth the arguments that underlie
+                     the various remedies suggested in the edition's critical apparatus. They are
+                     signaled in the relevant apparatus note by a diamond (◊) before the lemma. </p>
+               </div>
+               <!-- End of subsection on Studies on the Text. -->
+
+               <!-- Begin subsection on transcriptions. -->
+               <div type="section" xml:id="preface-additional-materials-transcriptions">
+                  <head>Transcriptions of the manuscript witnesses (MUSTV)</head>
+
+                  <p>The five manuscript witnesses used to constitute the text were transcribed by
+                     members of the Postbac Latin seminars in 2014 and 2016, and by highschool
+                     volunteers in the summer of 2016. The transcriptions were checked and
+                     doublechecked by the transcribing teams, by other class members, and by the
+                     Latin 540 students who used the transcriptions to generate the critical
+                     apparatus. Machine-collation was used to locate discrepancies that needed
+                     verification; we used the collation tool at juxtacommons.org. (For the process
+                     see Damon and Huskey, forthcoming.) Errors certainly remain, and many features
+                     of the original are not reflected in these simple documents, but they are
+                     helpful maps for finding a particular bit of text in a manuscript book or a
+                     page image. Abbreviations are filled out unless obscure (as is sometimes the
+                     case with monetary amounts, for example), punctuation is ignored, and
+                     capitalization is reproduced rather erratically. Where a manuscript contains a
+                     correction the transcription records the corrected form, not the original
+                     reading; the original readings were recorded elsewhere and are taken account of
+                     in the apparatus and Appendix critica. </p>
+               </div>
+               <!-- End of subsection on transcriptions. -->
+
+               <!-- Begin subsection on translation. -->
+               <div type="section" xml:id="preface-additional-materials-translation">
+                  <head>Translation</head>
+                  <p>The students in the two Latin 540 classes produced a translation of the <hi
+                        rend="italic">Bellum Alexandrinum</hi> in the course of their work on the
+                     text. It is a work of many hands and makes no claim to stylistic merit or even
+                     consistency. It is designed to communicate our interpretation of the text,
+                     particularly where we have emended it. </p>
+               </div>
+               <!-- End of subsection on translation. -->
+
+               <div type="section" xml:id="preface-additional-materials-conspectus-editionum">
+                  <head>Conspectus editionum</head>
+                  <p>A list of the 98 places where the reading of the LDLT <hi rend="italic">Bellum
+                        Alexandrinum</hi> differs from that of Andrieu 1954, which we used as our
+                     base text. (Differences of orthography and punctuation are not reported.)</p>
+               </div>
+               <!-- End of subsection on conspectus editionum. -->
+            </div>
+            <!-- End of section IV. -->
+
+            <!-- Begin acknowledgements. -->
+            <div type="section" xml:id="preface-acknowledgements">
+               <head>Acknowledgements <hi rend="background(yellow)">WORK HERE</hi></head>
+
+               <p>Balex acknowledgments</p>
+               <p>Penn’s Price Lab for Digital Humanities (2016-17<note place="bottom"
+                     xml:id="ftn35" n="35"><p>Price Lab blurb: <ref
+                           target="https://pricelab.sas.upenn.edu/fellows/damon-cynthia"
+                           >https://pricelab.sas.upenn.edu/fellows/damon-cynthia</ref>.
+                  </p></note>),</p>
+               <p>Sean Carpenter: worked out a manuscript transcription protocol compatible with
+                  automatic collation and produced directories of abbreviations to guide future
+                  transcribers of this tradition (summer 2014, 10 weeks, 20hrs per week, $3000 PURM
+                  funding)</p>
+               <p>Greg Crane: contacts within the world of digital philology</p>
+               <p>Uwe Springmann: OCR for scans of early editions, essential for census of
+                  emendations</p>
+               <p>Katie Rawson, Van Pelt Library, converting scans to pages for OCR</p>
+               <p>Dallas Simons, CLST grad student, converting scans to pages for OCR and cleaning
+                  up results of LATN 540 work, adding hyperlinks to ???</p>
+               <p>???, preparing census editionum from machine-collations of early editions and
+                  scrutiny of critical notes and apparatus from many others. </p>
+               <p>STUDENTS IN fall 2014 PB and spring 2015 LATN 540 courses</p>
+               <p rend="normal">spring 2015 LATN 540, responsibility for paragraphs in BAlex
+                  1-33</p>
+               <p rend="normal">1-6, 27 Dallas</p>
+               <p rend="normal">7 class project</p>
+               <p rend="normal">8-11, 28-29 Scheherazade</p>
+               <p rend="normal">12-14 Tom</p>
+               <p rend="normal">15-16 Amy</p>
+               <p rend="normal">17-19 Addie</p>
+               <p rend="normal">20-24 Greg</p>
+               <p rend="normal">25-26 Marcie</p>
+               <p rend="normal">30-33 Kate</p>
+               <p>HS students winter and summer 2016 (transcription)</p>
+               <p>Jessica Shaw</p>
+               <p>Isaac Rand</p>
+               <p>Addie McKenzie</p>
+               <p>zachary Elliott and Molly for conversion help</p>
+               <p>Amy Lewis for checking </p>
+            </div>
+            <!-- End acknowledgements. -->
          </div>
          <!-- End of Preface -->
 
@@ -1474,6 +1569,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         conjecturae et emendationes Jacobi Jurini</title>.
                         <pubPlace>London</pubPlace>. <date>1742</date>.</bibl>
 
+                  <bibl xml:id="Cellarius"><abbr type="siglum">Cellarius</abbr><editor>C.
+                        Cellarius</editor>, ed. <title>C. Iulii Caesaris Commentarii de bello
+                        gallico et ciuili. Cum utriusque supplementis ab A. Hirtio vel Oppio
+                        adiectis</title>. <pubPlace>Leipzig</pubPlace>. <date>1705</date>.</bibl>
+
                   <bibl xml:id="Clarke"><abbr type="siglum">Clarke</abbr><editor>S. Clarke</editor>,
                      ed. <title>C. Julii Caesaris quae extant, accuratissime cum libris editis et
                         mss optimis collata, recognita et correcta. Accesserunt annotationes
@@ -1591,10 +1691,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         adjecit</title>. <pubPlace>Leiden</pubPlace>. <date>1737</date>. URL: <ptr
                         target="https://hdl.handle.net/2027/njp.32101066876309"/>.</bibl>
 
-                  <!-- TODO: Figure out where this belongs -->
-                  <bibl xml:id="Rossetus"><abbr type="siglum">Rossetus</abbr>THIS NEEDS MORE
-                     INFORMATION.</bibl>
-
                   <bibl xml:id="Scaliger"><abbr type="siglum">Scaliger</abbr><editor>J.
                         Scaliger</editor>, ed. <title>C. Iulii Caesaris quae extant</title>.
                         <pubPlace>Amsterdam</pubPlace>. <date>1661</date>. (First edition 1635.)
@@ -1679,6 +1775,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <bibl xml:id="Damon2015b"><abbr type="siglum">Damon 2015b</abbr><author>Damon,
                         Cynthia</author>. <title>Studies on the text of Caesar’s Bellum
                         civile</title>. <pubPlace>Oxford</pubPlace>. <date>2015</date>.</bibl>
+
+                  <bibl xml:id="Damon-parentheses"><abbr type="siglum">Damon
+                        (forthcoming)</abbr><author>Damon, Cynthia</author>. <title level="a">On
+                        (authorial and other) parentheses in Caesar’s <hi rend="italic"
+                           >commentarii</hi>.</title> (forthcoming).</bibl>
+
+                  <!-- TODO Damon and Huskey (in preparation) paper on LDLT BAlex? -->
+
+                  <bibl xml:id="Domaszewski"><abbr type="siglum">Domaszewski</abbr>A. von
+                     Domaszewski. <title level="a">Die Heere der Bürgerkriege in den Jahren 49 bis
+                        42 vor Christus</title>. <title level="j">Neue Heidelberger
+                        Jahrbücher</title>
+                     <biblScope unit="volume">4</biblScope> (<date>1894</date>): <biblScope
+                        unit="page">157–188</biblScope>.</bibl>
 
                   <bibl xml:id="Fischer"><abbr type="siglum">Fischer</abbr><author>Fischer,
                         Eduard</author>. <title>Das achte Buch vom Gallischem Kriege und das Bellum
@@ -2014,6 +2124,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <persName><abbr type="siglum">Faernus</abbr>Faerno, Gabriello</persName>
                      <note>See <ref target="#Klotz">Klotz</ref>.</note>
                   </person>
+                  <person xml:id="Gertz" corresp="http://viaf.org/viaf/54528462">
+                     <persName><abbr type="siglum">Gertz</abbr>M. C. Gertz</persName>
+                     <note>See <ref target="#Klotz">Klotz</ref>.</note>
+                  </person>
+                  <person xml:id="Glandorpius" corresp="http://viaf.org/viaf/39672616">
+                     <persName><abbr type="siglum">Glandorpius</abbr>Glandorp, Johann</persName>
+                     <note>See <ref target="#Jungermann">Jungermann</ref>.</note>
+                  </person>
                   <person xml:id="Gruterus" corresp="http://viaf.org/viaf/61599137">
                      <persName><abbr type="siglum">Gruterus</abbr>Janus Gruterus</persName>
                      <note>See <ref target="#Oudendorp">Oudendorp</ref>.</note>
@@ -2030,6 +2148,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <persName><abbr type="siglum">Jurinius</abbr>Jurinius</persName>
                      <note>See <ref target="#Bentley">T. Bentley</ref>.</note>
                   </person>
+                  <person xml:id="Keil" corresp="http://viaf.org/viaf/2604826">
+                     <persName><abbr type="siglum">Keil</abbr>Heinrich Keil</persName>
+                     <note>See <ref target="#Klotz">Klotz</ref>.</note>
+                  </person>
                   <person xml:id="Khan">
                      <persName><abbr type="siglum">Khan</abbr>Scheherazade Khan</persName>
                      <note>Member of the Latin 540 class (spring 2015).</note>
@@ -2042,6 +2164,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <persName><abbr type="siglum">Lewis</abbr>Amy Lewis</persName>
                      <note>Member of the Latin 540 class (spring 2015).</note>
                   </person>
+                  <person xml:id="Naqvi">
+                     <persName><abbr type="siglum">Naqvi</abbr>Theodora Naqvi</persName>
+                     <note>Member of the Latin 540 class (spring 2017).</note>
+                  </person>
                   <person xml:id="Persyn">
                      <persName><abbr type="siglum">Persyn</abbr>Marcie Persyn</persName>
                      <note>Member of the Latin 540 class (spring 2015).</note>
@@ -2053,6 +2179,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <person xml:id="Rhellicanus">
                      <persName><abbr type="siglum">Rhellicanus</abbr>Rhellicanus</persName>
                      <note>See <ref target="#Jungermann">Jungermann</ref></note>
+                  </person>
+                  <person xml:id="Rossetus" corresp="http://viaf.org/viaf/1000155042855472402676">
+                     <persName><abbr type="siglum">Rossetus</abbr>Joannes Rossetus</persName>
+                     <note>See <ref target="#Gaertner-Hausburg">Gaertner-Hausburg</ref>.</note>
                   </person>
                   <person xml:id="Siesbye" corresp="http://viaf.org/viaf/289411596">
                      <persName><abbr type="siglum">Siesbye</abbr>Oskar Siesbye</persName>
@@ -2077,31 +2207,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <person xml:id="Wölfflin" corresp="http://viaf.org/viaf/45080602">
                      <persName><abbr type="siglum">Wölfflin</abbr>Eduard Wölfflin</persName>
                      <note>See <ref target="#Klotz">Klotz</ref>.</note>
-                  </person>
-               </listPerson>
-
-               <listPerson>
-                  <head>Unidentified. Need information from Damon.</head>
-                  <person xml:id="Cellarius">
-                     <persName><abbr type="siglum">Cellarius</abbr></persName>
-                  </person>
-                  <person xml:id="Domaszewski">
-                     <persName><abbr type="siglum">Domaszewski</abbr></persName>
-                  </person>
-                  <person xml:id="Gertz">
-                     <persName><abbr type="siglum">Gertz</abbr></persName>
-                  </person>
-                  <person xml:id="Glandorpius">
-                     <persName><abbr type="siglum">Glandorpius</abbr></persName>
-                  </person>
-                  <person xml:id="Hoffmann">
-                     <persName><abbr type="siglum">Hoffmann</abbr></persName>
-                  </person>
-                  <person xml:id="Keil">
-                     <persName><abbr type="siglum">Keil</abbr></persName>
-                  </person>
-                  <person xml:id="Naqvi">
-                     <persName><abbr type="siglum">Naqvi</abbr></persName>
                   </person>
                </listPerson>
             </div>
@@ -3819,6 +3924,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            copiis</lem>
                         <rdg source="#Vascosanus" xml:id="rdg-26.1-magnas-copias">magnas
                            copias</rdg>
+
+                        <!-- TODO: Which Hoffmann? -->
                         <rdg source="#Hoffmann" xml:id="rdg-26.1-cum-magnis-copiis-deletion"
                               ><surplus>cum magnis copiis</surplus></rdg>
                         <note target="#rdg-26.1-cum-magnis-copiis-deletion">1890 (u. et
@@ -4417,11 +4524,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      deberet; denique eius regni causa integra Caesari seruaretur; paratum enim se
                      facere quod is statuisset.</seg>
                   <seg n="2"><!-- App entry for 35.2: [P.] --><app>
-                        <lem wit="#Ϛ" xml:id="lem-35.2-P"><surplus>P. </surplus></lem>
+                        <lem wit="#Ϛ" xml:id="lem-35.2-P"><surplus>P.</surplus></lem>
                         <note target="#lem-35.2-P">teste Oudendorp</note>
                         <rdg wit="#M #U #S #T #V" xml:id="rdg-35.2-P">P.</rdg>
                         <rdg wit="#Beroaldus" xml:id="rdg-35.2-Cn">Cn.</rdg>
-                     </app>Domitius cum animaduerteret eum <!-- App entry for 35.2: Cappadocia --><app>
+                     </app> Domitius cum animaduerteret eum <!-- App entry for 35.2: Cappadocia --><app>
                         <lem wit="#Ϛ" xml:id="lem-35.2-Cappadocia">Cappadocia</lem>
                         <note target="#lem-35.2-Cappadocia">teste <ref target="#Nipperdey"
                               >Nipperdey</ref></note>
@@ -4927,6 +5034,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </app> restitisse sciret sed quod eum longius progressum insequi
                      decreuerat.</seg>
                   <seg n="2">Cum propius Tauridem accessisset <!-- App entry for 45.2: distentis --><app>
+                        <!-- TODO: Which Hoffmann? -->
                         <lem source="#Hoffmann" xml:id="lem-45.2-distentis">distentis</lem>
                         <note target="#lem-45.2-distentis">1857 (cf. 17.3)</note>
                         <rdg wit="#M #U #S" xml:id="rdg-45.2-distensis">distensis</rdg>
@@ -8797,7 +8905,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <!-- End of apparatus critica -->
 
          <!-- Begin Studies on the Text of the Bellum Alexandrinum -->
-         <div type="commentary">
+         <div type="commentary" xml:id="commentary">
             <head>Studies on the Text</head>
             <div type="section" xml:id="stba-2.5" resp="#DSimons #Damon">
                <head>2.5</head>
