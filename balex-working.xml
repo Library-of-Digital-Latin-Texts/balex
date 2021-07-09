@@ -108,7 +108,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                underlies the version you are reading, either at the interactive LDLT website or as
                an on-demand .pdf. WHO wrote this preface. <note place="bottom" xml:id="ftn1" n="1"
                      ><p>The processes summarized here have been the subject of several talks at the
-                     annual meeting of the Society for Classical Studies (LINKS?) and will be
+                     annual meeting of the Society for Classical Studies<note place="bottom" xml:id="ftn2" n="3">adfasdfadfsdfadsf</note> and will be
                      described more fully in <!-- SJH: What shall we do about this? -->Damon and
                      Huskey (in preparation).</p></note>
             </p>
@@ -120,7 +120,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   discoveries that underpin my recent critical edition of Caesar’s <title>Civil
                      War</title> (Oxford, 2015) should also be used to reassess the text of the
                      <title>Bellum Alexandrinum</title>, which rests on the same manuscript
-                     witnesses.<note place="bottom" xml:id="ftn2" n="2"><p>OUP site: <ref
+                     witnesses.<note place="bottom" xml:id="ftn3" n="3"><p>OUP site: <ref
                            target="https://global.oup.com/academic/product/c-iuli-caesaris-commentarii-de-bello-civili-bellum-civile-or-civil-war-9780199659746?cc=us&amp;lang=en&amp;"
                            >https://global.oup.com/academic/product/c-iuli-caesaris-commentarii-de-bello-civili-bellum-civile-or-civil-war-9780199659746?cc=us&amp;lang=en&amp;</ref>.</p></note>
                   But the real answer is that in the digital era we urgently need new editors, and
@@ -147,14 +147,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         text, in nearly 100 places. Eleven of these changes are a consequence of the
                         new stemma, in which the manuscript that differs the most from the rest, S,
                         is treated as a witness to the hyparchetype nu rather than as an independent
-                        witness to the archetype.<note place="foot" xml:id="ftn3" n="3"><p>42.2
+                        witness to the archetype.<note place="foot" xml:id="ftn4" n="4"><p>42.2
                               exercitus alendos, 49.2 causae, 57.3 †in†, 60.1 educerentur, 60.3
                               animaduerteret, 61.6 sibi usui, 62.1 auxiliares, 62.2 Marcello
                               fauebant, 64.3 derectam, 66.1 praefecit, 66.5 inceptum. <hi
                                  rend="background(yellow)">See further S-demoted lists in Damon
                                  2015b, PAGES</hi>. </p></note> In fifty-three places we print the
                         archetype (or a possibly archetypal reading) where other editors emend it.
-                           <note place="bottom" xml:id="ftn4" n="4"><p>1.5 expectans, 7.2 casum, 7.2
+                           <note place="bottom" xml:id="ftn5" n="5"><p>1.5 expectans, 7.2 casum, 7.2
                               ut … absumeretur, 8.2 Paratonio, 10.2 accessissent, 10.2 exposuissent,
                               12.3 miserant, 12.4 Caesaris, 13.5 Lycias, 13.5 et, 14.1 Rhodios, 14.1
                               Ponticos, 14.1 hos, 16.1 uictis, 19.2 certiorem, 20.4 perturbatos,
@@ -169,7 +169,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               inceptum, 67.1 Caesaris, 68.1 defensionem, 68.2 natura, 70.8 si, 72.2
                               superioribus … oppido, 75.1 operibus, 78.2 quod.<seg
                            > </seg></p></note> We print thirteen new emendations and propose a
-                        number of others. <note place="bottom" xml:id="ftn5" n="5"><p>11.2
+                        number of others. <note place="bottom" xml:id="ftn6" n="6"><p>11.2
                               &lt;suorum&gt; <hi rend="italic">Khan</hi>, 15.3 &lt;moram&gt; <hi
                                  rend="italic">Lewis</hi>, 16.2 &lt;exercitus&gt; <hi rend="italic"
                                  >scripsimus</hi>, 17.2 &lt;et hanc&gt; et illam [urbem] <hi
@@ -190,7 +190,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               are also more than 40 new suggestions introduced at the end of
                               apparatus notes with the formulas <hi rend="italic">an … ?</hi> or <hi
                                  rend="italic">nisi mauis</hi>. </p></note> We also revive
-                           fourteen.<note place="foot" xml:id="ftn6" n="6"><p>2.1
+                           fourteen.<note place="foot" xml:id="ftn7" n="7"><p>2.1
                                  &lt;armatorum&gt;<hi rend="italic"> Fischer</hi>, 7.2 esse <hi
                                  rend="italic">Nipperdey</hi>, 15.8 &lt;nisi&gt; qui <hi
                                  rend="italic">Fleischer, </hi>17.3 quosque <hi rend="italic"
@@ -255,7 +255,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   Calvinus in Pontus (34-41; September-October 48), Cornificius, Gabinius, and
                   Vatinius in Illyricum (42-47; October 48 - January 47), Q. Cassius in Spain
                   (48-64; May-December 48), Caesar in Pontus (65-78; March-May 47). <note
-                     place="bottom" xml:id="ftn7" n="7"><p>The dates (Julian) are taken from
+                     place="bottom" xml:id="ftn8" n="8"><p>The dates (Julian) are taken from
                         Raaflaub and Ramsey 2017. </p></note> None of Caesar’s officers is known to
                   have participated in all of these overlapping campaigns. As a result, the
                   narrative, like Caesar’s own commentaries, must rest on sources written by various
@@ -268,7 +268,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   produced during the Carolingian period: they share significant errors that must go
                   back to a single source. For the <hi rend="italic">Bellum Alexandrinum</hi>, a
                   work of just under 11,000 words, they number about 150. <note place="bottom"
-                     xml:id="ftn8" n="8"><p>The word count used by Gaertner and Hausburg is <hi
+                     xml:id="ftn9" n="9"><p>The word count used by Gaertner and Hausburg is <hi
                            rend="background(yellow)">FILL IN</hi> (see, e.g., 2013, 286).</p></note>
                   The most striking are the gaps (12.1, 17.3, 17.6, 22.2) and the insoluble problems
                   (2.5 †obiectis†, 22.2 †multum†, 57.2 †noctu†, 57.3 †in†). But almost every page of
@@ -285,7 +285,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <div type="section" xml:id="preface-constituting-the-text-stemma">
                   <head><hi rend="bold">A. The stemma</hi></head>
                   <p>The foundations of the present edition are Damon 2015a and Damon 2015b.<note
-                        place="foot" xml:id="ftn9" n="9"><p>For a fuller discussion of the history
+                        place="foot" xml:id="ftn10" n="10"><p>For a fuller discussion of the history
                            of the text and of editorial work on the Caesarian corpus see <hi
                               rend="background(yellow)">the Preface to Damon 2015a and the first
                               chapter of Damon 2015</hi>b.</p></note> The<hi rend="italic"> Bellum
@@ -293,7 +293,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      Caesar’s <hi rend="italic">Bellum ciuile</hi>. We looked for evidence that
                      would challenge the stemma proposed for the <hi rend="italic">Bellum
                         ciuile</hi>, but found nothing conclusive.<note place="bottom"
-                        xml:id="ftn10" n="10"><p>As was the case for the <hi rend="italic">Bellum
+                        xml:id="ftn11" n="11"><p>As was the case for the <hi rend="italic">Bellum
                               ciuile</hi>, the “good readings” in <hi rend="bold">S</hi>, which have
                            traditionally been taken as evidence of agreement in error by the
                            hyparchetypes mu and pi and proof that they have a common ancestor, can
@@ -306,7 +306,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <!-- Beginning sub-subsection on the witnesses. -->
                <div type="section" xml:id="preface-constituting-the-text-witnesses">
-                  <head>B. The witnesses<note place="bottom" xml:id="ftn11" n="11"><p>More detailed
+                  <head>B. The witnesses<note place="bottom" xml:id="ftn12" n="12"><p>More detailed
                            versions of the following paragraphs are given in <hi
                               rend="background(yellow)">Damon 2015a, PAGES and 2015b,
                            PAGES</hi>.</p></note></head>
@@ -327,7 +327,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            rend="bold">U</hi>) and <hi rend="bold">nu</hi> (the common source of <hi
                            rend="bold">S</hi> and <hi rend="bold">pi</hi>, the common source of <hi
                            rend="bold">T</hi> and <hi rend="bold">V</hi>).<note place="bottom"
-                           xml:id="ftn12" n="12"><p>Possible instances can be found throughout the
+                           xml:id="ftn13" n="13"><p>Possible instances can be found throughout the
                               apparatus, but the clearest examples are these: 9.3 dediticiis <hi
                                  rend="italic">U</hi><hi rend="italic superscript">c</hi><hi
                                  rend="italic">SV et M</hi><hi rend="italic superscript">mr</hi> :
@@ -368,7 +368,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               the text include: 27.1 [a]; 29.3 [fluminum]; 70.3 [non]; 78.3
                               [legibus]. </p></note> Disagreement among our manuscript witnesses
                         also arises from other features of the archetype, such as variant readings
-                        and glosses.<note place="bottom" xml:id="ftn13" n="13"><p>Variants: 12.1
+                        and glosses.<note place="bottom" xml:id="ftn14" n="14"><p>Variants: 12.1
                               classiariorum <hi rend="italic">USTV et M supra lineam</hi> :
                                  nauigatorum <hi rend="italic">M</hi>; 24.1 statuit <hi
                                  rend="italic">UTV et M supra lineam</hi> : constituit <hi
@@ -394,7 +394,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <p>The hyparchetypes that transmitted the archetype’s text to the extant
                         manuscripts are hard to discern in this tradition; our work on the <hi
                            rend="italic">Bellum Alexandrinum</hi> turned up no new and conclusive
-                        evidence for them.<note place="foot" xml:id="ftn14" n="14"><p>The most
+                        evidence for them.<note place="foot" xml:id="ftn15" n="15"><p>The most
                               suggestive evidence from the <title>Bellum Alexandrinum</title> is
                               discussed at <hi rend="background(yellow)">Damon 2015b, PAGES</hi>.
                            </p></note><seg> </seg></p>
@@ -584,7 +584,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <item>70.5 se <hi rend="italic">MUS</hi> : <hi rend="italic">om.
                                     TV</hi></item>
                               <item>76.1 in <hi rend="italic">MUS</hi> : <hi rend="italic">om.
-                                    TV</hi><note place="bottom" xml:id="ftn15" n="15"><p>Textual
+                                    TV</hi><note place="bottom" xml:id="ftn16" n="16"><p>Textual
                                        variation between <hi rend="bold">π</hi> and <hi rend="bold"
                                           >μ</hi> in some of the many passages omitted by <hi
                                           rend="bold">S</hi> make it unlikely that these omissions
@@ -618,7 +618,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <hi rend="bold">V</hi> and separate them from the rest of the
                            tradition, more than 50 for the <title>Bellum Alexandrinum</title>; the
                            traditional siglum for the source of these innovations is <hi rend="bold"
-                              >π</hi>.<note place="bottom" xml:id="ftn16" n="16"><p>Hering (1963,
+                              >π</hi>.<note place="bottom" xml:id="ftn17" n="17"><p>Hering (1963,
                                  40) lists six substantial omissions common to <hi rend="bold"
                                     >T</hi> and <hi rend="bold">V</hi> in the <hi rend="italic"
                                     >BG</hi>. There is another at <hi rend="italic">BHisp</hi> 40.2.
@@ -687,14 +687,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                         <p><hi rend="bold">M</hi> is a manuscript in the Biblioteca Medicea
                            Laurenziana in Florence, shelf mark Plut. lat. 68.8.<note place="bottom"
-                              xml:id="ftn17" n="17"><p>High quality page images of <hi rend="bold"
+                              xml:id="ftn18" n="18"><p>High quality page images of <hi rend="bold"
                                     >M</hi> can be viewed at <ref
                                     target="http://mss.bmlonline.it/s.aspx?Id=AWOIs_iEI1A4r7GxML1h&amp;c=Caesaris%20Commentaria#/oro/13"
                                     >http://mss.bmlonline.it/s.aspx?Id=AWOIs_iEI1A4r7GxML1h&amp;c=Caesaris%20Commentaria#/oro/13</ref>.
                               </p></note> The <hi rend="italic">Bellum Alexandrinum </hi>occupies
                            ff. 133v-143r. <hi rend="bold">M</hi> offers some uniquely successful or
                            meritorious innovations (those marked with an asterisk are particularly
-                              impressive<note place="bottom" xml:id="ftn18" n="18"><p>Also
+                              impressive<note place="bottom" xml:id="ftn19" n="19"><p>Also
                                  noteworthy in <hi rend="bold">M</hi>: 11.2 conspectu &lt;suorum&gt;
                                     <hi rend="italic">Khan</hi> : conspectu hostium <hi
                                     rend="italic">M </hi>: conspectu <hi rend="italic">USTV</hi>
@@ -727,8 +727,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     >USTV</hi></item>
                               <item>48.1 animaduertere <hi rend="italic">M </hi>: animum auertere
                                     <hi rend="italic">USTV</hi></item>
-                              <item>60.5 difficultatisque:
-                                 difficultatesque <hi rend="italic">USTV</hi></item>
+                              <item>60.5 difficultatisque: difficultatesque <hi rend="italic"
+                                    >USTV</hi></item>
                               <item>61.4 passi <hi rend="italic">M </hi>: pass(a)e <hi rend="italic"
                                     >USTV</hi>
                               </item>
@@ -745,7 +745,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                         <p><hi rend="bold">U</hi> is a manuscript in the Biblioteca Apostolica
                            Vaticana in the Vatican, shelf mark Vaticanus lat. 3324.<note
-                              place="bottom" xml:id="ftn19" n="19"><p>Microfilm images are available
+                              place="bottom" xml:id="ftn20" n="20"><p>Microfilm images are available
                                  online: <ref target="https://digi.vatlib.it/view/MSS_Vat.lat.3324"
                                     >https://digi.vatlib.it/view/MSS_Vat.lat.3324</ref>. </p></note>
                            The <hi rend="italic">Bellum Alexandrinum </hi>occupies ff. 85r-95r.
@@ -757,7 +757,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               rend="bold">U</hi> are far fewer than those of <hi rend="bold">M</hi>,
                               <hi rend="bold">S</hi>, <hi rend="bold">T</hi>, or <hi rend="bold"
                               >V</hi>, as can be seen in the Appendix critica.<note place="bottom"
-                              xml:id="ftn20" n="20"><p>In the <title>Bellum Alexandrinum</title>
+                              xml:id="ftn21" n="21"><p>In the <title>Bellum Alexandrinum</title>
                                  <hi rend="bold">U</hi> has roughly 80 singular readings listed in
                                  the Appendix critica; the approximate figures for the other
                                  manuscripts are as follows: <hi rend="bold">M </hi>170, <hi
@@ -765,7 +765,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     rend="bold">V</hi> 165. Orthographical variants are not included
                                  in these figures.</p></note> The uniquely successful innovations in
                               <hi rend="bold">U</hi> are few and mostly cautious<note place="bottom"
-                              xml:id="ftn21" n="21"><p>Also noteworthy in <hi rend="bold">U</hi>:
+                              xml:id="ftn22" n="22"><p>Also noteworthy in <hi rend="bold">U</hi>:
                                  10.1 nudare <hi rend="italic">MSTV</hi> : nudari <hi rend="italic"
                                     >U non male; </hi>28.3 rex <hi rend="italic">S </hi>: L ex <hi
                                     rend="italic">MTV </hi>: ex <hi rend="italic">U</hi>; 44.3
@@ -818,7 +818,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            above). Thirteen of <hi rend="bold">S</hi>'s singular readings make it
                            into the text in this edition, a lower number than that in previous
                            editions (see above). But the philological acumen of the innovator<note
-                              place="bottom" xml:id="ftn22" n="22"><p>On the innovator see further
+                              place="bottom" xml:id="ftn23" n="23"><p>On the innovator see further
                                     <hi rend="background(yellow)">Damon 2015a, 000</hi>. The
                                  innovations in <hi rend="bold">S</hi>, here as in the <hi
                                     rend="italic">Bellum ciuile</hi>, include supplements to
@@ -838,7 +838,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            legacy reaches us through <hi rend="bold">S</hi> is as evident here as it
                            was in the <hi rend="italic">Bellum ciuile </hi>(the innovations marked
                            with an asterisk are particularly impressive <note place="bottom"
-                              xml:id="ftn23" n="23"><p> Also noteworthy in <hi rend="bold">S</hi>:
+                              xml:id="ftn24" n="24"><p> Also noteworthy in <hi rend="bold">S</hi>:
                                  8.4 aduersos (<hi rend="italic">sc</hi>. impetus) ex munitionibus
                                  sustineri <hi rend="italic">MUTV</hi> : aduersos (<hi rend="italic"
                                     >sc.</hi> nostros) ex munitionibus sustinere <hi rend="italic">S
@@ -907,14 +907,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                         <p><hi rend="bold">T</hi> is a manuscript preserved in Bibliothèque
                            Nationale in Paris, shelf mark lat. 5764.<note place="bottom"
-                              xml:id="ftn24" n="24"><p>Page images of <hi rend="bold">T</hi> may be
+                              xml:id="ftn25" n="25"><p>Page images of <hi rend="bold">T</hi> may be
                                  viewed at <ref
                                     target="http://gallica.bnf.fr/ark:/12148/btv1b90668596"
                                     >http://gallica.bnf.fr/ark:/12148/btv1b90668596</ref>.
                               </p></note> The <hi rend="italic">Bellum Alexandrinum </hi>occupies
                            ff. 122va-136ra. For the <hi rend="italic">Bellum Alexandrinum</hi> T
-                           only offers one successful innovation<note place="bottom" xml:id="ftn25"
-                              n="25"><p>Another noteworthy correction in <hi rend="bold">T</hi>:
+                           only offers one successful innovation<note place="bottom" xml:id="ftn26"
+                              n="26"><p>Another noteworthy correction in <hi rend="bold">T</hi>:
                                  12.3 non tamen <hi rend="italic">MU</hi> : tamen <hi rend="italic"
                                     >ST</hi><hi rend="italic superscript">ac</hi><hi rend="italic">V
                                  </hi>: non <hi rend="italic">post cogitationem suppleuit T</hi><hi
@@ -947,7 +947,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            in <hi rend="bold">V</hi> in the <hi rend="italic">Bellum
                               Alexandrinum</hi> is much lower than would have been expected based
                            the evidence of the <hi rend="italic">Bellum ciuile</hi><note
-                              place="bottom" xml:id="ftn26" n="26"><p>Also noteworthy in <hi
+                              place="bottom" xml:id="ftn27" n="27"><p>Also noteworthy in <hi
                                     rend="bold">V</hi>: 27.5 Mithridates magna cum prudentia <hi
                                     rend="italic">MUS</hi><hi rend="italic superscript">c</hi><hi
                                     rend="italic"> et T supra lineam</hi> : mithridates magna cum
@@ -1044,7 +1044,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      to indicate a gap between the narrative and an embedded utterance such as an
                      editorializing comment by the author, an afterthought, or a "snippet" of
                      indirect statement, where commas don't suffice.<note place="bottom"
-                        xml:id="ftn27" n="27"><p>See Damon (forthcoming) on such parentheses.
+                        xml:id="ftn28" n="28"><p>See Damon (forthcoming) on such parentheses.
                         </p></note> Where such utterances extend for a sentence or more and full
                      stops don't suffice we use parentheses rather than dashes. Single dashes
                      precede instances of anacoluthon. Pointed and square brackets indicate
@@ -1066,7 +1066,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      are numbered as in Andrieu 1954.</p>
 
                   <p>The features of the text described so far are available in both online and
-                     print versions of the LDLT edition.<note place="bottom" xml:id="ftn28" n="28"
+                     print versions of the LDLT edition.<note place="bottom" xml:id="ftn29" n="29"
                         >Since the edition itself is an XML file, it is important to note that
                         online and print versions" refer to visualizations of the data in that file.
                         The LDLT's official online reading application is based on the <ref
@@ -1088,7 +1088,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      version of the text that never existed previously. This is why we opted not to
                      encode certain combinations of variants to enable the swapping feature, since
                      the application, at least at the time this was written, was not able to render
-                     them reliably.<!-- TODO: Insert examples --></p>
+                     them reliably.</p>
                </div>
                <!-- End subsection on the text. -->
 
@@ -1118,28 +1118,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            propensity to stray.</item>
 
                         <item>3. If the manuscript evidence warrants display for some other reason.
-                           Readings unique to a particular manuscript—<foreign xml:lang="lat">lectiones
-                              singulares</foreign> or singular readings—are generally recorded in the
-                           <ref target="#appendix-critica">Appendix critica</ref> if the text is not in doubt, but multi-word omissions
-                           are also reported in the apparatus since they provide crucial information
-                           about the shape of hyparchetype families. When other sorts of singular
-                           readings are reported in the apparatus, they are mentioned for their
-                           value as emendations. Where two manuscripts have different singular
-                           readings at the same spot we generally record this in the apparatus.<note
-                              place="bottom" xml:id="ftn29" n="29"><p>In some cases the <ref target="#appendix-critica">Appendix
-                                 critica</ref> seemed the more appropriate home for the information,
-                                 especially when unrelated errors were typical of their manuscripts
-                                 or where one of the two errors has been corrected by the
-                                 scribe.</p></note></item>
+                           Readings unique to a particular manuscript—<foreign xml:lang="lat"
+                              >lectiones singulares</foreign> or singular readings—are generally
+                           recorded in the <ref target="#appendix-critica">Appendix critica</ref> if
+                           the text is not in doubt, but multi-word omissions are also reported in
+                           the apparatus since they provide crucial information about the shape of
+                           hyparchetype families. When other sorts of singular readings are reported
+                           in the apparatus, they are mentioned for their value as emendations.
+                           Where two manuscripts have different singular readings at the same spot
+                           we generally record this in the apparatus.<note place="bottom"
+                              xml:id="ftn30" n="30"><p>In some cases the <ref
+                                    target="#appendix-critica">Appendix critica</ref> seemed the
+                                 more appropriate home for the information, especially when
+                                 unrelated errors were typical of their manuscripts or where one of
+                                 the two errors has been corrected by the scribe.</p></note></item>
 
                         <item>4. If the syntax is faulty, showing omissions, problems of agreement,
                            etc. The problem is fixed in the text if possible, even if the solution
                            adopted is only one of several possible solutions. But sometimes a lacuna
-                           (indicated by &lt;gap/&gt;) is indicated instead.<note place="bottom" xml:id="ftn30"
-                              n="30"><p>For the more difficult examples of categories (4)–(7) there
-                                 are notes explaining our reasoning in <ref target="#commentary"><title>Studies on
-                                    the Text of the Bellum Alexandrinum</title></ref>. These are signaled by
-                                 a diamond (◊) in the apparatus note.</p></note></item>
+                           (indicated by &lt;gap/&gt;) is indicated instead.<note place="bottom"
+                              xml:id="ftn31" n="31"><p>For the more difficult examples of categories
+                                 (4)–(7) there are notes explaining our reasoning in <ref
+                                    target="#commentary"><title>Studies on the Text of the Bellum
+                                       Alexandrinum</title></ref>. These are signaled by a diamond
+                                 (◊) in the apparatus note.</p></note></item>
 
                         <item>5. If the usage is or appears to be problematic. In this situation,
                            the problem is usually fixed in the text, unless it can be attributed to
@@ -1153,22 +1155,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                  reading and the repairs available. The fact that someone before
                                  them has also queried the text is unlikely to help resolve the
                                  problem, and such notes, which would be very very numerous, would
-                                 clog the apparatus.<note place="bottom" xml:id="ftn31" n="31"
+                                 clog the apparatus.<note place="bottom" xml:id="ftn32" n="32"
                                        ><p>The <hi rend="bold">α</hi> and <hi rend="bold">β</hi>
                                        branches of the tradition of the <hi rend="italic">BG</hi>
                                        frequently differ over verb tenses, which leads one to
                                        suspect that in our tradition, which is limited to the <hi
                                           rend="bold">β</hi> branch, tense errors will be numerous
-                                       (see further <hi rend="background(yellow)">Damon 2015b, <!-- TODO: Get the pages for this reference. -->PAGES
-                                          for Part 2</hi>). </p></note> Emendations of this sort
-                                 (and of those discussed below) can be seen in the <!-- TODO: What is this? -->Conspectus
-                                 editionum. However, where such emendations remove a contradiction
-                                 within the text they are usually either accepted or at least
-                                 reported. Similarly if they help address an otherwise problematic
-                                 passage or draw attention to a notable feature of the text such as
-                                 a <foreign xml:lang="lat">constructio ad sensum</foreign>. (This logic and
-                                 these exceptions also apply to the following two
-                                 categories.)</item>
+                                       (see further <hi rend="background(yellow)">Damon 2015b,
+                                          <!-- TODO: Get the pages for this reference. -->PAGES for
+                                          Part 2</hi>). </p></note> Emendations of this sort (and of
+                                 those discussed below) can be seen in the
+                                 <!-- TODO: What is this? -->Conspectus editionum. However, where
+                                 such emendations remove a contradiction within the text they are
+                                 usually either accepted or at least reported. Similarly if they
+                                 help address an otherwise problematic passage or draw attention to
+                                 a notable feature of the text such as a <foreign xml:lang="lat"
+                                    >constructio ad sensum</foreign>. (This logic and these
+                                 exceptions also apply to the following two categories.)</item>
                               <item>b. We rarely make notes involving the addition or excision or
                                  interchange of verb prefixes. </item>
                               <item>c. We rarely make notes involving the addition or excision of
@@ -1177,19 +1180,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     -<hi rend="italic">ue</hi>. A glance at the apparatus will show
                                  that these words are frequently overlooked or added by our
                                  manuscripts.</item>
-                              <item>d. We rarely make notes involving diction. Unlike categories (a)–(c), such notes sometimes involve substantial changes to the
+                              <item>d. We rarely make notes involving diction. Unlike categories
+                                 (a)–(c), such notes sometimes involve substantial changes to the
                                  text, and the presumed innovations have to be explained as
                                  substitutions (deliberate or unconscious) by the scribe.<note
-                                    place="foot" xml:id="ftn32" n="32"><p>Or additions. We also
+                                    place="foot" xml:id="ftn33" n="33"><p>Or additions. We also
                                        refrain from making notes about possible intrusive glosses,
                                        as long as they don't interfere with the comprehension of the
                                        text.</p></note> Spotting this sort of problem is an almost
-                                 infinite task, as there are many words in the text for
-                                 which one could think of a more apt, a more common, or at least a
-                                 different expression. The fact that in the <hi rend="italic"
-                                    >BG</hi> tradition there are numerous synonym-variants between
-                                 the <hi rend="bold">α</hi> and <hi rend="bold">β</hi> branches (see Damon 2015b, <!-- TODO: Get pages for this reference. -->PAGES for Part
-                                 2) almost guarantees that some of the expressions in our text
+                                 infinite task, as there are many words in the text for which one
+                                 could think of a more apt, a more common, or at least a different
+                                 expression. The fact that in the <hi rend="italic">BG</hi>
+                                 tradition there are numerous synonym-variants between the <hi
+                                    rend="bold">α</hi> and <hi rend="bold">β</hi> branches (see
+                                 Damon 2015b, <!-- TODO: Get pages for this reference. -->PAGES for
+                                 Part 2) almost guarantees that some of the expressions in our text
                                  were not those originally chosen by the author, and one advantage
                                  of notes on diction would be to call attention to anomalies, but at
                                  the cost of suggesting, even if only gently, that dictional
@@ -1204,37 +1209,39 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <item>6. If the sense is or appears to be problematic on grounds of either
                            history or logic. Such a problem is fixed in the text unless it can be
                            attributed to the author himself. A number of these passages involve
-                              names.<note place="bottom" xml:id="ftn33" n="33"><p>For example, we
+                              names.<note place="bottom" xml:id="ftn34" n="34"><p>For example, we
                                  printed the transmitted spelling, even though epigraphic evidence
-                                 suggests that it is wrong, at 42.3 <foreign xml:lang="lat">Iadertinorum</foreign> and 48.2
-                                 <foreign xml:lang="lat">Medobrigam</foreign>. Incertus might not have known the local or accepted
-                                 spelling of these rather out of the way toponyms. Like Caesar,
-                                 Incertus is inconsistent in his use of the <foreign xml:lang="lat">tria
-                                    nomina</foreign>, both at an individual’s introduction, where he
-                                 sometimes supplies the <foreign xml:lang="lat">praenomen</foreign> and
-                                 sometimes doesn’t, and subsequently. Q. Cassius Longinus, for
-                                 example, is sometimes called Cassius, sometimes Longinus.
-                              </p></note>
+                                 suggests that it is wrong, at 42.3 <foreign xml:lang="lat"
+                                    >Iadertinorum</foreign> and 48.2 <foreign xml:lang="lat"
+                                    >Medobrigam</foreign>. Incertus might not have known the local
+                                 or accepted spelling of these rather out of the way toponyms. Like
+                                 Caesar, Incertus is inconsistent in his use of the <foreign
+                                    xml:lang="lat">tria nomina</foreign>, both at an individual’s
+                                 introduction, where he sometimes supplies the <foreign
+                                    xml:lang="lat">praenomen</foreign> and sometimes doesn’t, and
+                                 subsequently. Q. Cassius Longinus, for example, is sometimes called
+                                 Cassius, sometimes Longinus. </p></note>
                         </item>
 
                         <item>7. If the text is or appears to be suspect on other grounds. Numbers
                            are responsible for most of this category. Sometimes no solution can be
                            proposed but it still seems worth marking the problem.</item>
                      </list></p>
-                  
+
                   <p>Parallel passages are often cited in the apparatus to defend the text, a
                      variant, or an emendation, but only when the available parallels are rare;
                      regular usage speaks for itself. In directing the reader to parallels we use
-                        <foreign xml:lang="lat">uide</foreign> [<hi rend="italic">u</hi>.] for passages
-                     illustrating the matter, <foreign xml:lang="lat">confer</foreign> [<hi rend="italic"
-                        >cf</hi>.] for passages illustrating the expression. If a parallel from the
-                     Caesarian corpus is given, it is the best one, and often the only one, unless
-                     "etc." follows, in which case there are up to five or so pertinent parallels.
-                     If parallels are given for distinct aspects of the phrase in question, <foreign xml:lang="lat">et</foreign> is interposed between citations. If a parallel is
-                     given from outside of the Caesarian corpus, no adequate parallel exists within
-                     the corpus. Where the cited parallel nevertheless provides only indifferent
-                     support for the reading it defends, the reading can be assessed
-                     accordingly.</p>
+                        <foreign xml:lang="lat">uide</foreign> [<hi rend="italic">u</hi>.] for
+                     passages illustrating the matter, <foreign xml:lang="lat">confer</foreign> [<hi
+                        rend="italic">cf</hi>.] for passages illustrating the expression. If a
+                     parallel from the Caesarian corpus is given, it is the best one, and often the
+                     only one, unless "etc." follows, in which case there are up to five or so
+                     pertinent parallels. If parallels are given for distinct aspects of the phrase
+                     in question, <foreign xml:lang="lat">et</foreign> is interposed between
+                     citations. If a parallel is given from outside of the Caesarian corpus, no
+                     adequate parallel exists within the corpus. Where the cited parallel
+                     nevertheless provides only indifferent support for the reading it defends, the
+                     reading can be assessed accordingly.</p>
 
                   <p>In this edition the readings of all of the principal manuscripts are stated for
                      every lemma. This makes it easy for the reader to follow the behavior and
@@ -1244,10 +1251,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      conflicting evidence.</p>
 
                   <p>Orthographical variants and the related category of abbreviations abound in
-                     this tradition (see <!-- TODO: Get the pages for this reference. -->Damon 2015a, PAGES).
-                     They are generally ignored in the apparatus, unless a variant helps explain
-                     subsequent innovations, as is sometimes the case for abbreviations in
-                     particular. </p>
+                     this tradition (see <!-- TODO: Get the pages for this reference. -->Damon
+                     2015a, PAGES). They are generally ignored in the apparatus, unless a variant
+                     helps explain subsequent innovations, as is sometimes the case for
+                     abbreviations in particular. </p>
 
                   <p>Citations for works of classical literature are given in the abbreviated forms
                      standardized by the <hi rend="italic">OLD</hi> and Liddell-Scott-Jones. (With
@@ -1259,24 +1266,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                   <p>Scholars are cited by name only, or by name and date if it is necessary to
                      distinguish among their works. Full bibliographic information is given in the
-                     <ref target="#bibliography">List of works cited</ref>.<note place="bottom" xml:id="ftn34" n="34"><p>In the long
-                           history of work on the text of the <title>Bellum
-                              Alexandrinum</title> some emendations have lost their source. Where other
-                           editors ascribe a reading to "<hi rend="italic">edd</hi>.," we have named
-                           the earliest source we can find. We use <hi rend="italic bold">ς</hi> if
-                           we can verify that a reading is in a manuscript other than those used here
-                           to constitute the text. (This usually means that the reading is in <hi
-                              rend="bold">L</hi> or <hi rend="bold">N</hi> or <hi rend="bold"
-                              >R.</hi>) Otherwise we give the earliest edition in which it appears.
-                           Emendations credited to the first edition (“ed. pr.”) are presumably
-                           drawn from a manuscript source. </p></note></p>
+                        <ref target="#bibliography">List of works cited</ref>.<note place="bottom"
+                        xml:id="ftn35" n="35"><p>In the long history of work on the text of the
+                              <title>Bellum Alexandrinum</title> some emendations have lost their
+                           source. Where other editors ascribe a reading to "<hi rend="italic"
+                              >edd</hi>.," we have named the earliest source we can find. We use <hi
+                              rend="italic bold">ς</hi> if we can verify that a reading is in a
+                           manuscript other than those used here to constitute the text. (This
+                           usually means that the reading is in <hi rend="bold">L</hi> or <hi
+                              rend="bold">N</hi> or <hi rend="bold">R.</hi>) Otherwise we give the
+                           earliest edition in which it appears. Emendations credited to the first
+                           edition (“ed. pr.”) are presumably drawn from a manuscript source.
+                        </p></note></p>
 
-                  <p>The features of the apparatus described so far are available in both the online
-                     and print versions of the LDLT edition. But the online apparatus has important
-                     features that cannot be reproduced on paper. </p>
-<!-- Start here -->
-                  <p><hi rend="background(cyan)">DETAILED DESCRIPTION OF THE ONLINE
-                     APPARATUS</hi></p>
+                  <!-- SJH: I deleted the "detailed description of the online apparatus" part because it is described above. -->
                </div>
                <!-- End of subsection on the critical apparatus. -->
 
@@ -1369,7 +1372,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <p>Balex acknowledgments</p>
                <p>Penn’s Price Lab for Digital Humanities (2016-17<note place="bottom"
-                     xml:id="ftn35" n="35"><p>Price Lab blurb: <ref
+                     xml:id="ftn36" n="36"><p>Price Lab blurb: <ref
                            target="https://pricelab.sas.upenn.edu/fellows/damon-cynthia"
                            >https://pricelab.sas.upenn.edu/fellows/damon-cynthia</ref>.
                   </p></note>),</p>
@@ -2772,7 +2775,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            Sen. Dial. 2.11.2)</note>
                         <rdg wit="#M" xml:id="rdg-11.2-conspectu-hostium">conspectu hostium</rdg>
                         <note target="#rdg-11.2-conspectu-hostium">(cf. BG 1.51.1)</note>
-                        <!-- TODO: Change the xml:id on the following after consultation with Hugh. -->
                         <rdg wit="#U #S #T #V" xml:id="rdg-11.2-conspectu-only">conspectu</rdg>
                         <note target="#rdg-11.2-conspectu">(cf. BC 2.26.2)</note>
                         <note xml:id="note-11.2-conspectu-a" target="#rdg-11.2-Damon"
@@ -3210,7 +3212,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <rdg wit="#M #U #S #T #V" xml:id="rdg-16.2-summa">summa</rdg>
                         <rdg wit="#Ϛ" xml:id="rdg-16.2-summa-rerum">summa rerum</rdg>
                         <note target="#rdg-16.2-summa-rerum">teste Klotz (cf. BC 2.30.1)</note>
-                        <!-- TODO: See above on consulting Hugh about xml:id. -->
                         <rdg source="#Ciacconius" xml:id="rdg-16.2-summa-re-only">summa re</rdg>
                         <note target="#rdg-16.2-summa-re-only">(cf. Quint. Decl. min. 343.9)</note>
                      </app> ac de salute omnium decertare. Quorum si <!-- App entry for 16.2: qui --><app>
