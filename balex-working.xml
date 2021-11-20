@@ -20,7 +20,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </respStmt>
             <respStmt>
                <resp>Coauthor of content related to section 2.5:</resp>
-               <name sameAs="#DSimons">Dallas Simmons</name>
+               <name sameAs="#DSimons">Dallas Simons</name>
             </respStmt>
             <respStmt>
                <resp>Coauthor of content related to sections 12.1–2 and 13.5:</resp>
@@ -98,7 +98,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                belonging to the <title>Corpus Caesarianum</title>, is the product of collaborations
                involving nearly 100 people. The text and critical apparatus were prepared under
                Cynthia Damon’s direction by students at the University of Pennsylvania between 2014
-               and 2019, as were the supplementary materials included in this addition: detailed
+               and 2019, as were the supplementary materials included in this edition: detailed
                textual notes on difficult passages (<title>Studies on the Text of the Bellum
                   Alexandrinum</title>), an appendix of singular readings (the Appendix critica),
                folio-by-folio transcriptions of the five manuscript witnesses used in the
@@ -106,18 +106,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                spreadsheet, and the LDLT team led by Sam Huskey at the University of Oklahoma
                converted both the text and the apparatus into the machine-readable form that
                underlies the version you are reading, either at the interactive LDLT website or as
-               an on-demand .pdf. WHO wrote this preface. <note place="bottom" xml:id="ftn1" n="1"
-                     ><p>The processes summarized here have been the subject of several talks at the
-                     annual meeting of the Society for Classical Studies and will be described more
-                     fully in <!-- SJH: What shall we do about this? -->Damon and Huskey (in
-                     preparation).</p></note>
+               an on-demand .pdf. Damon and Huskey wrote this preface. <note place="bottom"
+                  xml:id="ftn1" n="1"><p>The processes summarized here have been the subject of
+                     several talks at the annual meeting of the Society for Classical Studies and
+                     will be described more fully in <!-- SJH: What shall we do about this? -->Damon
+                     and Huskey (in preparation).</p></note>
             </p>
 
             <!-- Subsection on why a new edition -->
             <div type="section" xml:id="preface-why-a-new-edition">
                <head>Why a new edition of the <title>Bellum Alexandrinum</title>?</head>
                <p>There are two answers to that question. The traditional answer is that the
-                  discoveries that underpin my recent critical edition of Caesar’s <title>Civil
+                  discoveries that underpin Damon's recent critical edition of Caesar’s <title>Civil
                      War</title> (Oxford, 2015) should also be used to reassess the text of the
                      <title>Bellum Alexandrinum</title>, which rests on the same manuscript
                      witnesses.<note place="bottom" xml:id="ftn3" n="3"><p>OUP site: <ref
@@ -151,14 +151,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               exercitus alendos, 49.2 causae, 57.3 †in†, 60.1 educerentur, 60.3
                               animaduerteret, 61.6 sibi usui, 62.1 auxiliares, 62.2 Marcello
                               fauebant, 64.3 derectam, 66.1 praefecit, 66.5 inceptum. <hi
-                                 rend="background(yellow)">See further S-demoted lists in Damon
-                                 2015b, PAGES</hi>. </p></note> In fifty-three places we print the
-                        archetype (or a possibly archetypal reading) where other editors emend
-                           it.<note place="bottom" xml:id="ftn5" n="5"><p>1.5 expectans, 7.2 casum,
-                              7.2 ut … absumeretur, 8.2 Paratonio, 10.2 accessissent, 10.2
-                              exposuissent, 12.3 miserant, 12.4 Caesaris, 13.5 Lycias, 13.5 et, 14.1
-                              Rhodios, 14.1 Ponticos, 14.1 hos, 16.1 uictis, 19.2 certiorem, 20.4
-                              perturbatos, 26.2 adducit, 26.2 multiplici praesidio, 27.5
+                                 rend="background(yellow)">See further the lists in Damon 2015b, 46
+                                 (note 93) and 48 (note 99).</hi>. </p></note> In fifty-three places
+                        we print the archetype (or a possibly archetypal reading) where other
+                        editors emend it.<note place="bottom" xml:id="ftn5" n="5"><p>1.5 expectans,
+                              7.2 casum, 7.2 ut … absumeretur, 8.2 Paratonio, 10.2 accessissent,
+                              10.2 exposuissent, 12.3 miserant, 12.4 Caesaris, 13.5 Lycias, 13.5 et,
+                              14.1 Rhodios, 14.1 Ponticos, 14.1 hos, 16.1 uictis, 19.2 certiorem,
+                              20.4 perturbatos, 26.2 adducit, 26.2 multiplici praesidio, 27.5
                               constantiaque, 27.7 adiuncti his, 31.3 partibus, 32.1 magnae, 33.5
                               itinere terrestri, 36.5 siue amicus siue inimicus, 40.2 aperto, 42.3
                               Iadertinorum, 48.3 minuebat, 49.1 in ea, 51.2 uoluntate, 51.3
@@ -170,39 +170,38 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               defensionem, 68.2 natura, 70.8 si, 72.2 superioribus … oppido, 75.1
                               operibus, 78.2 quod.<seg> </seg></p></note> We print thirteen new
                         emendations and propose a number of others.<note place="bottom"
-                           xml:id="ftn6" n="6"><p>11.2 ⟨suorum⟩ <hi rend="italic">Khan</hi>,
-                              15.3 ⟨moram⟩ <hi rend="italic">Lewis</hi>, 16.2
-                              ⟨exercitus⟩ <hi rend="italic">scripsimus</hi>, 17.2 ⟨et
-                              hanc⟩ et illam [urbem] <hi rend="italic">scripsimus</hi>, 35.3
-                              ⟨constat⟩ <hi rend="italic">scripsimus</hi>, 44.4 has adiunxit
-                                 <hi rend="italic">scripsimus</hi>, 60.3 animaduerteret causa <hi
-                                 rend="italic">Reinhardt</hi>, 61.4 adductus <hi rend="italic"
-                                 >scripsimus</hi>, 62.1 auxiliares <hi rend="italic"
-                              >scripsimus</hi>, 67.1 ⟨et coactus⟩ <hi rend="italic"
-                                 >Bensch-Schaus</hi>, 73.3 aggerere tum <hi rend="italic"
-                                 >scripsimus</hi>, 74.3 contemptione <hi rend="italic"
+                           xml:id="ftn6" n="6"><p>11.2 ⟨suorum⟩ <hi rend="italic">Khan</hi>, 15.3
+                              ⟨moram⟩ <hi rend="italic">Lewis</hi>, 16.2 ⟨exercitus⟩ <hi
+                                 rend="italic">scripsimus</hi>, 17.2 ⟨et hanc⟩ et illam [urbem] <hi
+                                 rend="italic">scripsimus</hi>, 35.3 ⟨constat⟩ <hi rend="italic"
+                                 >scripsimus</hi>, 44.4 has adiunxit <hi rend="italic"
+                                 >scripsimus</hi>, 60.3 animaduerteret causa <hi rend="italic"
+                                 >Reinhardt</hi>, 61.4 adductus <hi rend="italic">scripsimus</hi>,
+                              62.1 auxiliares <hi rend="italic">scripsimus</hi>, 67.1 ⟨et coactus⟩
+                                 <hi rend="italic">Bensch-Schaus</hi>, 73.3 aggerere tum <hi
+                                 rend="italic">scripsimus</hi>, 74.3 contemptione <hi rend="italic"
                                  >scripsimus</hi>, 75.1 operibus reuocat <hi rend="italic"
-                                 >Naqvi</hi>. Emendations proposed but not printed: 20.3 ⟨et⟩
-                              sine ratione <hi rend="italic">Callaghan</hi>, 26.2 <hi rend="italic"
-                                 >⟨gap⟩ </hi>adducit<hi rend="italic"> Persyn</hi>, 27.5
-                              Mithridates [magna cum prudentia] <hi rend="italic">D. Simons</hi>,
-                              57.1 adducebatur <hi rend="italic">J. Simons</hi>, 58.1 ueteranas <hi
-                                 rend="italic">J. Simons.</hi> There are also more than 40 new
-                              suggestions introduced at the end of apparatus notes with the formulas
-                                 <hi rend="italic">an … ?</hi> or <hi rend="italic">nisi mauis</hi>.
-                           </p></note> We also revive fourteen.<note place="bottom" xml:id="ftn7"
-                           n="7"><p>2.1 ⟨armatorum⟩<hi rend="italic"> Fischer</hi>, 7.2 esse
-                                 <hi rend="italic">Nipperdey</hi>, 15.8 ⟨nisi⟩ qui <hi
-                                 rend="italic">Fleischer, </hi>17.3 quosque <hi rend="italic"
-                                 >Lipsius, </hi>25.1 Caesaris praesidia <hi rend="italic">ed. pr.,
-                              </hi>36.5 aduentu sin <hi rend="italic">Hoffmann, </hi>40.2 circumire
-                              ac transcendere <hi rend="italic">Nipperdey, </hi>42.2 exercitus
-                              alendos <hi rend="italic">M, </hi>45.2 distentis <hi rend="italic"
-                                 >Hoffmann, </hi>49.2 simul et <hi rend="italic">Latinius, </hi>55.1
-                              legionem quintam in castra remittit <hi rend="italic">ed. pr.,
-                              </hi>58.1 Torius <hi rend="italic">ς</hi>, 70.4 quamquam <hi
-                                 rend="italic">Dinter</hi>, 74.4 in procliuem <hi rend="italic"
-                                 >Nipperdey</hi>.</p></note> In the process of our work we silently
+                                 >Naqvi</hi>. Emendations proposed but not printed: 20.3 ⟨et⟩ sine
+                              ratione <hi rend="italic">Callaghan</hi>, 26.2 <hi rend="italic">⟨gap⟩
+                                 </hi>adducit<hi rend="italic"> Persyn</hi>, 27.5 Mithridates [magna
+                              cum prudentia] <hi rend="italic">D. Simons</hi>, 57.1 adducebatur <hi
+                                 rend="italic">J. Simons</hi>, 58.1 ueteranas <hi rend="italic">J.
+                                 Simons.</hi> There are also more than 40 new suggestions introduced
+                              at the end of apparatus notes with the formulas <hi rend="italic">an …
+                                 ?</hi> or <hi rend="italic">nisi mauis</hi>. </p></note> We also
+                        revive fourteen.<note place="bottom" xml:id="ftn7" n="7"><p>2.1
+                                 ⟨armatorum⟩<hi rend="italic"> Fischer</hi>, 7.2 esse <hi
+                                 rend="italic">Nipperdey</hi>, 15.8 ⟨nisi⟩ qui <hi rend="italic"
+                                 >Fleischer, </hi>17.3 quosque <hi rend="italic">Lipsius, </hi>25.1
+                              Caesaris praesidia <hi rend="italic">ed. pr., </hi>36.5 aduentu sin
+                                 <hi rend="italic">Hoffmann, </hi>40.2 circumire ac transcendere <hi
+                                 rend="italic">Nipperdey, </hi>42.2 exercitus alendos <hi
+                                 rend="italic">M, </hi>45.2 distentis <hi rend="italic">Hoffmann,
+                              </hi>49.2 simul et <hi rend="italic">Latinius, </hi>55.1 legionem
+                              quintam in castra remittit <hi rend="italic">ed. pr., </hi>58.1
+                                 Torius <hi rend="italic">ς</hi>, 70.4 quamquam <hi rend="italic"
+                                 >Dinter</hi>, 74.4 in procliuem <hi rend="italic"
+                              >Nipperdey</hi>.</p></note> In the process of our work we silently
                         corrected dozens of errors in the apparatus of Andrieu 1954 and Klotz 1927.
                         More broadly, we hope to have improved the apparatus everywhere by making
                         the arguments relevant to the constitution of the text more salient and more
@@ -249,12 +248,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   BCE, probably in connection with an attempt by Caesar’s supporters to produce an
                   edition of texts narrating Caesar’s military achievements (see the Letter to
                   Balbus prefaced to <hi rend="italic">Gallic War</hi> 8, written by Aulus Hirtius).
-                  The title is misleading, since only the first of the 000 campaigns described in
+                  The title is misleading, since only the first of the five campaigns described in
                   the work occurred in Alexandria. The Caesarian commanders and theaters of war are
                   as follows: Caesar in Alexandria (chh. 1-33; September 48 -February 47), Domitius
                   Calvinus in Pontus (34-41; September-October 48), Cornificius, Gabinius, and
                   Vatinius in Illyricum (42-47; October 48 - January 47), Q. Cassius in Spain
-                  (48-64; May-December 48), Caesar in Pontus (65-78; March-May 47). <note
+                  (48-64; May-December 48), Caesar in Pontus (65-78; March-May 47).<note
                      place="bottom" xml:id="ftn8" n="8"><p>The dates (Julian) are taken from
                         Raaflaub and Ramsey 2017. </p></note> None of Caesar’s officers is known to
                   have participated in all of these overlapping campaigns. As a result, the
@@ -268,12 +267,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   produced during the Carolingian period: they share significant errors that must go
                   back to a single source. For the <hi rend="italic">Bellum Alexandrinum</hi>, a
                   work of just under 11,000 words, they number about 150. <note place="bottom"
-                     xml:id="ftn9" n="9"><p>The word count used by Gaertner and Hausburg is <hi
-                           rend="background(yellow)">FILL IN</hi> (see, e.g., 2013, 286).</p></note>
-                  The most striking are the gaps (12.1, 17.3, 17.6, 22.2) and the insoluble problems
-                  (2.5 †obiectis†, 22.2 †multum†, 57.2 †noctu†, 57.3 †in†). But almost every page of
-                  the critical apparatus shows one or more spots where the reading of the archetype
-                  is not the reading in the text. </p>
+                     xml:id="ftn9" n="9"><p>The word count used by Gaertner and Hausburg is 10513
+                        (see, e.g., 2013, 286).</p></note> The most striking are the gaps (12.1,
+                  17.3, 17.6, 22.2) and the insoluble problems (2.5 †obiectis†, 22.2 †multum†, 57.2
+                  †noctu†, 57.3 †in†). But almost every page of the critical apparatus shows one or
+                  more spots where the reading of the archetype is not the reading in the text. </p>
             </div>
             <!-- End of subsection on the Bellum Alexandrinum. -->
 
@@ -308,10 +306,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <div type="section" xml:id="preface-constituting-the-text-witnesses">
                   <head xml:id="head-witnesses">B. The witnesses</head>
 
-                  <note target="#head-witnesses" place="bottom" xml:id="ftn12" n="12"><p>More detailed
-                     versions of the following paragraphs are given in <hi
-                        rend="background(yellow)">Damon 2015a, PAGES and 2015b,
-                        PAGES</hi>.</p></note>
+                  <note target="#head-witnesses" place="bottom" xml:id="ftn12" n="12"><p>More
+                        detailed versions of the following paragraphs are given in <hi
+                           rend="background(yellow)">Damon 2015a, xxii-xxvi and 2015b,
+                        55-61</hi>.</p></note>
                   <!-- Beginning a sub-sub-subsection on the archetype. -->
                   <div type="section" xml:id="preface-constituting-the-text-witnesses-archetype">
                      <head>1. The archetype</head>
@@ -397,7 +395,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            rend="italic">Bellum Alexandrinum</hi> turned up no new and conclusive
                         evidence for them.<note place="foot" xml:id="ftn15" n="15"><p>The most
                               suggestive evidence from the <title>Bellum Alexandrinum</title> is
-                              discussed at <hi rend="background(yellow)">Damon 2015b, PAGES</hi>.
+                              discussed at <hi rend="background(yellow)">Damon 2015b, 34-36</hi>.
                            </p></note><seg> </seg></p>
 
                      <!-- Begin subsection on μ -->
@@ -627,13 +625,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     rend="bold">V</hi> is the same for all fourteen books of the
                                  Caesarian corpus.) </p></note> The separative innovations in the
                               <hi rend="italic">Bellum Alexandrinum</hi> also include a handful of
-                           brief omissions (see above), and an inversios, another variety of
+                           brief omissions (see above), and an inversion, another variety of
                            innovation that, once made, tends to persist in an uncontaminated
                            tradition: 35.2 suo regno <hi rend="italic">MUS</hi> : regno suo <hi
                               rend="italic">TV</hi>. Finally, among the innovations unique to these
-                           two manuscripts in the <hi rend="italic">BC</hi> are some two dozen that
-                           repair the corrupt archetype and, once made, are unlikely to have been
-                           removed except by accident: <list>
+                           two manuscripts in the <hi rend="italic">BAlex</hi> are some two dozen
+                           that repair the corrupt archetype and, once made, are unlikely to have
+                           been removed except by accident: <list>
                               <item>15.8 in pugna occupatum animum haberent <hi rend="italic"
                                     >TV</hi> : inpugnatioccupatum animum haberent <hi rend="italic"
                                     >S</hi> : in pugna occupatum animum haberet <hi rend="italic">U
@@ -675,7 +673,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <head>3. The extant manuscripts</head>
 
                      <p>For detailed descriptions of the five manuscripts used to constitute the
-                        text see <hi rend="background(yellow)">Damon 2015a, PAGES</hi>. Here we
+                        text see <hi rend="background(yellow)">Damon 2015a, xxxiv-lxi</hi>. Here we
                         indicate the folio numbers in each for the text of the <title>Bellum
                            Alexandrinum</title> and the noteworthy innovations. Full transcriptions
                         are available online at the LDLT website
@@ -691,17 +689,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               xml:id="ftn18" n="18"><p>High quality page images of <hi rend="bold"
                                     >M</hi> can be viewed at <ref
                                     target="http://mss.bmlonline.it/s.aspx?Id=AWOIs_iEI1A4r7GxML1h&amp;c=Caesaris%20Commentaria#/oro/13"
-                                    >http://mss.bmlonline.it/s.aspx?Id=AWOIs_iEI1A4r7GxML1h&amp;c=Caesaris%20Commentaria#/oro/13</ref>.
-                              </p></note> The <hi rend="italic">Bellum Alexandrinum </hi>occupies
-                           ff. 133v-143r. <hi rend="bold">M</hi> offers some uniquely successful or
-                           meritorious innovations (those marked with an asterisk are particularly
-                              impressive<note place="bottom" xml:id="ftn19" n="19"><p>Also
-                                 noteworthy in <hi rend="bold">M</hi>: 11.2 conspectu ⟨suorum⟩
-                                    <hi rend="italic">Khan</hi> : conspectu hostium <hi
-                                    rend="italic">M </hi>: conspectu <hi rend="italic">USTV</hi>
-                                    :<hi rend="italic"> an</hi> conspectu ⟨omnium⟩<hi
-                                    rend="italic">?</hi>; 48.1 multis <hi rend="italic">UTV</hi> :
-                                 mutis <hi rend="italic">M</hi> : mutus <hi rend="italic">S.</hi>
+                                    >https://bit.ly/3HCkcSG</ref>. </p></note> The <hi rend="italic"
+                              >Bellum Alexandrinum </hi>occupies ff. 133v-143r. <hi rend="bold"
+                              >M</hi> offers some uniquely successful or meritorious innovations
+                           (those marked with an asterisk are particularly impressive<note
+                              place="bottom" xml:id="ftn19" n="19"><p>Also noteworthy in <hi
+                                    rend="bold">M</hi>: 11.2 conspectu ⟨suorum⟩ <hi rend="italic"
+                                    >Khan</hi> : conspectu hostium <hi rend="italic">M </hi>:
+                                 conspectu <hi rend="italic">USTV</hi> :<hi rend="italic"> an</hi>
+                                 conspectu ⟨omnium⟩<hi rend="italic">?</hi>; 48.1 multis <hi
+                                    rend="italic">UTV</hi> : mutis <hi rend="italic">M</hi> : mutus
+                                    <hi rend="italic">S.</hi>
                               </p></note>; there are of course other spots where <hi rend="bold"
                               >M</hi> has been joined by one or another manuscript in a successful
                            innovation): <list>
@@ -820,7 +818,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            into the text in this edition, a lower number than that in previous
                            editions (see above). But the philological acumen of the innovator<note
                               place="bottom" xml:id="ftn23" n="23"><p>On the innovator see further
-                                    <hi rend="background(yellow)">Damon 2015a, 000</hi>. The
+                                    <hi rend="background(yellow)">Damon 2015a, li-liii</hi>. The
                                  innovations in <hi rend="bold">S</hi>, here as in the <hi
                                     rend="italic">Bellum ciuile</hi>, include supplements to
                                  apparent omissions, omissions of superfluous material, alterations
@@ -906,7 +904,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         xml:id="preface-constituting-the-text-witnesses-extant-manuscripts-t">
                         <head>d. T</head>
 
-                        <p><hi rend="bold">T</hi> is a manuscript preserved in Bibliothèque
+                        <p><hi rend="bold">T</hi> is a manuscript preserved in the Bibliothèque
                            Nationale in Paris, shelf mark lat. 5764.<note place="bottom"
                               xml:id="ftn25" n="25"><p>Page images of <hi rend="bold">T</hi> may be
                                  viewed at <ref
@@ -1045,11 +1043,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      to indicate a gap between the narrative and an embedded utterance such as an
                      editorializing comment by the author, an afterthought, or a "snippet" of
                      indirect statement, where commas don't suffice.<note place="bottom"
-                        xml:id="ftn28" n="28"><p>See Damon (forthcoming) on such parentheses.
-                        </p></note> Where such utterances extend for a sentence or more and full
-                     stops don't suffice we use parentheses rather than dashes. Single dashes
-                     precede instances of anacoluthon. Pointed and square brackets indicate
-                     additions to (⟨ ⟩) and excisions from ([ ]) the text that involve
+                        xml:id="ftn28" n="28"><p>See Damon (2020) on
+                           such parentheses. </p></note> Where such utterances extend for a sentence
+                     or more and full stops don't suffice we use parentheses rather than dashes.
+                     Single dashes precede instances of anacoluthon. Pointed and square brackets
+                     indicate additions to (⟨ ⟩) and excisions from ([ ]) the text that involve
                      complete words. Where syllables or individual letters are added or excised the
                      change is not signaled in the text but the relevant information can be found in
                      the apparatus. In general Incertus’ prose requires more punctuation than
@@ -1098,7 +1096,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <head>B. Critical apparatus</head>
 
                   <p>There is an entry in the apparatus criticus if any of the following
-                     circumstances applies for a word or phrase in the text:<list rend="ordered" style="1">
+                     circumstances applies for a word or phrase in the text:<list rend="ordered"
+                        style="1">
 
                         <item n="1">If the reading of the archetype is uncertain: <hi rend="bold"
                               >μ</hi>≠<hi rend="bold">ν</hi>, or <hi rend="bold">MS</hi>≠<hi
@@ -1109,44 +1108,45 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               rend="bold">U</hi>, which is the least deviant manuscript. In some
                            places these criteria pull in different directions.</item>
 
-                        <item n="2">If there may be a disagreement between <hi rend="bold">μ</hi> and
-                              <hi rend="bold">ν</hi>: <hi rend="bold">μS</hi>≠<hi rend="bold"
-                           >π</hi>, <hi rend="bold">U</hi>≠<hi rend="bold">Mν</hi>, etc. We list
+                        <item n="2">If there may be a disagreement between <hi rend="bold">μ</hi>
+                           and <hi rend="bold">ν</hi>: <hi rend="bold">μS</hi>≠<hi rend="bold"
+                              >π</hi>, <hi rend="bold">U</hi>≠<hi rend="bold">Mν</hi>, etc. We list
                            this category separately from (1) because it is often difficult, owing to
                            the waywardness of <hi rend="bold">S</hi>, to determine the reading of
                               <hi rend="bold">ν</hi>. The same is true, but to a much lesser extent,
                            about <hi rend="bold">μ</hi>, owing to <hi rend="bold">M</hi>'s
                            propensity to stray.</item>
 
-                        <item n="3">If the manuscript evidence warrants display for some other reason.
-                           Readings unique to a particular manuscript—<foreign xml:lang="lat"
-                              >lectiones singulares</foreign> or singular readings—are generally
-                           recorded in the <ref target="#appendix-critica">Appendix critica</ref> if
-                           the text is not in doubt, but multi-word omissions are also reported in
-                           the apparatus since they provide crucial information about the shape of
-                           hyparchetype families. When other sorts of singular readings are reported
-                           in the apparatus, they are mentioned for their value as emendations.
-                           Where two manuscripts have different singular readings at the same spot
-                           we generally record this in the apparatus.<note place="bottom"
-                              xml:id="ftn30" n="30"><p>In some cases the <ref
+                        <item n="3">If the manuscript evidence warrants display for some other
+                           reason. Readings unique to a particular manuscript—<foreign
+                              xml:lang="lat">lectiones singulares</foreign> or singular readings—are
+                           generally recorded in the <ref target="#appendix-critica">Appendix
+                              critica</ref> if the text is not in doubt, but multi-word omissions
+                           are also reported in the apparatus since they provide crucial information
+                           about the shape of hyparchetype families. When other sorts of singular
+                           readings are reported in the apparatus, they are mentioned for their
+                           value as emendations. Where two manuscripts have different singular
+                           readings at the same spot we generally record this in the apparatus.<note
+                              place="bottom" xml:id="ftn30" n="30"><p>In some cases the <ref
                                     target="#appendix-critica">Appendix critica</ref> seemed the
                                  more appropriate home for the information, especially when
                                  unrelated errors were typical of their manuscripts or where one of
                                  the two errors has been corrected by the scribe.</p></note></item>
 
-                        <item n="4">If the syntax is faulty, showing omissions, problems of agreement,
-                           etc. The problem is fixed in the text if possible, even if the solution
-                           adopted is only one of several possible solutions. But sometimes a lacuna
-                           (indicated by ⟨gap/⟩) is indicated instead.<note place="bottom"
-                              xml:id="ftn31" n="31"><p>For the more difficult examples of categories
-                                 (4)–(7) there are notes explaining our reasoning in <ref
-                                    target="#commentary"><title>Studies on the Text of the Bellum
-                                       Alexandrinum</title></ref>. These are signaled by a diamond
-                                 (◊) in the apparatus note.</p></note></item>
+                        <item n="4">If the syntax is faulty, showing omissions, problems of
+                           agreement, etc. The problem is fixed in the text if possible, even if the
+                           solution adopted is only one of several possible solutions. But sometimes
+                           a lacuna (indicated by <gap reason="lost"/>) is indicated instead.<note
+                              place="bottom" xml:id="ftn31" n="31"><p>For the more difficult
+                                 examples of categories (4)–(7) there are notes explaining our
+                                 reasoning in <ref target="#commentary"><title>Studies on the Text
+                                       of the Bellum Alexandrinum</title></ref>. These are signaled
+                                 by a diamond (◊) in the apparatus note.</p></note></item>
 
                         <item n="5">If the usage is or appears to be problematic. In this situation,
                            the problem is usually fixed in the text, unless it can be attributed to
-                           the author himself. This large category is subject to some limitations. <list rend="ordered" style="a">
+                           the author himself. This large category is subject to some limitations.
+                              <list rend="ordered" style="a">
                               <item n="a">We rarely make notes involving the regularization of
                                  acceptable syntax. A very common type of emendation involves verb
                                  forms. E.g., where in a series of historical present tense verbs
@@ -1162,17 +1162,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                        frequently differ over verb tenses, which leads one to
                                        suspect that in our tradition, which is limited to the <hi
                                           rend="bold">β</hi> branch, tense errors will be numerous
-                                       (see further <hi rend="background(yellow)">Damon 2015b,
-                                          <!-- TODO: Get the pages for this reference. -->PAGES for
-                                          Part 2</hi>). </p></note> Emendations of this sort (and of
-                                 those discussed below) can be seen in the Conspectus editionum.
-                                 However, where such emendations remove a contradiction within the
-                                 text they are usually either accepted or at least reported.
-                                 Similarly if they help address an otherwise problematic passage or
-                                 draw attention to a notable feature of the text such as a <foreign
-                                    xml:lang="lat">constructio ad sensum</foreign>. (This logic and
-                                 these exceptions also apply to the following two
-                                 categories.)</item>
+                                       (see further Damon 2015b, 100-104). </p></note> Emendations
+                                 of this sort (and of those discussed below) can be seen in the
+                                 Conspectus editionum. However, where such emendations remove a
+                                 contradiction within the text they are usually either accepted or
+                                 at least reported. Similarly if they help address an otherwise
+                                 problematic passage or draw attention to a notable feature of the
+                                 text such as a <foreign xml:lang="lat">constructio ad
+                                    sensum</foreign>. (This logic and these exceptions also apply to
+                                 the following two categories.)</item>
                               <item n="b">We rarely make notes involving the addition or excision or
                                  interchange of verb prefixes. </item>
                               <item n="c">We rarely make notes involving the addition or excision of
@@ -1194,25 +1192,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                  expression. The fact that in the <hi rend="italic">BG</hi>
                                  tradition there are numerous synonym-variants between the <hi
                                     rend="bold">α</hi> and <hi rend="bold">β</hi> branches (see
-                                 Damon 2015b, <!-- TODO: Get pages for this reference. -->PAGES for
-                                 Part 2) almost guarantees that some of the expressions in our text
-                                 were not those originally chosen by the author, and one advantage
-                                 of notes on diction would be to call attention to anomalies, but at
-                                 the cost of suggesting, even if only gently, that dictional
-                                 anomalies need to be fixed. Readers who are sensitive enough to
-                                 diction to look to the apparatus when an expression seems odd
-                                 already have what they need to analyse the situation. This is
-                                 obviously a matter for editorial judgment, and "rarely" does not
-                                 mean "never."</item>
+                                 Damon 2015b, 100-104) almost guarantees that some of the
+                                 expressions in our text were not those originally chosen by the
+                                 author, and one advantage of notes on diction would be to call
+                                 attention to anomalies, but at the cost of suggesting, even if only
+                                 gently, that dictional anomalies need to be fixed. Readers who are
+                                 sensitive enough to diction to look to the apparatus when an
+                                 expression seems odd already have what they need to analyse the
+                                 situation. This is obviously a matter for editorial judgment, and
+                                 "rarely" does not mean "never."</item>
                            </list>
                         </item>
 
-                        <item n="6">If the sense is or appears to be problematic on grounds of either
-                           history or logic. Such a problem is fixed in the text unless it can be
-                           attributed to the author himself. A number of these passages involve
-                              names.<note place="bottom" xml:id="ftn34" n="34"><p>For example, we
-                                 printed the transmitted spelling, even though epigraphic evidence
-                                 suggests that it is wrong, at 42.3 <foreign xml:lang="lat"
+                        <item n="6">If the sense is or appears to be problematic on grounds of
+                           either history or logic. Such a problem is fixed in the text unless it
+                           can be attributed to the author himself. A number of these passages
+                           involve names.<note place="bottom" xml:id="ftn34" n="34"><p>For example,
+                                 we printed the transmitted spelling, even though epigraphic
+                                 evidence suggests that it is wrong, at 42.3 <foreign xml:lang="lat"
                                     >Iadertinorum</foreign> and 48.2 <foreign xml:lang="lat"
                                     >Medobrigam</foreign>. Incertus might not have known the local
                                  or accepted spelling of these rather out of the way toponyms. Like
@@ -1224,9 +1221,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                  Cassius, sometimes Longinus. </p></note>
                         </item>
 
-                        <item n="7">If the text is or appears to be suspect on other grounds. Numbers
-                           are responsible for most of this category. Sometimes no solution can be
-                           proposed but it still seems worth marking the problem.</item>
+                        <item n="7">If the text is or appears to be suspect on other grounds.
+                           Numbers are responsible for most of this category. Sometimes no solution
+                           can be proposed but it still seems worth marking the problem.</item>
                      </list></p>
 
                   <p>Parallel passages are often cited in the apparatus to defend the text, a
@@ -1252,10 +1249,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      conflicting evidence.</p>
 
                   <p>Orthographical variants and the related category of abbreviations abound in
-                     this tradition (see <!-- TODO: Get the pages for this reference. -->Damon
-                     2015a, PAGES). They are generally ignored in the apparatus, unless a variant
-                     helps explain subsequent innovations, as is sometimes the case for
-                     abbreviations in particular. </p>
+                     this tradition (see Damon 2015a, xxiii). They are generally ignored in the
+                     apparatus, unless a variant helps explain subsequent innovations, as is
+                     sometimes the case for abbreviations in particular. </p>
 
                   <p>Citations for works of classical literature are given in the abbreviated forms
                      standardized by the <hi rend="italic">OLD</hi> and Liddell-Scott-Jones. (With
@@ -1369,44 +1365,50 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
             <!-- Begin acknowledgements. -->
             <div type="section" xml:id="preface-acknowledgements">
-               <head>Acknowledgements <hi rend="background(yellow)">WORK HERE</hi></head>
+               <head>Acknowledgements</head>
 
-               <p>Balex acknowledgments</p>
-               <p>Penn’s Price Lab for Digital Humanities (2016-17<note place="bottom"
-                     xml:id="ftn36" n="36"><p>Price Lab blurb: <ref
-                           target="https://pricelab.sas.upenn.edu/fellows/damon-cynthia"
-                           >https://pricelab.sas.upenn.edu/fellows/damon-cynthia</ref>.
-                  </p></note>),</p>
-               <p>Sean Carpenter: worked out a manuscript transcription protocol compatible with
-                  automatic collation and produced directories of abbreviations to guide future
-                  transcribers of this tradition (summer 2014, 10 weeks, 20hrs per week, $3000 PURM
-                  funding)</p>
-               <p>Greg Crane: contacts within the world of digital philology</p>
-               <p>Uwe Springmann: OCR for scans of early editions, essential for census of
-                  emendations</p>
-               <p>Katie Rawson, Van Pelt Library, converting scans to pages for OCR</p>
-               <p>Dallas Simons, CLST grad student, converting scans to pages for OCR and cleaning
-                  up results of LATN 540 work, adding hyperlinks to ???</p>
-               <p>???, preparing census editionum from machine-collations of early editions and
-                  scrutiny of critical notes and apparatus from many others. </p>
-               <p>STUDENTS IN fall 2014 PB and spring 2015 LATN 540 courses</p>
-               <p rend="normal">spring 2015 LATN 540, responsibility for paragraphs in BAlex
-                  1-33</p>
-               <p rend="normal">1-6, 27 Dallas</p>
-               <p rend="normal">7 class project</p>
-               <p rend="normal">8-11, 28-29 Scheherazade</p>
-               <p rend="normal">12-14 Tom</p>
-               <p rend="normal">15-16 Amy</p>
-               <p rend="normal">17-19 Addie</p>
-               <p rend="normal">20-24 Greg</p>
-               <p rend="normal">25-26 Marcie</p>
-               <p rend="normal">30-33 Kate</p>
-               <p>HS students winter and summer 2016 (transcription)</p>
-               <p>Jessica Shaw</p>
-               <p>Isaac Rand</p>
-               <p>Addie McKenzie</p>
-               <p>zachary Elliott and Molly for conversion help</p>
-               <p>Amy Lewis for checking </p>
+               <p>As we said at the outset, this edition rests on the work of many contributors. It
+                  couldn’t have been done without them, or without the financial and other forms of
+                  support for research provided by the Andrew W. Mellon Foundation and our two home
+                  institutions, the University of Pennsylvania and the University of Oklahoma. Our
+                  largest debts are recorded below, but the process has been a long one and we are
+                  grateful to all who kept us company along the way, even on the “paths not (or not
+                  yet) taken” that are an inevitable part of a project as complex as this one proved
+                  to be. Information on the collaborations and support that resulted in the platform
+                  and protocols that host and govern this edition can be found at the <ref
+                     target="https://digitallatin.org/">Digital Latin Library</ref> and the <ref
+                     target="https://ldlt.digitallatin.org/">Library of Digital Latin
+                  Texts</ref>.</p>
+
+               <p>Students at the University of Pennsylvania transcribed and collated the manuscript
+                  witnesses and produced the text, critical apparatus, appendix critica, and
+                  translation. The contributors were undergraduates, students in the Postbac
+                  program, and graduate students in Classical Studies and Ancient History, along
+                  with some Philadelphia-area high school students: Adrienne Atkins, Katie Becker,
+                  Amelia Bensch-Schaus, Jacob Bickford, Nicholas Bolig, Victoria Burmeister, Sean
+                  Carpenter, Greg Callaghan, Brian Credo, Maxwell Dietrich, Alexis Frankel, Kathleen
+                  Garland, Nikola Golubovic, Wesley Hanson, Zachary Herbster, Xinyi Huang, Molly
+                  Hutt, Johanna Kaiser, Elizabeth Keyser, Scheherazade Khan, Peter Kotiuga, Maria
+                  Kovalchuk, Shenda Kuang, Amy Lewis, Scotland Long, Nicole Love, Daniel Mackey,
+                  Kate Murphy, Addie McKenzie, Theodora Naqvi, Jeffrey Nolte, Kristen Patterson,
+                  Marcie Persyn, Harrison Powell, Isaac Rand, Annamaria Rapsomanikis, Rudolf Rauk,
+                  Isabella Reinhardt, Joshua Renfro, Janelle Sadarananda, Jessica Shaw, Dallas
+                  Simons, Julia Simons, Brandon Stark, Benjamin Turnbull, Tom Vozar, Tim Warnock,
+                  Joseph Watkins, Duo Xu, Yingchao Zhu. You will find the names of some of these
+                  students in the edition itself as the sources of emendations to the text and
+                  authors of notes on difficult spots in the text. Special mention goes to: Sean
+                  Carpenter, who with the support of a grant from Penn’s Undergraduate Research
+                  Mentoring Program developed a transcription protocol compatible with automatic
+                  collation and produced directories of manuscript abbreviations; Dallas Simons, who
+                  helped edit the apparatus notes and prepared page images from early editions for
+                  Optical Character Recognition (one of those paths not yet taken, for which we also
+                  received help and advice from Greg Crane, Uwe Springmann, and Katie Rawson); Amy
+                  Lewis, who helped edit the apparatus notes and appendix critica; and Zachary
+                  Elliott, who along with his wife Molly Cowan tested approaches to automating the
+                  conversion of traditional apparatus notes into spreadsheet form. Support both
+                  financial and technical was provided by Penn’s <ref
+                     target="https://pricelab.sas.upenn.edu/fellows/damon-cynthia">Price Lab for
+                     Digital Humanities</ref>.</p>
             </div>
             <!-- End acknowledgements. -->
          </div>
@@ -1446,10 +1448,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            exemplar, sometimes not.</witness>
                         <witness xml:id="M8"><abbr type="siglum">M*</abbr>An asterisk marks readings
                            in M that prompted a correction—not necessarily a successful one—by M<hi
-                              rend="italic">mr</hi>.” M* only appears in the <ref
-                              target="#appendix-critica"><hi rend="italic">Appendix
-                              Critica</hi></ref>, so the notation could be included there and not
-                           here.</witness>
+                              rend="superscript">mr</hi>.</witness>
                      </listWit>
                   </witness>
                   <!-- End witness M -->
@@ -1527,8 +1526,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <head>Occasionally cited</head>
                   <witness xml:id="N"><abbr type="siglum">N</abbr>Naples, BN IV.C.11 (s. xi), cited
                      where <ref target="#S">S</ref> is lacunose.</witness>
-                  <witness xml:id="stigma"><abbr type="siglum">ϛ</abbr>A reading found in one or more
-                     later manuscripts.</witness>
+                  <witness xml:id="stigma"><abbr type="siglum">ϛ</abbr>A reading found in one or
+                     more later manuscripts.</witness>
                </listWit>
                <!-- End list of occasionally cited MSS -->
             </div>
@@ -1780,10 +1779,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         Cynthia</author>. <title>Studies on the text of Caesar’s Bellum
                         civile</title>. <pubPlace>Oxford</pubPlace>. <date>2015</date>.</bibl>
 
-                  <bibl xml:id="Damon-parentheses"><abbr type="siglum">Damon
-                        (forthcoming)</abbr><author>Damon, Cynthia</author>. <title level="a">On
-                        (authorial and other) parentheses in Caesar’s <hi rend="italic"
-                           >commentarii</hi>.</title> (forthcoming).</bibl>
+                  <bibl xml:id="Damon2020"><abbr type="siglum">Damon 2020</abbr><author>Damon,
+                        Cynthia</author>. <title level="a">On (authorial and other) parentheses in
+                        Caesar’s <hi rend="normal">commentarii</hi>.</title> In L. Curtis and I.
+                     Peirano Garrison, eds. <title level="m">The lives of Latin texts</title>.
+                        <pubPlace>Cambridge, MA</pubPlace>. <biblScope unit="page"
+                     >55–89</biblScope>. <date>2020</date>.</bibl>
 
                   <!-- TODO Damon and Huskey (in preparation) paper on LDLT BAlex? -->
 
@@ -2094,7 +2095,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <note>Member of the Latin 540 class (spring 2015).</note>
                   </person>
                   <person xml:id="Bensch-Schaus">
-                     <persName><abbr type="siglum">Bensch-Schaus</abbr>Amelia Bensch-Schaus</persName>
+                     <persName><abbr type="siglum">Bensch-Schaus</abbr>Amelia
+                        Bensch-Schaus</persName>
                      <note>Member of the Latin 540 class (spring 2017).</note>
                   </person>
                   <person xml:id="Brutus">
@@ -2734,7 +2736,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <div type="edition" xml:id="edition-text">
             <head>Bellum Alexandrinum</head>
-            
+
             <div type="textpart" xml:id="part1" n="1">
                <p n="1"><seg n="1">Bello Alexandrino conflato Caesar Rhodo atque ex Syria Ciliciaque
                      omnem classem arcessit. Creta sagittarios, equites ab rege Nabataeorum Malcho
@@ -2929,8 +2931,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            >praeoccupat Arsinoe per Ganymeden eunuchum, nutricium suum, atque
                            Achillan</lem>
                         <note
-                           target="lem-4.1-praeoccupat-Arsinoe-per-Ganymeden-eunuchum,-nutricium-suum,-atque-Achillan"
+                           target="lem-4.1-praeoccupat-Arsinoe-per-Ganymeden-eunuchum-nutricium-suum-atque-Achillan"
                            >(de usu absoluto u. TLL 10.2.743.7–20)</note>
+                        <!-- TODO: Make sure that note made it in -->
                         <rdg source="#Fleischer"
                            xml:id="rdg-4.1-praeoccupat-Arsinoe-per-Ganymeden-eunuchum-nutricium-suum-atque-Achillan"
                            >praeoccupat Arsinoe per Ganymeden eunuchum, nutricium suum, Achillan
@@ -3405,8 +3408,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <!-- App entry for 12.3: non tamen --><app>
                         <lem wit="#M #U" xml:id="lem-12.3-non-tamen">non tamen</lem>
                         <rdg wit="#S #Tac #V" xml:id="rdg-12.3-tamen">tamen</rdg>
-                        <note target="#rdg-12.3-tamen">(<hi rend="normal">non</hi> post cogitationem
-                           suppleuit <ref target="#Tc">T<hi rend="superscript">c</hi></ref>)</note>
+                        <note target="#rdg-12.3-tamen">(<hi rend="normal">non</hi> post <hi
+                              rend="normal">cogitationem</hi> suppleuit <ref target="#Tc">T<hi
+                                 rend="superscript">c</hi></ref>)</note>
                      </app> reparandae classis cogitationem deposuerunt.</seg>
                   <seg n="4">Videbant enim non auxilia <!-- App entry for 12.4: Caesaris --><app>
                         <lem wit="#M #U #S #T #V" xml:id="lem-12.4-Caesaris">Caesaris</lem>
@@ -3607,7 +3611,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <rdg wit="#Tc" xml:id="rdg-15.6-remi-detegerentur">remi detegerentur</rdg>
                         <rdg source="#Hedicke" xml:id="rdg-15.6-remi-detererentur">remi
                            detererentur</rdg>
-                        <note target="#rdg-15.6-remi-detererentur">scholium teste</note>
+                        <note target="#rdg-15.6-remi-detererentur">teste scholium</note>
                         <rdg wit="#S" xml:id="rdg-15.6-rem-detergerent">rem’ detergerent</rdg>
                      </app>, sed semper uenientibus aduersae occurrerent.</seg>
                   <seg n="7">Interim sunt reliquae subsecutae. Tum necessario discessum ab arte est
@@ -3783,8 +3787,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <rdg wit="#S #T #V" xml:id="rdg-17.2-et-illa-in-urbem">et illa in
                            urbem</rdg>
                         <rdg source="#Aldus" xml:id="rdg-17.2-et-illam-sc.insulam">et illam <hi
-                              rend="italic">(sc.</hi> insulam<hi rend="italic">)</hi>
-                           <hi rend="normal">insulam</hi><hi rend="italic">)</hi> et urbem</rdg>
+                              rend="italic">(sc.</hi> insulam<hi rend="italic">)</hi> et urbem</rdg>
                         <note target="#rdg-17.2-et-illam-sc.insulam">(u. BC 3.112.6)</note>
                         <rdg source="#Jurinius" xml:id="rdg-17.2-Jurinius">et insulam et urbem</rdg>
                         <rdg source="#Nipperdey" xml:id="rdg-17.2-Nipperdey">etiam illa <hi
@@ -4081,8 +4084,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <seg n="6">Quorum pars proximas nacta naues <!-- App entry for 20.6: multitudine hominum atque onere --><app>
                         <lem wit="#M #U #T #V" xml:id="lem-20.6-multitudine-hominum-atque-onere"
                            >multitudine hominum atque onere</lem>
-                        <note target="#lem-20.6-multitudine-hominum-atque-onere">()</note>
-                        <note>an secludendum ut glossema de BC 2.43.4 sumptum?</note>
+                        <note target="#lem-20.6-multitudine-hominum-atque-onere">(an secludendum ut
+                           glossema de BC 2.43.4 sumptum?)</note>
                      </app> depressa est, pars resistens et dubitans quid esset capiendum consili ab
                      Alexandrinis interfecta est. Nonnulli feliciore exitu expeditas ad ancoram
                      naues consecuti incolumes discesserunt, pauci <!-- App entry for 20.6: alleuatis scutis et animo ad conandum nisi --><app>
@@ -4393,8 +4396,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <rdg source="#Oudendorp" xml:id="rdg-25.5-illic-triremem">illic
                            triremem</rdg>
                      </app> hostium <!-- App entry for 25.5: perforasset ac demersisset --><app>
-                        <lem wit="#stigma" xml:id="lem-25.5-perforasset-ac-demersisset">perforasset ac
-                           demersisset</lem>
+                        <lem wit="#stigma" xml:id="lem-25.5-perforasset-ac-demersisset">perforasset
+                           ac demersisset</lem>
                         <note target="#lem-25.5-perforasset-ac-demersisset">teste Oudendorp (sc. <hi
                               rend="normal">Euphranor</hi>)</note>
                         <rdg wit="#M #U #S #T #V" xml:id="rdg-25.5-perforassent-ac-demersissent"
@@ -4440,7 +4443,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            8; de tempore cf. 61.4)</note>
                         <rdg source="#Aldus" xml:id="rdg-26.2-Pelusium-adduxit">Pelusium
                            adduxit</rdg>
-                        <note target="#rdg-26.2-Pelusium-aduenit">(cf. 43.4)</note>
+                        <note target="#rdg-26.2-Pelusium-adduxit">(cf. 43.4)</note>
                         <rdg source="#Dauisius1727" xml:id="Pelusium-aduenit">Pelusium aduenit</rdg>
                         <note target="#Pelusium-aduenit">(cf. Liu. 42.56.3)</note>
                         <rdg source="#Vielhaber1869" xml:id="rdg-26.2-ad-Pelusium-uenit">ad Pelusium
@@ -4587,7 +4590,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            secluserit</note>
                         <rdg source="#Klotz" xml:id="rdg-27.5-Klotz">constantiaque uirtutum et
                            Alexandrinorum imprudentia</rdg>
-                        <note target="rdg-27.5-Klotz">post <hi rend="normal">facta</hi>
+                        <note target="#rdg-27.5-Klotz">post <hi rend="normal">facta</hi>
                            transposuerit</note>
                      </app> nostra castris uallatis sustinuit. Cum uero <!-- App entry for 27.5: incaute --><app>
                         <lem wit="#M #U" xml:id="lem-27.5-incaute">incaute</lem>
@@ -5154,11 +5157,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </app> Domitius eas angustias transiret, nihil de insidiis suspicaretur cum in
                      agris et pecora et homines animaduerteret uersari tamquam amicorum <!-- App entry for 36.5: tamquam amicorum aduentu -->
                      <app>
-                        <lem source="#Hoffmann1857" xml:id="lem-36.5-Hoffman">aduentu sin</lem>
+                        <lem source="#Hoffmann1857" xml:id="lem-36.5-Hoffman">aduentu, sin</lem>
                         <note target="#lem-36.5-Hoffman">(cf. 24.1)</note>
                         <rdg wit="#M #U #S #T #V" xml:id="rdg-36.5-aduentus-MUSTV">aduentus</rdg>
-                        <rdg wit="#stigma">aduentu sin uero</rdg>
-                        <note target="#rdg-36.5-aduentus-MUSTV">teste Oudendorp</note>
+                        <rdg wit="#stigma" xml:id="rdg-36.5-aduentu-sin-vero">aduentu sin uero</rdg>
+                        <note target="#rdg-36.5-aduentu-sin-vero">teste Oudendorp</note>
                         <rdg source="#Nipperdey" xml:id="rdg-36.5-Nipperdey">aduentu siue
                            inimicus</rdg>
                         <note target="#rdg-36.5-Nipperdey">coll. Cic. Phil. 14.13, Fin. 1.3 (u. et
@@ -5168,7 +5171,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <rdg source="#Andrieu" xml:id="rdg-36.5-Andrieu">aduentu si</rdg>
                         <note target="#rdg-36.5-Andrieu">(de coniunctione iterata cf. BC
                            3.78.3)</note>
-                     </app>, ut in hostium fines ueniret, praeda diripienda milites dissiparentur
+                     </app> ut in hostium fines ueniret, praeda diripienda milites dissiparentur
                      dispersique caederentur.</seg></p>
 
                <p n="37"><seg n="1">Haec cum administraret <!-- App entry for 37.1: numquam tamen --><app>
@@ -5908,7 +5911,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                  >describerentur</lem>
                               <note target="#lem-51.3-describerentur">(deest V; de orthographia u.
                                  TLL 5.1.663.39–46)</note>
-                              <rdg wit="#stigma" xml:id="rdg-51.3-discriberentur">discriberentur</rdg>
+                              <rdg wit="#stigma" xml:id="rdg-51.3-discriberentur"
+                                 >discriberentur</rdg>
                               <note target="#rdg-51.3-discriberentur">teste <ref target="#Dübner"
                                     >Dübner</ref></note>
                            </app> atque imperarentur, ne</lem>
@@ -5945,7 +5949,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <lem source="#Oudendorp" xml:id="lem-52.2-auersum">auersum</lem>
                         <note target="#lem-52.2-auersum"><hi rend="italic">(sc.</hi>
                            <hi rend="normal">Cassium</hi>) uel <hi rend="normal">conuersum</hi>
-                           <hi rend="italic">cf. Nep. Dat. 11 uel Apul. Met. 2.13)</hi></note>
+                           <hi rend="italic">(cf. Nep. Dat. 11 uel Apul. Met. 2.13)</hi></note>
                         <rdg wit="#S #T" xml:id="rdg-52.2-uersum">uersum</rdg>
                         <rdg wit="#V" xml:id="rdg-52.2-usum">usum</rdg>
                         <rdg wit="#M #U" xml:id="rdg-52.2-uerso">uerso</rdg>
@@ -6202,8 +6206,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <note>alii alia</note>
                      </app> dilectum instituit. Quos ex omnibus conuentibus coloniisque <!-- App entry for 56.4: conscriptos --><app>
                         <lem wit="#M #U #S #T #V" xml:id="lem-56.4-conscriptos">conscriptos</lem>
-                        <rdg wit="#stigma" xml:id="rdg-56.4-conscriptos-habebat-addition">conscriptos
-                              <supplied reason="lost">habebat</supplied></rdg>
+                        <rdg wit="#stigma" xml:id="rdg-56.4-conscriptos-habebat-addition"
+                           >conscriptos <supplied reason="lost">habebat</supplied></rdg>
                         <note target="#rdg-56.4-conscriptos-habebat-addition">teste <ref
                               target="#Clarke">Clarke</ref> (cf. 34.4)</note>
                      </app>, transmarina militia perterritos, ad sacramenti redemptionem uocabat.
@@ -6368,7 +6372,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            prev="#lem-58.1-dictitabat">Et forsitan etiam hoc fecerit odio Caesaris
                            et amore Pompei, cuius nomen multum poterat apud eas legiones quas M.
                            Varro obtinuerat, sed id qua mente communis <app>
-                              <lem xml:id="lem-58.2-erat">erat</lem>
+                              <lem xml:id="lem-58.2-erat" wit="#M #U #S #T #V">erat</lem>
                               <rdg source="#Madvig" xml:id="rdg-58.2-erit">erit</rdg>
                               <note target="#rdg-58.2-erit">coll. Liu. 4.20.8</note>
                               <rdg source="#Schneider" xml:id="rdg-58.2-est">est</rdg>
@@ -6379,11 +6383,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <note target="#lem-58.2-Torius">teste Andrieu </note>
                               <rdg wit="#M #U #S #T #V" xml:id="rdg-58.2-thorius">thorius</rdg>
                            </app> ferebat</lem>
-                        <note target="#lem-58.2-transposition"><hi rend="normal">sed ...
+                        <note target="#lem-58.2-transposition">| <hi rend="normal">sed ...
                               coniectura</hi> post <hi rend="normal">dictitabat</hi> transposuit
                            Landgraf 1889; <hi rend="normal">sed ... ferebat</hi> post <hi
-                              rend="normal">dictitabat</hi> transposuit Klotz 'ut uerba milites adeo
-                           fatebantur (sc. amorem Pompei) suam habeant uim' sed cf. 57.6</note>
+                              rend="normal">dictitabat</hi> transposuit Klotz ‘<hi rend="normal">ut
+                              uerba milites adeo fatebantur (</hi>sc. <hi rend="normal">amorem
+                              Pompei) suam habeant uim</hi>' sed cf. 57.6</note>
                      </app>.</seg>
                   <seg n="3">Milites adeo fatebantur ut Cn. Pompei nomen in scutis <!-- App entry for 58.3: inscriptum --><app>
                         <lem wit="#U #S #T" xml:id="lem-58.3-inscriptum">inscriptum</lem>
@@ -6953,7 +6958,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <lem wit="#M #U #S #T #V"
                            xml:id="lem-66.4-iure-minime-dubio-uetustate-tamen">iure minime dubio,
                            uetustate tamen</lem>
-                        <note target="#lem-66.4-iure-minime-dubio-uetustate-tamen">post <hi
+                        <note target="#lem-66.4-iure-minime-dubio-uetustate-tamen"> | post <hi
                               rend="normal">ortus</hi> transposuit Schiller 1889 coll. Flor. Epit.
                            3.13.7</note>
                      </app> intermisso, <!-- App entry for 66.4: sacerdotium --><app>
@@ -7023,7 +7028,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </app> habuisset <!-- App entry for 67.1: <et coactus> exercitibus imperiisque --><app>
                         <lem source="#Bensch-Schaus"
                            xml:id="lem-67.1-et-coactus-exercitibus-imperiisque"><supplied
-                              reason="lost">et coactus</supplied> exercitibus imperiisque</lem>
+                              reason="lost">et coactus</supplied> exercitibus imperiisque,</lem>
                         <note target="#lem-67.1-et-coactus-exercitibus-imperiisque">(cf. 43.1; <hi
                               rend="normal"><supplied reason="lost">coactus</supplied></hi> iam
                            Hoffmann 1890)</note>
@@ -7194,7 +7199,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <lem source="#Dinter" xml:id="lem-70.4-quamquam">quamquam</lem>
                         <note target="#lem-70.4-quamquam">(cf. 11.2)</note>
                         <rdg wit="#M #U #S #T #V" xml:id="rdg-70.4-quam">quam</rdg>
-                        <rdg wit="#stigma" xml:id="rdg-70.4-quam-deletion"><surplus>quam</surplus></rdg>
+                        <rdg wit="#stigma" xml:id="rdg-70.4-quam-deletion"
+                           ><surplus>quam</surplus></rdg>
                         <note target="#rdg-70.4-quam-deletion">teste <ref target="#Oudendorp"
                               >Oudendorp</ref></note>
                         <rdg source="#Nipperdey" xml:id="rdg-70.4-quin">quin</rdg>
@@ -7328,16 +7334,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               post</hi> unus <hi rend="italic">Klotz dubitanter, post</hi>
                            nobilitatem <hi rend="italic">Morus dubitanter, post</hi> Zela <hi
                               rend="italic">Madvig 1.48–49</hi></rdg>
-                        <rdg source="#Vielhaber1869" xml:id="rdg-72.2-Vielhaber"><hi rend="italic">seclusit ut glossema <ref
-                                 target="#Vielhaber1869">Vielhaber 1869</ref></hi></rdg>
+                        <rdg source="#Vielhaber1869" xml:id="rdg-72.2-Vielhaber"><hi rend="italic"
+                              >seclusit ut glossema</hi></rdg>
                         <note>alii alia</note>
                      </app>, magnam in illis partibus habet nobilitatem <!-- App entry for 72.2: nec --><app>
                         <lem wit="#M #U #S #T #V" xml:id="lem-72.2-nec">nec</lem>
                         <rdg source="#Morus" xml:id="rdg-72.2-non">non</rdg>
                         <note target="#rdg-72.2-non">dubitanter</note>
-                     </app> multo longius milibus passuum III abest ab Zela—</seg><seg n="3"> hunc
-                     locum Pharnaces, ueteribus paternorum felicium castrorum refectis operibus,
-                     copiis suis omnibus occupauit.</seg></p>
+                     </app> multo longius milibus passuum tribus abest ab Zela—</seg><seg n="3">
+                     hunc locum Pharnaces, ueteribus paternorum felicium castrorum refectis
+                     operibus, copiis suis omnibus occupauit.</seg></p>
 
                <p n="73"><seg n="1">Caesar cum ab hoste milia passuum V castra posuisset uideretque
                      eas ualles quibus regia castra munirentur eodem interuallo sua castra <!-- App entry for 73.1: munituras --><app>
@@ -9773,9 +9779,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      uero</foreign>, do we see that the point of our passage is that it would be a
                   waste of time to argue that the fears were misplaced, since the evidence for
                   Alexandrian treacherousness is close to hand.<note place="bottom"><ref
-                        target="#Vielhaber1869">Vielhaber</ref> suggested that the interpolation excised
-                     by <ref target="#Gruterus">Gruterus</ref> displaced some original text, the
-                     sense of which is perhaps preserved in <foreign xml:lang="la">aptissimum …
+                        target="#Vielhaber1869">Vielhaber</ref> suggested that the interpolation
+                     excised by <ref target="#Gruterus">Gruterus</ref> displaced some original text,
+                     the sense of which is perhaps preserved in <foreign xml:lang="la">aptissimum …
                         potest</foreign> (1869, <ref
                         target="https://hdl.handle.net/2027/hvd.32044098632391?urlappend=%3Bseq=633"
                         >555</ref>).</note> As <ref target="#Madvig">Madvig</ref> says, Incertus
@@ -11214,8 +11220,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      Fleischer’s own well-supported correction to the text. Authors of emendations
                      include <ref target="#Stephanus">Stephanus</ref>, <ref target="#Vascosanus"
                         >Vascosanus</ref>, <ref target="#Schneider">Schneider</ref>, <ref
-                        target="#Dinter">Dinter</ref>, <ref target="#Vielhaber1869">Vielhaber</ref>, and
-                        <ref target="#Fleischer">Fleischer </ref> himself, as well as
+                        target="#Dinter">Dinter</ref>, <ref target="#Vielhaber1869">Vielhaber</ref>,
+                     and <ref target="#Fleischer">Fleischer </ref> himself, as well as
                      <!-- Note that this is in Jungermann? -->Glandorp,
                      <!-- Which Davisius?-->Davisius, <!-- Which Landgraf? -->Landgraf, and <ref
                         target="#Klotz">Klotz</ref>.</note> , but attempts to repair the syntax have
@@ -11283,21 +11289,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      >ad</foreign> (<foreign xml:lang="la">cum ad Canopum uentum
                   esset</foreign>).</p>
 
-               <p><ref target="#Vielhaber1869">Vielhaber</ref>’s emendation does depend on a two-step
-                  error and on the superfluous inclusion of the preposition <foreign xml:lang="la"
-                     >ad</foreign> with <foreign xml:lang="la">Pelusium</foreign>, an unnecessary
-                  word despite the parallel at 25.5. Indeed, <foreign xml:lang="la">uenit</foreign>
-                  is used with a designated destination without a linking preposition at 63.1: …
-                     <foreign xml:lang="la">et reliquorum auxiliorum uenit ea mente Vliam ut sine
-                     ullo studio contentiones Cassii Marcellique componeret</foreign>.<note
-                     place="bottom">Despite the “home-Rome” rule regarding the superfluity of
-                     prepositions with proper names of cities with accusatives showing direction
-                     (see <foreign xml:lang="la">AG</foreign> 427.2), the <hi rend="italic">Bellum
-                        Alexandrinum</hi> is somewhat inconsistent in this grammatical construction.
-                     At 58.1, <foreign xml:lang="la">adducit</foreign> is used with the preposition
-                        <foreign xml:lang="la">ad Cordubam</foreign>; at 42.4, <foreign
-                        xml:lang="la">adducit</foreign> is used with <foreign xml:lang="la"
-                        >in</foreign>
+               <p><ref target="#Vielhaber1869">Vielhaber</ref>’s emendation does depend on a
+                  two-step error and on the superfluous inclusion of the preposition <foreign
+                     xml:lang="la">ad</foreign> with <foreign xml:lang="la">Pelusium</foreign>, an
+                  unnecessary word despite the parallel at 25.5. Indeed, <foreign xml:lang="la"
+                     >uenit</foreign> is used with a designated destination without a linking
+                  preposition at 63.1: … <foreign xml:lang="la">et reliquorum auxiliorum uenit ea
+                     mente Vliam ut sine ullo studio contentiones Cassii Marcellique
+                     componeret</foreign>.<note place="bottom">Despite the “home-Rome” rule
+                     regarding the superfluity of prepositions with proper names of cities with
+                     accusatives showing direction (see <foreign xml:lang="la">AG</foreign> 427.2),
+                     the <hi rend="italic">Bellum Alexandrinum</hi> is somewhat inconsistent in this
+                     grammatical construction. At 58.1, <foreign xml:lang="la">adducit</foreign> is
+                     used with the preposition <foreign xml:lang="la">ad Cordubam</foreign>; at
+                     42.4, <foreign xml:lang="la">adducit</foreign> is used with <foreign
+                        xml:lang="la">in</foreign>
                      <foreign xml:lang="la">Macedoniam</foreign>, reflecting the use of a
                      preposition to advancement within a country (<foreign xml:lang="la"
                         >AG</foreign> 428c). Similarly, variations and inconsistencies exist within
@@ -11552,8 +11558,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   consuetudine <hi rend="italic">ed.pr.</hi> | constantiaque militum et
                   Alexandrinorum imprudentia consuetudine ϛ <hi rend="italic">teste Ciacconio</hi> |
                   constantiaque uirtutis tum Alexandrinorum imprudentia <hi rend="italic">Madvig,
-                     qui magna supra secluserit</hi> | constantiaque uirtutum et Alexandrinorum
-                  imprudentia post facta transposuerit <hi rend="italic">Klotz</hi></quote>
+                     qui</hi>
+                  <hi rend="normal">magna</hi>
+                  <hi rend="italic">supra secluserit</hi> | constantiaque uirtutum et Alexandrinorum
+                  imprudentia <hi rend="italic">post</hi> facta <hi rend="italic">transposuerit
+                     Klotz</hi></quote>
 
                <p>The ungainly sentence presented by the paradosis here accumulated substantive
                   innovations in the process of transmission and has accordingly been the object of
@@ -11573,10 +11582,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      >prudentia</foreign>, is transmitted in <hi rend="italic">ST</hi> alongside a
                   variant, <foreign xml:lang="la">potentia</foreign>, that must go back at least to
                   their common source, <hi rend="italic">nu</hi>, or perhaps all the way to the
-                     archetype.<note place="bottom">On variants in the archetype see <hi
-                        rend="italic">Damon 2015b,</hi> 58–59. They are usually visible in the <hi
-                        rend="italic">mu</hi> family, not, as here, in descendants of <hi
-                        rend="italic">nu</hi>.</note></p>
+                     archetype.<note place="bottom">On variants in the archetype see Damon 2015b,
+                     58–59. They are usually visible in the <hi rend="italic">mu</hi> family, not,
+                     as here, in descendants of <hi rend="italic">nu</hi>.</note></p>
 
                <p>The version of the sentence found in <hi rend="italic">S</hi> appears in editions
                   from the <hi rend="italic">editio princeps</hi> onwards (the only early exception
@@ -12047,13 +12055,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <hi rend="italic"><ref target="#Klotz">Klotz</ref></hi> (1927, ad loc.) </quote>
 
                <quote rend="blockquote">cuius itineris has esse cernebat opportunitates <hi
-                     rend="italic"><ref target="#Vielhaber1869">Vielhaber</ref></hi> (1869, 570)<note
-                     place="bottom">Although <foreign xml:lang="la">cernere</foreign> usually
-                     denotes visual perception rather than realization in the <foreign xml:lang="la"
-                        >corpus Caesarianum</foreign>, it does govern indirect statement at <hi
-                        rend="italic">BC</hi> 3.69.4 <foreign xml:lang="la">cum … Pompeium adesse …
-                        cernerent</foreign>. For <ref target="#Vielhaber1869">Vielhaber</ref>’s argument
-                     see <!-- SJH: I changed this to remove the note number --> note <ptr
+                     rend="italic"><ref target="#Vielhaber1869">Vielhaber</ref></hi> (1869,
+                     570)<note place="bottom">Although <foreign xml:lang="la">cernere</foreign>
+                     usually denotes visual perception rather than realization in the <foreign
+                        xml:lang="la">corpus Caesarianum</foreign>, it does govern indirect
+                     statement at <hi rend="italic">BC</hi> 3.69.4 <foreign xml:lang="la">cum …
+                        Pompeium adesse … cernerent</foreign>. For <ref target="#Vielhaber1869"
+                        >Vielhaber</ref>’s argument see
+                     <!-- SJH: I changed this to remove the note number --> note <ptr
                         target="#stba-35.3-note-3"/>.</note></quote>
 
                <p>But the absence of a main verb is not the only problem here. The adjective
@@ -12457,12 +12466,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   elsewhere in the <title>Bellum Alexandrinum</title> (24.1, 42.4), the sequence
                      <foreign xml:lang="la">siue … siue … sin</foreign> in Cicero (<hi rend="italic"
                      >De orat</hi>. 2.292, <foreign xml:lang="la">Att</foreign>. 7.3.2). Hoffmann’s
-                  repair implies a two-part innovation (<foreign xml:lang="la">aduentu</foreign>
-                  =⟩ <foreign xml:lang="la">aduentus</foreign>, <foreign xml:lang="la"
-                     >in</foreign> is omitted) but neither stage is <foreign xml:lang="la">per
-                     se</foreign> implausible and the fact that they involve the same spot in the
-                  text is a distinct advantage over the repairs discussed so far. <ref
-                     target="#Dübner">Dübner</ref> adopted it, and so do we.</p>
+                  repair implies a two-part innovation (<foreign xml:lang="la">aduentu</foreign> =⟩
+                     <foreign xml:lang="la">aduentus</foreign>, <foreign xml:lang="la">in</foreign>
+                  is omitted) but neither stage is <foreign xml:lang="la">per se</foreign>
+                  implausible and the fact that they involve the same spot in the text is a distinct
+                  advantage over the repairs discussed so far. <ref target="#Dübner">Dübner</ref>
+                  adopted it, and so do we.</p>
             </div>
             <!-- End of STBA 36.4-5 -->
 
@@ -12480,17 +12489,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      the trench so that it could attack the enemy on its open flank, was stopped and
                      overwhelmed in very act of crossing the trench.”</note></quote>
 
-               <quote rend="blockquote" type="apparatus">aduersa (<hi rend="italic">cf. 20.5 et u.
-                     infra</hi>) | auersa (<hi rend="italic">u. TLL 2.1323.63–66 ‘de
-                     fugientibus’</hi>) || circumire ac transcendere (<hi rend="italic">cf. BC
-                     3.46.3</hi>) | circumire acies secundo : circumire acies secunda | circumire
-                  acie secunda <hi rend="italic">Madvig (u. TLL 1.409.41–81 ‘i. q. proelium’</hi> )
-                  | circumire <surplus>acies</surplus> secundo (<hi rend="italic">sc</hi>. post
-                     recessum<hi rend="italic">?</hi>) | circumire <surplus>acies secundo</surplus>
+               <quote rend="blockquote" type="apparatus">aduersa <hi rend="italic">Madvig</hi>(<hi
+                     rend="italic">cf. 20.5 et u. infra</hi>) | auersa <hi rend="italic">MUSTV</hi>
+                     (<hi rend="italic">u. TLL 2.1323.63–66 ‘de fugientibus’</hi>) || circumire ac
+                  transcendere <hi rend="italic">Nipperdey</hi> (<hi rend="italic">cf. BC
+                     3.46.3</hi>) | circumire acies secundo <hi rend="italic">MUSTV</hi> | circumire
+                  acies secunda <hi rend="italic">Lipsius teste Oudendorp, sensu et uerborum ordine
+                     repugnante</hi> | circumire acie secunda <hi rend="italic">Madvig (u. TLL
+                     1.409.41–81 ‘i. q. proelium’</hi> ) | circumire <surplus>acies</surplus>
+                  secundo (<hi rend="italic">sc</hi>. post recessum<hi rend="italic">?</hi>) <hi
+                     rend="italic">Gruterus</hi> | circumire <surplus>acies secundo</surplus>
                   <hi rend="italic">Dauisius 1727 ut glossema ineptum ad 40.1</hi> (<hi
                      rend="italic">u. et infra</hi>) | transire ut secunda acies <hi rend="italic"
                      >Ciacconius dubitanter, alii alia</hi> || transitu <hi rend="italic">MUSTV</hi>
-                  | circuitu <hi rend="italic">Dauisius 1727</hi>7 (u. et supra) || aperto (<hi
+                  | circuitu <hi rend="italic">Dauisius 1727</hi> (u. et supra) || aperto (<hi
                      rend="italic">cf. BG 1.25.6</hi>) | ab aperto (<hi rend="italic">cf. BC
                      3.86.3</hi>)</quote>
 
@@ -13381,10 +13393,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      target="https://hdl.handle.net/2027/njp.32101076454485?urlappend=%3Bseq=262"
                      >2.26</ref>). <foreign xml:lang="la">Simul et</foreign> links the two modes of
                   extortion used by Cassius in Corduba and is equivalent to <foreign xml:lang="la"
-                     >simul etiam</foreign><note place="bottom">The usage is Ciceronian (⟩10x)
-                     and Livian (⟩10x), not Caesarian. <foreign xml:lang="la">Simul et</foreign>
-                     does appear in the <foreign xml:lang="la">corpus Caesarianum</foreign>, but
-                     only in tandem with a second <foreign xml:lang="la">et</foreign>: e.g., <hi
+                     >simul etiam</foreign><note place="bottom">The usage is Ciceronian (⟩10x) and
+                     Livian (⟩10x), not Caesarian. <foreign xml:lang="la">Simul et</foreign> does
+                     appear in the <foreign xml:lang="la">corpus Caesarianum</foreign>, but only in
+                     tandem with a second <foreign xml:lang="la">et</foreign>: e.g., <hi
                         rend="italic">BG</hi> 7.48.4 <foreign xml:lang="la">simul et cursu et spatio
                         pugnae defatigati</foreign>.</note>; <foreign xml:lang="la">et</foreign>
                   seems preferable to <foreign xml:lang="la">etiam</foreign> to avoid clashes with
@@ -13532,9 +13544,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <foreign xml:lang="la">esse</foreign> to <foreign xml:lang="la"
                         >esset</foreign>.</note></p>
 
-               <p>Another fairly simple repair was suggested by Ciacconius, who added an infinitive after <foreign xml:lang="la"
-                     >esset</foreign>. <ref target="#Jungermann">Jungermann</ref>’s report of the
-                  repair (1606, <ref
+               <p>Another fairly simple repair was suggested by Ciacconius, who added an infinitive
+                  after <foreign xml:lang="la">esset</foreign>. <ref target="#Jungermann"
+                     >Jungermann</ref>’s report of the repair (1606, <ref
                      target="https://hdl.handle.net/2027/uc1.31822038197299?urlappend=%3Bseq=865"
                      >333</ref>) does not indicate whether Ciacconius intended the verb to be part
                   of the <foreign xml:lang="la">cum</foreign> clause (with <foreign xml:lang="la"
@@ -13554,9 +13566,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <quote rend="blockquote">Marcellus cum confligere miserrimum putaret, quod et
                   uictoris et uicti detrimentum ad eundem Caesarem esset redundaturum neque suae
-                  potestatis <hi rend="underline">esset <supplied reason="lost">uetare <hi rend="italic"
-                           >uel</hi> prohibere</supplied></hi>, legiones Baetim traducit aciemque
-                  instruit.</quote>
+                  potestatis <hi rend="underline">esset <supplied reason="lost">uetare <hi
+                           rend="italic">uel</hi> prohibere</supplied></hi>, legiones Baetim
+                  traducit aciemque instruit.</quote>
 
                <p>In the <foreign xml:lang="la">cum</foreign> clause <foreign xml:lang="la"
                      >esset</foreign> requires an awkward shift from concessive sense (“although he
@@ -13599,13 +13611,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <p>Another possibility would be to find a supplement that would place <foreign
                      xml:lang="la">esset</foreign> in the extant <foreign xml:lang="la"
-                     >quod</foreign> clause, along the lines of Ciacconius’ emendation, discussed above. As an <foreign xml:lang="la">exempli gratia</foreign>
-                  supplement based on the subsequent course of events we considered:</p>
+                     >quod</foreign> clause, along the lines of Ciacconius’ emendation, discussed
+                  above. As an <foreign xml:lang="la">exempli gratia</foreign> supplement based on
+                  the subsequent course of events we considered:</p>
 
                <quote rend="blockquote">Marcellus cum confligere miserrimum putaret, quod et
                   uictoris et uicti detrimentum ad eundem Caesarem esset redundaturum neque suae
-                  potestatis <hi rend="underline">esset <supplied reason="lost">receptus</supplied></hi>,
-                  legiones Baetim traducit.</quote>
+                  potestatis <hi rend="underline">esset <supplied reason="lost"
+                     >receptus</supplied></hi>, legiones Baetim traducit.</quote>
 
                <p>With this supplement Marcellus would consider combat utterly wretched “because the
                   loss for both the victor and defeated would similarly redound on Caesar and
@@ -13720,9 +13733,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      >pace</foreign> to create a second ablative absolute with <foreign
                      xml:lang="la">constituta</foreign>:</p>
 
-               <quote rend="blockquote">Non tantum indutiis factis sed prope iam <hi rend="underline"
-                        ><supplied reason="lost">pace</supplied></hi> constituta opera <hi
-                     rend="underline"><supplied reason="lost">cum</supplied></hi> complanarent
+               <quote rend="blockquote">Non tantum indutiis factis sed prope iam <hi
+                     rend="underline"><supplied reason="lost">pace</supplied></hi> constituta opera
+                     <hi rend="underline"><supplied reason="lost">cum</supplied></hi> complanarent
                   custodiaeque munitionum essent deductae, auxilia regis … impetum fecerunt.</quote>
 
                <p>The <foreign xml:lang="la">opera</foreign> are now unmodified, but their identity
@@ -13764,8 +13777,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      >constituta</foreign>.</p>
 
                <quote rend="blockquote">Non tantum indutiis factis sed prope iam constituta <hi
-                     rend="underline"><supplied reason="lost">die cum</supplied></hi> opera complanarent
-                  custodiaeque munitionum essent deductae, auxilia regis … impetum fecerunt.</quote>
+                     rend="underline"><supplied reason="lost">die cum</supplied></hi> opera
+                  complanarent custodiaeque munitionum essent deductae, auxilia regis … impetum
+                  fecerunt.</quote>
 
                <quote rend="blockquote">Non tantum indutiis factis sed prope iam constituta <hi
                      rend="underline"><supplied reason="lost">prouincia cum</supplied></hi> opera
@@ -13784,8 +13798,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         est</foreign>, Ver. 2.5.157 <foreign xml:lang="la">te praetore est
                         consitituta condicio</foreign>) suggests another possibility: <foreign
                         xml:lang="la">Non tantum indutiis factis sed prope iam constituta <hi
-                           rend="underline"><supplied reason="lost">conditione cum</supplied></hi> opera
-                        complanarent custodiaeque munitionum essent deductae, auxilia regis …
+                           rend="underline"><supplied reason="lost">conditione cum</supplied></hi>
+                        opera complanarent custodiaeque munitionum essent deductae, auxilia regis …
                         impetum fecerunt</foreign>.</note> But neither omission has any paleographic
                   plausibility.</p>
 
@@ -14151,8 +14165,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <foreign xml:lang="la">positus</foreign>. </p>
 
                <quote rend="blockquote">… quod in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset <hi rend="underline">excitusque imperiis</hi> in Cn. Pompei castris
-                  fuisset</quote>
+                  Caesaris habuisset <hi rend="underline">excitusque imperiis</hi> in Cn. Pompei
+                  castris fuisset</quote>
 
                <quote rend="blockquote">… the fact that, since he was located in a part of the world
                   that had no Caesarian garrisons and summoned by orders, he had been in the camp of
@@ -14177,8 +14191,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      >fuisset</foreign>.</p>
 
                <quote rend="blockquote">… quod, in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset, <hi rend="underline">excitus imperiis</hi> in Cn. Pompei castris
-                  fuisset</quote>
+                  Caesaris habuisset, <hi rend="underline">excitus imperiis</hi> in Cn. Pompei
+                  castris fuisset</quote>
 
                <quote rend="blockquote">… the fact that, located in a part of the world that had no
                   Caesarian garrisons, having been summoned by orders he had been in the camp of
@@ -14193,8 +14207,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </p>
 
                <quote rend="blockquote">… quod, in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset, <hi rend="underline">excitus uerbis imperiisque</hi> in Cn. Pompei
-                  castris fuisset</quote>
+                  Caesaris habuisset, <hi rend="underline">excitus uerbis imperiisque</hi> in Cn.
+                  Pompei castris fuisset</quote>
 
                <quote rend="blockquote">… the fact that, located in a part of the world that had no
                   Caesarian garrisons, having been summoned by verbal orders he had been in the camp
@@ -14241,8 +14255,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   paradosis:</p>
 
                <quote rend="blockquote">… quod, in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset, <hi rend="underline">coercitus exercitibus imperiisque</hi> in Cn.
-                  Pompei castris fuisset</quote>
+                  Caesaris habuisset, <hi rend="underline">coercitus exercitibus imperiisque</hi> in
+                  Cn. Pompei castris fuisset</quote>
 
                <quote rend="blockquote">… the fact that, located in a part of the world that had no
                   Caesarian garrisons, constrained by armies and orders he had been in the camp of
@@ -14267,8 +14281,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      xml:lang="la">Caesaris</foreign>:</p>
 
                <quote rend="blockquote">… quod, in ea parte positus terrarum quae nulla praesidia
-                     <hi rend="underline"><supplied reason="lost">in</supplied></hi> Caesaris habuisset
-                     <hi rend="underline">exercitibus imperiisque</hi>, in Cn. Pompei castris
+                     <hi rend="underline"><supplied reason="lost">in</supplied></hi> Caesaris
+                  habuisset <hi rend="underline">exercitibus imperiisque</hi>, in Cn. Pompei castris
                   fuisset</quote>
 
                <quote rend="blockquote">… the fact that, located in a part of the world that had no
@@ -14320,8 +14334,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
                <quote rend="underline">… quod, in ea parte positus terrarum quae nulla praesidia <hi
                      rend="blockquote"><supplied reason="lost">in</supplied></hi> Caesaris habuisset
-                     <hi rend="underline">exercitibus, imperiisque <supplied reason="lost">aduersariorum
-                        coactus</supplied></hi> in Cn. Pompei castris fuisset</quote>
+                     <hi rend="underline">exercitibus, imperiisque <supplied reason="lost"
+                        >aduersariorum coactus</supplied></hi> in Cn. Pompei castris fuisset</quote>
 
                <quote rend="blockquote">… the fact that, located in a part of the world that had no
                   defenses in the form of Caesar’s armies, and under the compulsion of the orders of
@@ -14352,8 +14366,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      >positus</foreign> and <foreign xml:lang="la">coactus</foreign>:</p>
 
                <quote rend="blockquote">… quod, in ea parte positus terrarum quae nulla praesidia
-                  Caesaris habuisset <hi rend="underline"><supplied reason="lost">et coactus</supplied>
-                     exercitibus imperiisque,</hi> in Cn. Pompei castris fuisset</quote>
+                  Caesaris habuisset <hi rend="underline"><supplied reason="lost">et
+                        coactus</supplied> exercitibus imperiisque,</hi> in Cn. Pompei castris
+                  fuisset</quote>
 
                <quote rend="blockquote">… the fact that, as he was located in a part of the world
                   that had no Caesarian garrisons and was under the compulsion of armies and orders,
@@ -14515,9 +14530,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      mauis</hi> multique intercisis (<hi rend="italic">cf. 73.3</hi>) || unus qui
                      <hi rend="italic">MUTV</hi> (<hi rend="italic">de anacolutho u. Damon 2015b,
                      242</hi>) | qui <hi rend="italic">S non male</hi> | <hi rend="italic">nisi
-                     mauis</hi> unus <surplus>qui</surplus> uel unus <supplied reason="lost"
-                     >est</supplied> qui || superioribus … oppido <hi rend="italic"
-                     >transposuerunt</hi>
+                     mauis</hi> unus <surplus>qui</surplus>
+                  <hi rend="italic">uel</hi> unus <supplied reason="lost">est</supplied> qui ||
+                  superioribus … oppido <hi rend="italic">transposuerunt</hi>
                   <hi rend="italic">post</hi> unus <hi rend="italic">Klotz dubitanter</hi>, <hi
                      rend="italic">post</hi> nobilitatem <hi rend="italic">Morus dubitanter</hi>,
                      <hi rend="italic">post</hi> Zela <hi rend="italic">Madvig 1.48–49</hi> | <hi
@@ -14635,7 +14650,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <quote rend="blockquote"> quorum editissimus unus, qui propter uictoriam Mithridatis,
                   et infelicitatem Triari, detrimentumque exercitus nostri, superioribus locis atque
                   itineribus paene coniunctus oppido, magnam in illis partibus habet nobilitatem<hi
-                     rend="underline">;</hi> nec multo longius milibus passuum III abest ab Zela.</quote>
+                     rend="underline">;</hi> nec multo longius milibus passuum III abest ab
+                  Zela.</quote>
 
                <p>Problem 2 has been addressed by a variety of transpositions, all of them serial
                   innovations: omission of the original string of words, addition of the string in
@@ -14649,15 +14665,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <foreign xml:lang="la">nec</foreign> to <foreign xml:lang="la"
                   >non</foreign>:</p>
 
-               <quote rend="blockquote"> quorum editissimus unus, <hi rend="underline">(</hi>qui propter
-                  uictoriam Mithridatis, et infelicitatem Triari, detrimentumque exercitus nostri,
-                     <hi rend="underline"><surplus>superioribus locis atque itineribus paene coniunctus
-                        oppido</surplus></hi> magnam in illis partibus habet nobilitatem,)
-                  <supplied reason="lost"><hi rend="underline">superioribus locis atque itineribus paene
-                        coniunctus oppido, non</hi></supplied> multo longius milibus passuum III
-                  abest ab Zela.</quote>
+               <quote rend="blockquote"> quorum editissimus unus, <hi rend="underline">(</hi>qui
+                  propter uictoriam Mithridatis, et infelicitatem Triari, detrimentumque exercitus
+                  nostri, <hi rend="underline"><surplus>superioribus locis atque itineribus paene
+                        coniunctus oppido</surplus></hi> magnam in illis partibus habet
+                  nobilitatem,) <supplied reason="lost"><hi rend="underline">superioribus locis
+                        atque itineribus paene coniunctus oppido, non</hi></supplied> multo longius
+                  milibus passuum III abest ab Zela.</quote>
 
-               <p><ref target="#Vielhaber1864">Vielhaber</ref> (1864, 25) later varied the response
+               <p><ref target="#Vielhaber1864">Vielhaber</ref> (25) later varied the response
                   to problem 4 by making the verb for the <foreign xml:lang="la"
                   >quorum</foreign>-clause <foreign xml:lang="la">coniunctus <supplied reason="lost"
                         >est</supplied></foreign> and placing a period before Morus’ <foreign
@@ -14670,8 +14686,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   et infelicitatem Triari detrimentumque exercitus nostri <hi rend="underline"
                         ><surplus>superioribus locis atque itineribus paene coniunctus
                         oppido</surplus></hi> magnam in illis partibus habet nobilitatem, <hi
-                     rend="underline"><supplied reason="lost">superioribus locis atque itineribus paene
-                        coniunctus <supplied reason="lost">est</supplied> oppido</supplied>.
+                     rend="underline"><supplied reason="lost">superioribus locis atque itineribus
+                        paene coniunctus est oppido</supplied>.
                      Non</hi> multo longius milibus passuum III abest ab Zela.</quote>
 
                <p>But later (1869, <ref
@@ -14695,9 +14711,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   propter uictoriam Mithridatis et infelicitatem Triari detrimentumque exercitus
                   nostri <hi rend="underline"><surplus>superioribus locis atque itineribus paene
                         coniunctus oppido</surplus></hi> magnam in illis partibus habet nobilitatem
-                  nec multo longius milibus passuum III abest ab Zela, <hi rend="underline"><supplied
-                        reason="lost">superioribus locis atque itineribus paene coniunctus
-                        oppido</supplied>.</hi>
+                  nec multo longius milibus passuum III abest ab Zela, <hi rend="underline"
+                        ><supplied reason="lost">superioribus locis atque itineribus paene
+                        coniunctus oppido</supplied>.</hi>
                </quote>
 
                <p>This creates a useful, if tacit, antithesis between <foreign xml:lang="la"
@@ -14721,9 +14737,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   qui propter uictoriam Mithridatis et infelicitatem Triari detrimentumque exercitus
                   nostri <hi rend="underline"><surplus>superioribus locis atque itineribus paene
                         coniunctus oppido</surplus></hi> magnam in illis partibus habet nobilitatem
-                  nec multo longius milibus passuum III abest ab Zela, <hi rend="underline"><supplied
-                        reason="lost">superioribus locis atque itineribus paene coniunctis
-                        oppido</supplied></hi>. </quote>
+                  nec multo longius milibus passuum III abest ab Zela, <hi rend="underline"
+                        ><supplied reason="lost">superioribus locis atque itineribus paene
+                        coniunctis oppido</supplied></hi>. </quote>
 
                <p>The resulting text bears a certain resemblance to the description of the terrain
                   at Nicopolis: 36.3 <foreign xml:lang="italic">quod oppidum positum</foreign> (sc.
@@ -14733,16 +14749,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <foreign xml:lang="la">tamen</foreign> here makes the point of this terminal
                   ablative much clearer.</p>
 
-               <p>Problem 3 is addressed head-on by <ref target="#Kübler1896a">Kübler</ref> (1896,
-                  ad loc.), who rewrites the text thus:</p>
+               <p>Problem 3 is addressed head-on by <ref target="#Kübler1896a">Kübler</ref> (ad
+                  loc.), who rewrites the text thus:</p>
 
-               <quote rend="blockquote"> quorum editissimus unus, qui propter uictoriam Mithridatis
+               <quote rend="blockquote">quorum editissimus unus, qui propter uictoriam Mithridatis
                   et infelicitatem Triari detrimentumque exercitus nostri <hi rend="underline"
                      >superioribus acceptum temporibus <surplus>paene coniunctus
                      oppido</surplus></hi> magnam in illis partibus habet nobilitatem, <hi
-                     rend="underline"><supplied reason="lost">paene coniunctus <supplied reason="lost"
-                           >est</supplied> oppido</supplied></hi> nec multo longius milibus passuum
-                  III abest ab Zela.</quote>
+                     rend="underline"><supplied reason="lost">paene coniunctus est
+                     oppido</supplied></hi> nec multo longius milibus passuum III abest ab
+                  Zela.</quote>
 
                <p>The description of the site is now much more legible, but to get from this
                   original to the paradosis would have required a mininum of five innovations.<note
@@ -14813,10 +14829,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   spots:</p>
 
                <quote rend="blockquote"> cuius aliquamdiu Caesar irridebat inanem ostentationem et
-                  eo loco militum <hi rend="underline">cohortationem</hi> quem in <hi rend="underline"
-                     >loco</hi> nemo sanus hostis subiturus esset cum interim Pharnaces eodem gradu
-                  quo <hi rend="underline">in proelium/praeruptam</hi> descenderat uallem ascendere
-                  aduersus arduum collem instructis copiis coepit.</quote>
+                  eo loco militum <hi rend="underline">cohortationem</hi> quem in <hi
+                     rend="underline">loco</hi> nemo sanus hostis subiturus esset cum interim
+                  Pharnaces eodem gradu quo <hi rend="underline">in proelium/praeruptam</hi>
+                  descenderat uallem ascendere aduersus arduum collem instructis copiis
+                  coepit.</quote>
 
                <p>In the first two spots the problems are clear and permit convincing
                      resolutions.<note place="bottom">We also note the excision of <foreign
@@ -14870,9 +14887,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <p><ref target="#Nipperdey">Nipperdey</ref> (1847, ad loc.) proposed an emendation
                   that clarifies the origin of <foreign xml:lang="la">in proelium</foreign>:</p>
 
-               <quote rend="blockquote">… cum interim Pharnaces eodem gradu quo in <hi rend="underline"
-                     >procliuem</hi> descenderat uallem ascendere aduersus arduum collem instructis
-                  copiis coepit.</quote>
+               <quote rend="blockquote">… cum interim Pharnaces eodem gradu quo in <hi
+                     rend="underline">procliuem</hi> descenderat uallem ascendere aduersus arduum
+                  collem instructis copiis coepit.</quote>
 
                <p>The noun will have arisen as a misreading of <foreign xml:lang="la"
                      >procliuem</foreign>, an adjective that appears only three times elsewhere in
