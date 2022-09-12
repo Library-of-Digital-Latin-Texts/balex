@@ -3033,7 +3033,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <note target="#rdg-6.1-hanc-e-(uel-ex)-locis-addition">fortasse recte (cf.
                            BG 4.23.3 et Var. LL 5.118)</note>
                      </app> superioribus fundere in partem Caesaris non <!-- App entry for 6.1: intermittebat --><app>
-                        <lem wit="#M #U #S #T #V" xml:id="lem-6.1-intermittebat">intermittebat</lem>
+                        <lem wit="#U #S #T #V" xml:id="lem-6.1-intermittebat">intermittebat</lem>
                         <note target="#lem-6.1-intermittebat">(cf. 37.1)</note>
                         <rdg wit="#M" xml:id="rdg-6.1-intermittebant-sc.-Alexandrini">intermittebant
                               (<hi rend="italic">sc</hi>. Alexandrini)</rdg>
