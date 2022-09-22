@@ -6,13 +6,13 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>A list of the Places Mentioned in the Bellum Alexandrinum</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Provided as a working file with the edition.</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>This is a partial list. It was started during the initial work on the encoding of the edition.</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
