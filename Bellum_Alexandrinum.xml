@@ -2194,13 +2194,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <head>List of People Cited by Name</head>
                <listPerson>
                   <person xml:id="Atkins">
-                    <name type="label"><abbr type="siglum">Atkins</abbr></name>
-                     <persName>Adrienne Atkins</persName>
+                     <persName><abbr type="siglum">Atkins</abbr> Adrienne Atkins</persName>
                      <note>Member of the Latin 540 class (spring 2015).</note>
                   </person>
                   <person xml:id="Bensch-Schaus">
-                    <name type="label"><abbr type="siglum">Bensch-Schaus</abbr></name>
-                     <persName>Amelia
+                     <persName><abbr type="siglum">Bensch-Schaus</abbr> Amelia
                         Bensch-Schaus</persName>
                      <note>Member of the Latin 540 class (spring 2017).</note>
                   </person>
