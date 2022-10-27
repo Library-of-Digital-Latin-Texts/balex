@@ -454,7 +454,16 @@
 \begin{document}
 \let\tabcellsep&
 % Insert an unnumbered blank page first.
-\myemptypage
+
+\thispagestyle{empty}
+\vspace*{\fill} 
+
+\begin{center}
+This PDF is formatted to accommodate printing two pages per sheet in landscape mode.
+\end{center}
+
+\vspace*{\fill}
+\newpage
 \begin{titlepage} % Suppresses headers and footers on the title page
 \centering % Center everything on the title page
         
