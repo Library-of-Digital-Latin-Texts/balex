@@ -23,6 +23,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <name sameAs="#DSimons">Dallas Simons</name>
             </respStmt>
             <respStmt>
+               <resp>Consultant on TEI XML encoding.</resp>
+               <name ref="https://orcid.org/0000-0003-0060-9396">Hugh Cayless</name>
+            </respStmt>
+            <respStmt>
                <resp>Coauthor of content related to sections 12.1–2 and 13.5:</resp>
                <name sameAs="#Vozar">Tom Vozar</name>
             </respStmt>
