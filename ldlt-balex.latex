@@ -499,7 +499,6 @@ Edited By
 %------------------------------------------------
 \vspace{3\baselineskip} % Whitespace below the title and editor block
 
-{\Large Society for Classical Studies}\\
 \medskip % Whitespace
 {\large Library of Digital Latin Texts}\\
 \vspace{1\baselineskip} % Whitespace
@@ -507,7 +506,7 @@ Edited By
 {\normalsize Samuel J. Huskey, General Editor}\\
                         
 \vspace{1\baselineskip} % Whitespace
-{\large Volume 1}\\
+{\large Beta Release 1}\\
 \vfill % Whitespace between editor names and publisher logo
         
 %------------------------------------------------
@@ -522,7 +521,7 @@ Edited By
 \thispagestyle{empty}
 \vspace*{\baselineskip} % White space at the top of the page
 \begin{figure}[h] % Position the logo here on the page.
-\includegraphics[scale=0.50]{../images/DLL.eps} % Logo of DLL
+\includegraphics[scale=0.50]{images/DLL.eps} % Logo of DLL
 \centering % Center the logo.
 \end{figure}
 \vspace{2\baselineskip} % Whitespace
