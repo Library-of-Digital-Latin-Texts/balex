@@ -8,11 +8,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Bellum Alexandrinum</title>
-            <editor ref="http://viaf.org/viaf/116523553">Cynthia Damon, et al.</editor>
+            <editor xml:id="damon" ref="http://viaf.org/viaf/116523553">Cynthia Damon, et al.</editor>
             <sponsor>Society for Classical Studies</sponsor>
             <respStmt>
                <resp>TEI XML encoding:</resp>
-               <name ref="https://orcid.org/0000-0002-8192-9385">Samuel J. Huskey</name>
+               <name xml:id="huskey" ref="https://orcid.org/0000-0002-8192-9385">Samuel J. Huskey</name>
             </respStmt>
             <respStmt>
                <resp>Programming for automatic generation of TEI XML:</resp>
@@ -60,7 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First Edition</edition>
+            <edition n="0.0.1">First Public Beta Edition</edition>
          </editionStmt>
          <publicationStmt>
             <publisher>The Digital Latin Library</publisher>
@@ -141,7 +141,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <citeStructure match="//div[@type='edition']" use="head">
            <citeData property="dc:title" use="head"/>
            <citeData property="function" use="'toc-entry'"/>
-           <citeStructure match="p" use="@n" unit="chapter">    
+           <citeStructure match="p" use="@n" unit="chapter" delim=' '>    
              <citeData property="dc:title" use="@n"/>
              <citeData property="dc:identifier" use="@n"/>
              <citeData property="function" use="'toc-entry'"/>
@@ -160,7 +160,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
            <citeData property="dc:identifier" use="@xml:id"/>
            <citeData property="dc:title" use="head"/>
            <citeData property="function" use="'toc-entry'"/>
-            <citeStructure match="./div[@type='section']" use="head">
+            <citeStructure match="./div[@type='section']" use="head" delim=' '>
                <citeData property="dc:identifier" use="@xml:id"/>
                <citeData property="dc:title" use="head"/>
                <citeData property="function" use="'toc-entry'"/>
@@ -169,6 +169,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </citeStructure>
        </refsDecl>
      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change who="#huskey" when="2022-11-04">Adding revisionDesc to begin tracking changes after public beta release.</change>
+         </listChange>
+      </revisionDesc>
    </teiHeader>
    <text>
       <front xml:id="front">
