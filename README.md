@@ -5,6 +5,8 @@ Alexandrinum*, edited by Cynthia Damon et al. and to be published by the [Digita
 
 The files presented here are beta versions. They will be published at a later date after final peer review overseen by the SCS according to the process described at [http://digitalhumanities.org/dhq/vol/13/4/000438/000438.html](http://digitalhumanities.org/dhq/vol/13/4/000438/000438.html).
 
+If you notice something that should be corrected or updated, please [file an issue](https://github.com/Library-of-Digital-Latin-Texts/balex/issues).
+
 ## Contents
 
 -   **ldlt-balex.xml** contains the canonical data for the edition and *Studies on the Text of the Bellum Alexandrinum*, encoded according to the [DLL Guidelines](https://digitallatin.github.io/guidelines/LDLT-Guidelines.html).
