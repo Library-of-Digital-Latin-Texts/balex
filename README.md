@@ -25,8 +25,10 @@ An interactive, browser-based version of the edition is available at <https://ld
 
 The PDF of the edition can be downloaded from [https://github.com/Library-of-Digital-Latin-Texts/balex/raw/main/ldlt-balex.pdf](https://github.com/Library-of-Digital-Latin-Texts/balex/raw/main/ldlt-balex.pdf). This visualization is the result of a transformation of the edition's XML file into LaTeX through the [DLL Stylesheets](https://github.com/DigitalLatin/DLL-Stylesheets), a scholarly project of [Hugh Cayless](https://orcid.org/0000-0003-0060-9396) and [Samuel J. Huskey](https://orcid.org/0000-0002-8192-9385).
 
+
 ---
 This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 [![Creative Commons Attribution ShareAlike 4.0 International License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
+[![DOI](https://zenodo.org/badge/540110274.svg)](https://zenodo.org/badge/latestdoi/540110274)
