@@ -1,0 +1,42 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Bellum Alexandrinum, First Public Beta Release'
+message: >-
+  If you use this dataset, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: Cynthia
+    family-names: Damon
+    email: cdamon@sas.upenn.edu
+    affiliation: University of Pennsylvania
+  - given-names: Samuel
+    family-names: Huskey
+    email: huskey@ou.edu
+    affiliation: University of Oklahoma
+    orcid: 'https://orcid.org/0000-0002-8192-9385'
+  - given-names: Hugh
+    family-names: Cayless
+    email: hugh.cayless@duke.edu
+    affiliation: Duke University
+    orcid: 'https://orcid.org/0000-0003-0060-9396'
+repository-code: >-
+  https://github.com/Library-of-Digital-Latin-Texts/balex
+abstract: >-
+  The official repository for data related to Bellum
+  Alexandrinum, edited by Cynthia Damon et al. and to
+  be published by the Digital Latin Library with the
+  imprimatur of the Society for Classical Studies and
+  under the authority of the University of Oklahoma.
+keywords:
+  - Critical edition
+  - Latin
+  - Digital Latin Library
+  - Library of Digital Latin Texts
+  - TEI XML
+license: CC-BY-SA-4.0
+commit: 5c27a45
+version: 0.0.1
+date-released: '2022-11-14'
